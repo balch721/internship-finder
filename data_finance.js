@@ -1,6 +1,6 @@
 // Finance & Banking — Summer 2027. Globals: FINANCE_LAST_UPDATED, FINANCE_COMPANIES, FINANCE_INTERNSHIPS. Stock links to Yahoo Finance.
 window.FINANCE_LAST_UPDATED = "2026-05-31";
-// linkcheck_cursor: finance batch 1 verified 2026-05-31 — Goldman Sachs, Morgan Stanley(IB), J.P. Morgan, Bank of America, Citi. Next run: resume at Barclays/Deutsche Bank.
+// linkcheck_cursor: finance batch 2 verified 2026-05-31 — prev: GS, MS, JPM, BofA, Citi; now Barclays (IB Coverage/M&A + Sales & Trading) direct links. Next run: resume at Deutsche Bank/UBS.
 
 window.FINANCE_COMPANIES = {
   "Goldman Sachs": {
@@ -7908,7 +7908,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Barclays%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://search.jobs.barclays/job/new-york/banking-analyst-coverage-m-and-a-summer-internship-program-2027-new-york-city/13015/89084599680"
   },
   {
     "id": "barclays-sales-trading-2027",
@@ -7946,7 +7946,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Barclays%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
+    "applyUrl": "https://search.jobs.barclays/job/new-york/sales-trading-and-structuring-analyst-summer-internship-program-2027-new-york/13015/89060416544"
   },
   {
     "id": "barclays-ib-leveraged-finance-2027",

@@ -24268,7 +24268,7 @@ window.TECH_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Salesforce%20Software%20Engineering%20Intern%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.salesforce.com/en/jobs/jr340771/summer-2027-intern-software-engineer/"
   },
   {
     "id": "salesforce-software-engineering-backend-2027",
@@ -24302,7 +24302,7 @@ window.TECH_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Salesforce%20Software%20Engineering%20Intern%20%E2%80%94%20Backend%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.salesforce.com/en/jobs/jr340771/summer-2027-intern-software-engineer/"
   },
   {
     "id": "salesforce-software-engineering-frontend-2027",
@@ -24336,7 +24336,7 @@ window.TECH_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Salesforce%20Software%20Engineering%20Intern%20%E2%80%94%20Frontend%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.salesforce.com/en/jobs/jr340771/summer-2027-intern-software-engineer/"
   },
   {
     "id": "salesforce-software-engineering-full-stack-2027",
@@ -24370,7 +24370,7 @@ window.TECH_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Salesforce%20Software%20Engineering%20Intern%20%E2%80%94%20Full-Stack%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.salesforce.com/en/jobs/jr340771/summer-2027-intern-software-engineer/"
   },
   {
     "id": "salesforce-software-engineering-mobile-ios-android-2027",
@@ -24404,7 +24404,7 @@ window.TECH_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Salesforce%20Software%20Engineering%20Intern%20%E2%80%94%20Mobile%20(iOS%2FAndroid)%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.salesforce.com/en/jobs/jr340771/summer-2027-intern-software-engineer/"
   },
   {
     "id": "salesforce-product-management-2027",
