@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personalized Matches — Aryan's Internship Finder</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#171b22; --panel2:#1e232c; --border:#2a313c;
+    --text:#e6e9ef; --muted:#9aa4b2; --accent:#5b8cff; --accent2:#9b6bff; --up:#36d399; --gold:#e8b339; --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  header{padding:22px 0 16px;border-bottom:1px solid var(--border)}
+  .home{color:var(--accent);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:6px 0 4px;font-size:24px}
+  .sub{color:var(--muted);font-size:13.5px}
+  .uploader{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:22px;margin:22px 0}
+  .drop{border:2px dashed var(--border);border-radius:12px;padding:26px;text-align:center;transition:.15s;cursor:pointer}
+  .drop.drag{border-color:var(--accent);background:rgba(91,140,255,.06)}
+  .drop .big{font-size:15px;font-weight:600}
+  .drop .small{color:var(--muted);font-size:13px;margin-top:4px}
+  textarea{width:100%;min-height:120px;margin-top:14px;background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:10px;padding:12px;font-size:13.5px;outline:none;resize:vertical;font-family:inherit}
+  textarea:focus{border-color:var(--accent)}
+  .actions{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;align-items:center}
+  button.primary{background:var(--accent);color:#fff;border:none;font-size:14px;font-weight:650;padding:11px 22px;border-radius:11px;cursor:pointer}
+  button.primary:hover{background:#4a7bf0}
+  button.ghost{background:transparent;color:var(--muted);border:1px solid var(--border);font-size:13px;padding:10px 16px;border-radius:11px;cursor:pointer}
+  button.ghost:hover{color:var(--text)}
+  .status{font-size:13px;color:var(--muted)}
+  .skills{margin:8px 0 0}
+  .chipk{display:inline-block;font-size:11.5px;padding:3px 9px;border-radius:999px;background:#222a36;color:#bcd0ff;border:1px solid #34405200;margin:3px 4px 0 0}
+  .results{margin:8px 0 60px}
+  .rhead{font-size:14px;color:var(--muted);margin:18px 0 12px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px;display:flex;flex-direction:column;gap:8px;position:relative}
+  .score{position:absolute;top:16px;right:16px;font-size:13px;font-weight:800}
+  .score.hi{color:var(--up)} .score.mid{color:var(--gold)} .score.lo{color:var(--muted)}
+  .bar{height:6px;border-radius:6px;background:#232a36;overflow:hidden;margin-top:2px}
+  .bar > i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+  .co{font-size:13px;color:var(--accent);font-weight:600}
+  .tier{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff;width:fit-content}
+  .role{font-size:15.5px;font-weight:650;line-height:1.3}
+  .why{font-size:12px;color:var(--muted)}
+  .why b{color:#cdd3dc;font-weight:600}
+  .mk{display:inline-block;font-size:11px;padding:2px 7px;border-radius:6px;background:rgba(54,211,153,.12);color:#8fe6bf;border:1px solid rgba(54,211,153,.25);margin:3px 4px 0 0}
+  .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+  .tag{font-size:11px;padding:3px 8px;border-radius:6px;background:var(--panel2);color:var(--muted);border:1px solid var(--border)}
+  a.apply{margin-top:6px;color:var(--accent);text-decoration:none;font-size:13px;font-weight:600}
+  .note{background:#241c12;border:1px solid #5a4520;color:#f3c98b;font-size:12.5px;padding:8px 12px;border-radius:10px;margin-top:12px}
+  .footer{color:var(--muted);font-size:12px;text-align:center;padding:24px 0 30px;line-height:1.6}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:768px){
+    html,body{overflow-x:hidden}
+    .wrap{padding:0 16px}
+    h1{font-size:21px}
+    .grid{grid-template-columns:1fr}
+    .card{width:100%}
+    .drop{padding:20px}
+  }
+
+/* valley backdrop (injected) */
+html,body{position:relative}
+html{background-color:#080d16;background-image:linear-gradient(180deg,#080d16 0%,#0b1320 45%,#0e1a2b 75%,#0a1018 100%);min-height:100%}body{background:transparent !important}
+.valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.valley svg{position:absolute;bottom:0;left:0;width:100%;height:48vh;min-height:300px;opacity:.9}
+.vglow{position:fixed;top:-6%;left:50%;transform:translateX(-50%);width:520px;height:340px;z-index:0;pointer-events:none;background:radial-gradient(circle at 50% 30%,rgba(220,230,250,.05),transparent 65%)}
+.valley.tech::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(143,180,255,.04) 0 1px,transparent 1px 4px);opacity:.5}
+/* keep real content above the backdrop */
+.wrap,header,main,nav,.overlay,#aif-acct,.gate{position:relative;z-index:2}
+  h1{font-family:"Fraunces",Georgia,serif !important;font-weight:480 !important}
+  .vserif-applied{}
+.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+</style>
+<script src="transition.js?v=4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="light.css?v=3">
+<script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+</head>
+<body>
+<div class="valley tech"><svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice"><polygon points="0,470 230,300 360,420 230,470" fill="#16202f" opacity=".8"/><polygon points="230,470 360,420 470,470" fill="#111a27" opacity=".9"/><polygon points="360,420 540,250 720,470 470,470" fill="#1a2538" opacity=".75"/><polygon points="540,250 660,360 600,470 470,470" fill="#131d2c" opacity=".9"/><polygon points="660,360 880,210 1080,470 600,470" fill="#182335" opacity=".8"/><polygon points="880,210 1000,340 940,470 720,470" fill="#121b2a"/><polygon points="1000,340 1220,250 1440,470 940,470" fill="#16202f" opacity=".85"/><polygon points="1220,250 1320,360 1440,300 1440,470" fill="#111a27" opacity=".9"/><rect x="0" y="470" width="1440" height="130" fill="#0b111c"/></svg></div><div class="vglow"></div>
+
+<header><div class="wrap">
+  <a class="home" href="index.html">← Aryan's Internship Finder</a>
+  <h1>🎯 Personalized Matches</h1>
+  <div class="sub">Upload or paste a resume — it's parsed in your browser (nothing is uploaded anywhere) and the consulting programs are ranked by how well they fit. More sections will plug in here as they're built.</div>
+</div></header>
+
+<div class="wrap">
+  <div class="uploader">
+    <div class="drop" id="drop">
+      <div class="big">📄 Drop your resume here, or click to choose a file</div>
+      <div class="small">PDF, Word (.docx), or .txt — parsed locally on your device</div>
+      <input type="file" id="file" accept=".pdf,.docx,.txt" style="display:none">
+    </div>
+    <textarea id="text" placeholder="…or paste your resume text here (works offline and is the most reliable option)"></textarea>
+    <div class="actions">
+      <button class="primary" id="go">Find my matches</button>
+      <button class="ghost" id="clear">Clear</button>
+      <span class="status" id="status"></span>
+    </div>
+    <div class="skills" id="skills"></div>
+  </div>
+
+  <div class="results" id="results"></div>
+</div>
+
+<div class="footer">Matching is heuristic — it scores keyword and consulting-type overlap between your resume and each program, then ranks by fit. Treat fit scores as guidance, not guarantees. Your resume text is stored only in this browser (localStorage) so it persists between visits; use Clear to remove it.</div>
+
+<!-- parsers (used only if you upload a file and have internet; pasting always works) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+<script src="data.js"></script>
+<script>
+  const I=window.INTERNSHIPS||[], C=window.COMPANIES||{};
+  if(window.pdfjsLib) pdfjsLib.GlobalWorkerOptions.workerSrc="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+  const TYPE_BANKS={
+    "Strategy Consulting":["strategy","market sizing","growth strategy","competitive analysis","market research","corporate strategy","case competition","go-to-market","m&a","due diligence","business development","strategic"],
+    "Management Consulting":["leadership","project management","stakeholder","cross-functional","problem solving","consulting","change management","team lead","organization","management"],
+    "Technology Consulting":["software","programming","python","java","javascript","sql","cloud","aws","azure","systems","implementation","digital transformation","data engineering","erp","sap","salesforce","api","automation"],
+    "Operations Consulting":["operations","supply chain","logistics","process improvement","lean","six sigma","industrial engineering","manufacturing","optimization","simulation","inventory","procurement"],
+    "Business Systems Analysis":["requirements","business analyst","documentation","data analysis","process mapping","uat","agile","jira","systems analysis","workflow","stakeholder","scrum"]
+  };
+  const SKILLS=["excel","powerpoint","sql","python","tableau","power bi","financial modeling","valuation","market research","statistics","machine learning","data analysis","data visualization","project management","lean six sigma","six sigma","salesforce","sap","aws","azure","agile","scrum","public speaking","leadership","r programming","java","javascript","matlab","process improvement","supply chain","industrial engineering","business analytics","economics","finance","accounting","computer science","information systems","marketing","consulting","case competition","operations","optimization","simulation"];
+
+  function norm(t){return (" "+t.toLowerCase()+" ").replace(/[^a-z0-9+#&. ]/g," ").replace(/\s+/g," ");}
+  function coreName(c){return c.replace(/\(.*?\)/g,"").trim().toLowerCase();}
+
+  function extractSignals(text){
+    const t=norm(text); const sig=new Set();
+    SKILLS.forEach(s=>{ if(t.includes(" "+s+" ")||t.includes(s+" ")||t.includes(" "+s)) sig.add(s); });
+    Object.values(TYPE_BANKS).flat().forEach(k=>{ if(t.includes(k)) sig.add(k); });
+    Object.keys(C).forEach(co=>{ const n=coreName(co); if(n.length>3 && t.includes(n)) sig.add("@"+co); });
+    return {set:sig, text:t};
+  }
+
+  function scoreProgram(d,c,r){
+    const ptext=norm(d.role+" "+d.about+" "+d.types.join(" ")+" "+(c.tier||"")+" "+(c.background||"")+" "+d.company);
+    const matched=[...r.set].filter(s=>!s.startsWith("@")).filter(s=>ptext.includes(s));
+    let typeAff=0; d.types.forEach(ty=>{ (TYPE_BANKS[ty]||[]).forEach(k=>{ if(r.text.includes(k)) typeAff++; }); });
+    const coMention = r.set.has("@"+d.company);
+    const raw = matched.length*2 + typeAff + (coMention?6:0);
+    return {raw, matched:[...new Set(matched)], coMention};
+  }
+
+  function readFile(file){
+    const ext=file.name.split(".").pop().toLowerCase();
+    if(ext==="txt") return file.text();
+    if(ext==="pdf"){ if(!window.pdfjsLib) throw new Error("PDF parser needs internet — please paste your text instead.");
+      return file.arrayBuffer().then(async buf=>{const pdf=await pdfjsLib.getDocument({data:buf}).promise;let txt="";for(let i=1;i<=pdf.numPages;i++){const pg=await pdf.getPage(i);const ct=await pg.getTextContent();txt+=ct.items.map(x=>x.str).join(" ")+"\n";}return txt;}); }
+    if(ext==="docx"){ if(!window.mammoth) throw new Error("Word parser needs internet — please paste your text instead.");
+      return file.arrayBuffer().then(buf=>mammoth.extractRawText({arrayBuffer:buf}).then(r=>r.value)); }
+    throw new Error("Unsupported file — use PDF, .docx, or .txt, or paste the text.");
+  }
+
+  const $=id=>document.getElementById(id);
+  const drop=$("drop"), fileInput=$("file");
+  drop.onclick=()=>fileInput.click();
+  drop.ondragover=e=>{e.preventDefault();drop.classList.add("drag");};
+  drop.ondragleave=()=>drop.classList.remove("drag");
+  drop.ondrop=e=>{e.preventDefault();drop.classList.remove("drag");if(e.dataTransfer.files[0])handleFile(e.dataTransfer.files[0]);};
+  fileInput.onchange=e=>{if(e.target.files[0])handleFile(e.target.files[0]);};
+
+  async function handleFile(file){
+    $("status").textContent="Reading "+file.name+"…";
+    try{ const txt=await readFile(file); $("text").value=txt.trim(); $("status").textContent="Loaded "+file.name+". Click “Find my matches”."; }
+    catch(err){ $("status").textContent="⚠ "+err.message; }
+  }
+
+  function run(){
+    const text=$("text").value.trim();
+    if(text.length<40){ $("status").textContent="Add a bit more resume text (or upload a file) to get good matches."; $("results").innerHTML=""; $("skills").innerHTML=""; return; }
+    localStorage.setItem("aryan_resume_text",text);
+    const r=extractSignals(text);
+    // detected skills summary
+    const detected=[...r.set].filter(s=>!s.startsWith("@"));
+    $("skills").innerHTML = detected.length
+      ? `<div class="why" style="margin-bottom:4px"><b>Detected from your resume:</b></div>`+detected.slice(0,24).map(s=>`<span class="chipk">${s}</span>`).join("")
+      : `<div class="why">No strong keywords detected — showing broadly relevant roles. Try pasting more of your resume.</div>`;
+
+    const scored=I.map(d=>({d,c:C[d.company]||{},s:scoreProgram(d,C[d.company]||{},r)}));
+    const maxRaw=Math.max(1,...scored.map(x=>x.s.raw));
+    scored.forEach(x=>x.pct = x.s.raw===0 ? 0 : Math.round(35 + (x.s.raw/maxRaw)*64)); // 35–99 band for nonzero
+    scored.sort((a,b)=> b.s.raw-a.s.raw || a.d.company.localeCompare(b.d.company));
+
+    const top=scored.slice(0,12);
+    $("status").textContent="Ranked "+I.length+" programs by fit.";
+    $("results").innerHTML = `<div class="rhead">Top matches for you — best fit first</div><div class="grid">`+
+      top.map(x=>{
+        const {d,c,pct}=x; const cls=pct>=80?"hi":pct>=55?"mid":"lo";
+        const why = x.s.matched.length ? x.s.matched.slice(0,7).map(m=>`<span class="mk">${m}</span>`).join("")
+          : `<span class="why">Broad match on consulting type.</span>`;
+        return `<div class="card">
+          <div class="score ${cls}">${pct}%<div class="bar" style="width:64px"><i style="width:${pct}%"></i></div></div>
+          <div class="co">${d.company}</div>
+          <span class="tier">${c.tier||""}</span>
+          <div class="role">${d.role}</div>
+          <div class="why"><b>Why it fits:</b></div><div>${why}</div>
+          <div class="meta">${d.types.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
+          <div class="why">🗓 ${d.due} · 💵 ${d.comp||"—"}</div>
+          ${/^open[\s(]/i.test(d.status||"") ? `<a class="apply" href="${d.applyUrl}" target="_blank" rel="noopener">Go to application →</a>` : `<span class="why" style="color:var(--gold)">🔜 Application not open yet — coming soon</span>`}
+        </div>`;
+      }).join("")+`</div>`;
+    window.scrollTo({top:$("results").offsetTop-20,behavior:"smooth"});
+  }
+
+  $("go").onclick=run;
+  $("clear").onclick=()=>{localStorage.removeItem("aryan_resume_text");$("text").value="";$("skills").innerHTML="";$("results").innerHTML="";$("status").textContent="Cleared.";};
+
+  // restore saved resume
+  const saved=localStorage.getItem("aryan_resume_text");
+  if(saved){ $("text").value=saved; run(); }
+</script>
+<script type="module" src="firebase-auth.js"></script>
+<script type="module" src="account-widget.js"></script>
+<script type="module">
+  // This page requires sign-in. Redirect to login if not authenticated;
+  // remember where to return so the user lands back here afterward.
+  (function(){
+    const gate = document.getElementById("authGate");
+    let settled = false, tries = 0;
+    function showLoginPrompt(){
+      gate.innerHTML = `
+        <div style="font-size:18px;font-weight:700">🔒 Sign in to use Personalized Matches</div>
+        <div style="font-size:14px;color:#9aa4b2;max-width:420px">Personalized resume matching is account-only so your results can follow you. It's free and takes a few seconds.</div>
+        <a href="login.html?return=personalized.html" style="margin-top:6px;background:#5b8cff;color:#fff;text-decoration:none;font-weight:650;font-size:14px;padding:11px 22px;border-radius:11px">Log in or create an account →</a>
+        <a href="index.html" style="color:#9aa4b2;font-size:13px;text-decoration:underline">Back to home</a>`;
+    }
+    function ready(cb){ if(window.AIF_AUTH) return cb(); if(tries++>75){ showLoginPrompt(); return; } setTimeout(()=>ready(cb),40); }
+    ready(()=>{
+      window.AIF_AUTH.onUser(user=>{
+        settled = true;
+        if(user){ gate.style.display="none"; }
+        else { window.location.href = "login.html?return=personalized.html"; }
+      });
+    });
+    // Safety: if Firebase fails to load entirely, show a manual prompt instead of a blank lock
+    setTimeout(()=>{ if(!settled && !window.AIF_AUTH) showLoginPrompt(); }, 3500);
+  })();
+</script>
+</body>
+</html>

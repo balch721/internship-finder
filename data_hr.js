@@ -1,0 +1,14986 @@
+// Human Resources — Summer 2027 internships.
+// Globals: HR_LAST_UPDATED, HR_COMPANIES, HR_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
+
+window.HR_LAST_UPDATED = "2026-05-31";
+
+window.HR_COMPANIES = {
+  "Walmart": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting human resources talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WMT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WMT",
+    "stockTrend": "View the live WMT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 1,
+    "hq": "Bentonville, AR",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Amazon": {
+    "tier": "Fortune 100 company",
+    "background": "E-commerce / cloud recruiting human resources talent.",
+    "deepProfile": [
+      "E-commerce / cloud with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AMZN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AMZN",
+    "stockTrend": "View the live AMZN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 2,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "E-commerce / cloud with a well-known early-careers program."
+  },
+  "Apple": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer tech recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AAPL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AAPL",
+    "stockTrend": "View the live AAPL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 4,
+    "hq": "Cupertino, CA",
+    "founded": "Not on file.",
+    "history": "Consumer tech with a well-known early-careers program."
+  },
+  "UnitedHealth Group": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UNH",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UNH",
+    "stockTrend": "View the live UNH stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 5,
+    "hq": "Minnetonka, MN",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Berkshire Hathaway": {
+    "tier": "Fortune 100 company",
+    "background": "Conglomerate recruiting human resources talent.",
+    "deepProfile": [
+      "Conglomerate with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BRK.B",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BRK.B",
+    "stockTrend": "View the live BRK.B stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 6,
+    "hq": "Omaha, NE",
+    "founded": "Not on file.",
+    "history": "Conglomerate with a well-known early-careers program."
+  },
+  "CVS Health": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / retail recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare / retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CVS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CVS",
+    "stockTrend": "View the live CVS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 6,
+    "hq": "Woonsocket, RI",
+    "founded": "Not on file.",
+    "history": "Healthcare / retail with a well-known early-careers program."
+  },
+  "ExxonMobil": {
+    "tier": "Fortune 100 company",
+    "background": "Energy recruiting human resources talent.",
+    "deepProfile": [
+      "Energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: XOM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/XOM",
+    "stockTrend": "View the live XOM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 7,
+    "hq": "Spring, TX",
+    "founded": "Not on file.",
+    "history": "Energy with a well-known early-careers program."
+  },
+  "Alphabet (Google)": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting human resources talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GOOGL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GOOGL",
+    "stockTrend": "View the live GOOGL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 8,
+    "hq": "Mountain View, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Costco": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting human resources talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: COST",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/COST",
+    "stockTrend": "View the live COST stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 11,
+    "hq": "Issaquah, WA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "JPMorgan Chase": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: JPM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JPM",
+    "stockTrend": "View the live JPM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 12,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Microsoft": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting human resources talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MSFT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MSFT",
+    "stockTrend": "View the live MSFT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 13,
+    "hq": "Redmond, WA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Chevron": {
+    "tier": "Fortune 100 company",
+    "background": "Energy recruiting human resources talent.",
+    "deepProfile": [
+      "Energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CVX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CVX",
+    "stockTrend": "View the live CVX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 15,
+    "hq": "San Ramon, CA",
+    "founded": "Not on file.",
+    "history": "Energy with a well-known early-careers program."
+  },
+  "Cigna": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CI",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CI",
+    "stockTrend": "View the live CI stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 16,
+    "hq": "Bloomfield, CT",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Ford Motor": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive recruiting human resources talent.",
+    "deepProfile": [
+      "Automotive with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: F",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/F",
+    "stockTrend": "View the live F stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 17,
+    "hq": "Dearborn, MI",
+    "founded": "Not on file.",
+    "history": "Automotive with a well-known early-careers program."
+  },
+  "Bank of America": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BAC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BAC",
+    "stockTrend": "View the live BAC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 18,
+    "hq": "Charlotte, NC",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "General Motors": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive recruiting human resources talent.",
+    "deepProfile": [
+      "Automotive with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GM",
+    "stockTrend": "View the live GM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 19,
+    "hq": "Detroit, MI",
+    "founded": "Not on file.",
+    "history": "Automotive with a well-known early-careers program."
+  },
+  "Elevance Health": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ELV",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ELV",
+    "stockTrend": "View the live ELV stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 20,
+    "hq": "Indianapolis, IN",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Citigroup": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: C",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/C",
+    "stockTrend": "View the live C stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 21,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Centene": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CNC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CNC",
+    "stockTrend": "View the live CNC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 22,
+    "hq": "St. Louis, MO",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Home Depot": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting human resources talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HD",
+    "stockTrend": "View the live HD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 23,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Kroger": {
+    "tier": "Fortune 100 company",
+    "background": "Retail / grocery recruiting human resources talent.",
+    "deepProfile": [
+      "Retail / grocery with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KR",
+    "stockTrend": "View the live KR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 25,
+    "hq": "Cincinnati, OH",
+    "founded": "Not on file.",
+    "history": "Retail / grocery with a well-known early-careers program."
+  },
+  "Walgreens": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / retail recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare / retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WBA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WBA",
+    "stockTrend": "View the live WBA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 28,
+    "hq": "Deerfield, IL",
+    "founded": "Not on file.",
+    "history": "Healthcare / retail with a well-known early-careers program."
+  },
+  "Meta": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting human resources talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: META",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/META",
+    "stockTrend": "View the live META stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 30,
+    "hq": "Menlo Park, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Verizon": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom recruiting human resources talent.",
+    "deepProfile": [
+      "Telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: VZ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/VZ",
+    "stockTrend": "View the live VZ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 31,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Telecom with a well-known early-careers program."
+  },
+  "AT&T": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom recruiting human resources talent.",
+    "deepProfile": [
+      "Telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: T",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/T",
+    "stockTrend": "View the live T stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 32,
+    "hq": "Dallas, TX",
+    "founded": "Not on file.",
+    "history": "Telecom with a well-known early-careers program."
+  },
+  "Comcast": {
+    "tier": "Fortune 100 company",
+    "background": "Media / telecom recruiting human resources talent.",
+    "deepProfile": [
+      "Media / telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CMCSA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CMCSA",
+    "stockTrend": "View the live CMCSA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 33,
+    "hq": "Philadelphia, PA",
+    "founded": "Not on file.",
+    "history": "Media / telecom with a well-known early-careers program."
+  },
+  "Wells Fargo": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WFC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WFC",
+    "stockTrend": "View the live WFC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 34,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Goldman Sachs": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GS",
+    "stockTrend": "View the live GS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 35,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Target": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting human resources talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TGT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TGT",
+    "stockTrend": "View the live TGT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 36,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Humana": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HUM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HUM",
+    "stockTrend": "View the live HUM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 37,
+    "hq": "Louisville, KY",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "State Farm": {
+    "tier": "Fortune 100 company",
+    "background": "Insurance recruiting human resources talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 38,
+    "hq": "Bloomington, IL",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Tesla": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive / energy recruiting human resources talent.",
+    "deepProfile": [
+      "Automotive / energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TSLA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TSLA",
+    "stockTrend": "View the live TSLA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 39,
+    "hq": "Austin, TX",
+    "founded": "Not on file.",
+    "history": "Automotive / energy with a well-known early-careers program."
+  },
+  "Morgan Stanley": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MS",
+    "stockTrend": "View the live MS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 40,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Johnson & Johnson": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: JNJ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JNJ",
+    "stockTrend": "View the live JNJ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 41,
+    "hq": "New Brunswick, NJ",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "PepsiCo": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PEP",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PEP",
+    "stockTrend": "View the live PEP stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 43,
+    "hq": "Purchase, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "UPS": {
+    "tier": "Fortune 100 company",
+    "background": "Logistics recruiting human resources talent.",
+    "deepProfile": [
+      "Logistics with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UPS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UPS",
+    "stockTrend": "View the live UPS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 44,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Logistics with a well-known early-careers program."
+  },
+  "FedEx": {
+    "tier": "Fortune 100 company",
+    "background": "Logistics recruiting human resources talent.",
+    "deepProfile": [
+      "Logistics with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: FDX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/FDX",
+    "stockTrend": "View the live FDX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 45,
+    "hq": "Memphis, TN",
+    "founded": "Not on file.",
+    "history": "Logistics with a well-known early-careers program."
+  },
+  "Disney": {
+    "tier": "Fortune 100 company",
+    "background": "Media / entertainment recruiting human resources talent.",
+    "deepProfile": [
+      "Media / entertainment with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DIS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DIS",
+    "stockTrend": "View the live DIS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 46,
+    "hq": "Burbank, CA",
+    "founded": "Not on file.",
+    "history": "Media / entertainment with a well-known early-careers program."
+  },
+  "Dell Technologies": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting human resources talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DELL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DELL",
+    "stockTrend": "View the live DELL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 47,
+    "hq": "Round Rock, TX",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Lowe's": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting human resources talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: LOW",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/LOW",
+    "stockTrend": "View the live LOW stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 48,
+    "hq": "Mooresville, NC",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Procter & Gamble": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PG",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PG",
+    "stockTrend": "View the live PG stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 49,
+    "hq": "Cincinnati, OH",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Boeing": {
+    "tier": "Fortune 100 company",
+    "background": "Aerospace recruiting human resources talent.",
+    "deepProfile": [
+      "Aerospace with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BA",
+    "stockTrend": "View the live BA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 50,
+    "hq": "Arlington, VA",
+    "founded": "Not on file.",
+    "history": "Aerospace with a well-known early-careers program."
+  },
+  "Albertsons": {
+    "tier": "Fortune 100 company",
+    "background": "Retail / grocery recruiting human resources talent.",
+    "deepProfile": [
+      "Retail / grocery with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ACI",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ACI",
+    "stockTrend": "View the live ACI stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 51,
+    "hq": "Boise, ID",
+    "founded": "Not on file.",
+    "history": "Retail / grocery with a well-known early-careers program."
+  },
+  "RTX (Raytheon)": {
+    "tier": "Fortune 100 company",
+    "background": "Aerospace / defense recruiting human resources talent.",
+    "deepProfile": [
+      "Aerospace / defense with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: RTX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/RTX",
+    "stockTrend": "View the live RTX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 53,
+    "hq": "Arlington, VA",
+    "founded": "Not on file.",
+    "history": "Aerospace / defense with a well-known early-careers program."
+  },
+  "Lockheed Martin": {
+    "tier": "Fortune 100 company",
+    "background": "Aerospace / defense recruiting human resources talent.",
+    "deepProfile": [
+      "Aerospace / defense with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: LMT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/LMT",
+    "stockTrend": "View the live LMT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 54,
+    "hq": "Bethesda, MD",
+    "founded": "Not on file.",
+    "history": "Aerospace / defense with a well-known early-careers program."
+  },
+  "Intel": {
+    "tier": "Fortune 100 company",
+    "background": "Semiconductors recruiting human resources talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: INTC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/INTC",
+    "stockTrend": "View the live INTC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 55,
+    "hq": "Santa Clara, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "IBM": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting human resources talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: IBM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/IBM",
+    "stockTrend": "View the live IBM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 56,
+    "hq": "Armonk, NY",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "HCA Healthcare": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HCA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HCA",
+    "stockTrend": "View the live HCA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 57,
+    "hq": "Nashville, TN",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Caterpillar": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting human resources talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CAT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CAT",
+    "stockTrend": "View the live CAT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 58,
+    "hq": "Irving, TX",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Nationwide": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting human resources talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Columbus, OH",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "MetLife": {
+    "tier": "Fortune 100 company",
+    "background": "Insurance recruiting human resources talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MET",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MET",
+    "stockTrend": "View the live MET stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 59,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Coca-Cola": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KO",
+    "stockTrend": "View the live KO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 60,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Pfizer": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting human resources talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PFE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PFE",
+    "stockTrend": "View the live PFE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 61,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Nike": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods / apparel recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / apparel with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: NKE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/NKE",
+    "stockTrend": "View the live NKE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 62,
+    "hq": "Beaverton, OR",
+    "founded": "Not on file.",
+    "history": "Consumer goods / apparel with a well-known early-careers program."
+  },
+  "Merck": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting human resources talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MRK",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MRK",
+    "stockTrend": "View the live MRK stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 63,
+    "hq": "Rahway, NJ",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Honeywell": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting human resources talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HON",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HON",
+    "stockTrend": "View the live HON stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 64,
+    "hq": "Charlotte, NC",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "American Express": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AXP",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AXP",
+    "stockTrend": "View the live AXP stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 65,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Abbott": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / devices recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare / devices with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ABT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ABT",
+    "stockTrend": "View the live ABT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 66,
+    "hq": "Abbott Park, IL",
+    "founded": "Not on file.",
+    "history": "Healthcare / devices with a well-known early-careers program."
+  },
+  "3M": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting human resources talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MMM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MMM",
+    "stockTrend": "View the live MMM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 67,
+    "hq": "St. Paul, MN",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Deere & Company": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials / ag recruiting human resources talent.",
+    "deepProfile": [
+      "Industrials / ag with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DE",
+    "stockTrend": "View the live DE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 68,
+    "hq": "Moline, IL",
+    "founded": "Not on file.",
+    "history": "Industrials / ag with a well-known early-careers program."
+  },
+  "Oracle": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting human resources talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ORCL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ORCL",
+    "stockTrend": "View the live ORCL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 69,
+    "hq": "Austin, TX",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "General Electric": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting human resources talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GE",
+    "stockTrend": "View the live GE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 70,
+    "hq": "Boston, MA",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Cisco": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting human resources talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CSCO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CSCO",
+    "stockTrend": "View the live CSCO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 71,
+    "hq": "San Jose, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "TJX Companies": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting human resources talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TJX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TJX",
+    "stockTrend": "View the live TJX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 72,
+    "hq": "Framingham, MA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "NVIDIA": {
+    "tier": "Fortune 100 company",
+    "background": "Semiconductors recruiting human resources talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: NVDA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/NVDA",
+    "stockTrend": "View the live NVDA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 73,
+    "hq": "Santa Clara, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "Salesforce": {
+    "tier": "Fortune 100 company",
+    "background": "Tech / SaaS recruiting human resources talent.",
+    "deepProfile": [
+      "Tech / SaaS with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CRM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CRM",
+    "stockTrend": "View the live CRM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 74,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "Tech / SaaS with a well-known early-careers program."
+  },
+  "AbbVie": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting human resources talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ABBV",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ABBV",
+    "stockTrend": "View the live ABBV stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 75,
+    "hq": "North Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Best Buy": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting human resources talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BBY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BBY",
+    "stockTrend": "View the live BBY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 76,
+    "hq": "Richfield, MN",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Bristol Myers Squibb": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting human resources talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BMY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BMY",
+    "stockTrend": "View the live BMY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 77,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "United Airlines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting human resources talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UAL",
+    "stockTrend": "View the live UAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 78,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "Delta Air Lines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting human resources talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DAL",
+    "stockTrend": "View the live DAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 79,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "American Airlines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting human resources talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AAL",
+    "stockTrend": "View the live AAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 80,
+    "hq": "Fort Worth, TX",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "Tyson Foods": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods / food recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TSN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TSN",
+    "stockTrend": "View the live TSN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 81,
+    "hq": "Springdale, AR",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Prudential Financial": {
+    "tier": "Fortune 100 company",
+    "background": "Insurance recruiting human resources talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PRU",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PRU",
+    "stockTrend": "View the live PRU stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 82,
+    "hq": "Newark, NJ",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Mondelez": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MDLZ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MDLZ",
+    "stockTrend": "View the live MDLZ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "General Dynamics": {
+    "tier": "Fortune 100 company",
+    "background": "Aerospace / defense recruiting human resources talent.",
+    "deepProfile": [
+      "Aerospace / defense with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GD",
+    "stockTrend": "View the live GD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 83,
+    "hq": "Reston, VA",
+    "founded": "Not on file.",
+    "history": "Aerospace / defense with a well-known early-careers program."
+  },
+  "Capital One": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: COF",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/COF",
+    "stockTrend": "View the live COF stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 84,
+    "hq": "McLean, VA",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Charter Communications": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom / media recruiting human resources talent.",
+    "deepProfile": [
+      "Telecom / media with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CHTR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CHTR",
+    "stockTrend": "View the live CHTR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 85,
+    "hq": "Stamford, CT",
+    "founded": "Not on file.",
+    "history": "Telecom / media with a well-known early-careers program."
+  },
+  "Nordstrom": {
+    "tier": "Retail",
+    "background": "Retail recruiting human resources talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: JWN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JWN",
+    "stockTrend": "View the live JWN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Estée Lauder": {
+    "tier": "Consumer goods / beauty",
+    "background": "Consumer goods / beauty recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / beauty with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: EL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/EL",
+    "stockTrend": "View the live EL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods / beauty with a well-known early-careers program."
+  },
+  "Colgate-Palmolive": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CL",
+    "stockTrend": "View the live CL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Kimberly-Clark": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KMB",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KMB",
+    "stockTrend": "View the live KMB stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Irving, TX",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "General Mills": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GIS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GIS",
+    "stockTrend": "View the live GIS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Kellanova": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: K",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/K",
+    "stockTrend": "View the live K stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Kraft Heinz": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KHC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KHC",
+    "stockTrend": "View the live KHC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Unilever": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UL",
+    "stockTrend": "View the live UL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Englewood Cliffs, NJ",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "L'Oréal USA": {
+    "tier": "Consumer goods / beauty",
+    "background": "Consumer goods / beauty recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / beauty with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods / beauty with a well-known early-careers program."
+  },
+  "Anheuser-Busch": {
+    "tier": "Consumer goods / bev",
+    "background": "Consumer goods / bev recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer goods / bev with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BUD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BUD",
+    "stockTrend": "View the live BUD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "St. Louis, MO",
+    "founded": "Not on file.",
+    "history": "Consumer goods / bev with a well-known early-careers program."
+  },
+  "Mastercard": {
+    "tier": "Payments",
+    "background": "Payments recruiting human resources talent.",
+    "deepProfile": [
+      "Payments with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MA",
+    "stockTrend": "View the live MA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Purchase, NY",
+    "founded": "Not on file.",
+    "history": "Payments with a well-known early-careers program."
+  },
+  "Visa": {
+    "tier": "Payments",
+    "background": "Payments recruiting human resources talent.",
+    "deepProfile": [
+      "Payments with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: V",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/V",
+    "stockTrend": "View the live V stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "Payments with a well-known early-careers program."
+  },
+  "Adobe": {
+    "tier": "Tech / SaaS",
+    "background": "Tech / SaaS recruiting human resources talent.",
+    "deepProfile": [
+      "Tech / SaaS with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ADBE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ADBE",
+    "stockTrend": "View the live ADBE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Jose, CA",
+    "founded": "Not on file.",
+    "history": "Tech / SaaS with a well-known early-careers program."
+  },
+  "Qualcomm": {
+    "tier": "Semiconductors",
+    "background": "Semiconductors recruiting human resources talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: QCOM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/QCOM",
+    "stockTrend": "View the live QCOM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Diego, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "Texas Instruments": {
+    "tier": "Semiconductors",
+    "background": "Semiconductors recruiting human resources talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TXN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TXN",
+    "stockTrend": "View the live TXN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Dallas, TX",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "Medtronic": {
+    "tier": "Healthcare / devices",
+    "background": "Healthcare / devices recruiting human resources talent.",
+    "deepProfile": [
+      "Healthcare / devices with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MDT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MDT",
+    "stockTrend": "View the live MDT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Healthcare / devices with a well-known early-careers program."
+  },
+  "Eli Lilly": {
+    "tier": "Pharma",
+    "background": "Pharma recruiting human resources talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: LLY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/LLY",
+    "stockTrend": "View the live LLY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Indianapolis, IN",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Northrop Grumman": {
+    "tier": "Aerospace / defense",
+    "background": "Aerospace / defense recruiting human resources talent.",
+    "deepProfile": [
+      "Aerospace / defense with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: NOC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/NOC",
+    "stockTrend": "View the live NOC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Falls Church, VA",
+    "founded": "Not on file.",
+    "history": "Aerospace / defense with a well-known early-careers program."
+  },
+  "Marriott": {
+    "tier": "Hospitality",
+    "background": "Hospitality recruiting human resources talent.",
+    "deepProfile": [
+      "Hospitality with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MAR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MAR",
+    "stockTrend": "View the live MAR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Bethesda, MD",
+    "founded": "Not on file.",
+    "history": "Hospitality with a well-known early-careers program."
+  },
+  "Starbucks": {
+    "tier": "Consumer / food",
+    "background": "Consumer / food recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: SBUX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/SBUX",
+    "stockTrend": "View the live SBUX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "Consumer / food with a well-known early-careers program."
+  },
+  "McDonald's": {
+    "tier": "Consumer / food",
+    "background": "Consumer / food recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MCD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MCD",
+    "stockTrend": "View the live MCD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer / food with a well-known early-careers program."
+  },
+  "PNC Financial": {
+    "tier": "Financial services",
+    "background": "Financial services recruiting human resources talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PNC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PNC",
+    "stockTrend": "View the live PNC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Pittsburgh, PA",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Travelers": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting human resources talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TRV",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TRV",
+    "stockTrend": "View the live TRV stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Liberty Mutual": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting human resources talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Boston, MA",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Progressive": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting human resources talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PGR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PGR",
+    "stockTrend": "View the live PGR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Mayfield, OH",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Allstate": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting human resources talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ALL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ALL",
+    "stockTrend": "View the live ALL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Northbrook, IL",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Cummins": {
+    "tier": "Industrials",
+    "background": "Industrials recruiting human resources talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CMI",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CMI",
+    "stockTrend": "View the live CMI stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Columbus, IN",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Emerson Electric": {
+    "tier": "Industrials",
+    "background": "Industrials recruiting human resources talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: EMR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/EMR",
+    "stockTrend": "View the live EMR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "St. Louis, MO",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Stanley Black & Decker": {
+    "tier": "Industrials",
+    "background": "Industrials recruiting human resources talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: SWK",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/SWK",
+    "stockTrend": "View the live SWK stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New Britain, CT",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Whirlpool": {
+    "tier": "Consumer durables",
+    "background": "Consumer durables recruiting human resources talent.",
+    "deepProfile": [
+      "Consumer durables with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WHR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WHR",
+    "stockTrend": "View the live WHR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Benton Harbor, MI",
+    "founded": "Not on file.",
+    "history": "Consumer durables with a well-known early-careers program."
+  },
+  "Randstad": {
+    "tier": "Major employer",
+    "background": "Partner for talent",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Partner for talent",
+    "tagline": "Partner for talent",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Diemen, Netherlands",
+    "founded": "Not on file.",
+    "history": "Partner for talent. "
+  },
+  "Adecco Group": {
+    "tier": "Major employer",
+    "background": "Making the future work for everyone",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Making the future work for everyone",
+    "tagline": "Making the future work for everyone",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Zurich, Switzerland",
+    "founded": "Not on file.",
+    "history": "Making the future work for everyone. "
+  },
+  "ManpowerGroup": {
+    "tier": "Major employer",
+    "background": "Meaningful, sustainable employment",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Meaningful, sustainable employment",
+    "tagline": "Meaningful, sustainable employment",
+    "ticker": "NYSE/NASDAQ: MAN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MAN",
+    "stockTrend": "View the live MAN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Milwaukee, WI",
+    "founded": "Not on file.",
+    "history": "Meaningful, sustainable employment. "
+  },
+  "Robert Half": {
+    "tier": "Major employer",
+    "background": "Talent solutions and consulting",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Talent solutions and consulting",
+    "tagline": "Talent solutions and consulting",
+    "ticker": "NYSE/NASDAQ: RHI",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/RHI",
+    "stockTrend": "View the live RHI stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Menlo Park, CA",
+    "founded": "Not on file.",
+    "history": "Talent solutions and consulting. "
+  },
+  "Insight Global": {
+    "tier": "Major employer",
+    "background": "Connecting people to opportunity",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Connecting people to opportunity",
+    "tagline": "Connecting people to opportunity",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Connecting people to opportunity. "
+  },
+  "Korn Ferry": {
+    "tier": "Major employer",
+    "background": "A global organizational consulting firm",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A global organizational consulting firm",
+    "tagline": "A global organizational consulting firm",
+    "ticker": "NYSE/NASDAQ: KFY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KFY",
+    "stockTrend": "View the live KFY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Los Angeles, CA",
+    "founded": "Not on file.",
+    "history": "A global organizational consulting firm. "
+  },
+  "ADP": {
+    "tier": "Major employer",
+    "background": "Always designing for people",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Always designing for people",
+    "tagline": "Always designing for people",
+    "ticker": "NYSE/NASDAQ: ADP",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ADP",
+    "stockTrend": "View the live ADP stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Roseland, NJ",
+    "founded": "Not on file.",
+    "history": "Always designing for people. "
+  },
+  "Workday": {
+    "tier": "Major employer",
+    "background": "The finance and HR system for a changing world",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The finance and HR system for a changing world",
+    "tagline": "The finance and HR system for a changing world",
+    "ticker": "NYSE/NASDAQ: WDAY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WDAY",
+    "stockTrend": "View the live WDAY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Pleasanton, CA",
+    "founded": "Not on file.",
+    "history": "The finance and HR system for a changing world. "
+  },
+  "Paychex": {
+    "tier": "Major employer",
+    "background": "The power of simplicity",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The power of simplicity",
+    "tagline": "The power of simplicity",
+    "ticker": "NYSE/NASDAQ: PAYX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PAYX",
+    "stockTrend": "View the live PAYX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Rochester, NY",
+    "founded": "Not on file.",
+    "history": "The power of simplicity. "
+  },
+  "Aerotek": {
+    "tier": "Major employer",
+    "background": "Our people are everything",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Our people are everything",
+    "tagline": "Our people are everything",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Hanover, MD",
+    "founded": "Not on file.",
+    "history": "Our people are everything. "
+  },
+  "Kelly Services": {
+    "tier": "Major employer",
+    "background": "We're here for the work that matters",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "We're here for the work that matters",
+    "tagline": "We're here for the work that matters",
+    "ticker": "NYSE/NASDAQ: KELYA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KELYA",
+    "stockTrend": "View the live KELYA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Troy, MI",
+    "founded": "Not on file.",
+    "history": "We're here for the work that matters. "
+  },
+  "Mercer": {
+    "tier": "Major employer",
+    "background": "Make tomorrow, today",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Make tomorrow, today",
+    "tagline": "Make tomorrow, today",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Make tomorrow, today. "
+  }
+};
+
+window.HR_INTERNSHIPS = [
+  {
+    "id": "walmart-hr-generalist-hrbp-2027",
+    "company": "Walmart",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walmart-talent-acquisition-recruiting-2027",
+    "company": "Walmart",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walmart-people-analytics-2027",
+    "company": "Walmart",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-hr-generalist-hrbp-2027",
+    "company": "Amazon",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-talent-acquisition-recruiting-2027",
+    "company": "Amazon",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-people-analytics-2027",
+    "company": "Amazon",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-hr-generalist-hrbp-2027",
+    "company": "Apple",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-talent-acquisition-recruiting-2027",
+    "company": "Apple",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-people-analytics-2027",
+    "company": "Apple",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unitedhealth-group-hr-generalist-hrbp-2027",
+    "company": "UnitedHealth Group",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unitedhealth-group-talent-acquisition-recruiting-2027",
+    "company": "UnitedHealth Group",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unitedhealth-group-people-analytics-2027",
+    "company": "UnitedHealth Group",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "berkshire-hathaway-hr-generalist-hrbp-2027",
+    "company": "Berkshire Hathaway",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "berkshire-hathaway-talent-acquisition-recruiting-2027",
+    "company": "Berkshire Hathaway",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "berkshire-hathaway-people-analytics-2027",
+    "company": "Berkshire Hathaway",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-hr-generalist-hrbp-2027",
+    "company": "CVS Health",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-talent-acquisition-recruiting-2027",
+    "company": "CVS Health",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-people-analytics-2027",
+    "company": "CVS Health",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "exxonmobil-hr-generalist-hrbp-2027",
+    "company": "ExxonMobil",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "exxonmobil-talent-acquisition-recruiting-2027",
+    "company": "ExxonMobil",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "exxonmobil-people-analytics-2027",
+    "company": "ExxonMobil",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-hr-generalist-hrbp-2027",
+    "company": "Alphabet (Google)",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-talent-acquisition-recruiting-2027",
+    "company": "Alphabet (Google)",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-people-analytics-2027",
+    "company": "Alphabet (Google)",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-hr-generalist-hrbp-2027",
+    "company": "Costco",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-talent-acquisition-recruiting-2027",
+    "company": "Costco",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-people-analytics-2027",
+    "company": "Costco",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "jpmorgan-chase-hr-generalist-hrbp-2027",
+    "company": "JPMorgan Chase",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "jpmorgan-chase-talent-acquisition-recruiting-2027",
+    "company": "JPMorgan Chase",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "jpmorgan-chase-people-analytics-2027",
+    "company": "JPMorgan Chase",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-hr-generalist-hrbp-2027",
+    "company": "Microsoft",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-talent-acquisition-recruiting-2027",
+    "company": "Microsoft",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-people-analytics-2027",
+    "company": "Microsoft",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "chevron-hr-generalist-hrbp-2027",
+    "company": "Chevron",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Chevron%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "chevron-talent-acquisition-recruiting-2027",
+    "company": "Chevron",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Chevron%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "chevron-people-analytics-2027",
+    "company": "Chevron",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Chevron%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cigna-hr-generalist-hrbp-2027",
+    "company": "Cigna",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cigna%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cigna-talent-acquisition-recruiting-2027",
+    "company": "Cigna",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cigna%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cigna-people-analytics-2027",
+    "company": "Cigna",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cigna%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-hr-generalist-hrbp-2027",
+    "company": "Ford Motor",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-talent-acquisition-recruiting-2027",
+    "company": "Ford Motor",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-people-analytics-2027",
+    "company": "Ford Motor",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bank-of-america-hr-generalist-hrbp-2027",
+    "company": "Bank of America",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bank-of-america-talent-acquisition-recruiting-2027",
+    "company": "Bank of America",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bank-of-america-people-analytics-2027",
+    "company": "Bank of America",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-hr-generalist-hrbp-2027",
+    "company": "General Motors",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-talent-acquisition-recruiting-2027",
+    "company": "General Motors",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-people-analytics-2027",
+    "company": "General Motors",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "elevance-health-hr-generalist-hrbp-2027",
+    "company": "Elevance Health",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "elevance-health-talent-acquisition-recruiting-2027",
+    "company": "Elevance Health",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "elevance-health-people-analytics-2027",
+    "company": "Elevance Health",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "citigroup-hr-generalist-hrbp-2027",
+    "company": "Citigroup",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Citigroup%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "citigroup-talent-acquisition-recruiting-2027",
+    "company": "Citigroup",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Citigroup%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "citigroup-people-analytics-2027",
+    "company": "Citigroup",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Citigroup%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "centene-hr-generalist-hrbp-2027",
+    "company": "Centene",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Centene%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "centene-talent-acquisition-recruiting-2027",
+    "company": "Centene",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Centene%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "centene-people-analytics-2027",
+    "company": "Centene",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Centene%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-hr-generalist-hrbp-2027",
+    "company": "Home Depot",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-talent-acquisition-recruiting-2027",
+    "company": "Home Depot",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-people-analytics-2027",
+    "company": "Home Depot",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-hr-generalist-hrbp-2027",
+    "company": "Kroger",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-talent-acquisition-recruiting-2027",
+    "company": "Kroger",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-people-analytics-2027",
+    "company": "Kroger",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-hr-generalist-hrbp-2027",
+    "company": "Walgreens",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-talent-acquisition-recruiting-2027",
+    "company": "Walgreens",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-people-analytics-2027",
+    "company": "Walgreens",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-hr-generalist-hrbp-2027",
+    "company": "Meta",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-talent-acquisition-recruiting-2027",
+    "company": "Meta",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-people-analytics-2027",
+    "company": "Meta",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-hr-generalist-hrbp-2027",
+    "company": "Verizon",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-talent-acquisition-recruiting-2027",
+    "company": "Verizon",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-people-analytics-2027",
+    "company": "Verizon",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-hr-generalist-hrbp-2027",
+    "company": "AT&T",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-talent-acquisition-recruiting-2027",
+    "company": "AT&T",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-people-analytics-2027",
+    "company": "AT&T",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-hr-generalist-hrbp-2027",
+    "company": "Comcast",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-talent-acquisition-recruiting-2027",
+    "company": "Comcast",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-people-analytics-2027",
+    "company": "Comcast",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wells-fargo-hr-generalist-hrbp-2027",
+    "company": "Wells Fargo",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wells-fargo-talent-acquisition-recruiting-2027",
+    "company": "Wells Fargo",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wells-fargo-people-analytics-2027",
+    "company": "Wells Fargo",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "goldman-sachs-hr-generalist-hrbp-2027",
+    "company": "Goldman Sachs",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "goldman-sachs-talent-acquisition-recruiting-2027",
+    "company": "Goldman Sachs",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "goldman-sachs-people-analytics-2027",
+    "company": "Goldman Sachs",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-hr-generalist-hrbp-2027",
+    "company": "Target",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-talent-acquisition-recruiting-2027",
+    "company": "Target",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-people-analytics-2027",
+    "company": "Target",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "humana-hr-generalist-hrbp-2027",
+    "company": "Humana",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Humana%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "humana-talent-acquisition-recruiting-2027",
+    "company": "Humana",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Humana%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "humana-people-analytics-2027",
+    "company": "Humana",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Humana%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-hr-generalist-hrbp-2027",
+    "company": "State Farm",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-talent-acquisition-recruiting-2027",
+    "company": "State Farm",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-people-analytics-2027",
+    "company": "State Farm",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-hr-generalist-hrbp-2027",
+    "company": "Tesla",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-talent-acquisition-recruiting-2027",
+    "company": "Tesla",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-people-analytics-2027",
+    "company": "Tesla",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "morgan-stanley-hr-generalist-hrbp-2027",
+    "company": "Morgan Stanley",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "morgan-stanley-talent-acquisition-recruiting-2027",
+    "company": "Morgan Stanley",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "morgan-stanley-people-analytics-2027",
+    "company": "Morgan Stanley",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-hr-generalist-hrbp-2027",
+    "company": "Johnson & Johnson",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-talent-acquisition-recruiting-2027",
+    "company": "Johnson & Johnson",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-people-analytics-2027",
+    "company": "Johnson & Johnson",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-hr-generalist-hrbp-2027",
+    "company": "PepsiCo",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-talent-acquisition-recruiting-2027",
+    "company": "PepsiCo",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-people-analytics-2027",
+    "company": "PepsiCo",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-hr-generalist-hrbp-2027",
+    "company": "UPS",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-talent-acquisition-recruiting-2027",
+    "company": "UPS",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-people-analytics-2027",
+    "company": "UPS",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-hr-generalist-hrbp-2027",
+    "company": "FedEx",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-talent-acquisition-recruiting-2027",
+    "company": "FedEx",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-people-analytics-2027",
+    "company": "FedEx",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-hr-generalist-hrbp-2027",
+    "company": "Disney",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-talent-acquisition-recruiting-2027",
+    "company": "Disney",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-people-analytics-2027",
+    "company": "Disney",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-hr-generalist-hrbp-2027",
+    "company": "Dell Technologies",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-talent-acquisition-recruiting-2027",
+    "company": "Dell Technologies",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-people-analytics-2027",
+    "company": "Dell Technologies",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-hr-generalist-hrbp-2027",
+    "company": "Lowe's",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-talent-acquisition-recruiting-2027",
+    "company": "Lowe's",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-people-analytics-2027",
+    "company": "Lowe's",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-hr-generalist-hrbp-2027",
+    "company": "Procter & Gamble",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-talent-acquisition-recruiting-2027",
+    "company": "Procter & Gamble",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-people-analytics-2027",
+    "company": "Procter & Gamble",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "boeing-hr-generalist-hrbp-2027",
+    "company": "Boeing",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Boeing%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "boeing-talent-acquisition-recruiting-2027",
+    "company": "Boeing",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Boeing%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "boeing-people-analytics-2027",
+    "company": "Boeing",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Boeing%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-hr-generalist-hrbp-2027",
+    "company": "Albertsons",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-talent-acquisition-recruiting-2027",
+    "company": "Albertsons",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-people-analytics-2027",
+    "company": "Albertsons",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "rtx-raytheon-hr-generalist-hrbp-2027",
+    "company": "RTX (Raytheon)",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "rtx-raytheon-talent-acquisition-recruiting-2027",
+    "company": "RTX (Raytheon)",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "rtx-raytheon-people-analytics-2027",
+    "company": "RTX (Raytheon)",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lockheed-martin-hr-generalist-hrbp-2027",
+    "company": "Lockheed Martin",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lockheed-martin-talent-acquisition-recruiting-2027",
+    "company": "Lockheed Martin",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lockheed-martin-people-analytics-2027",
+    "company": "Lockheed Martin",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-hr-generalist-hrbp-2027",
+    "company": "Intel",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-talent-acquisition-recruiting-2027",
+    "company": "Intel",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-people-analytics-2027",
+    "company": "Intel",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-hr-generalist-hrbp-2027",
+    "company": "IBM",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-talent-acquisition-recruiting-2027",
+    "company": "IBM",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-people-analytics-2027",
+    "company": "IBM",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "hca-healthcare-hr-generalist-hrbp-2027",
+    "company": "HCA Healthcare",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "hca-healthcare-talent-acquisition-recruiting-2027",
+    "company": "HCA Healthcare",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "hca-healthcare-people-analytics-2027",
+    "company": "HCA Healthcare",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "caterpillar-hr-generalist-hrbp-2027",
+    "company": "Caterpillar",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Caterpillar%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "caterpillar-talent-acquisition-recruiting-2027",
+    "company": "Caterpillar",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Caterpillar%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "caterpillar-people-analytics-2027",
+    "company": "Caterpillar",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Caterpillar%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-hr-generalist-hrbp-2027",
+    "company": "Nationwide",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-talent-acquisition-recruiting-2027",
+    "company": "Nationwide",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-people-analytics-2027",
+    "company": "Nationwide",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-hr-generalist-hrbp-2027",
+    "company": "MetLife",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-talent-acquisition-recruiting-2027",
+    "company": "MetLife",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-people-analytics-2027",
+    "company": "MetLife",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-hr-generalist-hrbp-2027",
+    "company": "Coca-Cola",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-talent-acquisition-recruiting-2027",
+    "company": "Coca-Cola",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-people-analytics-2027",
+    "company": "Coca-Cola",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-hr-generalist-hrbp-2027",
+    "company": "Pfizer",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-talent-acquisition-recruiting-2027",
+    "company": "Pfizer",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-people-analytics-2027",
+    "company": "Pfizer",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-hr-generalist-hrbp-2027",
+    "company": "Nike",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-talent-acquisition-recruiting-2027",
+    "company": "Nike",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-people-analytics-2027",
+    "company": "Nike",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-hr-generalist-hrbp-2027",
+    "company": "Merck",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-talent-acquisition-recruiting-2027",
+    "company": "Merck",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-people-analytics-2027",
+    "company": "Merck",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "honeywell-hr-generalist-hrbp-2027",
+    "company": "Honeywell",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Honeywell%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "honeywell-talent-acquisition-recruiting-2027",
+    "company": "Honeywell",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Honeywell%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "honeywell-people-analytics-2027",
+    "company": "Honeywell",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Honeywell%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-hr-generalist-hrbp-2027",
+    "company": "American Express",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-talent-acquisition-recruiting-2027",
+    "company": "American Express",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-people-analytics-2027",
+    "company": "American Express",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-hr-generalist-hrbp-2027",
+    "company": "Abbott",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-talent-acquisition-recruiting-2027",
+    "company": "Abbott",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-people-analytics-2027",
+    "company": "Abbott",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-hr-generalist-hrbp-2027",
+    "company": "3M",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-talent-acquisition-recruiting-2027",
+    "company": "3M",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-people-analytics-2027",
+    "company": "3M",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "deere-company-hr-generalist-hrbp-2027",
+    "company": "Deere & Company",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "deere-company-talent-acquisition-recruiting-2027",
+    "company": "Deere & Company",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "deere-company-people-analytics-2027",
+    "company": "Deere & Company",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-hr-generalist-hrbp-2027",
+    "company": "Oracle",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-talent-acquisition-recruiting-2027",
+    "company": "Oracle",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-people-analytics-2027",
+    "company": "Oracle",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-electric-hr-generalist-hrbp-2027",
+    "company": "General Electric",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Electric%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-electric-talent-acquisition-recruiting-2027",
+    "company": "General Electric",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Electric%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-electric-people-analytics-2027",
+    "company": "General Electric",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Electric%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-hr-generalist-hrbp-2027",
+    "company": "Cisco",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-talent-acquisition-recruiting-2027",
+    "company": "Cisco",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-people-analytics-2027",
+    "company": "Cisco",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-hr-generalist-hrbp-2027",
+    "company": "TJX Companies",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-talent-acquisition-recruiting-2027",
+    "company": "TJX Companies",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-people-analytics-2027",
+    "company": "TJX Companies",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-hr-generalist-hrbp-2027",
+    "company": "NVIDIA",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-talent-acquisition-recruiting-2027",
+    "company": "NVIDIA",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-people-analytics-2027",
+    "company": "NVIDIA",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-hr-generalist-hrbp-2027",
+    "company": "Salesforce",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-talent-acquisition-recruiting-2027",
+    "company": "Salesforce",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-people-analytics-2027",
+    "company": "Salesforce",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-hr-generalist-hrbp-2027",
+    "company": "AbbVie",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-talent-acquisition-recruiting-2027",
+    "company": "AbbVie",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-people-analytics-2027",
+    "company": "AbbVie",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-hr-generalist-hrbp-2027",
+    "company": "Best Buy",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-talent-acquisition-recruiting-2027",
+    "company": "Best Buy",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-people-analytics-2027",
+    "company": "Best Buy",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bristol-myers-squibb-hr-generalist-hrbp-2027",
+    "company": "Bristol Myers Squibb",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bristol-myers-squibb-talent-acquisition-recruiting-2027",
+    "company": "Bristol Myers Squibb",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bristol-myers-squibb-people-analytics-2027",
+    "company": "Bristol Myers Squibb",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-hr-generalist-hrbp-2027",
+    "company": "United Airlines",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-talent-acquisition-recruiting-2027",
+    "company": "United Airlines",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-people-analytics-2027",
+    "company": "United Airlines",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-hr-generalist-hrbp-2027",
+    "company": "Delta Air Lines",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-talent-acquisition-recruiting-2027",
+    "company": "Delta Air Lines",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-people-analytics-2027",
+    "company": "Delta Air Lines",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-hr-generalist-hrbp-2027",
+    "company": "American Airlines",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-talent-acquisition-recruiting-2027",
+    "company": "American Airlines",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-people-analytics-2027",
+    "company": "American Airlines",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-hr-generalist-hrbp-2027",
+    "company": "Tyson Foods",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-talent-acquisition-recruiting-2027",
+    "company": "Tyson Foods",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-people-analytics-2027",
+    "company": "Tyson Foods",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "prudential-financial-hr-generalist-hrbp-2027",
+    "company": "Prudential Financial",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "prudential-financial-talent-acquisition-recruiting-2027",
+    "company": "Prudential Financial",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "prudential-financial-people-analytics-2027",
+    "company": "Prudential Financial",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-hr-generalist-hrbp-2027",
+    "company": "Mondelez",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-talent-acquisition-recruiting-2027",
+    "company": "Mondelez",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-people-analytics-2027",
+    "company": "Mondelez",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-dynamics-hr-generalist-hrbp-2027",
+    "company": "General Dynamics",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-dynamics-talent-acquisition-recruiting-2027",
+    "company": "General Dynamics",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-dynamics-people-analytics-2027",
+    "company": "General Dynamics",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-hr-generalist-hrbp-2027",
+    "company": "Capital One",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-talent-acquisition-recruiting-2027",
+    "company": "Capital One",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-people-analytics-2027",
+    "company": "Capital One",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-hr-generalist-hrbp-2027",
+    "company": "Charter Communications",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-talent-acquisition-recruiting-2027",
+    "company": "Charter Communications",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-people-analytics-2027",
+    "company": "Charter Communications",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-hr-generalist-hrbp-2027",
+    "company": "Nordstrom",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-talent-acquisition-recruiting-2027",
+    "company": "Nordstrom",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-people-analytics-2027",
+    "company": "Nordstrom",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-hr-generalist-hrbp-2027",
+    "company": "Estée Lauder",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-talent-acquisition-recruiting-2027",
+    "company": "Estée Lauder",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-people-analytics-2027",
+    "company": "Estée Lauder",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-hr-generalist-hrbp-2027",
+    "company": "Colgate-Palmolive",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-talent-acquisition-recruiting-2027",
+    "company": "Colgate-Palmolive",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-people-analytics-2027",
+    "company": "Colgate-Palmolive",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-hr-generalist-hrbp-2027",
+    "company": "Kimberly-Clark",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-talent-acquisition-recruiting-2027",
+    "company": "Kimberly-Clark",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-people-analytics-2027",
+    "company": "Kimberly-Clark",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-hr-generalist-hrbp-2027",
+    "company": "General Mills",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-talent-acquisition-recruiting-2027",
+    "company": "General Mills",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-people-analytics-2027",
+    "company": "General Mills",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-hr-generalist-hrbp-2027",
+    "company": "Kellanova",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-talent-acquisition-recruiting-2027",
+    "company": "Kellanova",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-people-analytics-2027",
+    "company": "Kellanova",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-hr-generalist-hrbp-2027",
+    "company": "Kraft Heinz",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-talent-acquisition-recruiting-2027",
+    "company": "Kraft Heinz",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-people-analytics-2027",
+    "company": "Kraft Heinz",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-hr-generalist-hrbp-2027",
+    "company": "Unilever",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-talent-acquisition-recruiting-2027",
+    "company": "Unilever",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-people-analytics-2027",
+    "company": "Unilever",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-hr-generalist-hrbp-2027",
+    "company": "L'Oréal USA",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-talent-acquisition-recruiting-2027",
+    "company": "L'Oréal USA",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-people-analytics-2027",
+    "company": "L'Oréal USA",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-hr-generalist-hrbp-2027",
+    "company": "Anheuser-Busch",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-talent-acquisition-recruiting-2027",
+    "company": "Anheuser-Busch",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-people-analytics-2027",
+    "company": "Anheuser-Busch",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-hr-generalist-hrbp-2027",
+    "company": "Mastercard",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-talent-acquisition-recruiting-2027",
+    "company": "Mastercard",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-people-analytics-2027",
+    "company": "Mastercard",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-hr-generalist-hrbp-2027",
+    "company": "Visa",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-talent-acquisition-recruiting-2027",
+    "company": "Visa",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-people-analytics-2027",
+    "company": "Visa",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-hr-generalist-hrbp-2027",
+    "company": "Adobe",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-talent-acquisition-recruiting-2027",
+    "company": "Adobe",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-people-analytics-2027",
+    "company": "Adobe",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-hr-generalist-hrbp-2027",
+    "company": "Qualcomm",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-talent-acquisition-recruiting-2027",
+    "company": "Qualcomm",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-people-analytics-2027",
+    "company": "Qualcomm",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "texas-instruments-hr-generalist-hrbp-2027",
+    "company": "Texas Instruments",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "texas-instruments-talent-acquisition-recruiting-2027",
+    "company": "Texas Instruments",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "texas-instruments-people-analytics-2027",
+    "company": "Texas Instruments",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-hr-generalist-hrbp-2027",
+    "company": "Medtronic",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-talent-acquisition-recruiting-2027",
+    "company": "Medtronic",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-people-analytics-2027",
+    "company": "Medtronic",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-hr-generalist-hrbp-2027",
+    "company": "Eli Lilly",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-talent-acquisition-recruiting-2027",
+    "company": "Eli Lilly",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-people-analytics-2027",
+    "company": "Eli Lilly",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "northrop-grumman-hr-generalist-hrbp-2027",
+    "company": "Northrop Grumman",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "northrop-grumman-talent-acquisition-recruiting-2027",
+    "company": "Northrop Grumman",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "northrop-grumman-people-analytics-2027",
+    "company": "Northrop Grumman",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-hr-generalist-hrbp-2027",
+    "company": "Marriott",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-talent-acquisition-recruiting-2027",
+    "company": "Marriott",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-people-analytics-2027",
+    "company": "Marriott",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-hr-generalist-hrbp-2027",
+    "company": "Starbucks",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-talent-acquisition-recruiting-2027",
+    "company": "Starbucks",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-people-analytics-2027",
+    "company": "Starbucks",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-hr-generalist-hrbp-2027",
+    "company": "McDonald's",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-talent-acquisition-recruiting-2027",
+    "company": "McDonald's",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-people-analytics-2027",
+    "company": "McDonald's",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pnc-financial-hr-generalist-hrbp-2027",
+    "company": "PNC Financial",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pnc-financial-talent-acquisition-recruiting-2027",
+    "company": "PNC Financial",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pnc-financial-people-analytics-2027",
+    "company": "PNC Financial",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "travelers-hr-generalist-hrbp-2027",
+    "company": "Travelers",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Travelers%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "travelers-talent-acquisition-recruiting-2027",
+    "company": "Travelers",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Travelers%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "travelers-people-analytics-2027",
+    "company": "Travelers",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Travelers%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-hr-generalist-hrbp-2027",
+    "company": "Liberty Mutual",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-talent-acquisition-recruiting-2027",
+    "company": "Liberty Mutual",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-people-analytics-2027",
+    "company": "Liberty Mutual",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-hr-generalist-hrbp-2027",
+    "company": "Progressive",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-talent-acquisition-recruiting-2027",
+    "company": "Progressive",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-people-analytics-2027",
+    "company": "Progressive",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-hr-generalist-hrbp-2027",
+    "company": "Allstate",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Seattle, WA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-talent-acquisition-recruiting-2027",
+    "company": "Allstate",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-people-analytics-2027",
+    "company": "Allstate",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cummins-hr-generalist-hrbp-2027",
+    "company": "Cummins",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Atlanta, GA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cummins%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cummins-talent-acquisition-recruiting-2027",
+    "company": "Cummins",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cummins%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cummins-people-analytics-2027",
+    "company": "Cummins",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Boston, MA",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cummins%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "emerson-electric-hr-generalist-hrbp-2027",
+    "company": "Emerson Electric",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "San Francisco, CA",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "emerson-electric-talent-acquisition-recruiting-2027",
+    "company": "Emerson Electric",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "emerson-electric-people-analytics-2027",
+    "company": "Emerson Electric",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-hr-generalist-hrbp-2027",
+    "company": "Stanley Black & Decker",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Charlotte, NC",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-talent-acquisition-recruiting-2027",
+    "company": "Stanley Black & Decker",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-people-analytics-2027",
+    "company": "Stanley Black & Decker",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "New York, NY",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-hr-generalist-hrbp-2027",
+    "company": "Whirlpool",
+    "role": "HR Generalist / HRBP Intern",
+    "level": "Internship",
+    "types": [
+      "HR Generalist / HRBP"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "psychology"
+    ],
+    "location": "Chicago, IL",
+    "about": "HR Generalist / HRBP summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-talent-acquisition-recruiting-2027",
+    "company": "Whirlpool",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-people-analytics-2027",
+    "company": "Whirlpool",
+    "role": "People Analytics Intern",
+    "level": "Internship",
+    "types": [
+      "People Analytics"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Analytics",
+      "Statistics",
+      "Psychology"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business_analytics",
+      "statistics",
+      "psychology"
+    ],
+    "location": "Dallas, TX",
+    "about": "People Analytics summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20People%20Analytics%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "randstad-talent-acquisition-recruiting-2027",
+    "company": "Randstad",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Randstad%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "randstad-talent-org-consulting-2027",
+    "company": "Randstad",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Randstad%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "randstad-total-rewards-compensation-2027",
+    "company": "Randstad",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Randstad%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adecco-group-talent-acquisition-recruiting-2027",
+    "company": "Adecco Group",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adecco%20Group%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adecco-group-talent-org-consulting-2027",
+    "company": "Adecco Group",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adecco%20Group%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adecco-group-total-rewards-compensation-2027",
+    "company": "Adecco Group",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adecco%20Group%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "manpowergroup-talent-acquisition-recruiting-2027",
+    "company": "ManpowerGroup",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ManpowerGroup%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "manpowergroup-talent-org-consulting-2027",
+    "company": "ManpowerGroup",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ManpowerGroup%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "manpowergroup-total-rewards-compensation-2027",
+    "company": "ManpowerGroup",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ManpowerGroup%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "robert-half-talent-acquisition-recruiting-2027",
+    "company": "Robert Half",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Robert%20Half%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "robert-half-talent-org-consulting-2027",
+    "company": "Robert Half",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Robert%20Half%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "robert-half-total-rewards-compensation-2027",
+    "company": "Robert Half",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Robert%20Half%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "insight-global-talent-acquisition-recruiting-2027",
+    "company": "Insight Global",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Insight%20Global%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "insight-global-talent-org-consulting-2027",
+    "company": "Insight Global",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Insight%20Global%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "insight-global-total-rewards-compensation-2027",
+    "company": "Insight Global",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Insight%20Global%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "korn-ferry-talent-acquisition-recruiting-2027",
+    "company": "Korn Ferry",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Korn%20Ferry%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "korn-ferry-talent-org-consulting-2027",
+    "company": "Korn Ferry",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Korn%20Ferry%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "korn-ferry-total-rewards-compensation-2027",
+    "company": "Korn Ferry",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Korn%20Ferry%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adp-talent-acquisition-recruiting-2027",
+    "company": "ADP",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ADP%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adp-talent-org-consulting-2027",
+    "company": "ADP",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ADP%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adp-total-rewards-compensation-2027",
+    "company": "ADP",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ADP%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "workday-talent-acquisition-recruiting-2027",
+    "company": "Workday",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Workday%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "workday-talent-org-consulting-2027",
+    "company": "Workday",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Workday%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "workday-total-rewards-compensation-2027",
+    "company": "Workday",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Workday%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "paychex-talent-acquisition-recruiting-2027",
+    "company": "Paychex",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Paychex%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "paychex-talent-org-consulting-2027",
+    "company": "Paychex",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Paychex%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "paychex-total-rewards-compensation-2027",
+    "company": "Paychex",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Paychex%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "aerotek-talent-acquisition-recruiting-2027",
+    "company": "Aerotek",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Aerotek%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "aerotek-talent-org-consulting-2027",
+    "company": "Aerotek",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Aerotek%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "aerotek-total-rewards-compensation-2027",
+    "company": "Aerotek",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Aerotek%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kelly-services-talent-acquisition-recruiting-2027",
+    "company": "Kelly Services",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kelly%20Services%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kelly-services-talent-org-consulting-2027",
+    "company": "Kelly Services",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kelly%20Services%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kelly-services-total-rewards-compensation-2027",
+    "company": "Kelly Services",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kelly%20Services%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mercer-talent-acquisition-recruiting-2027",
+    "company": "Mercer",
+    "role": "Talent Acquisition / Recruiting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent Acquisition / Recruiting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "human_resources",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Talent Acquisition / Recruiting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mercer%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mercer-talent-org-consulting-2027",
+    "company": "Mercer",
+    "role": "Talent & Org Consulting Intern",
+    "level": "Internship",
+    "types": [
+      "Talent & Org Consulting"
+    ],
+    "majors": [
+      "Human Resources",
+      "Psychology",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "psychology",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Talent & Org Consulting summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mercer%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mercer-total-rewards-compensation-2027",
+    "company": "Mercer",
+    "role": "Total Rewards / Compensation Intern",
+    "level": "Internship",
+    "types": [
+      "Total Rewards / Compensation"
+    ],
+    "majors": [
+      "Human Resources",
+      "Finance",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "human_resources",
+      "finance",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Total Rewards / Compensation summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-32/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mercer%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
+  }
+];

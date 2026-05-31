@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulting Internship Tracker — Summer 2027</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#171b22; --panel2:#1e232c; --border:#2a313c;
+    --text:#e6e9ef; --muted:#9aa4b2; --accent:#5b8cff; --up:#36d399; --down:#ff6b6b; --flat:#f5a524;
+    --new:#ff5d8f; --gold:#e8b339; --urgent:#ff6b6b; --soon:#f5a524; --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+  header{padding:62px 32px 16px;border-bottom:none;background:transparent;position:static;z-index:5}.backlink{position:fixed;top:16px;left:20px;z-index:60;color:var(--accent);text-decoration:none;font-size:13px;font-weight:600;background:rgba(11,15,23,.72);backdrop-filter:blur(9px);padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.09);box-shadow:0 4px 16px rgba(0,0,0,.35)}.backlink:hover{background:rgba(20,26,38,.85)}
+  h1{margin:0;font-size:21px;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:13px;margin-top:4px}
+  .note{background:#241c12;border:1px solid #5a4520;color:#f3c98b;font-size:12.5px;padding:8px 12px;border-radius:10px;margin-top:12px}
+  .wrap{max-width:1220px;margin:0 auto;padding:0 24px}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;align-items:center}
+  .lbl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-right:2px}
+  input[type=search]{flex:1;min-width:200px;background:var(--panel2);border:1px solid var(--border);color:var(--text);padding:9px 12px;border-radius:10px;font-size:14px;outline:none}
+  input[type=search]:focus{border-color:var(--accent)}
+  .sel{display:flex;align-items:center;gap:7px;background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:6px 10px}
+  .sel select{background:transparent;border:none;color:var(--text);font-size:13.5px;outline:none;cursor:pointer}
+  .sel select option{background:var(--panel2);color:var(--text)}
+  .toggle{display:flex;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+  .toggle button{background:var(--panel2);border:none;color:var(--muted);font-size:13px;padding:8px 14px;cursor:pointer}
+  .toggle button.active{background:var(--accent);color:#fff}
+  main{padding:14px 0 60px}
+  .section{margin-top:24px}
+  .section h2{font-size:15px;letter-spacing:.3px;margin:0 0 4px;display:flex;align-items:center;gap:10px}
+  .section .scount{color:var(--muted);font-size:12px;font-weight:400}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(335px,1fr));gap:16px;margin-top:12px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px 18px 46px;cursor:pointer;transition:.14s;position:relative;display:flex;flex-direction:column;gap:7px}
+  .card:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .card .co{font-size:13px;color:var(--accent);font-weight:600}
+  .tier{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff;width:fit-content}
+  .card .role{font-size:15.5px;font-weight:650;line-height:1.3}
+  .card .about{font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:8px}
+  .tag{font-size:11px;padding:3px 8px;border-radius:6px;background:var(--panel2);color:var(--muted);border:1px solid var(--border)}
+  .majors{margin-top:9px;display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+  .majlabel{font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);width:100%;margin-bottom:1px}
+  .majtag{font-size:10.5px;color:#dfe7d8;background:rgba(120,170,120,.14);border:1px solid rgba(150,200,150,.30);border-radius:6px;padding:2px 7px}
+
+  /* list (Trackr-style table) view */
+  .ltblwrap{overflow-x:auto;border:1px solid var(--border);border-radius:12px;margin-top:4px}
+  .ltbl{width:100%;border-collapse:collapse;font-size:13px;min-width:760px}
+  .ltbl thead th{text-align:left;background:var(--panel2);color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.04em;padding:9px 12px;border-bottom:1px solid var(--border)}
+  .ltbl td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:middle}
+  .lrow{cursor:pointer;transition:background .15s}
+  .lrow:hover{background:var(--panel2)}
+  .lrow:last-child td{border-bottom:none}
+  .ltbl .lco{color:var(--accent);font-weight:600;white-space:nowrap}
+  .ltbl .lrole{font-weight:500}
+  .ltbl .lty{color:var(--muted);font-size:12px}
+  .ltbl .lloc{color:var(--muted);white-space:nowrap}
+  .ltbl .lpay{color:#a8e0c4;white-space:nowrap}
+  .lsave{background:none;border:1px solid var(--border);color:var(--muted);border-radius:7px;width:30px;height:28px;cursor:pointer;font-size:14px}
+  .lsave:hover{border-color:var(--accent);color:var(--text)}
+  .lsave.on{background:rgba(91,140,255,.16);border-color:var(--accent);color:#bcd0ff}
+
+  .badge{position:absolute;top:14px;right:14px;font-size:10px;font-weight:700;letter-spacing:.4px;padding:3px 7px;border-radius:6px}
+  .badge.new{background:var(--new);color:#fff}
+  .savebtn{position:absolute;bottom:14px;right:14px;background:var(--panel2);border:1px solid var(--border);color:var(--muted);font-size:11.5px;font-weight:600;padding:5px 10px;border-radius:8px;cursor:pointer;z-index:2}
+  .savebtn:hover{color:var(--text);border-color:var(--accent)}
+  .savebtn.on{background:rgba(91,140,255,.16);border-color:var(--accent);color:#bcd0ff}
+  .fbadge{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff;vertical-align:middle}
+  .sbadge{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:2px 8px;border-radius:6px;background:#2d2440;color:#cdb6ff;border:1px solid #4a3d6b;vertical-align:middle}
+  .tagrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .tagrow .tier{margin:0}
+  .soph{font-size:10px;font-weight:700;padding:3px 7px;border-radius:6px;background:#2d2440;color:#cdb6ff;border:1px solid #4a3d6b}
+  .soph.abs{position:absolute;top:14px;right:14px}
+  .lvlbadge.jr{font-size:10px;font-weight:700;padding:3px 7px;border-radius:6px;background:#1b2c44;color:#9fc3ff;border:1px solid #2d456b}
+  .lvlbadge.jr.abs{position:absolute;top:14px;right:14px}
+  .badge.new+.lvlbadge.abs,.lvlbadge.abs+.badge.new{top:40px}
+  .row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px}
+  .status{font-weight:600}
+  .status.open{color:#a6e3b8} .status.soon{color:#a6e3b8}
+  .ltbl .ldeadline{color:#f2a8a8}
+  .stars{color:var(--gold);letter-spacing:1px;font-size:12px}
+  .pay{color:#a8e0c4;font-size:12px;font-weight:600}
+  .cd{font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;background:#232a36;color:var(--muted)}
+  .cd.urgent{background:#3a1d22;color:#ff9aa6}
+  .cd.soon{background:#3a2f17;color:#f5cf86}
+  .cd.closed{background:#262a31;color:#8a93a0}
+  .due{font-size:12px;color:var(--muted)}
+  .empty{color:var(--muted);text-align:center;padding:60px 0}
+  /* modal */
+  .overlay{position:fixed;inset:0;background:rgba(0,0,0,.64);display:none;align-items:flex-start;justify-content:center;padding:34px 20px;z-index:50;overflow-y:auto}
+  .overlay.show{display:flex}
+  .modal{background:var(--panel);border:1px solid var(--border);border-radius:18px;max-width:740px;width:100%;padding:26px 28px;position:relative}
+  .modal h2{margin:0 0 2px;font-size:21px}
+  .modal .mco{color:var(--accent);font-weight:600;font-size:14px}
+  .modal .mtier{margin:8px 0 2px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .close{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:26px;cursor:pointer;line-height:1}
+  .close:hover{color:var(--text)}
+  .tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);margin:16px 0 4px;flex-wrap:wrap}
+  .tab{padding:8px 12px;font-size:12.5px;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;font-weight:600}
+  .tab:hover{color:var(--text)}
+  .tab.active{color:var(--text);border-bottom-color:var(--accent)}
+  .pane{display:none;padding-top:12px}
+  .pane.active{display:block}
+  .pane h3{font-size:11.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:16px 0 6px}
+  .pane h3:first-child{margin-top:4px}
+  .pane p{margin:0 0 10px;font-size:14.5px;color:#cdd3dc}
+  .kv{display:flex;gap:10px;font-size:13.5px;margin:5px 0}
+  .kv b{color:var(--muted);font-weight:500;min-width:120px}
+  ul.tips{margin:4px 0 0;padding-left:18px} ul.tips li{font-size:14px;color:#cdd3dc;margin-bottom:8px}
+   .applybar{margin-top:16px;padding-top:14px;border-top:1px solid var(--border)}
+  .apply{display:inline-block;margin-top:20px;background:var(--accent);color:#fff;text-decoration:none;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px}
+  .apply:hover{background:#4a7bf0}
+  .soon-btn{display:inline-block;margin-top:20px;background:#262a31;color:#9aa4b2;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px;border:1px dashed var(--border)}
+  .applynote{font-size:12px;color:var(--muted);margin-top:10px;word-break:break-all}
+  .livehint{font-size:11px;font-weight:600}
+  .livehint.on{color:var(--up)} .livehint.off{color:var(--muted)}
+  .newsitem{display:block;padding:11px 0;border-bottom:1px solid var(--border);text-decoration:none}
+  .newsitem:last-child{border-bottom:none}
+  .newsitem .nt{color:var(--text);font-size:14px;font-weight:600}
+  .newsitem:hover .nt{color:var(--accent)}
+  .newsitem .nm{color:var(--muted);font-size:12px;margin-top:2px}
+  .netlink{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 13px;background:var(--panel2);border:1px solid var(--border);border-radius:10px;margin-bottom:8px;text-decoration:none}
+  .netlink:hover{border-color:var(--accent)}
+  .netlink .nl{color:var(--text);font-size:13.5px;font-weight:600}
+  .netlink .ns{color:var(--accent);font-size:12px;white-space:nowrap}
+  .tmpl{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:13px;color:#cdd3dc;white-space:pre-wrap;margin-bottom:10px}
+  .stockbox{background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+  .stockhead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .chg{font-weight:700;font-size:15px}
+  .chg.up{color:var(--up)} .chg.down{color:var(--down)} .chg.flat{color:var(--flat)}
+  .stocktext{font-size:12.5px;color:var(--muted);margin-top:8px}
+  .private{font-size:13.5px;color:var(--muted);font-style:italic}
+  .footer{color:var(--muted);font-size:12px;text-align:center;padding:30px 0 10px;line-height:1.6}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:768px){
+    /* list table: trim for phones */
+    .ltbl{min-width:0;font-size:12px}
+    .ltbl thead th{padding:7px 8px}
+    .ltbl td{padding:8px 8px}
+    .ltbl .lty,.ltbl thead th:nth-child(4),.ltbl td:nth-child(4){display:none}
+
+    html,body{overflow-x:hidden}
+    header{padding:54px 18px 12px}.backlink{position:absolute;top:12px;left:14px;padding:6px 11px}
+    h1{font-size:18px}
+    .wrap{padding:0 16px}
+    .controls{gap:6px}
+    .controls select,.controls input,.controls .seg,.controls button{flex:1 1 100%;width:100%}
+    .grid{grid-template-columns:1fr;gap:12px}
+    .card{padding:16px 16px 44px}
+    .modal{padding:20px 18px;border-radius:14px}
+    .tabs{gap:0}
+    .tab{padding:7px 9px;font-size:11.5px}
+    .kv{flex-direction:column;gap:2px}
+    .kv b{min-width:0}
+  }
+
+
+/* aurora ridge backdrop (theme v3) */
+:root{--lift:0}
+html,body{position:relative}
+html{background-color:#080d16;background-image:linear-gradient(180deg,#080d16 0%,#0a1019 50%,#0b1220 80%,#080c14 100%);min-height:100%}body{background:transparent !important}
+.aurora{position:fixed;top:-12%;left:-10%;right:-10%;height:72vh;z-index:0;pointer-events:none;filter:blur(58px);opacity:.85;background:radial-gradient(42% 55% at 26% 12%,rgba(120,160,255,.20),transparent 72%),radial-gradient(46% 50% at 74% 6%,rgba(120,160,255,.13),transparent 74%),radial-gradient(60% 45% at 50% 26%,rgba(120,160,255,.08),transparent 80%)}
+.tint{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;background:linear-gradient(180deg,rgba(120,160,255,.12) 0%,rgba(120,160,255,.05) 45%,transparent 85%)}
+.ridge{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.ridge svg{position:absolute;bottom:0;left:0;width:100%;height:56vh;min-height:320px}
+.wrap,header,main,nav,.overlay,#aif-acct,.gate{position:relative;z-index:2}
+  h1{font-family:"Fraunces",Georgia,serif !important;font-weight:480 !important}
+  .vserif-applied{}
+.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+.flashlight{position:fixed;left:0;top:0;width:520px;height:520px;margin:-260px 0 0 -260px;z-index:1;pointer-events:none;border-radius:50%;background:radial-gradient(circle,rgba(190,212,255,.20),transparent 62%);will-change:transform,opacity;opacity:.6}.starsky{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}.starsky i{position:absolute;border-radius:50%;background:#e2ebff;box-shadow:0 0 7px rgba(200,220,255,.85);will-change:transform;transition:transform .3s cubic-bezier(.2,.7,.2,1);animation:twk linear infinite}@keyframes twk{0%,100%{opacity:.3}50%{opacity:.85}}
+html[data-theme="light"]{--lt-r:150;--lt-g:178;--lt-b:235}
+
+/*mobile-static*/@media (max-width:768px){.flashlight,.starsky{display:none !important}.aurora{opacity:.5 !important}}
+</style>
+<script src="transition.js?v=4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="light.css?v=3">
+<script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+</head>
+<body>
+<div class="aurora"></div><div class="tint"></div><div class="flashlight"></div><div class="ridge"><svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice"><path d="M0,420 L420,250 L720,420 L1020,250 L1440,420 L1440,600 L0,600 Z" fill="#1a1e3a55"/><path d="M0,480 L360,350 L720,480 L1080,350 L1440,480 L1440,600 L0,600 Z" fill="#13162ecc"/><path d="M0,530 L380,450 L760,530 L1140,450 L1440,530 L1440,600 L0,600 Z" fill="#0c0f22"/></svg></div>
+
+<header>
+  <div class="wrap">
+    <a href="database.html" class="backlink">← Back to database</a>
+    <h1 style="margin-top:6px">🧭 Consulting — Summer 2027</h1>
+    <div class="sub">Consulting &amp; business-systems-analyst roles · tier, competitiveness, pay, stock, news, deep dives &amp; networking · auto-updated Mon / Wed / Fri 9 AM · last update: <span id="updated"></span></div>
+    <div class="note" id="timingNote">✅ Timing: junior summer internships fit <b>2028 grads</b> (rising seniors). Graduating <b>2029</b>? Filter Level → <b>Sophomore / early-insight</b>.<button class="notex" id="timingNoteX" aria-label="Dismiss">✕</button></div>
+    <style>.note{position:relative;padding-right:42px}.notex{position:absolute;top:50%;right:12px;transform:translateY(-50%);background:none;border:none;color:inherit;opacity:.55;font-size:15px;line-height:1;cursor:pointer;padding:6px;border-radius:6px}.notex:hover{opacity:1;background:rgba(255,255,255,.1)}</style>
+    <script>(function(){var n=document.getElementById("timingNote"),x=document.getElementById("timingNoteX");if(!n)return;try{if(localStorage.getItem("aif_note_timing")==="1")n.style.display="none";}catch(e){}x.onclick=function(){n.style.display="none";try{localStorage.setItem("aif_note_timing","1");}catch(e){}};})();</script>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search firm, role, or keyword…">
+      <label class="sel"><span class="lbl">Level</span><select id="levelSel"></select></label>
+      <label class="sel"><span class="lbl">Type</span><select id="typeSel"></select></label>
+      <label class="sel"><span class="lbl">View</span><select id="viewSel"><option value="cards">Cards</option><option value="list">List</option></select></label>
+      <label class="sel"><span class="lbl">Sort</span><select id="sortSel">
+        <option value="type">By type (grouped)</option>
+        <option value="level">By level (grouped)</option>
+        <option value="fortune">Fortune rank (highest first)</option>
+        <option value="deadline">Deadline — soonest first</option>
+        <option value="accept_asc">Acceptance rate — low → high (most selective)</option>
+        <option value="accept_desc">Acceptance rate — high → low (least selective)</option>
+      </select></label>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="sections"></div>
+  <div class="empty" id="empty" style="display:none">No matches. Try clearing a filter.</div>
+</main>
+
+<div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
+
+<div class="footer wrap">Tiers, acceptance rates, competitiveness, pay &amp; stock are rough public ESTIMATES, not official. Pay is approximate per-internship and varies by office/year. Networking links open LinkedIn searches for the right roles at each firm — verify each person before reaching out. Apply links go to each firm's official posting or application page. Always confirm details at the source.</div>
+
+<script src="data.js"></script>
+<script>
+  const C=window.COMPANIES||{};
+  const TYPE_ORDER=["Strategy Consulting","Management Consulting","Technology Consulting","Operations Consulting","Business Systems Analysis"];
+  const LEVELS=["Junior internship","Sophomore / early-insight"];
+  const isOpen=s=>/^open[\s(]/i.test(s||"");
+  const data=(window.INTERNSHIPS||[]).slice();
+  document.getElementById("updated").textContent=window.LAST_UPDATED||"—";
+
+  // ---- saved jobs (shared across sections via localStorage) ----
+  const SECTION="consulting";
+  function savedStore(){try{return JSON.parse(localStorage.getItem("aif_saved")||"{}");}catch(e){return {};}}
+  function savedKey(d){return SECTION+"::"+d.id;}
+  function isSaved(d){return !!savedStore()[savedKey(d)];}
+  function toggleSave(d){
+    const s=savedStore(); const k=savedKey(d);
+    if(s[k]){delete s[k];}
+    else{s[k]={section:SECTION,id:d.id,company:d.company,role:d.role,status:"Saved",applyUrl:d.applyUrl,comp:d.comp||"",due:d.due||"",ts:Date.now()};}
+    localStorage.setItem("aif_saved",JSON.stringify(s));
+  }
+  function fortuneBadge(c){return c&&c.fortune?`<span class="fbadge" title="Fortune 500 rank #${c.fortune}">Fortune ${Math.ceil(c.fortune/100)*100}</span>`:"";}
+  function startupBadge(c){return c&&c.startup?`<span class="sbadge" title="Venture-backed / high-growth startup">🚀 Startup</span>`:"";}
+
+  let activeType=null, activeLevel=null, q="", sortMode="type", activeFortune="", viewMode="cards";
+  const allTypes=TYPE_ORDER.filter(t=>data.some(d=>d.types.includes(t)));
+  function fortuneOf(d){const c=C[d.company]||{};return c.fortune||null;}
+  function fortuneBand(d){const r=fortuneOf(d);return r?Math.ceil(r/100)*100:null;}
+  // numeric acceptance estimate for sorting (lower % = more selective); parses the rate string, falls back to compScore
+  function acceptVal(c){const nums=((c.acceptanceRate||"").match(/\d+(\.\d+)?/g)||[]).map(Number);
+    if(nums.length)return nums.reduce((a,b)=>a+b,0)/nums.length;
+    return ({5:1,4:3,3:10,2:20,1:30})[c.compScore]||15;}
+
+  function fillSelect(sel,allLabel,opts){sel.innerHTML="";const o0=document.createElement("option");o0.value="";o0.textContent=allLabel;sel.appendChild(o0);opts.forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;sel.appendChild(o);});}
+  const levelSel=document.getElementById("levelSel"), typeSel=document.getElementById("typeSel");
+  fillSelect(levelSel,"All levels",LEVELS); fillSelect(typeSel,"All types",allTypes);
+  // add a Startups option to the Type dropdown
+  {const o=document.createElement("option");o.value="__startup__";o.textContent="🚀 Startups";typeSel.appendChild(o);}
+  levelSel.addEventListener("change",e=>{activeLevel=e.target.value||null;render();});
+  typeSel.addEventListener("change",e=>{activeType=e.target.value||null;render();});
+  document.getElementById("search").addEventListener("input",e=>{q=e.target.value.toLowerCase();render();});
+  document.getElementById("sortSel").addEventListener("change",e=>{sortMode=e.target.value;render();});
+  {const vs=document.getElementById("viewSel");if(vs)vs.addEventListener("change",e=>{viewMode=e.target.value;render();});}
+  {const fs=document.getElementById("fortuneSel");if(fs)fs.addEventListener("change",e=>{activeFortune=e.target.value;render();});}
+
+  function statusClass(s){return isOpen(s)?"open":"soon";}
+  function applyBlock(d){
+    return `<div class="applynote" style="margin-top:14px"><a href="${d.applyUrl}" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Program website ↗</a></div>`;
+  }
+  function stars(n){return "★".repeat(n)+"☆".repeat(5-n);}
+  function matchFortune(d){if(!activeFortune)return true;if(activeFortune==="any")return !!fortuneOf(d);return fortuneBand(d)===parseInt(activeFortune);}
+  function isStartup(d){const c=C[d.company]||{};return !!c.startup;}
+  // when activeType is the special "__startup__" value, filter to startups instead of a consulting type
+  function typeFilterList(){return activeType==="__startup__"?allTypes:(activeType?[activeType]:allTypes);}
+  function matchActiveType(d){if(!activeType)return true;if(activeType==="__startup__")return isStartup(d);return d.types.includes(activeType);}
+  function matchFilters(d){return (!activeLevel||d.level===activeLevel)&&matchFortune(d)&&matchActiveType(d)&&matchQ(d);}
+  function matchQ(d){const c=C[d.company]||{};const h=(d.role+" "+d.company+" "+d.about+" "+d.types.join(" ")+" "+(c.tier||"")).toLowerCase();return !q||h.includes(q);}
+  function daysLeft(dl){if(!dl)return null;const end=new Date(dl+"T23:59:59");return Math.ceil((end-new Date())/(864e5));}
+  function cdBadge(d){const n=daysLeft(d.deadline);if(n===null)return "";if(n<0)return `<span class="cd closed">closed</span>`;const cls=n<=7?"urgent":n<=30?"soon":"";return `<span class="cd ${cls}">${n}d left</span>`;}
+
+  function cardHTML(d){
+    const c=C[d.company]||{};const soph=d.level==="Sophomore / early-insight";
+    return `
+      ${(function(){var b=[];var lv=((d.level||"")+" "+(d.role||""));if(/sophomore|freshman|first.?year|early.?insight|rising sophomore/i.test(lv))b.push('<span class="lvlbadge soph abs">SOPHOMORE</span>');else b.push('<span class="lvlbadge jr abs">JUNIOR</span>');if(d.isNew)b.push('<span class="badge new">NEW</span>');return b.join("");})()}
+      <div class="co">${d.company}</div>
+      <div class="tagrow"><span class="tier">${c.tier||""}</span>${fortuneBadge(c)}${startupBadge(c)}</div>
+      <div class="role">${d.role}</div>
+      <div class="row"><span class="status ${statusClass(d.status)}">${d.status}</span> ${cdBadge(d)}</div>
+      <div class="row">${isOpen(d.status)?'<span class="livehint on">✅ apply link live</span>':'<span class="livehint off">🔜 apply link coming soon</span>'}</div>
+      <div class="row"><span class="stars" title="Competitiveness (est.)">${stars(c.compScore||0)}</span><span style="color:var(--muted)">${c.acceptanceRate||""}</span></div>
+      <div class="row"><span class="pay">💵 ${d.comp||"—"}</span></div>
+      <div class="about">${d.about}</div>
+      <div class="due">🗓 ${d.due}</div>
+      <div class="meta">${d.types.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
+      ${(d.majors&&d.majors.length)?`<div class="majors"><span class="majlabel">Majors recruited</span>${d.majors.slice(0,5).map(mj=>`<span class="majtag">${mj}</span>`).join("")}</div>`:""}
+      <button class="savebtn${isSaved(d)?' on':''}" data-save="1">${isSaved(d)?'★ Saved':'☆ Save'}</button>`;
+  }
+  function makeCard(d){
+    const el=document.createElement("div");el.className="card";el.onclick=()=>openModal(d);el.innerHTML=cardHTML(d);
+    const sb=el.querySelector('.savebtn');
+    if(sb)sb.onclick=(e)=>{e.stopPropagation();toggleSave(d);const on=isSaved(d);sb.classList.toggle('on',on);sb.textContent=on?'★ Saved':'☆ Save';};
+    return el;
+  }
+
+  function listTable(list){
+    const tbl=document.createElement("table");tbl.className="ltbl";
+    tbl.innerHTML=`<thead><tr><th></th><th>Company</th><th>Programme</th><th>Type</th><th>Status</th><th>Deadline</th><th>Locations</th></tr></thead>`;
+    const tb=document.createElement("tbody");
+    list.forEach(d=>{
+      const tr=document.createElement("tr");tr.className="lrow";
+      tr.innerHTML=`<td><button class="lsave${isSaved(d)?' on':''}" title="Save">${isSaved(d)?'★':'☆'}</button></td><td class="lco">${d.company}</td><td class="lrole">${d.role}</td><td class="lty">${(d.types||[]).join(", ")}</td><td><span class="status ${statusClass(d.status)}">${d.status}</span></td><td class="ldeadline">${d.due||"—"}</td><td class="lloc">${d.location||"—"}</td>`;
+      tr.onclick=()=>openModal(d);
+      const sb=tr.querySelector('.lsave');
+      if(sb)sb.onclick=(e)=>{e.stopPropagation();toggleSave(d);const on=isSaved(d);sb.classList.toggle('on',on);sb.textContent=on?'★':'☆';};
+      tb.appendChild(tr);
+    });
+    tbl.appendChild(tb);
+    const wrap=document.createElement("div");wrap.className="ltblwrap";wrap.appendChild(tbl);return wrap;
+  }
+  function flatSection(title,list){
+    const sec=document.createElement("div");sec.className="section";
+    sec.innerHTML=`<h2>${title} <span class="scount">${list.length}</span></h2>`;sec.id="grp-"+title.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+    if(viewMode==="list"){ sec.appendChild(listTable(list)); return sec; }
+    const grid=document.createElement("div");grid.className="grid";
+    list.forEach(d=>grid.appendChild(makeCard(d)));
+    sec.appendChild(grid);return sec;
+  }
+  function render(){
+    const host=document.getElementById("sections");host.innerHTML="";let total=0;
+    if(sortMode==="type"){
+      const types=typeFilterList();
+      // In the full grouped view, each opportunity appears once under its PRIMARY type (first listed).
+      // When a single type is selected, show every opportunity that offers it.
+      const singleType = !!activeType && activeType!=="__startup__";
+      types.forEach(type=>{
+        let list=data.filter(d=> singleType ? d.types.includes(type) : d.types[0]===type ).filter(matchFilters);
+        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);
+          const ca=C[a.company]||{},cb=C[b.company]||{};if((cb.compScore||0)!==(ca.compScore||0))return (cb.compScore||0)-(ca.compScore||0);
+          return a.company.localeCompare(b.company);});
+        if(!list.length)return;total+=list.length;
+        host.appendChild(flatSection(type,list));
+      });
+    } else if(sortMode==="level"){
+      const levels=activeLevel?[activeLevel]:LEVELS;
+      levels.forEach(lv=>{
+        let list=data.filter(d=>d.level===lv).filter(matchFilters);
+        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);
+          const ca=C[a.company]||{},cb=C[b.company]||{};if((cb.compScore||0)!==(ca.compScore||0))return (cb.compScore||0)-(ca.compScore||0);
+          return a.company.localeCompare(b.company);});
+        if(!list.length)return;total+=list.length;
+        host.appendChild(flatSection(lv,list));
+      });
+    } else {
+      let list=data.filter(matchFilters);
+      let title="Results";
+      if(sortMode==="fortune"){
+        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);const fa=fortuneOf(a)||9999,fb=fortuneOf(b)||9999;return fa-fb||a.company.localeCompare(b.company);});
+        title="Sorted by Fortune rank — highest-ranked first (non-Fortune last)";
+      } else if(sortMode==="deadline"){
+        const rank=d=>{const n=daysLeft(d.deadline);if(n===null)return 2;if(n<0)return 1;return 0;};
+        list.sort((a,b)=>{const ra=rank(a),rb=rank(b);if(ra!==rb)return ra-rb;
+          if(ra===0)return daysLeft(a.deadline)-daysLeft(b.deadline);return a.company.localeCompare(b.company);});
+        title="Sorted by deadline — soonest first (rolling/TBD last)";
+      } else if(sortMode==="accept_asc"){
+        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);return acceptVal(C[a.company]||{})-acceptVal(C[b.company]||{})||a.company.localeCompare(b.company);});
+        title="Sorted by acceptance rate — low → high (most selective first)";
+      } else if(sortMode==="accept_desc"){
+        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);return acceptVal(C[b.company]||{})-acceptVal(C[a.company]||{})||a.company.localeCompare(b.company);});
+        title="Sorted by acceptance rate — high → low (least selective first)";
+      }
+      total=list.length;
+      host.appendChild(flatSection(title,list));
+    }
+    document.getElementById("empty").style.display=total?"none":"block";
+  }
+
+  // ---- networking links (LinkedIn searches for the right roles; no fabricated people) ----
+  function coreName(company){return company.replace(/\(.*?\)/g,"").trim();}
+  function networking(company){
+    const n=coreName(company);
+    const q=s=>"https://www.linkedin.com/search/results/people/?keywords="+encodeURIComponent(s);
+    return [
+      {label:"University / campus recruiters",url:q(n+" university recruiter")},
+      {label:"Early-careers / talent acquisition",url:q(n+" early careers recruiter")},
+      {label:"Recent summer analysts / interns",url:q(n+" summer analyst intern")},
+      {label:"Associates / consultants (recent grads)",url:q(n+" associate consultant")}
+    ];
+  }
+  const TEMPLATES=[
+    {h:"Cold note to a recruiter / early-careers contact",t:`Hi [Name],\n\nI'm a [year] at [School] studying [major], and I'm really interested in [Firm]'s [program/role] for Summer 2027. I'd love to learn more about what makes a strong candidate and how to put my best foot forward. Would you have 15 minutes for a quick call in the coming weeks?\n\nThank you so much for your time!\n[Your name]`},
+    {h:"Coffee-chat note to a recent analyst / alum",t:`Hi [Name],\n\nI saw you went to [School] and are now a [role] at [Firm] — congrats! I'm a [year] exploring consulting and would really value 15 minutes to hear about your path and any advice for the [program] application. No worries if you're busy. Thanks!\n[Your name]`}
+  ];
+
+  function sparkline(s){const dir=s.direction;const pts=dir==="up"?[38,34,30,22,18,12]:dir==="down"?[12,16,14,24,30,38]:[22,20,24,21,23,22];
+    const w=300,h=46,step=w/(pts.length-1);const d=pts.map((y,i)=>`${i?'L':'M'}${(i*step).toFixed(1)},${y}`).join(" ");
+    const col=dir==="up"?"var(--up)":dir==="down"?"var(--down)":"var(--flat)";
+    return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="margin-top:8px"><path d="${d}" fill="none" stroke="${col}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;}
+  function payStockPane(d,c){
+    let s="";
+    s+=`<h3>Pay (this internship)</h3><p>${d.comp||"Not available."}</p>`;
+    if(c.isPublic&&c.stock){const st=c.stock,arrow=st.direction==="up"?"▲":st.direction==="down"?"▼":"▬",pct=(st.changePct>0?"+":"")+st.changePct+"%";
+      s+=`<h3>Stock — last 12 months</h3><div class="stockbox"><div class="stockhead"><div><b>${c.ticker}</b> &nbsp; <span style="color:var(--muted)">${st.start} → ${st.end}</span></div><div class="chg ${st.direction}">${arrow} ${pct}</div></div>${sparkline(st)}<div class="stocktext">${c.stockTrend}<br>As of ${st.asOf}. Approximate — verify a live quote.</div></div>`;
+    } else {s+=`<h3>Stock — last 12 months</h3><div class="private">${c.stockTrend||"Private — no public stock."}</div>`;}
+    return s;
+  }
+  function newsPane(c){if(!c.news||!c.news.length)return `<p style="color:var(--muted)">No recent news on file.</p>`;
+    return c.news.map(n=>`<a class="newsitem" href="${n.url}" target="_blank" rel="noopener"><div class="nt">${n.title} ↗</div><div class="nm">${n.source} · ${n.date}</div></a>`).join("");}
+  function deepPane(c,d){
+    const ps=(c.deepProfile||[]).map(p=>`<p>${p}</p>`).join("");
+    const tier=c.tier||"";
+    const fort=c.fortune?("It ranks as a Fortune "+(Math.ceil(c.fortune/100)*100)+" company (approximately #"+c.fortune+" on the list). "):"";
+    const pub=c.isPublic?("The firm is publicly traded"+(c.ticker?(" under "+c.ticker):"")+", so its performance is visible to the market and its results are reported each quarter. "):"It is privately held or operates within a larger parent company, so it does not trade as a standalone public stock. ";
+    // build a comprehensive, multi-sentence background paragraph
+    const hist=c.history||c.background||"";
+    const comp=c.competitiveness?("Recruiting here is considered "+c.competitiveness.toLowerCase()+(c.acceptanceRate?(", with an estimated acceptance rate of "+c.acceptanceRate):"")+". "):"";
+    const valuesSentence=c.values?("Culturally, the firm emphasizes "+c.values.toLowerCase().replace(/\.$/,'')+". "):"";
+    const focus=(d&&d.types)?("Its internship sits in "+d.types.join(", ")+", and it typically recruits students from "+((d.majors||[]).slice(0,4).join(", ")||"a range of majors")+". "):"";
+    const bg=[hist, pub+fort, focus, comp, valuesSentence].filter(Boolean).join(" ");
+    return `
+      <h3>Headquarters</h3>
+      <p>${c.hq||"Not on file — check the company's official site for office locations."}</p>
+      <h3>Founded</h3>
+      <p>${c.founded||"Not on file."}</p>
+      <h3>History &amp; background</h3>
+      <p>${bg||"—"}</p>
+      ${ps?`<h3>Culture, morals &amp; reputation</h3>${ps}`:""}
+      <h3>What they value</h3>
+      <p>${c.values||"—"}</p>
+      <h3>Where it sits in the industry</h3>
+      <p>The firm is generally regarded as a <b>${tier}</b> within its space.</p>`;
+  }
+  function tipsPane(c){const ls=(c.tips||[]).map(t=>`<li>${t}</li>`).join("");return `<h3>Internship & application tips</h3><ul class="tips">${ls||"<li>—</li>"}</ul>`;}
+  function netPane(d){
+    const links=networking(d.company).map(l=>`<a class="netlink" href="${l.url}" target="_blank" rel="noopener"><span class="nl">${l.label}</span><span class="ns">Search LinkedIn ↗</span></a>`).join("");
+    const tmpls=TEMPLATES.map(t=>`<h3>${t.h}</h3><div class="tmpl">${t.t}</div>`).join("");
+    return `<h3>People worth reaching out to at ${d.company}</h3>
+      <p style="font-size:13px;color:var(--muted)">These open LinkedIn searches for the people who actually respond — campus recruiters, early-careers talent acquisition, and recent analysts/alumni (not the CEO). Tip: add your own school to the search to find alumni, who reply far more often.</p>
+      ${links}
+      <h3>Outreach templates</h3>${tmpls}`;
+  }
+
+  function openModal(d){
+    const c=C[d.company]||{};const m=document.getElementById("modal");
+    m.innerHTML=`
+      <button class="close" onclick="closeModal()">×</button>
+      <h2>${d.role}</h2>
+      <div class="mco">${d.company}</div>
+      <div class="mtier"><span class="tier">${c.tier||""}</span>${d.level==="Sophomore / early-insight"?'<span class="soph">SOPHOMORE</span>':''} ${cdBadge(d)}</div>
+      <div class="tabs">
+        <div class="tab active" data-p="ov">Overview</div>
+        <div class="tab" data-p="deep">Deep Dive</div>
+        <div class="tab" data-p="net">Networking</div>
+        <div class="tab" data-p="comp">Competitiveness</div>
+        <div class="tab" data-p="pay">Pay &amp; Stock</div>
+        <div class="tab" data-p="news">News</div>
+      </div>
+      <div class="pane active" data-p="ov">
+        <div class="kv"><b>Status</b><span class="status ${statusClass(d.status)}">${d.status}</span></div>
+        <div class="kv"><b>Deadline</b><span>${d.due}</span></div>
+        <div class="kv"><b>Pay (est.)</b><span>${d.comp||"—"}</span></div>
+        <div class="kv"><b>Location</b><span>${d.location}</span></div>
+        <div class="kv"><b>Consulting type</b><span>${d.types.join(" · ")}</span></div>
+        <div class="kv"><b>Majors recruited</b><span>${(d.majors||[]).join(", ")||"—"}</span></div>
+        ${d.reqs?`<div class="kv"><b>Resume / CV</b><span>${d.reqs.cv||"—"}</span></div><div class="kv"><b>Cover letter</b><span>${d.reqs.coverLetter||"—"}</span></div><div class="kv"><b>Written answers</b><span>${d.reqs.writtenAnswers||"—"}</span></div><div class="kv"><b>Assessment / test</b><span>${d.reqs.assessment||"—"}</span></div>`:""}
+        <h3>What the role involves</h3><p>${d.about}</p>
+        <h3>Company background</h3><p>${c.background||""}</p>
+      </div>
+      <div class="pane" data-p="deep">${deepPane(c,d)}${applyBlock(d)}</div>
+      <div class="pane" data-p="net">${netPane(d)}</div>
+      <div class="pane" data-p="comp">
+        <div class="kv"><b>Tier</b><span>${c.tier||""}</span></div>
+        <div class="kv"><b>Competitiveness</b><span><span class="stars">${stars(c.compScore||0)}</span> &nbsp;${c.competitiveness||""}</span></div>
+        <div class="kv"><b>Acceptance rate</b><span>${c.acceptanceRate||"n/a"}</span></div>
+        <div class="kv"><b>Level</b><span>${d.level}</span></div>
+        <p style="margin-top:14px;color:var(--muted);font-size:13px">Acceptance rates and competitiveness are rough public estimates for orientation, not official figures. Internship slots are typically more competitive than full-time, and elite-strategy/boutique sophomore programs are among the hardest to land.</p>
+      </div>
+      <div class="pane" data-p="pay">${payStockPane(d,c)}</div>
+      <div class="pane" data-p="news"><h3>Recent news</h3>${newsPane(c)}</div>${isOpen(d.status)?`<div class="applybar"><a class="apply" href="${d.applyUrl}" target="_blank" rel="noopener">Go to this role’s application →</a></div>`:`<div class="applybar"><div class="soon-btn">🔜 Application not open yet — coming soon</div></div>`}`;
+    m.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
+      m.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+      m.querySelectorAll(".pane").forEach(x=>x.classList.remove("active"));
+      t.classList.add("active");m.querySelector(`.pane[data-p="${t.dataset.p}"]`).classList.add("active");
+    });
+    document.getElementById("overlay").classList.add("show");
+  }
+  function closeModal(){document.getElementById("overlay").classList.remove("show");}
+  document.getElementById("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeModal();});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+
+  // deep-link: ?type=<specialty> opens that specialty as its own filtered list
+  try{var _qt=new URLSearchParams(location.search).get('type');
+    if(_qt){var _m=allTypes.find(function(t){return t.toLowerCase()===_qt.toLowerCase();});
+      if(_m){activeType=_m;var _ts=document.getElementById('typeSel');if(_ts)_ts.value=_m;}}}catch(e){}
+  render();
+</script>
+<script type="module" src="firebase-auth.js"></script>
+<script type="module" src="account-widget.js"></script>
+
+<script>/*flashlight*/(function(){if(window.matchMedia&&window.matchMedia('(max-width:768px)').matches)return;var fl=document.querySelector('.flashlight');var sky=document.createElement('div');sky.className='starsky';document.body.appendChild(sky);var N=44,stars=[];for(var i=0;i<N;i++){var s=document.createElement('i');var sz=(Math.random()*2.4+1.8).toFixed(2);var bx=Math.random(),by=Math.random()*0.58;s.style.left=(bx*100)+'vw';s.style.top=(by*100)+'vh';s.style.width=sz+'px';s.style.height=sz+'px';s.style.animationDelay=(Math.random()*4).toFixed(2)+'s';s.style.animationDuration=(3+Math.random()*3).toFixed(2)+'s';sky.appendChild(s);stars.push({el:s,bx:bx,by:by});}var q=false,mx=innerWidth/2,my=innerHeight/2;function ap(){var W=innerWidth,H=innerHeight;if(fl){var fy=Math.min(1,Math.max(0,my/H));fl.style.transform='translate3d('+mx+'px,'+my+'px,0) scale('+(0.7+fy*1.05).toFixed(3)+')';fl.style.opacity=(0.45+fy*0.5).toFixed(3);}for(var i=0;i<stars.length;i++){var st=stars[i];var px=st.bx*W,py=st.by*H;var dx=px-mx,dy=py-my,d=Math.sqrt(dx*dx+dy*dy);if(d<110&&d>0.5){var f=(1-d/110)*13;st.el.style.transform='translate('+(dx/d*f).toFixed(1)+'px,'+(dy/d*f).toFixed(1)+'px)';}else{st.el.style.transform='';}}q=false;}function mv(e){mx=e.clientX;my=e.clientY;if(!q){q=true;requestAnimationFrame(ap);}}addEventListener('mousemove',mv,{passive:true});ap();})();</script>
+
+</body>
+</html>

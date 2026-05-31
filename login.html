@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in — Aryan's Internship Finder</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#171b22; --panel2:#1e232c; --border:#2a313c;
+    --text:#e6e9ef; --muted:#9aa4b2; --accent:#5b8cff; --accent2:#9b6bff; --down:#ff6b6b; --up:#36d399;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:radial-gradient(1000px 500px at 70% -10%,rgba(91,140,255,.16),transparent 60%),radial-gradient(800px 460px at 10% 10%,rgba(155,107,255,.12),transparent 55%),var(--bg);
+    color:var(--text);line-height:1.5}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:18px;width:100%;max-width:420px;padding:30px 28px;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+  .brand{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);font-weight:700;text-align:center}
+  h1{font-size:23px;margin:8px 0 4px;text-align:center}
+  .sub{color:var(--muted);font-size:13.5px;text-align:center;margin-bottom:22px}
+  label{display:block;font-size:12px;color:var(--muted);margin:12px 0 5px;font-weight:600}
+  input{width:100%;background:var(--panel2);border:1px solid var(--border);color:var(--text);padding:11px 12px;border-radius:10px;font-size:14px;outline:none}
+  input:focus{border-color:var(--accent)}
+  .btn{width:100%;margin-top:18px;background:var(--accent);color:#fff;border:none;font-size:14.5px;font-weight:650;padding:12px;border-radius:11px;cursor:pointer}
+  .btn:hover{background:#4a7bf0}
+  .btn:disabled{opacity:.6;cursor:default}
+  .gbtn{width:100%;margin-top:10px;background:#fff;color:#1f2330;border:none;font-size:14px;font-weight:650;padding:11px;border-radius:11px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px}
+  .gbtn:hover{background:#f1f3f7}
+  .divider{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:12px;margin:18px 0 4px}
+  .divider::before,.divider::after{content:"";height:1px;background:var(--border);flex:1}
+  .row{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:13px}
+  .link{color:var(--accent);cursor:pointer;text-decoration:none;background:none;border:none;font-size:13px;padding:0}
+  .link:hover{text-decoration:underline}
+  .msg{margin-top:14px;font-size:13px;padding:10px 12px;border-radius:10px;display:none}
+  .msg.err{display:block;background:#3a1d22;color:#ff9aa6;border:1px solid #5a2a30}
+  .msg.ok{display:block;background:#15301f;color:#7fe3ad;border:1px solid #235c3c}
+  .toggle{text-align:center;margin-top:18px;color:var(--muted);font-size:13px}
+  .note{margin-top:18px;font-size:11.5px;color:var(--muted);text-align:center;line-height:1.5}
+  .guest{display:block;text-align:center;margin-top:14px;color:var(--muted);font-size:12.5px;text-decoration:none}
+  .guest:hover{color:var(--text)}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:768px){
+    html,body{overflow-x:hidden}
+    .card{padding:24px 18px;border-radius:14px}
+    .btn,button[type=submit]{width:100%}
+  }
+
+/* valley backdrop (injected) */
+html,body{position:relative}
+html{background-color:#080d16;background-image:linear-gradient(180deg,#080d16 0%,#0b1320 45%,#0e1a2b 75%,#0a1018 100%);min-height:100%}body{background:transparent !important}
+.valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.valley svg{position:absolute;bottom:0;left:0;width:100%;height:48vh;min-height:300px;opacity:.9}
+.vglow{position:fixed;top:-6%;left:50%;transform:translateX(-50%);width:520px;height:340px;z-index:0;pointer-events:none;background:radial-gradient(circle at 50% 30%,rgba(220,230,250,.05),transparent 65%)}
+/* keep real content above the backdrop */
+.wrap,header,main,nav,.overlay,#aif-acct,.gate{position:relative;z-index:2}
+.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="light.css?v=3">
+<script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+</head>
+<body>
+<div class="valley"><svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice"><path d="M0,420 C260,340 460,420 720,400 C980,378 1180,440 1440,380 L1440,600 L0,600 Z" fill="#141c2b" opacity=".7"/><path d="M0,480 C300,420 540,500 820,470 C1080,444 1260,500 1440,460 L1440,600 L0,600 Z" fill="#101725" opacity=".9"/><path d="M0,540 C320,500 560,560 840,532 C1100,508 1280,556 1440,520 L1440,600 L0,600 Z" fill="#0b111c"/></svg></div><div class="vglow"></div>
+
+  <div class="card">
+    <div class="brand">Aryan's Internship Finder</div>
+    <h1 id="title">Welcome back</h1>
+    <div class="sub" id="subtitle">Sign in to track and save internships</div>
+
+    <div id="nameWrap" style="display:none">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Your name" autocomplete="name">
+    </div>
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="you@email.com" autocomplete="email">
+    <label for="password">Password</label>
+    <input id="password" type="password" placeholder="••••••••" autocomplete="current-password">
+
+    <button class="btn" id="submitBtn">Sign in</button>
+    <button class="gbtn" id="googleBtn">
+      <svg width="17" height="17" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.7 1.22 9.2 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>
+      Continue with Google
+    </button>
+
+    <div class="row">
+      <button class="link" id="forgotBtn">Forgot password?</button>
+    </div>
+
+    <div class="msg" id="msg"></div>
+
+    <div class="toggle">
+      <span id="toggleText">New here?</span>
+      <button class="link" id="toggleBtn">Create an account</button>
+    </div>
+
+    <a class="guest" href="index.html">Continue without an account →</a>
+
+    <div class="note" id="domainNote"></div>
+  </div>
+
+<script type="module" src="firebase-auth.js"></script>
+<script type="module">
+  const $ = id => document.getElementById(id);
+  let mode = "signin"; // or "signup"
+
+  // wait for AIF_AUTH (module load order)
+  function ready(cb){ if(window.AIF_AUTH) cb(); else setTimeout(()=>ready(cb), 40); }
+
+  function setMode(m){
+    mode = m;
+    const signup = m==="signup";
+    $("title").textContent = signup ? "Create your account" : "Welcome back";
+    $("subtitle").textContent = signup ? "Sign up to save and track internships" : "Sign in to track and save internships";
+    $("submitBtn").textContent = signup ? "Create account" : "Sign in";
+    $("nameWrap").style.display = signup ? "block" : "none";
+    $("password").autocomplete = signup ? "new-password" : "current-password";
+    $("toggleText").textContent = signup ? "Already have an account?" : "New here?";
+    $("toggleBtn").textContent = signup ? "Sign in" : "Create an account";
+    hideMsg();
+  }
+  function showMsg(t, ok){ const m=$("msg"); m.textContent=t; m.className="msg "+(ok?"ok":"err"); }
+  function hideMsg(){ $("msg").className="msg"; }
+  function goApp(){
+    // honor ?return=<page> but only allow same-site relative paths (no open redirects)
+    const p = new URLSearchParams(location.search).get("return");
+    const safe = p && /^[a-z0-9_\-]+\.html$/i.test(p) ? p : "index.html";
+    window.location.href = safe;
+  }
+
+  ready(() => {
+    const A = window.AIF_AUTH;
+
+    // if already signed in, skip straight to the app
+    A.onUser(u => { if(u) goApp(); });
+
+    // note about local file vs server
+    if(location.protocol === "file:"){
+      $("domainNote").innerHTML = "⚠️ Opened as a local file — Firebase sign-in needs a server. Run <b>python3 -m http.server</b> in this folder and open <b>http://localhost:8000/login.html</b>.";
+    }
+
+    $("toggleBtn").onclick = () => setMode(mode==="signin" ? "signup" : "signin");
+
+    $("submitBtn").onclick = async () => {
+      hideMsg();
+      const email=$("email").value.trim(), pw=$("password").value, name=$("name").value.trim();
+      if(!email || !pw){ showMsg("Please enter your email and password."); return; }
+      $("submitBtn").disabled = true;
+      try{
+        if(mode==="signup") await A.signUp(email, pw, name);
+        else await A.signIn(email, pw);
+        goApp();
+      }catch(e){ showMsg(A.pretty(e)); $("submitBtn").disabled=false; }
+    };
+
+    $("googleBtn").onclick = async () => {
+      hideMsg();
+      try{ await A.signInGoogle(); goApp(); }
+      catch(e){ showMsg(A.pretty(e)); }
+    };
+
+    $("forgotBtn").onclick = async () => {
+      const email=$("email").value.trim();
+      if(!email){ showMsg("Enter your email above first, then click Forgot password."); return; }
+      try{ await A.resetPassword(email); showMsg("Password reset email sent — check your inbox.", true); }
+      catch(e){ showMsg(A.pretty(e)); }
+    };
+
+    // submit on Enter
+    ["email","password","name"].forEach(id=>$(id).addEventListener("keydown",e=>{ if(e.key==="Enter") $("submitBtn").click(); }));
+  });
+</script>
+</body>
+</html>

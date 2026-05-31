@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Find your match — Aryan's Internship Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0f18; --panel:#121a28; --panel2:#1a2436; --border:#26344a;
+    --text:#eef3fb; --muted:#9fb2cc; --accent:#8fb4ff; --accent2:#6fe0cf; --up:#6fe0a8; --gold:#ffd79b;
+    --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  *{box-sizing:border-box}
+  button,input,textarea,select{color:var(--text)}
+  html,body{margin:0;overflow-x:hidden;max-width:100%}
+  body{min-height:100vh;font-family:var(--sans);color:var(--text);line-height:1.6;position:relative;
+    background:linear-gradient(180deg,#070c15 0%,#0b1422 40%,#0e1b2e 72%,#0a1320 100%)}
+  ::selection{background:rgba(143,180,255,.32);color:#fff}
+
+  /* trailhead valley backdrop (fixed, static) */
+  .valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .signlink{pointer-events:auto;cursor:pointer}
+  .signlink path{transition:fill .2s,filter .2s}
+  .signlink:hover path{fill:#6b5034;filter:drop-shadow(0 0 6px rgba(255,215,155,.35))}
+  .valley svg{position:absolute;bottom:0;left:0;width:100%;height:72vh;min-height:440px}
+  .sun{position:fixed;top:8%;left:54%;transform:translateX(-50%);width:300px;height:300px;z-index:0;pointer-events:none;
+    background:radial-gradient(circle,rgba(255,216,165,.18),rgba(255,200,150,.05) 45%,transparent 68%)}
+  .grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+  .wrap{position:relative;z-index:2;max-width:680px;margin:0 auto;padding:0 24px 70px}
+  .top{display:flex;align-items:center;justify-content:space-between;padding:26px 0 6px}
+  .home{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;font-weight:600;transition:color .2s}
+  .home:hover{color:var(--text)}
+
+  /* trailhead header */
+  .trailhead{text-align:center;margin:18px auto 4px;max-width:560px}
+  .trailhead .badge{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:600;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--accent2);background:rgba(111,224,207,.08);border:1px solid rgba(111,224,207,.22);
+    padding:5px 14px;border-radius:999px}
+  .trailhead h1{font-family:var(--serif);font-weight:360;font-size:clamp(34px,6vw,54px);line-height:1.02;letter-spacing:-.8px;margin:16px 0 8px}
+  .trailhead h1 .accent{font-style:italic;background:linear-gradient(100deg,#a9c8ff,#9ff0e2,#ffd9a8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .trailhead p{color:var(--muted);font-size:15px;margin:0 auto;max-width:430px}
+
+  #survey{max-width:600px;margin:26px auto 0;background:rgba(18,26,40,.82);backdrop-filter:blur(12px);border:1px solid var(--border);border-radius:20px;padding:26px 28px 24px;box-shadow:0 24px 60px rgba(0,0,0,.4);overflow:hidden}
+  /* progress shown as a marked trail */
+  .progwrap{margin-top:0}
+  .progbar{height:8px;background:#15233a;border-radius:6px;overflow:hidden;position:relative}
+  .progbar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .5s cubic-bezier(.2,.7,.2,1)}
+  .progtext{color:var(--muted);font-size:12px;margin-top:8px;display:flex;align-items:center;gap:7px}
+  .progtext::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent2);box-shadow:0 0 0 3px rgba(111,224,207,.18)}
+
+  /* question card with slide transition */
+  .stage{position:relative;margin-top:26px}
+  .q{min-height:300px;animation:slideIn .42s cubic-bezier(.2,.7,.2,1) both}
+  .q.leaving{animation:slideOut .32s cubic-bezier(.4,0,1,1) both}
+  @keyframes slideIn{from{opacity:0;transform:translateX(34px)}to{opacity:1;transform:none}}
+  @keyframes slideOut{from{opacity:1;transform:none}to{opacity:0;transform:translateX(-34px)}}
+  .qnum{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent2);font-weight:700}
+  .qtitle{font-family:var(--serif);font-size:26px;font-weight:480;margin:8px 0 4px;letter-spacing:-.4px;line-height:1.12}
+  .qhint{color:var(--muted);font-size:13.5px;margin-bottom:18px}
+  .opts{display:grid;gap:11px}
+  .opt{display:flex;align-items:center;gap:12px;background:rgba(22,32,48,.6);border:1px solid var(--border);border-radius:13px;
+    padding:15px 16px;cursor:pointer;font-size:15px;transition:transform .16s,border-color .16s,background .16s;text-align:left}
+  .opt:hover{transform:translateX(4px);border-color:var(--accent)}
+  .opt.sel{border-color:var(--accent);background:rgba(143,180,255,.14)}
+  .opt .em{font-size:20px}
+  .opt .ck{margin-left:auto;color:var(--accent);font-weight:700;opacity:0;transition:opacity .15s}
+  .opt.sel .ck{opacity:1}
+  .chips{display:flex;flex-wrap:wrap;gap:9px}
+  .chip{background:var(--panel);border:1px solid var(--border);border-radius:999px;padding:9px 15px;cursor:pointer;font-size:14px;transition:transform .16s,border-color .16s,background .16s}
+  .chip:hover{transform:translateY(-2px);border-color:var(--accent)}
+  .chip.sel{background:var(--accent);border-color:var(--accent);color:#fff}
+  input[type=text],textarea{width:100%;background:var(--panel2);border:1px solid var(--border);color:var(--text);
+    padding:13px 14px;border-radius:12px;font-size:15px;outline:none;font-family:inherit}
+  input:focus,textarea:focus{border-color:var(--accent)}
+  textarea{min-height:120px;resize:vertical}
+  .drop{margin-top:10px;border:2px dashed var(--border);border-radius:12px;padding:18px;text-align:center;cursor:pointer;transition:.15s;font-size:13.5px;color:var(--muted)}
+  .drop:hover,.drop.drag{border-color:var(--accent);color:var(--text)}
+  .nav{display:flex;justify-content:space-between;align-items:center;margin-top:26px}
+  .btn{background:linear-gradient(120deg,var(--accent),var(--accent2));color:#0a0f18;border:none;font-size:15px;font-weight:700;padding:12px 28px;border-radius:12px;cursor:pointer;transition:filter .2s,transform .12s}
+  .btn:hover{filter:brightness(1.08)} .btn:active{transform:scale(.97)} .btn:disabled{opacity:.4;cursor:default}
+  .back{background:none;border:none;color:var(--muted);font-size:14px;cursor:pointer;padding:8px 4px;transition:color .2s}
+  .back:hover{color:var(--text)}
+  .skip{background:none;border:none;color:var(--muted);font-size:13px;cursor:pointer;text-decoration:underline;margin-top:12px}
+  .skip:hover{color:var(--text)}
+
+  /* results */
+  #results{display:none;animation:rise .5s both}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  h1{font-family:var(--serif);font-weight:400;font-size:30px;margin:6px 0 2px;letter-spacing:-.4px}
+  .rsub{color:var(--muted);font-size:13.5px;margin-bottom:6px}
+  .yourtags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 18px}
+  .yt{font-size:11.5px;padding:3px 9px;border-radius:999px;background:#222a36;color:#bcd0ff}
+  .rcard{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px 18px;margin-bottom:12px;position:relative;transition:border-color .2s,transform .2s}
+  .rcard:hover{border-color:var(--accent);transform:translateY(-2px)}
+  .score{position:absolute;top:15px;right:16px;font-weight:800;font-size:14px}
+  .score.hi{color:var(--up)} .score.mid{color:var(--gold)} .score.lo{color:var(--muted)}
+  .rco{color:var(--accent);font-weight:600;font-size:13px}
+  .rrole{font-size:16px;font-weight:650;margin:1px 0 2px}
+  .rmeta{color:var(--muted);font-size:12.5px}
+  .sectlabel{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff;margin-bottom:6px}
+  .why{font-size:12px;color:var(--muted);margin-top:7px}
+  .mk{display:inline-block;font-size:11px;padding:2px 7px;border-radius:6px;background:rgba(54,211,153,.12);color:#8fe6bf;border:1px solid rgba(54,211,153,.25);margin:3px 4px 0 0}
+  .rapply{display:inline-block;margin-top:9px;color:var(--accent);font-weight:600;font-size:13px;text-decoration:none}
+  .restart{margin:20px auto 0;display:block;background:var(--panel2);border:1px solid var(--border);color:var(--text);font-size:13.5px;font-weight:600;padding:11px 20px;border-radius:11px;cursor:pointer}
+  .restart:hover{border-color:var(--accent)}
+  .note{background:#241c12;border:1px solid #5a4520;color:#f3c98b;font-size:12.5px;padding:9px 12px;border-radius:10px;margin:6px 0 16px}
+
+  /* clickable result cards + save */
+  .rcard{cursor:pointer}
+  .rcard .savebtn{position:absolute;bottom:14px;right:14px;background:var(--panel2);border:1px solid var(--border);color:var(--muted);font-size:11.5px;font-weight:600;padding:5px 10px;border-radius:8px;cursor:pointer;z-index:2}
+  .rcard .savebtn:hover{color:var(--text);border-color:var(--accent)}
+  .rcard .savebtn.on{background:rgba(91,140,255,.16);border-color:var(--accent);color:#bcd0ff}
+  .opencue{font-size:11px;color:var(--accent);margin-top:8px;opacity:.85}
+  /* modal */
+  .overlay{position:fixed;inset:0;background:rgba(0,0,0,.64);display:none;align-items:flex-start;justify-content:center;padding:34px 20px;z-index:80;overflow-y:auto}
+  .overlay.show{display:flex}
+  .modal{background:var(--panel);border:1px solid var(--border);border-radius:18px;max-width:740px;width:100%;padding:26px 28px;position:relative}
+  .modal h2{margin:0 0 2px;font-size:21px}
+  .modal .mco{color:var(--accent);font-weight:600;font-size:14px}
+  .modal .mtier{margin:8px 0 2px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .close{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:26px;cursor:pointer;line-height:1}
+  .close:hover{color:var(--text)}
+  .tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);margin:16px 0 4px;flex-wrap:wrap}
+  .tab{padding:8px 12px;font-size:12.5px;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;font-weight:600}
+  .tab:hover{color:var(--text)}
+  .tab.active{color:var(--text);border-bottom-color:var(--accent)}
+  .pane{display:none;padding-top:12px}
+  .pane.active{display:block}
+  .pane h3{font-size:11.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:16px 0 6px}
+  .pane h3:first-child{margin-top:4px}
+  .pane p{margin:0 0 10px;font-size:14.5px;color:#cdd3dc}
+  .kv{display:flex;gap:10px;font-size:13.5px;margin:5px 0}
+  .kv b{color:var(--muted);font-weight:500;min-width:120px}
+  .tier{font-size:11px;padding:3px 9px;border-radius:999px;background:#222a36;color:#bcd0ff}
+  .stars{color:var(--gold);letter-spacing:1px;font-size:12px}
+  .newsitem{display:block;padding:11px 0;border-bottom:1px solid var(--border);text-decoration:none}
+  .newsitem:last-child{border-bottom:none}
+  .newsitem .nt{color:var(--text);font-size:14px;font-weight:600}
+  .newsitem:hover .nt{color:var(--accent)}
+  .newsitem .nm{color:var(--muted);font-size:12px;margin-top:2px}
+  .netlink{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 13px;background:var(--panel2);border:1px solid var(--border);border-radius:10px;margin-bottom:8px;text-decoration:none}
+  .netlink:hover{border-color:var(--accent)}
+  .netlink .nl{color:var(--text);font-size:13.5px;font-weight:600}
+  .netlink .ns{color:var(--accent);font-size:12px;white-space:nowrap}
+  .tmpl{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:13px;color:#cdd3dc;white-space:pre-wrap;margin-bottom:10px}
+  .stockbox{background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+  .stockhead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .chg{font-weight:700;font-size:15px}
+  .chg.up{color:var(--up)} .chg.down{color:#ff6b6b} .chg.flat{color:var(--muted)}
+  .stocktext{font-size:12.5px;color:var(--muted);margin-top:8px}
+  .private{font-size:13.5px;color:var(--muted);font-style:italic}
+  .mapply{display:inline-block;margin-top:20px;background:var(--accent);color:#fff;text-decoration:none;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px}
+  .mapply:hover{background:#4a7bf0}
+  .msoon{display:inline-block;margin-top:20px;background:#262a31;color:#9aa4b2;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px;border:1px dashed var(--border)}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:768px){
+    html,body{overflow-x:hidden}
+    .wrap{padding:0 16px 50px}
+    h1{font-size:21px}
+    .top{padding:16px 0 6px}
+    .nav{flex-direction:column-reverse;gap:10px;align-items:stretch}
+    .nav button,.nav .skip{width:100%}
+    .chips{gap:8px}
+    .modal{padding:20px 18px;border-radius:14px}
+    .tab{padding:7px 9px;font-size:11.5px}
+    .kv{flex-direction:column;gap:2px}
+    .kv b{min-width:0}
+    .mapply,.msoon{display:block;text-align:center;margin-left:0 !important;margin-top:10px}
+    .trailhead h1{font-size:30px}
+    /* mobile: calmer — drop slide-in, hover lifts, grain & sun glow */
+    .q,.q.leaving{animation:none}
+    .opt:hover,.chip:hover,.rcard:hover{transform:none}
+    .grain,.sun{display:none}
+    #survey{backdrop-filter:none}
+  }
+  @media (hover:none){
+    .opt:hover{transform:none}
+    .chip:hover{transform:none}
+    .rcard:hover{transform:none}
+  }
+.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+</style>
+<script src="transition.js?v=4"></script>
+<link rel="stylesheet" href="light.css?v=3">
+<script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+</head>
+<body>
+<div class="valley">
+  <svg viewBox="0 0 1440 760" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="peak" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#2b3e5e"/><stop offset="1" stop-color="#172941"/>
+      </linearGradient>
+      <linearGradient id="peak2" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#22344f"/><stop offset="1" stop-color="#131f33"/>
+      </linearGradient>
+      <linearGradient id="trail" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3a4b66"/><stop offset="1" stop-color="#566a89"/>
+      </linearGradient>
+    </defs>
+    <!-- distant haze ridge -->
+    <path d="M0,420 L240,300 L430,400 L620,290 L820,410 L1040,300 L1230,400 L1440,330 L1440,760 L0,760 Z" fill="#16243c" opacity="0.45"/>
+    <!-- back range of pointed peaks -->
+    <path d="M-40,470 L250,250 L470,470 Z" fill="url(#peak2)" opacity="0.85"/>
+    <path d="M980,470 L1240,230 L1500,470 Z" fill="url(#peak2)" opacity="0.85"/>
+    <!-- snow caps on back peaks (attached at summit) -->
+    <path d="M250,250 L320,310 L292,326 L270,312 L250,330 L232,316 L210,326 Z" fill="#e9f1ff" opacity="0.13"/>
+    <path d="M1240,230 L1312,292 L1282,308 L1258,294 L1240,312 L1220,296 L1196,308 Z" fill="#e9f1ff" opacity="0.13"/>
+    <!-- main front peak (the trailhead mountain) -->
+    <path d="M360,520 L720,250 L1080,520 Z" fill="url(#peak)"/>
+    <!-- snow cap attached to the front summit -->
+    <path d="M720,250 L808,316 L772,334 L744,316 L720,338 L694,318 L660,336 Z" fill="#e9f1ff" opacity="0.2"/>
+    <!-- soft foreground hills covering the bases -->
+    <path d="M0,560 C260,512 460,572 700,552 C960,528 1180,584 1440,540 L1440,760 L0,760 Z" fill="#0d1828"/>
+    <path d="M0,660 C300,616 540,672 820,646 C1080,622 1260,672 1440,640 L1440,760 L0,760 Z" fill="#0a1322"/>
+    <!-- winding trail climbing from the viewer up the slope -->
+    <path d="M700,760 C672,694 766,664 742,606 C720,556 624,548 644,496 C660,456 752,464 772,432"
+          fill="none" stroke="url(#trail)" stroke-width="30" stroke-linecap="round" opacity="0.5"/>
+    <path d="M700,760 C672,694 766,664 742,606 C720,556 624,548 644,496 C660,456 752,464 772,432"
+          fill="none" stroke="#8095b5" stroke-width="2.5" stroke-dasharray="2 18" stroke-linecap="round" opacity="0.45"/>
+    <!-- pine trees -->
+    <g fill="#0b1626">
+      <path d="M300,712 l20,-64 l20,64 z M307,684 l13,-40 l13,40 z M313,660 l7,-26 h-14 z M316,640 l4,-18 h-8 z"/>
+      <path d="M1170,706 l22,-70 l22,70 z M1178,674 l14,-44 l14,44 z M1185,648 l7,-28 h-14 z M1188,626 l4,-18 h-8 z"/>
+      <path d="M210,742 l16,-50 l16,50 z M216,718 l10,-30 l10,30 z M221,698 l5,-20 h-10 z"/>
+    </g>
+    <!-- trailhead signpost = navigation menu (clickable) -->
+    <g transform="translate(1290,560)" class="signpost">
+      <rect x="-6" y="0" width="12" height="190" rx="3" fill="#3a2a1c"/>
+      <rect x="-6" y="0" width="5" height="190" rx="2" fill="#4a3625"/>
+      <!-- top board points LEFT -->
+      <g transform="rotate(-8)">
+        <path d="M78,12 L-44,12 L-72,36 L-44,60 L78,60 Z" fill="#5a432b" stroke="#74583a" stroke-width="2"/>
+        <rect x="-30" y="32" width="78" height="7" rx="3" fill="#cdac7a" opacity="0.8"/>
+      </g>
+      <!-- lower board points RIGHT -->
+      <g transform="rotate(7) translate(0,52)">
+        <path d="M-78,12 L44,12 L72,36 L44,60 L-78,60 Z" fill="#4d3a25" stroke="#64502f" stroke-width="2"/>
+        <rect x="-48" y="32" width="78" height="7" rx="3" fill="#cdac7a" opacity="0.8"/>
+      </g>
+    </g>
+  </svg>
+</div>
+<div class="sun"></div>
+<div class="grain"></div>
+
+<div class="wrap">
+  <div class="top">
+    <a class="home" href="index.html">← Back to the valley</a>
+  </div>
+
+  <div class="trailhead">
+    <span class="badge">The trailhead</span>
+    <h1>Let's find <span class="accent">your path</span></h1>
+    <p>A few quick questions to map your route — answer honestly and we'll point you toward the internships that fit.</p>
+  </div>
+
+  <!-- SURVEY -->
+  <div id="survey">
+    <div class="progwrap">
+      <div class="progbar"><i id="progfill"></i></div>
+      <div class="progtext" id="progtext"></div>
+    </div>
+    <div class="stage" id="stage"></div>
+    <div class="nav">
+      <button class="back" id="backBtn">← Back</button>
+      <button class="btn" id="nextBtn">Next →</button>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div id="results">
+    <h1>Your trail map</h1>
+    <div class="rsub" id="rsub"></div>
+    <div class="yourtags" id="yourtags"></div>
+    <div id="rlist"></div>
+    <button class="restart" id="restartBtn">↺ Retake the survey</button>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="data_analytics.js"></script>
+<script src="data_finance.js"></script>
+<script src="data_marketing.js"></script>
+<script src="data_accounting.js"></script>
+<script src="data_operations.js"></script>
+<script src="data_hr.js"></script>
+<script src="data_realestate.js"></script>
+<script src="data_tech.js"></script>
+<script src="data_engineering.js"></script>
+<script src="data_healthcare.js"></script>
+<script>
+/* ---------------- combined dataset ---------------- */
+function buildPool(){
+  const pool=[];
+  (window.INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.COMPANIES||{})[d.company]||{}, section:"Consulting & Business Systems"}));
+  (window.ANALYTICS_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.ANALYTICS_COMPANIES||{})[d.company]||{}, section:"Data & Business Analytics"}));
+  (window.FINANCE_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.FINANCE_COMPANIES||{})[d.company]||{}, section:"Finance & Banking"}));
+  (window.MARKETING_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.MARKETING_COMPANIES||{})[d.company]||{}, section:"Marketing & Sales"}));
+  (window.ACCOUNTING_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.ACCOUNTING_COMPANIES||{})[d.company]||{}, section:"Accounting"}));
+  (window.OPERATIONS_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.OPERATIONS_COMPANIES||{})[d.company]||{}, section:"Operations & Supply Chain"}));
+  (window.HR_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.HR_COMPANIES||{})[d.company]||{}, section:"Human Resources"}));
+  (window.REALESTATE_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.REALESTATE_COMPANIES||{})[d.company]||{}, section:"Real Estate"}));
+  (window.TECH_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.TECH_COMPANIES||{})[d.company]||{}, section:"Computer Science & Tech"}));
+  (window.ENGR_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.ENGR_COMPANIES||{})[d.company]||{}, section:"Engineering"}));
+  (window.HEALTH_INTERNSHIPS||[]).forEach(d=>pool.push({d, c:(window.HEALTH_COMPANIES||{})[d.company]||{}, section:"Healthcare & Medicine"}));
+  return pool;
+}
+
+/* ---------------- saved jobs + detail modal (shared store with database pages) ---------------- */
+let POOL_BY_ID={};
+function savedStore(){try{return JSON.parse(localStorage.getItem("aif_saved")||"{}");}catch(e){return {};}}
+function savedKey(d){return d.id||(d.company+"|"+d.role);}
+function isSaved(d){return !!savedStore()[savedKey(d)];}
+function toggleSave(d){
+  // Saving requires a signed-in account.
+  const loggedIn = window.AIF_AUTH && window.AIF_AUTH.currentUser && window.AIF_AUTH.currentUser();
+  if(!loggedIn){ window.location.href="login.html?return=survey.html"; return; }
+  const s=savedStore(); const k=savedKey(d);
+  if(s[k]) delete s[k];
+  else s[k]={section:"survey",id:d.id,company:d.company,role:d.role,status:d.status||"Saved",applyUrl:d.applyUrl,comp:d.comp||"",due:d.due||"",ts:Date.now()};
+  localStorage.setItem("aif_saved",JSON.stringify(s));
+  if(window.AIF_REFRESH_SAVED) window.AIF_REFRESH_SAVED();
+}
+function mStars(n){return "★".repeat(n)+"☆".repeat(5-n);}
+function isOpenStatus(st){return /^open[\s(]/i.test(st||"");}
+function netLinks(company){
+  const n=company.replace(/\(.*?\)/g,"").trim();
+  const q=x=>"https://www.linkedin.com/search/results/people/?keywords="+encodeURIComponent(x);
+  return [["University / campus recruiters",n+" university recruiter"],
+          ["Early-careers / talent acquisition",n+" early careers recruiter"],
+          ["Recent summer analysts / interns",n+" summer analyst intern"],
+          ["Associates / consultants (recent grads)",n+" associate consultant"]]
+    .map(([l,kw])=>`<a class="netlink" href="${q(kw)}" target="_blank" rel="noopener"><span class="nl">${l}</span><span class="ns">Search LinkedIn ↗</span></a>`).join("");
+}
+function spark(st){const dir=st.direction;const pts=dir==="up"?[38,34,30,22,18,12]:dir==="down"?[12,16,14,24,30,38]:[22,20,24,21,23,22];
+  const w=300,h=46,step=w/(pts.length-1);const dd=pts.map((y,i)=>`${i?'L':'M'}${(i*step).toFixed(1)},${y}`).join(" ");
+  const col=dir==="up"?"var(--up)":dir==="down"?"#ff6b6b":"var(--muted)";
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="margin-top:8px"><path d="${dd}" fill="none" stroke="${col}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;}
+function payStock(d,c){
+  let s=`<h3>Pay (this internship)</h3><p>${d.comp||"Not available."}</p>`;
+  if(c.isPublic&&c.stock){const st=c.stock,ar=st.direction==="up"?"▲":st.direction==="down"?"▼":"▬",pct=(st.changePct>0?"+":"")+st.changePct+"%";
+    s+=`<h3>Stock — last 12 months</h3><div class="stockbox"><div class="stockhead"><div><b>${c.ticker||""}</b> &nbsp; <span style="color:var(--muted)">${st.start} → ${st.end}</span></div><div class="chg ${st.direction}">${ar} ${pct}</div></div>${spark(st)}<div class="stocktext">${c.stockTrend||""}<br>As of ${st.asOf||""}. Approximate — verify a live quote.</div></div>`;
+  } else { s+=`<h3>Stock — last 12 months</h3><div class="private">${c.stockTrend||"Private — no public stock."}</div>`; }
+  return s;
+}
+function openModal(item){
+  const d=item.d, c=item.c||{}, section=item.section||"";
+  const m=document.getElementById("modal");
+  const news=(c.news&&c.news.length)?c.news.map(n=>`<a class="newsitem" href="${n.url}" target="_blank" rel="noopener"><div class="nt">${n.title} ↗</div><div class="nm">${n.source} · ${n.date}</div></a>`).join(""):`<p style="color:var(--muted)">No recent news on file.</p>`;
+  const deep=(c.deepProfile||[]).map(p=>`<p>${p}</p>`).join("")||"<p>—</p>";
+  const apply=isOpenStatus(d.status)?`<a class="mapply" href="${d.applyUrl}" target="_blank" rel="noopener">Go to application →</a>`:`<span class="msoon">🔜 Application not open yet — coming soon</span>`;
+  const saveBtn=`<button class="mapply" id="mSave" style="background:${isSaved(d)?'rgba(91,140,255,.2)':'var(--panel2)'};color:#fff;border:1px solid var(--border);margin-left:10px">${isSaved(d)?'★ Saved':'☆ Save this job'}</button>`;
+  m.innerHTML=`
+    <button class="close" onclick="closeModal()">×</button>
+    <h2>${d.role}</h2>
+    <div class="mco">${d.company}</div>
+    <div class="mtier"><span class="tier">${c.tier||""}</span><span class="sectlabel">${section}</span></div>
+    <div class="tabs">
+      <div class="tab active" data-p="ov">Overview</div>
+      <div class="tab" data-p="deep">Deep Dive</div>
+      <div class="tab" data-p="net">Networking</div>
+      <div class="tab" data-p="comp">Competitiveness</div>
+      <div class="tab" data-p="pay">Pay &amp; Stock</div>
+      <div class="tab" data-p="news">News</div>
+    </div>
+    <div class="pane active" data-p="ov">
+      <div class="kv"><b>Status</b><span>${d.status||"—"}</span></div>
+      <div class="kv"><b>Deadline</b><span>${d.due||"—"}</span></div>
+      <div class="kv"><b>Pay (est.)</b><span>${d.comp||"—"}</span></div>
+      <div class="kv"><b>Location</b><span>${d.location||"—"}</span></div>
+      <div class="kv"><b>Role type</b><span>${(d.types||[]).join(" · ")}</span></div>
+      <div class="kv"><b>Majors recruited</b><span>${(d.majors||[]).join(", ")||"—"}</span></div>
+      <h3>What the role involves</h3><p>${d.about||""}</p>
+      <h3>Company background</h3><p>${c.background||""}</p>
+    </div>
+    <div class="pane" data-p="deep">
+      <h3>Headquarters</h3><p>${c.hq||"Not on file — check the company's official site."}</p>
+      <h3>Founded</h3><p>${c.founded||"Not on file."}</p>
+      <h3>History &amp; background</h3><p>${[(c.history||c.background||""),(c.isPublic?("Publicly traded"+(c.ticker?(" under "+c.ticker):"")+"."):"Privately held or part of a larger parent."),(c.fortune?("Fortune "+(Math.ceil(c.fortune/100)*100)+" company."):""),(c.competitiveness?("Recruiting is considered "+c.competitiveness.toLowerCase()+(c.acceptanceRate?(", est. acceptance "+c.acceptanceRate):"")+"."):"")].filter(Boolean).join(" ")||"—"}</p>
+      ${deep?`<h3>Culture, morals &amp; reputation</h3>${deep}`:""}
+      <h3>What they value</h3><p>${c.values||"—"}</p></div>
+    <div class="pane" data-p="net"><h3>People worth reaching out to at ${d.company}</h3><p style="font-size:13px;color:var(--muted)">These open LinkedIn searches for the people who actually respond — campus recruiters, early-careers talent acquisition, and recent analysts/alumni. Add your school to find alumni.</p>${netLinks(d.company)}</div>
+    <div class="pane" data-p="comp">
+      <div class="kv"><b>Tier</b><span>${c.tier||"—"}</span></div>
+      <div class="kv"><b>Competitiveness</b><span><span class="stars">${mStars(c.compScore||0)}</span> &nbsp;${c.competitiveness||""}</span></div>
+      <div class="kv"><b>Acceptance rate</b><span>${c.acceptanceRate||"n/a"}</span></div>
+      <p style="margin-top:14px;color:var(--muted);font-size:13px">Acceptance rates and competitiveness are rough public estimates for orientation, not official figures.</p>
+    </div>
+    <div class="pane" data-p="pay">${payStock(d,c)}</div>
+    <div class="pane" data-p="news"><h3>Recent news</h3>${news}</div>
+    <div>${apply}${saveBtn}</div>`;
+  m.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
+    m.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+    m.querySelectorAll(".pane").forEach(x=>x.classList.remove("active"));
+    t.classList.add("active");m.querySelector(`.pane[data-p="${t.dataset.p}"]`).classList.add("active");
+  });
+  const ms=m.querySelector("#mSave");
+  if(ms) ms.onclick=()=>{toggleSave(d);const on=isSaved(d);ms.textContent=on?"★ Saved":"☆ Save this job";ms.style.background=on?"rgba(91,140,255,.2)":"var(--panel2)";
+    const cardBtn=document.querySelector(`#rlist .rcard[data-id="${d.id}"] .savebtn`);if(cardBtn){cardBtn.classList.toggle("on",on);cardBtn.textContent=on?"★ Saved":"☆ Save";}};
+  document.getElementById("overlay").classList.add("show");
+}
+function closeModal(){document.getElementById("overlay").classList.remove("show");}
+document.addEventListener("DOMContentLoaded",()=>{
+  const ov=document.getElementById("overlay");
+  if(ov) ov.addEventListener("click",e=>{if(e.target.id==="overlay")closeModal();});
+});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+
+/* ---------------- survey definition ---------------- */
+const survey = {
+  answers: { field:null, major:"", interests:"", grad:null, size:null, location:null, resume:"" },
+  questions: [
+    { id:"field", type:"single", num:"Question 1",
+      title:"What field interests you most?",
+      hint:"Pick the closest fit — you can refine next.",
+      options:[
+        {v:"business",em:"💼",label:"Business"},
+        {v:"cs",em:"💻",label:"Computer Science & Tech"},
+        {v:"engineering",em:"⚙️",label:"Engineering"},
+        {v:"med",em:"🧬",label:"Healthcare & Medicine"},
+        {v:"unsure",em:"🤔",label:"Not sure yet"}
+      ]},
+    { id:"major", type:"text", num:"Question 2",
+      title:"What's your major (or intended major)?",
+      hint:"Free text — e.g. \"Industrial Engineering\", \"Economics\", \"Computer Science\".",
+      placeholder:"Type your major…" },
+    { id:"interests", type:"textarea", num:"Question 3",
+      title:"What are you interested in?",
+      hint:"Type freely — roles, industries, skills, topics, anything. E.g. \"agentic AI, healthcare strategy, process improvement, working with data.\"",
+      placeholder:"I'm interested in…" },
+    { id:"grad", type:"single", num:"Question 4",
+      title:"When do you graduate?",
+      hint:"Helps match the right program level.",
+      options:[
+        {v:"2027",em:"🎓",label:"2027"},
+        {v:"2028",em:"🎓",label:"2028"},
+        {v:"2029",em:"🎓",label:"2029"},
+        {v:"2030+",em:"🎓",label:"2030 or later"}
+      ]},
+    { id:"size", type:"single", num:"Question 5",
+      title:"What kind of company appeals to you?",
+      hint:"We'll weight your matches accordingly.",
+      options:[
+        {v:"large",em:"🏢",label:"Large / well-known (Fortune 500)"},
+        {v:"startup",em:"🚀",label:"Startup / high-growth"},
+        {v:"any",em:"🌐",label:"No preference"}
+      ]},
+    { id:"location", type:"single", num:"Question 6",
+      title:"Where do you want to work?",
+      hint:"",
+      options:[
+        {v:"any",em:"🇺🇸",label:"Anywhere in the US"},
+        {v:"remote",em:"🏡",label:"Prefer remote"},
+        {v:"hub",em:"📍",label:"A specific city / hub"}
+      ]},
+    { id:"resume", type:"resume", num:"Last step (optional)",
+      title:"Want even better matches? Add your resume.",
+      hint:"Optional — paste it or drop a file and we'll factor in your skills. Skip if you'd rather not." }
+  ]
+};
+
+let step = 0;
+const $ = id => document.getElementById(id);
+
+function renderStep(dir){
+  const q = survey.questions[step];
+  const stage = $("stage");
+  // progress
+  $("progfill").style.width = ((step)/(survey.questions.length)*100)+"%";
+  $("progtext").textContent = `Step ${step+1} of ${survey.questions.length}`;
+  $("backBtn").style.visibility = step===0 ? "hidden" : "visible";
+  $("nextBtn").textContent = step===survey.questions.length-1 ? "See my matches →" : "Next →";
+
+  let body = "";
+  if(q.type==="single"){
+    body = `<div class="opts">`+ q.options.map(o=>
+      `<button class="opt ${survey.answers[q.id]===o.v?'sel':''}" data-v="${o.v}"><span class="em">${o.em}</span>${o.label}<span class="ck">✓</span></button>`
+    ).join("") +`</div>`;
+  } else if(q.type==="text"){
+    body = `<input type="text" id="txtIn" placeholder="${q.placeholder||''}" value="${(survey.answers[q.id]||'').replace(/"/g,'&quot;')}">`;
+  } else if(q.type==="textarea"){
+    body = `<textarea id="taIn" placeholder="${q.placeholder||''}">${(survey.answers[q.id]||'')}</textarea>`;
+  } else if(q.type==="resume"){
+    body = `<textarea id="resIn" placeholder="Paste resume text here (optional)…">${(survey.answers.resume||'')}</textarea>
+      <div class="drop" id="drop">📄 …or drop a PDF / Word / .txt file (parsed on your device)
+        <input type="file" id="file" accept=".pdf,.docx,.txt" style="display:none"></div>
+      <button class="skip" id="skipResume">Skip — just use my answers</button>`;
+  }
+
+  const html = `<div class="q" id="qcard">
+      <div class="qnum">${q.num}</div>
+      <div class="qtitle">${q.title}</div>
+      <div class="qhint">${q.hint||''}</div>
+      ${body}
+    </div>`;
+
+  // transition out then in
+  const old = stage.querySelector(".q");
+  if(old){ old.classList.add("leaving"); setTimeout(()=>{ stage.innerHTML=html; wire(q); }, 200); }
+  else { stage.innerHTML=html; wire(q); }
+}
+
+function wire(q){
+  if(q.type==="single"){
+    $("stage").querySelectorAll(".opt").forEach(b=> b.onclick=()=>{
+      survey.answers[q.id]=b.dataset.v;
+      $("stage").querySelectorAll(".opt").forEach(x=>x.classList.remove("sel"));
+      b.classList.add("sel");
+    });
+  } else if(q.type==="text"){
+    const inp=$("txtIn"); inp.focus();
+    inp.oninput=()=>survey.answers[q.id]=inp.value;
+    inp.onkeydown=e=>{ if(e.key==="Enter") $("nextBtn").click(); };
+  } else if(q.type==="textarea"){
+    const ta=$("taIn"); ta.focus();
+    ta.oninput=()=>survey.answers[q.id]=ta.value;
+  } else if(q.type==="resume"){
+    const ta=$("resIn"); ta.oninput=()=>survey.answers.resume=ta.value;
+    const drop=$("drop"), file=$("file");
+    drop.onclick=()=>file.click();
+    drop.ondragover=e=>{e.preventDefault();drop.classList.add("drag");};
+    drop.ondragleave=()=>drop.classList.remove("drag");
+    drop.ondrop=e=>{e.preventDefault();drop.classList.remove("drag");if(e.dataTransfer.files[0])readResume(e.dataTransfer.files[0]);};
+    file.onchange=e=>{if(e.target.files[0])readResume(e.target.files[0]);};
+    $("skipResume").onclick=()=>{ survey.answers.resume=""; finish(); };
+  }
+}
+
+async function readResume(f){
+  const ext=f.name.split(".").pop().toLowerCase();
+  const drop=$("drop");
+  try{
+    if(ext==="txt"){ survey.answers.resume=(await f.text()).trim(); }
+    else if(ext==="pdf"){
+      if(!window.pdfjsLib){ await loadScript("https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"); pdfjsLib.GlobalWorkerOptions.workerSrc="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"; }
+      const buf=await f.arrayBuffer(); const pdf=await pdfjsLib.getDocument({data:buf}).promise; let t="";
+      for(let i=1;i<=pdf.numPages;i++){ const p=await pdf.getPage(i); const ct=await p.getTextContent(); t+=ct.items.map(x=>x.str).join(" ")+"\n"; }
+      survey.answers.resume=t.trim();
+    } else if(ext==="docx"){
+      if(!window.mammoth){ await loadScript("https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"); }
+      const buf=await f.arrayBuffer(); const r=await mammoth.extractRawText({arrayBuffer:buf}); survey.answers.resume=r.value.trim();
+    } else { drop.textContent="Unsupported file — paste the text instead."; return; }
+    if($("resIn")) $("resIn").value=survey.answers.resume;
+    drop.textContent="✓ Loaded "+f.name+" — click “See my matches”.";
+  }catch(e){ drop.textContent="⚠ Couldn't read that file — paste the text instead."; }
+}
+function loadScript(src){ return new Promise((res,rej)=>{ const s=document.createElement("script"); s.src=src; s.onload=res; s.onerror=rej; document.head.appendChild(s); }); }
+
+$("nextBtn").onclick=()=>{
+  const q=survey.questions[step];
+  // light validation
+  if(q.type==="single" && !survey.answers[q.id]) { flash(); return; }
+  if(q.id==="major" && !survey.answers.major.trim()) { flash(); return; }
+  if(step===survey.questions.length-1){ finish(); return; }
+  step++; renderStep(1);
+};
+$("backBtn").onclick=()=>{ if(step>0){ step--; renderStep(-1); } };
+function flash(){ const n=$("nextBtn"); n.style.background="#b3402f"; setTimeout(()=>n.style.background="",350); }
+
+/* ---------------- matching ---------------- */
+const SKILLS=["excel","powerpoint","sql","python","r","tableau","power bi","financial modeling","valuation","market research","statistics","machine learning","data analysis","data visualization","project management","lean six sigma","six sigma","salesforce","sap","aws","azure","agile","scrum","leadership","java","javascript","matlab","process improvement","supply chain","industrial engineering","business analytics","economics","finance","accounting","computer science","information systems","marketing","consulting","operations","optimization","simulation","cybersecurity","cloud","product management","biology","chemistry","pharma","clinical","healthcare"];
+function norm(t){return (" "+t.toLowerCase()+" ").replace(/[^a-z0-9+#&. ]/g," ").replace(/\s+/g," ");}
+
+// Map a free-text major string to the canonical major TAGS used on each internship.
+const MAJOR_ALIASES=[
+  [/(business analytic|bus.*analytic|\bba\b)/,"business_analytics"],
+  [/(data scien|\bds\b|machine learning|\bai\b|artificial intelligence)/,"data_science"],
+  [/(information system|\bmis\b|info system|business technolog)/,"information_systems"],
+  [/(industrial eng|\bisye\b|\bie\b|systems eng)/,"industrial_engineering"],
+  [/(supply chain|operations manage|logistics)/,"operations"],
+  [/(computer scien|\bcs\b|software eng|comp sci|informatics)/,"computer_science"],
+  [/(statistic|biostat|\bstats\b)/,"statistics"],
+  [/(econ)/,"economics"],
+  [/(finance|financ)/,"finance"],
+  [/(account)/,"accounting"],
+  [/(marketing)/,"marketing"],
+  [/(\bmath|applied math|mathematic)/,"math"],
+  [/(physic)/,"physics"],
+  [/(industrial|mechanical|electrical|civil|chemical eng|aerospace|biomedical eng|\beng\b|engineer)/,"engineering"],
+  [/(business|management|administration|\bmba\b|commerce)/,"business"],
+  // majors with NO fit in the current live sections — tagged so we can recognize them but they map to nothing
+  [/(biolog|chem(?!ical eng)|pre.?med|nursing|public health|kinesiolog|neuroscience|psycholog|biochem|pharm|clinical|health scien|premed|medic)/,"_nonfit_health"],
+  [/(english|history|political|philosoph|sociolog|anthropolog|art|music|design|communicat|journalis|education|liberal)/,"_nonfit_humanities"]
+];
+function majorToTags(str){
+  const t=norm(str); const tags=new Set();
+  MAJOR_ALIASES.forEach(([re,tag])=>{ if(re.test(t)) tags.add(tag); });
+  return [...tags];
+}
+
+function scoreItem(item, sig, userMajorTags){
+  const {d,c,section}=item;
+  const text=norm(d.role+" "+d.company+" "+d.about+" "+d.types.join(" ")+" "+(c.tier||"")+" "+(c.background||""));
+  let score=0; const reasons=new Set();
+  const itemTags=d.majorTags||[];
+
+  // ---- MAJOR FIT (the gate) ----
+  // How well does the user's major overlap with the majors this role actually recruits?
+  const hasMajor = userMajorTags.length>0;
+  const overlap = userMajorTags.filter(t=>itemTags.includes(t) || (itemTags.includes("any") && !t.startsWith("_nonfit")));
+  const nonFitOnly = hasMajor && userMajorTags.every(t=>t.startsWith("_nonfit"));
+  if(overlap.length){
+    score += 5 + Math.min(overlap.length-1,2)*2;   // 5 / 7 / 9 for 1 / 2 / 3+ matched majors
+    reasons.add(survey.answers.major.trim()+" fits this role");
+  }
+  // free-text interests
+  const STOP=new Set(["with","what","want","like","into","that","this","your","working","work","about","really","interested","interest","stuff","things","also","more","some"]);
+  norm(survey.answers.interests).trim().split(" ").filter(w=>w.length>3 && !STOP.has(w)).forEach(tk=>{
+    if(text.includes(tk)){ score+=2; reasons.add(tk); } });
+  // resume skills
+  sig.forEach(s=>{ if(text.includes(s)){ score+=1.5; reasons.add(s); } });
+  // company size preference
+  if(survey.answers.size==="startup" && c.startup){ score+=2; reasons.add("startup"); }
+  if(survey.answers.size==="large" && c.fortune){ score+=2; reasons.add("Fortune "+Math.ceil(c.fortune/100)*100); }
+  // grad-level alignment
+  if((survey.answers.grad==="2029"||survey.answers.grad==="2030+") && d.level && d.level.startsWith("Sophomore")) score+=1;
+
+  // ---- PENALTY: major clearly doesn't fit ----
+  // If the user gave a major and it has zero overlap with what the role recruits,
+  // this is not a real match — cap it hard so unrelated majors can't show high.
+  if(hasMajor && overlap.length===0){
+    score = Math.min(score, 2);           // interests/skills alone can't fake a fit
+    if(nonFitOnly) score = Math.min(score, 1);
+  }
+  return {score, reasons:[...reasons].slice(0,6)};
+}
+
+function finish(){
+  const sig=new Set();
+  const rtext=norm(survey.answers.resume||"");
+  SKILLS.forEach(s=>{ if(rtext.includes(s)) sig.add(s); });
+
+  const userMajorTags=majorToTags(survey.answers.major||"");
+  const pool=buildPool();
+  const scored=pool.map(item=>({item, ...scoreItem(item, sig, userMajorTags)}));
+  // Absolute scoring: a match must actually be relevant to score high.
+  // Major fit is the backbone (up to 9), so a non-fitting major caps out low.
+  const TARGET=13; // a score this high reads as an excellent fit
+  scored.forEach(s=> s.pct = Math.max(0, Math.min(96, Math.round((s.score/TARGET)*100))));
+  scored.sort((a,b)=> b.score-a.score || a.item.d.company.localeCompare(b.item.d.company));
+  // Only surface genuinely relevant matches; if almost nothing fits, show the closest few honestly.
+  let top=scored.filter(s=> s.pct>=40).slice(0,24);
+  if(top.length<3) top=scored.filter(s=>s.score>0 && s.pct>=20).slice(0,6);
+
+  // UI swap
+  $("survey").style.display="none";
+  const res=$("results"); res.style.display="block";
+
+  const detected=[...sig];
+  const tagBits=[];
+  if(survey.answers.field) tagBits.push(({business:"Business",cs:"CS & Tech",engineering:"Engineering",med:"Healthcare",unsure:"Exploring"})[survey.answers.field]);
+  if(survey.answers.major) tagBits.push(survey.answers.major.trim());
+  if(survey.answers.grad) tagBits.push("Grad "+survey.answers.grad);
+  if(survey.answers.size && survey.answers.size!=="any") tagBits.push(survey.answers.size==="startup"?"Startups":"Fortune 500");
+  detected.slice(0,10).forEach(s=>tagBits.push(s));
+  $("yourtags").innerHTML = tagBits.map(t=>`<span class="yt">${t}</span>`).join("");
+
+  $("rsub").textContent = top.length
+    ? `${top.length} relevant ${top.length===1?"internship":"internships"} for you, drawn from the ${pool.length} programs across our live sections. As more fields go live, your matches grow.`
+    : `No close matches in our live sections yet — only Consulting and Data & Business Analytics are live right now. As more fields go live, your matches will grow.`;
+
+  const emptyNote = `<div class="note">No strong matches yet. The live sections (Consulting, Data &amp; Business Analytics) may not line up with what you entered — try editing your interests or major, or check back as more fields go live.</div>`;
+  $("rlist").innerHTML = `<div class="note">Consulting, Data &amp; Business Analytics, and Finance &amp; Banking are live so far, so matches come from those. More fields are coming — retake the survey later for fresh results.</div>` +
+    (top.length ? "" : emptyNote) +
+    top.map(s=>{
+      const {d,c,section}=s.item; const cls=s.pct>=80?"hi":s.pct>=60?"mid":"lo";
+      const why = s.reasons.length ? s.reasons.map(r=>`<span class="mk">${r}</span>`).join("") : `<span class="why">Broadly relevant to your answers.</span>`;
+      const live=/^open[\s(]/i.test(d.status||"");
+      return `<div class="rcard" data-id="${d.id}">
+        <div class="score ${cls}">${s.pct}%</div>
+        <span class="sectlabel">${section}</span>
+        <div class="rco">${d.company}</div>
+        <div class="rrole">${d.role}</div>
+        <div class="rmeta">${(c.tier||"")} · 🗓 ${d.due||"—"} · 💵 ${d.comp||"—"}</div>
+        <div class="why"><b style="color:#cdd3dc">Why it fits:</b></div><div>${why}</div>
+        <div class="opencue">Click for full details, company morals, stock & news →</div>
+        <button class="savebtn${isSaved(d)?' on':''}" data-save="1">${isSaved(d)?'★ Saved':'☆ Save'}</button>
+      </div>`;
+    }).join("");
+  // wire up clicks: open modal, or toggle save
+  POOL_BY_ID={}; pool.forEach(it=>POOL_BY_ID[it.item?it.item.d.id:it.d.id]=it);
+  scored.forEach(sc=>POOL_BY_ID[sc.item.d.id]=sc.item);
+  document.querySelectorAll("#rlist .rcard").forEach(card=>{
+    const id=card.getAttribute("data-id"); const it=POOL_BY_ID[id]; if(!it) return;
+    const sb=card.querySelector(".savebtn");
+    if(sb) sb.onclick=(e)=>{e.stopPropagation();toggleSave(it.d);const on=isSaved(it.d);sb.classList.toggle("on",on);sb.textContent=on?"★ Saved":"☆ Save";};
+    card.onclick=()=>openModal(it);
+  });
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+$("restartBtn").onclick=()=>{
+  step=0; survey.answers={ field:null, major:"", interests:"", grad:null, size:null, location:null, resume:"" };
+  $("results").style.display="none"; $("survey").style.display="block"; renderStep(1);
+  window.scrollTo({top:0,behavior:"smooth"});
+};
+
+renderStep(1);
+</script>
+<script type="module" src="firebase-auth.js"></script>
+<script type="module" src="account-widget.js"></script>
+<script type="module">
+  // Personalized survey requires sign-in.
+  (function(){
+    const gate = document.getElementById("authGate");
+    let settled=false, tries=0;
+    function prompt(){
+      gate.innerHTML = `
+        <div style="font-size:18px;font-weight:700">🔒 Sign in to get personalized matches</div>
+        <div style="font-size:14px;color:#9aa4b2;max-width:430px">The personalized survey is account-only so your matches and resume can follow you across devices. It's free and quick.</div>
+        <a href="login.html?return=survey.html" style="margin-top:6px;background:#5b8cff;color:#fff;text-decoration:none;font-weight:650;font-size:14px;padding:11px 22px;border-radius:11px">Log in or create an account →</a>
+        <a href="database.html" style="color:#9aa4b2;font-size:13px;text-decoration:underline">Or browse the whole database without an account</a>`;
+    }
+    function ready(cb){ if(window.AIF_AUTH) return cb(); if(tries++>75){ prompt(); return; } setTimeout(()=>ready(cb),40); }
+    ready(()=>{ window.AIF_AUTH.onUser(u=>{ settled=true; if(u){ gate.style.display="none"; } else { window.location.href="login.html?return=survey.html"; } }); });
+    setTimeout(()=>{ if(!settled && !window.AIF_AUTH) prompt(); }, 3500);
+  })();
+</script>
+  <div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
+</body>
+</html>

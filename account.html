@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manage account — Aryan's Internship Finder</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#171b22; --panel2:#1e232c; --border:#2a313c;
+    --text:#e6e9ef; --muted:#9aa4b2; --accent:#5b8cff; --down:#ff6b6b; --up:#36d399; --danger:#ff6b6b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+  .wrap{max-width:680px;margin:0 auto;padding:0 24px 60px}
+  header{padding:22px 0 14px;border-bottom:1px solid var(--border);margin-bottom:8px}
+  .home{color:var(--accent);text-decoration:none;font-size:13px;font-weight:600}
+  h1{margin:6px 0 2px;font-size:24px}
+  .sub{color:var(--muted);font-size:13.5px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:20px 22px;margin-top:18px}
+  .card h2{font-size:15px;margin:0 0 4px}
+  .card p{color:var(--muted);font-size:13px;margin:0 0 14px}
+  label{display:block;font-size:12px;color:var(--muted);margin:10px 0 5px;font-weight:600}
+  input{width:100%;background:var(--panel2);border:1px solid var(--border);color:var(--text);padding:10px 12px;border-radius:10px;font-size:14px;outline:none}
+  input:focus{border-color:var(--accent)}
+  .btn{margin-top:14px;background:var(--accent);color:#fff;border:none;font-size:13.5px;font-weight:650;padding:10px 18px;border-radius:10px;cursor:pointer}
+  .btn:hover{background:#4a7bf0}
+  .btn:disabled{opacity:.6;cursor:default}
+  .btn.danger{background:#3a1d22;color:#ff9aa6;border:1px solid #5a2a30}
+  .btn.danger:hover{background:#491f27}
+  .kv{display:flex;justify-content:space-between;gap:12px;font-size:14px;padding:6px 0}
+  .kv span:first-child{color:var(--muted)}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff}
+  .badge.ok{background:#15301f;color:#7fe3ad}
+  .badge.warn{background:#3a2f17;color:#f5cf86}
+  .msg{margin-top:12px;font-size:13px;padding:9px 12px;border-radius:9px;display:none}
+  .msg.err{display:block;background:#3a1d22;color:#ff9aa6;border:1px solid #5a2a30}
+  .msg.ok{display:block;background:#15301f;color:#7fe3ad;border:1px solid #235c3c}
+  .gate{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px;z-index:90}
+  .reauth-note{font-size:12px;color:var(--muted);margin-top:6px}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:768px){
+    html,body{overflow-x:hidden}
+    .wrap{padding:0 16px 50px}
+    h1{font-size:21px}
+    .card{padding:18px 16px}
+    .btn{width:100%}
+    .kv{flex-wrap:wrap}
+  }
+
+/* valley backdrop (injected) */
+html,body{position:relative}
+html{background-color:#080d16;background-image:linear-gradient(180deg,#080d16 0%,#0b1320 45%,#0e1a2b 75%,#0a1018 100%);min-height:100%}body{background:transparent !important}
+.valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.valley svg{position:absolute;bottom:0;left:0;width:100%;height:48vh;min-height:300px;opacity:.9}
+.vglow{position:fixed;top:-6%;left:50%;transform:translateX(-50%);width:520px;height:340px;z-index:0;pointer-events:none;background:radial-gradient(circle at 50% 30%,rgba(220,230,250,.05),transparent 65%)}
+/* keep real content above the backdrop */
+.wrap,header,main,nav,.overlay,#aif-acct,.gate{position:relative;z-index:2}
+  h1{font-family:"Fraunces",Georgia,serif !important;font-weight:480 !important}
+  .vserif-applied{}
+.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+</style>
+<script src="transition.js?v=4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="light.css?v=3">
+<script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+</head>
+<body>
+<div class="valley"><svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice"><path d="M0,420 C260,340 460,420 720,400 C980,378 1180,440 1440,380 L1440,600 L0,600 Z" fill="#141c2b" opacity=".7"/><path d="M0,480 C300,420 540,500 820,470 C1080,444 1260,500 1440,460 L1440,600 L0,600 Z" fill="#101725" opacity=".9"/><path d="M0,540 C320,500 560,560 840,532 C1100,508 1280,556 1440,520 L1440,600 L0,600 Z" fill="#0b111c"/></svg></div><div class="vglow"></div>
+
+<div class="gate" id="gate">Loading…</div>
+<header><div class="wrap" style="padding-bottom:0;border:none">
+  <a class="home" href="index.html">← Aryan's Internship Finder</a>
+  <h1>Manage account</h1>
+  <div class="sub">Update your profile, password, email, and account settings.</div>
+</div></header>
+
+<div class="wrap">
+
+  <div class="card">
+    <h2>Profile</h2>
+    <div class="kv"><span>Signed in as</span><span id="acctEmail">—</span></div>
+    <div class="kv"><span>Email verified</span><span id="verBadge" class="badge">—</span></div>
+    <div class="kv"><span>Sign-in method</span><span id="provBadge" class="badge">—</span></div>
+    <label for="dispName">Display name</label>
+    <input id="dispName" type="text" placeholder="Your name">
+    <button class="btn" id="saveName">Save name</button>
+    <button class="btn" id="verifyBtn" style="background:var(--panel2);color:var(--text);border:1px solid var(--border);display:none">Send verification email</button>
+    <div class="msg" id="profileMsg"></div>
+  </div>
+
+
+  <div class="card" id="pwCard">
+    <h2>Change password</h2>
+    <p>Enter your current password, then choose a new one (at least 6 characters).</p>
+    <label for="curPw">Current password</label>
+    <input id="curPw" type="password" placeholder="••••••••" autocomplete="current-password">
+    <label for="newPw">New password</label>
+    <input id="newPw" type="password" placeholder="••••••••" autocomplete="new-password">
+    <label for="newPw2">Confirm new password</label>
+    <input id="newPw2" type="password" placeholder="••••••••" autocomplete="new-password">
+    <button class="btn" id="changePwBtn">Update password</button>
+    <div class="msg" id="pwMsg"></div>
+  </div>
+
+  <div class="card">
+    <h2>Change email</h2>
+    <p>We'll send a confirmation link to the new address. Your email changes once you click it.</p>
+    <label for="newEmail">New email</label>
+    <input id="newEmail" type="email" placeholder="new@email.com" autocomplete="email">
+    <label for="emailPw" id="emailPwLabel">Current password</label>
+    <input id="emailPw" type="password" placeholder="••••••••" autocomplete="current-password">
+    <button class="btn" id="changeEmailBtn">Send confirmation</button>
+    <div class="msg" id="emailMsg"></div>
+  </div>
+
+  <div class="card">
+    <h2>Log out</h2>
+    <p>Sign out of your account on this device. Your saved jobs stay in this browser.</p>
+    <button class="btn" id="logoutBtn">Log out</button>
+    <div class="msg" id="logoutMsg"></div>
+
+    <div style="border-top:1px solid var(--border);margin:22px 0 0;padding-top:18px">
+      <h2 style="color:var(--danger);font-size:14px">Delete account</h2>
+      <p>Permanently deletes your account. This can't be undone. (Your saved jobs stay in this browser.)</p>
+      <label for="delPw" id="delPwLabel">Current password</label>
+      <input id="delPw" type="password" placeholder="••••••••" autocomplete="current-password">
+      <button class="btn danger" id="deleteBtn">Delete my account</button>
+      <div class="msg" id="delMsg"></div>
+    </div>
+  </div>
+
+</div>
+
+<script type="module" src="firebase-auth.js"></script>
+<script type="module">
+  const $ = id => document.getElementById(id);
+  function ready(cb){ if(window.AIF_AUTH) cb(); else setTimeout(()=>ready(cb),40); }
+  function show(id, t, ok){ const m=$(id); m.textContent=t; m.className="msg "+(ok?"ok":"err"); }
+
+  ready(() => {
+    const A = window.AIF_AUTH;
+
+    A.onUser(user => {
+      if(!user){ window.location.href="login.html"; return; }
+      $("gate").style.display="none";
+
+      $("acctEmail").textContent = user.email || "—";
+      $("dispName").value = user.displayName || "";
+
+      const ver = $("verBadge");
+      if(user.emailVerified){ ver.textContent="Verified"; ver.className="badge ok"; $("verifyBtn").style.display="none"; }
+      else { ver.textContent="Not verified"; ver.className="badge warn"; $("verifyBtn").style.display="inline-block"; }
+
+      const google = A.isGoogleUser() && !A.hasPasswordProvider();
+      $("provBadge").textContent = google ? "Google" : "Email & password";
+
+      // Google-only accounts have no password to change; adjust the UI
+      if(google){
+        $("pwCard").style.display="none";
+        $("emailPwLabel").style.display="none"; $("emailPw").style.display="none";
+        $("delPwLabel").style.display="none"; $("delPw").style.display="none";
+        $("emailMsg").className="msg";
+      }
+    });
+
+    $("saveName").onclick = async () => {
+      const name=$("dispName").value.trim();
+      if(!name){ show("profileMsg","Please enter a name."); return; }
+      try{ await A.updateName(name); show("profileMsg","Name updated.",true); }
+      catch(e){ show("profileMsg", A.pretty(e)); }
+    };
+
+    $("verifyBtn").onclick = async () => {
+      try{ await A.sendVerification(); show("profileMsg","Verification email sent — check your inbox.",true); }
+      catch(e){ show("profileMsg", A.pretty(e)); }
+    };
+
+    $("changePwBtn").onclick = async () => {
+      const cur=$("curPw").value, np=$("newPw").value, np2=$("newPw2").value;
+      if(!cur || !np){ show("pwMsg","Fill in all password fields."); return; }
+      if(np!==np2){ show("pwMsg","New passwords don't match."); return; }
+      if(np.length<6){ show("pwMsg","New password must be at least 6 characters."); return; }
+      $("changePwBtn").disabled=true;
+      try{ await A.changePassword(cur, np); show("pwMsg","Password updated.",true); $("curPw").value=$("newPw").value=$("newPw2").value=""; }
+      catch(e){ show("pwMsg", A.pretty(e)); }
+      $("changePwBtn").disabled=false;
+    };
+
+    $("changeEmailBtn").onclick = async () => {
+      const ne=$("newEmail").value.trim(), pw=$("emailPw").value;
+      if(!ne){ show("emailMsg","Enter the new email."); return; }
+      $("changeEmailBtn").disabled=true;
+      try{ await A.changeEmail(ne, pw); show("emailMsg","Confirmation sent to "+ne+". Click the link there to finish.",true); }
+      catch(e){ show("emailMsg", A.pretty(e)); }
+      $("changeEmailBtn").disabled=false;
+    };
+
+    $("logoutBtn").onclick = async () => {
+      $("logoutBtn").disabled=true;
+      try{ await A.logout(); window.location.href="index.html"; }
+      catch(e){ show("logoutMsg", A.pretty(e)); $("logoutBtn").disabled=false; }
+    };
+
+    $("deleteBtn").onclick = async () => {
+      if(!confirm("Permanently delete your account? This cannot be undone.")) return;
+      const pw=$("delPw").value;
+      $("deleteBtn").disabled=true;
+      try{ await A.deleteAccount(pw); window.location.href="login.html"; }
+      catch(e){ show("delMsg", A.pretty(e)); $("deleteBtn").disabled=false; }
+    };
+  });
+</script>
+</body>
+</html>

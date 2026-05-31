@@ -1,0 +1,16260 @@
+// Operations & Supply Chain — Summer 2027 internships.
+// Globals: OPERATIONS_LAST_UPDATED, OPERATIONS_COMPANIES, OPERATIONS_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
+
+window.OPERATIONS_LAST_UPDATED = "2026-05-31";
+
+window.OPERATIONS_COMPANIES = {
+  "Walmart": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WMT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WMT",
+    "stockTrend": "View the live WMT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 1,
+    "hq": "Bentonville, AR",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Amazon": {
+    "tier": "Fortune 100 company",
+    "background": "E-commerce / cloud recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "E-commerce / cloud with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AMZN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AMZN",
+    "stockTrend": "View the live AMZN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 2,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "E-commerce / cloud with a well-known early-careers program."
+  },
+  "Apple": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer tech recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AAPL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AAPL",
+    "stockTrend": "View the live AAPL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 4,
+    "hq": "Cupertino, CA",
+    "founded": "Not on file.",
+    "history": "Consumer tech with a well-known early-careers program."
+  },
+  "UnitedHealth Group": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UNH",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UNH",
+    "stockTrend": "View the live UNH stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 5,
+    "hq": "Minnetonka, MN",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "CVS Health": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare / retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CVS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CVS",
+    "stockTrend": "View the live CVS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 6,
+    "hq": "Woonsocket, RI",
+    "founded": "Not on file.",
+    "history": "Healthcare / retail with a well-known early-careers program."
+  },
+  "ExxonMobil": {
+    "tier": "Fortune 100 company",
+    "background": "Energy recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: XOM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/XOM",
+    "stockTrend": "View the live XOM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 7,
+    "hq": "Spring, TX",
+    "founded": "Not on file.",
+    "history": "Energy with a well-known early-careers program."
+  },
+  "Alphabet (Google)": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GOOGL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GOOGL",
+    "stockTrend": "View the live GOOGL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 8,
+    "hq": "Mountain View, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "McKesson": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare distribution recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare distribution with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MCK",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MCK",
+    "stockTrend": "View the live MCK stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 9,
+    "hq": "Irving, TX",
+    "founded": "Not on file.",
+    "history": "Healthcare distribution with a well-known early-careers program."
+  },
+  "Cencora": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma distribution recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Pharma distribution with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: COR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/COR",
+    "stockTrend": "View the live COR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 10,
+    "hq": "Conshohocken, PA",
+    "founded": "Not on file.",
+    "history": "Pharma distribution with a well-known early-careers program."
+  },
+  "Costco": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: COST",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/COST",
+    "stockTrend": "View the live COST stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 11,
+    "hq": "Issaquah, WA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "JPMorgan Chase": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: JPM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JPM",
+    "stockTrend": "View the live JPM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 12,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Microsoft": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MSFT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MSFT",
+    "stockTrend": "View the live MSFT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 13,
+    "hq": "Redmond, WA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Cardinal Health": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CAH",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CAH",
+    "stockTrend": "View the live CAH stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 14,
+    "hq": "Dublin, OH",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Chevron": {
+    "tier": "Fortune 100 company",
+    "background": "Energy recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CVX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CVX",
+    "stockTrend": "View the live CVX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 15,
+    "hq": "San Ramon, CA",
+    "founded": "Not on file.",
+    "history": "Energy with a well-known early-careers program."
+  },
+  "Cigna": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CI",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CI",
+    "stockTrend": "View the live CI stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 16,
+    "hq": "Bloomfield, CT",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Ford Motor": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Automotive with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: F",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/F",
+    "stockTrend": "View the live F stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 17,
+    "hq": "Dearborn, MI",
+    "founded": "Not on file.",
+    "history": "Automotive with a well-known early-careers program."
+  },
+  "Bank of America": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BAC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BAC",
+    "stockTrend": "View the live BAC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 18,
+    "hq": "Charlotte, NC",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "General Motors": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Automotive with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GM",
+    "stockTrend": "View the live GM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 19,
+    "hq": "Detroit, MI",
+    "founded": "Not on file.",
+    "history": "Automotive with a well-known early-careers program."
+  },
+  "Elevance Health": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ELV",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ELV",
+    "stockTrend": "View the live ELV stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 20,
+    "hq": "Indianapolis, IN",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Citigroup": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: C",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/C",
+    "stockTrend": "View the live C stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 21,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Centene": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CNC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CNC",
+    "stockTrend": "View the live CNC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 22,
+    "hq": "St. Louis, MO",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Home Depot": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HD",
+    "stockTrend": "View the live HD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 23,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Marathon Petroleum": {
+    "tier": "Fortune 100 company",
+    "background": "Energy recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MPC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MPC",
+    "stockTrend": "View the live MPC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 24,
+    "hq": "Findlay, OH",
+    "founded": "Not on file.",
+    "history": "Energy with a well-known early-careers program."
+  },
+  "Kroger": {
+    "tier": "Fortune 100 company",
+    "background": "Retail / grocery recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail / grocery with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KR",
+    "stockTrend": "View the live KR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 25,
+    "hq": "Cincinnati, OH",
+    "founded": "Not on file.",
+    "history": "Retail / grocery with a well-known early-careers program."
+  },
+  "Phillips 66": {
+    "tier": "Fortune 100 company",
+    "background": "Energy recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PSX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PSX",
+    "stockTrend": "View the live PSX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 26,
+    "hq": "Houston, TX",
+    "founded": "Not on file.",
+    "history": "Energy with a well-known early-careers program."
+  },
+  "Fannie Mae": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: FNMA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/FNMA",
+    "stockTrend": "View the live FNMA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 27,
+    "hq": "Washington, DC",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Walgreens": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare / retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WBA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WBA",
+    "stockTrend": "View the live WBA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 28,
+    "hq": "Deerfield, IL",
+    "founded": "Not on file.",
+    "history": "Healthcare / retail with a well-known early-careers program."
+  },
+  "Valero Energy": {
+    "tier": "Fortune 100 company",
+    "background": "Energy recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: VLO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/VLO",
+    "stockTrend": "View the live VLO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 29,
+    "hq": "San Antonio, TX",
+    "founded": "Not on file.",
+    "history": "Energy with a well-known early-careers program."
+  },
+  "Meta": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: META",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/META",
+    "stockTrend": "View the live META stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 30,
+    "hq": "Menlo Park, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Verizon": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: VZ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/VZ",
+    "stockTrend": "View the live VZ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 31,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Telecom with a well-known early-careers program."
+  },
+  "AT&T": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: T",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/T",
+    "stockTrend": "View the live T stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 32,
+    "hq": "Dallas, TX",
+    "founded": "Not on file.",
+    "history": "Telecom with a well-known early-careers program."
+  },
+  "Comcast": {
+    "tier": "Fortune 100 company",
+    "background": "Media / telecom recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Media / telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CMCSA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CMCSA",
+    "stockTrend": "View the live CMCSA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 33,
+    "hq": "Philadelphia, PA",
+    "founded": "Not on file.",
+    "history": "Media / telecom with a well-known early-careers program."
+  },
+  "Wells Fargo": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WFC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WFC",
+    "stockTrend": "View the live WFC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 34,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Target": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TGT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TGT",
+    "stockTrend": "View the live TGT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 36,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Humana": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HUM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HUM",
+    "stockTrend": "View the live HUM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 37,
+    "hq": "Louisville, KY",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "State Farm": {
+    "tier": "Fortune 100 company",
+    "background": "Insurance recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 38,
+    "hq": "Bloomington, IL",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Tesla": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive / energy recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Automotive / energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TSLA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TSLA",
+    "stockTrend": "View the live TSLA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 39,
+    "hq": "Austin, TX",
+    "founded": "Not on file.",
+    "history": "Automotive / energy with a well-known early-careers program."
+  },
+  "Johnson & Johnson": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: JNJ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JNJ",
+    "stockTrend": "View the live JNJ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 41,
+    "hq": "New Brunswick, NJ",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Archer Daniels Midland": {
+    "tier": "Fortune 100 company",
+    "background": "Agribusiness recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Agribusiness with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ADM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ADM",
+    "stockTrend": "View the live ADM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 42,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Agribusiness with a well-known early-careers program."
+  },
+  "PepsiCo": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PEP",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PEP",
+    "stockTrend": "View the live PEP stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 43,
+    "hq": "Purchase, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "UPS": {
+    "tier": "Fortune 100 company",
+    "background": "Logistics recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Logistics with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UPS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UPS",
+    "stockTrend": "View the live UPS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 44,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Logistics with a well-known early-careers program."
+  },
+  "FedEx": {
+    "tier": "Fortune 100 company",
+    "background": "Logistics recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Logistics with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: FDX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/FDX",
+    "stockTrend": "View the live FDX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 45,
+    "hq": "Memphis, TN",
+    "founded": "Not on file.",
+    "history": "Logistics with a well-known early-careers program."
+  },
+  "Disney": {
+    "tier": "Fortune 100 company",
+    "background": "Media / entertainment recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Media / entertainment with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DIS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DIS",
+    "stockTrend": "View the live DIS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 46,
+    "hq": "Burbank, CA",
+    "founded": "Not on file.",
+    "history": "Media / entertainment with a well-known early-careers program."
+  },
+  "Dell Technologies": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DELL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DELL",
+    "stockTrend": "View the live DELL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 47,
+    "hq": "Round Rock, TX",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Lowe's": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: LOW",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/LOW",
+    "stockTrend": "View the live LOW stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 48,
+    "hq": "Mooresville, NC",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Procter & Gamble": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PG",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PG",
+    "stockTrend": "View the live PG stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 49,
+    "hq": "Cincinnati, OH",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Boeing": {
+    "tier": "Fortune 100 company",
+    "background": "Aerospace recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Aerospace with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BA",
+    "stockTrend": "View the live BA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 50,
+    "hq": "Arlington, VA",
+    "founded": "Not on file.",
+    "history": "Aerospace with a well-known early-careers program."
+  },
+  "Albertsons": {
+    "tier": "Fortune 100 company",
+    "background": "Retail / grocery recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail / grocery with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ACI",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ACI",
+    "stockTrend": "View the live ACI stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 51,
+    "hq": "Boise, ID",
+    "founded": "Not on file.",
+    "history": "Retail / grocery with a well-known early-careers program."
+  },
+  "Sysco": {
+    "tier": "Fortune 100 company",
+    "background": "Food distribution recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Food distribution with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: SYY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/SYY",
+    "stockTrend": "View the live SYY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 52,
+    "hq": "Houston, TX",
+    "founded": "Not on file.",
+    "history": "Food distribution with a well-known early-careers program."
+  },
+  "RTX (Raytheon)": {
+    "tier": "Fortune 100 company",
+    "background": "Aerospace / defense recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Aerospace / defense with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: RTX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/RTX",
+    "stockTrend": "View the live RTX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 53,
+    "hq": "Arlington, VA",
+    "founded": "Not on file.",
+    "history": "Aerospace / defense with a well-known early-careers program."
+  },
+  "Lockheed Martin": {
+    "tier": "Fortune 100 company",
+    "background": "Aerospace / defense recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Aerospace / defense with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: LMT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/LMT",
+    "stockTrend": "View the live LMT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 54,
+    "hq": "Bethesda, MD",
+    "founded": "Not on file.",
+    "history": "Aerospace / defense with a well-known early-careers program."
+  },
+  "Intel": {
+    "tier": "Fortune 100 company",
+    "background": "Semiconductors recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: INTC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/INTC",
+    "stockTrend": "View the live INTC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 55,
+    "hq": "Santa Clara, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "IBM": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: IBM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/IBM",
+    "stockTrend": "View the live IBM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 56,
+    "hq": "Armonk, NY",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "HCA Healthcare": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HCA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HCA",
+    "stockTrend": "View the live HCA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 57,
+    "hq": "Nashville, TN",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "Caterpillar": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CAT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CAT",
+    "stockTrend": "View the live CAT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 58,
+    "hq": "Irving, TX",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Nationwide": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Columbus, OH",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "MetLife": {
+    "tier": "Fortune 100 company",
+    "background": "Insurance recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MET",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MET",
+    "stockTrend": "View the live MET stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 59,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Coca-Cola": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KO",
+    "stockTrend": "View the live KO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 60,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Pfizer": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PFE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PFE",
+    "stockTrend": "View the live PFE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 61,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Nike": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods / apparel recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / apparel with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: NKE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/NKE",
+    "stockTrend": "View the live NKE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 62,
+    "hq": "Beaverton, OR",
+    "founded": "Not on file.",
+    "history": "Consumer goods / apparel with a well-known early-careers program."
+  },
+  "Merck": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MRK",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MRK",
+    "stockTrend": "View the live MRK stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 63,
+    "hq": "Rahway, NJ",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Honeywell": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HON",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HON",
+    "stockTrend": "View the live HON stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 64,
+    "hq": "Charlotte, NC",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "American Express": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AXP",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AXP",
+    "stockTrend": "View the live AXP stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 65,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Abbott": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / devices recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare / devices with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ABT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ABT",
+    "stockTrend": "View the live ABT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 66,
+    "hq": "Abbott Park, IL",
+    "founded": "Not on file.",
+    "history": "Healthcare / devices with a well-known early-careers program."
+  },
+  "3M": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MMM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MMM",
+    "stockTrend": "View the live MMM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 67,
+    "hq": "St. Paul, MN",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Deere & Company": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials / ag recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials / ag with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DE",
+    "stockTrend": "View the live DE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 68,
+    "hq": "Moline, IL",
+    "founded": "Not on file.",
+    "history": "Industrials / ag with a well-known early-careers program."
+  },
+  "Oracle": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ORCL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ORCL",
+    "stockTrend": "View the live ORCL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 69,
+    "hq": "Austin, TX",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "General Electric": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GE",
+    "stockTrend": "View the live GE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 70,
+    "hq": "Boston, MA",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Cisco": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CSCO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CSCO",
+    "stockTrend": "View the live CSCO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 71,
+    "hq": "San Jose, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "TJX Companies": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TJX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TJX",
+    "stockTrend": "View the live TJX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 72,
+    "hq": "Framingham, MA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "NVIDIA": {
+    "tier": "Fortune 100 company",
+    "background": "Semiconductors recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: NVDA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/NVDA",
+    "stockTrend": "View the live NVDA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 73,
+    "hq": "Santa Clara, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "Salesforce": {
+    "tier": "Fortune 100 company",
+    "background": "Tech / SaaS recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech / SaaS with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CRM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CRM",
+    "stockTrend": "View the live CRM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 74,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "Tech / SaaS with a well-known early-careers program."
+  },
+  "AbbVie": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ABBV",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ABBV",
+    "stockTrend": "View the live ABBV stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 75,
+    "hq": "North Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Best Buy": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BBY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BBY",
+    "stockTrend": "View the live BBY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 76,
+    "hq": "Richfield, MN",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Bristol Myers Squibb": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BMY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BMY",
+    "stockTrend": "View the live BMY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 77,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "United Airlines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UAL",
+    "stockTrend": "View the live UAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 78,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "Delta Air Lines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DAL",
+    "stockTrend": "View the live DAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 79,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "American Airlines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AAL",
+    "stockTrend": "View the live AAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 80,
+    "hq": "Fort Worth, TX",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "Tyson Foods": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods / food recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TSN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TSN",
+    "stockTrend": "View the live TSN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 81,
+    "hq": "Springdale, AR",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Prudential Financial": {
+    "tier": "Fortune 100 company",
+    "background": "Insurance recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PRU",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PRU",
+    "stockTrend": "View the live PRU stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 82,
+    "hq": "Newark, NJ",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Mondelez": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MDLZ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MDLZ",
+    "stockTrend": "View the live MDLZ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "General Dynamics": {
+    "tier": "Fortune 100 company",
+    "background": "Aerospace / defense recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Aerospace / defense with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GD",
+    "stockTrend": "View the live GD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 83,
+    "hq": "Reston, VA",
+    "founded": "Not on file.",
+    "history": "Aerospace / defense with a well-known early-careers program."
+  },
+  "Capital One": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: COF",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/COF",
+    "stockTrend": "View the live COF stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 84,
+    "hq": "McLean, VA",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Charter Communications": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom / media recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Telecom / media with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CHTR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CHTR",
+    "stockTrend": "View the live CHTR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 85,
+    "hq": "Stamford, CT",
+    "founded": "Not on file.",
+    "history": "Telecom / media with a well-known early-careers program."
+  },
+  "Nordstrom": {
+    "tier": "Retail",
+    "background": "Retail recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: JWN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JWN",
+    "stockTrend": "View the live JWN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Estée Lauder": {
+    "tier": "Consumer goods / beauty",
+    "background": "Consumer goods / beauty recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / beauty with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: EL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/EL",
+    "stockTrend": "View the live EL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods / beauty with a well-known early-careers program."
+  },
+  "Colgate-Palmolive": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CL",
+    "stockTrend": "View the live CL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Kimberly-Clark": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KMB",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KMB",
+    "stockTrend": "View the live KMB stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Irving, TX",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "General Mills": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GIS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GIS",
+    "stockTrend": "View the live GIS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Kellanova": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: K",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/K",
+    "stockTrend": "View the live K stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Kraft Heinz": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KHC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KHC",
+    "stockTrend": "View the live KHC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Unilever": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UL",
+    "stockTrend": "View the live UL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Englewood Cliffs, NJ",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "L'Oréal USA": {
+    "tier": "Consumer goods / beauty",
+    "background": "Consumer goods / beauty recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / beauty with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods / beauty with a well-known early-careers program."
+  },
+  "Anheuser-Busch": {
+    "tier": "Consumer goods / bev",
+    "background": "Consumer goods / bev recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer goods / bev with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BUD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BUD",
+    "stockTrend": "View the live BUD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "St. Louis, MO",
+    "founded": "Not on file.",
+    "history": "Consumer goods / bev with a well-known early-careers program."
+  },
+  "Mastercard": {
+    "tier": "Payments",
+    "background": "Payments recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Payments with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MA",
+    "stockTrend": "View the live MA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Purchase, NY",
+    "founded": "Not on file.",
+    "history": "Payments with a well-known early-careers program."
+  },
+  "Visa": {
+    "tier": "Payments",
+    "background": "Payments recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Payments with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: V",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/V",
+    "stockTrend": "View the live V stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "Payments with a well-known early-careers program."
+  },
+  "Adobe": {
+    "tier": "Tech / SaaS",
+    "background": "Tech / SaaS recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Tech / SaaS with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ADBE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ADBE",
+    "stockTrend": "View the live ADBE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Jose, CA",
+    "founded": "Not on file.",
+    "history": "Tech / SaaS with a well-known early-careers program."
+  },
+  "Qualcomm": {
+    "tier": "Semiconductors",
+    "background": "Semiconductors recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: QCOM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/QCOM",
+    "stockTrend": "View the live QCOM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Diego, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "Texas Instruments": {
+    "tier": "Semiconductors",
+    "background": "Semiconductors recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TXN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TXN",
+    "stockTrend": "View the live TXN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Dallas, TX",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "Medtronic": {
+    "tier": "Healthcare / devices",
+    "background": "Healthcare / devices recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Healthcare / devices with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MDT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MDT",
+    "stockTrend": "View the live MDT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Healthcare / devices with a well-known early-careers program."
+  },
+  "Eli Lilly": {
+    "tier": "Pharma",
+    "background": "Pharma recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: LLY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/LLY",
+    "stockTrend": "View the live LLY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Indianapolis, IN",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Northrop Grumman": {
+    "tier": "Aerospace / defense",
+    "background": "Aerospace / defense recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Aerospace / defense with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: NOC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/NOC",
+    "stockTrend": "View the live NOC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Falls Church, VA",
+    "founded": "Not on file.",
+    "history": "Aerospace / defense with a well-known early-careers program."
+  },
+  "Marriott": {
+    "tier": "Hospitality",
+    "background": "Hospitality recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Hospitality with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MAR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MAR",
+    "stockTrend": "View the live MAR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Bethesda, MD",
+    "founded": "Not on file.",
+    "history": "Hospitality with a well-known early-careers program."
+  },
+  "Starbucks": {
+    "tier": "Consumer / food",
+    "background": "Consumer / food recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: SBUX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/SBUX",
+    "stockTrend": "View the live SBUX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "Consumer / food with a well-known early-careers program."
+  },
+  "McDonald's": {
+    "tier": "Consumer / food",
+    "background": "Consumer / food recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MCD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MCD",
+    "stockTrend": "View the live MCD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer / food with a well-known early-careers program."
+  },
+  "PNC Financial": {
+    "tier": "Financial services",
+    "background": "Financial services recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PNC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PNC",
+    "stockTrend": "View the live PNC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Pittsburgh, PA",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Travelers": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TRV",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TRV",
+    "stockTrend": "View the live TRV stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Liberty Mutual": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Boston, MA",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Progressive": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PGR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PGR",
+    "stockTrend": "View the live PGR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Mayfield, OH",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Allstate": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ALL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ALL",
+    "stockTrend": "View the live ALL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Northbrook, IL",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Cummins": {
+    "tier": "Industrials",
+    "background": "Industrials recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CMI",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CMI",
+    "stockTrend": "View the live CMI stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Columbus, IN",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Emerson Electric": {
+    "tier": "Industrials",
+    "background": "Industrials recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: EMR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/EMR",
+    "stockTrend": "View the live EMR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "St. Louis, MO",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Paccar": {
+    "tier": "Industrials",
+    "background": "Industrials recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PCAR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PCAR",
+    "stockTrend": "View the live PCAR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Bellevue, WA",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Stanley Black & Decker": {
+    "tier": "Industrials",
+    "background": "Industrials recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: SWK",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/SWK",
+    "stockTrend": "View the live SWK stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New Britain, CT",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Whirlpool": {
+    "tier": "Consumer durables",
+    "background": "Consumer durables recruiting operations & supply chain talent.",
+    "deepProfile": [
+      "Consumer durables with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WHR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WHR",
+    "stockTrend": "View the live WHR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Benton Harbor, MI",
+    "founded": "Not on file.",
+    "history": "Consumer durables with a well-known early-careers program."
+  },
+  "DHL Supply Chain": {
+    "tier": "Major employer",
+    "background": "Excellence. Simply delivered.",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Excellence. Simply delivered.",
+    "tagline": "Excellence. Simply delivered.",
+    "ticker": "NYSE/NASDAQ: DPSGY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DPSGY",
+    "stockTrend": "View the live DPSGY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Bonn, Germany",
+    "founded": "Not on file.",
+    "history": "Excellence. Simply delivered.. "
+  },
+  "C.H. Robinson": {
+    "tier": "Major employer",
+    "background": "Accelerating global trade",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Accelerating global trade",
+    "tagline": "Accelerating global trade",
+    "ticker": "NYSE/NASDAQ: CHRW",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CHRW",
+    "stockTrend": "View the live CHRW stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Eden Prairie, MN",
+    "founded": "Not on file.",
+    "history": "Accelerating global trade. "
+  },
+  "Kuehne+Nagel": {
+    "tier": "Major employer",
+    "background": "A global logistics leader",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A global logistics leader",
+    "tagline": "A global logistics leader",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Schindellegi, Switzerland",
+    "founded": "Not on file.",
+    "history": "A global logistics leader. "
+  },
+  "DB Schenker": {
+    "tier": "Major employer",
+    "background": "Delivering solutions worldwide",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Delivering solutions worldwide",
+    "tagline": "Delivering solutions worldwide",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Essen, Germany",
+    "founded": "Not on file.",
+    "history": "Delivering solutions worldwide. "
+  },
+  "DSV": {
+    "tier": "Major employer",
+    "background": "Keep moving",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Keep moving",
+    "tagline": "Keep moving",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Hedehusene, Denmark",
+    "founded": "Not on file.",
+    "history": "Keep moving. "
+  },
+  "XPO": {
+    "tier": "Major employer",
+    "background": "A leading freight transportation provider",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A leading freight transportation provider",
+    "tagline": "A leading freight transportation provider",
+    "ticker": "NYSE/NASDAQ: XPO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/XPO",
+    "stockTrend": "View the live XPO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Greenwich, CT",
+    "founded": "Not on file.",
+    "history": "A leading freight transportation provider. "
+  },
+  "J.B. Hunt": {
+    "tier": "Major employer",
+    "background": "The power of one of the largest fleets",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The power of one of the largest fleets",
+    "tagline": "The power of one of the largest fleets",
+    "ticker": "NYSE/NASDAQ: JBHT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JBHT",
+    "stockTrend": "View the live JBHT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Lowell, AR",
+    "founded": "Not on file.",
+    "history": "The power of one of the largest fleets. "
+  },
+  "Ryder": {
+    "tier": "Major employer",
+    "background": "Ever better",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Ever better",
+    "tagline": "Ever better",
+    "ticker": "NYSE/NASDAQ: R",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/R",
+    "stockTrend": "View the live R stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Miami, FL",
+    "founded": "Not on file.",
+    "history": "Ever better. "
+  },
+  "Maersk": {
+    "tier": "Major employer",
+    "background": "All the way",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "All the way",
+    "tagline": "All the way",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Copenhagen, Denmark",
+    "founded": "Not on file.",
+    "history": "All the way. "
+  },
+  "Expeditors": {
+    "tier": "Major employer",
+    "background": "A global logistics company",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A global logistics company",
+    "tagline": "A global logistics company",
+    "ticker": "NYSE/NASDAQ: EXPD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/EXPD",
+    "stockTrend": "View the live EXPD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "A global logistics company. "
+  },
+  "GXO Logistics": {
+    "tier": "Major employer",
+    "background": "The world's largest pure-play contract logistics provider",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The world's largest pure-play contract logistics provider",
+    "tagline": "The world's largest pure-play contract logistics provider",
+    "ticker": "NYSE/NASDAQ: GXO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GXO",
+    "stockTrend": "View the live GXO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Greenwich, CT",
+    "founded": "Not on file.",
+    "history": "The world's largest pure-play contract logistics provider. "
+  },
+  "Schneider": {
+    "tier": "Major employer",
+    "background": "More of what matters",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "More of what matters",
+    "tagline": "More of what matters",
+    "ticker": "NYSE/NASDAQ: SNDR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/SNDR",
+    "stockTrend": "View the live SNDR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Green Bay, WI",
+    "founded": "Not on file.",
+    "history": "More of what matters. "
+  },
+  "Knight-Swift": {
+    "tier": "Major employer",
+    "background": "A leading truckload carrier",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A leading truckload carrier",
+    "tagline": "A leading truckload carrier",
+    "ticker": "NYSE/NASDAQ: KNX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KNX",
+    "stockTrend": "View the live KNX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Phoenix, AZ",
+    "founded": "Not on file.",
+    "history": "A leading truckload carrier. "
+  },
+  "Old Dominion": {
+    "tier": "Major employer",
+    "background": "Helping the world keep promises",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Helping the world keep promises",
+    "tagline": "Helping the world keep promises",
+    "ticker": "NYSE/NASDAQ: ODFL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ODFL",
+    "stockTrend": "View the live ODFL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Thomasville, NC",
+    "founded": "Not on file.",
+    "history": "Helping the world keep promises. "
+  },
+  "Flexport": {
+    "tier": "Major employer",
+    "background": "The platform for global logistics",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The platform for global logistics",
+    "tagline": "The platform for global logistics",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "The platform for global logistics. "
+  }
+};
+
+window.OPERATIONS_INTERNSHIPS = [
+  {
+    "id": "walmart-supply-chain-management-2027",
+    "company": "Walmart",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walmart-operations-management-2027",
+    "company": "Walmart",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walmart-procurement-sourcing-2027",
+    "company": "Walmart",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-supply-chain-management-2027",
+    "company": "Amazon",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-operations-management-2027",
+    "company": "Amazon",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-procurement-sourcing-2027",
+    "company": "Amazon",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-supply-chain-management-2027",
+    "company": "Apple",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-operations-management-2027",
+    "company": "Apple",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-procurement-sourcing-2027",
+    "company": "Apple",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unitedhealth-group-supply-chain-management-2027",
+    "company": "UnitedHealth Group",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unitedhealth-group-operations-management-2027",
+    "company": "UnitedHealth Group",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unitedhealth-group-procurement-sourcing-2027",
+    "company": "UnitedHealth Group",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-supply-chain-management-2027",
+    "company": "CVS Health",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-operations-management-2027",
+    "company": "CVS Health",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-procurement-sourcing-2027",
+    "company": "CVS Health",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "exxonmobil-supply-chain-management-2027",
+    "company": "ExxonMobil",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "exxonmobil-operations-management-2027",
+    "company": "ExxonMobil",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "exxonmobil-procurement-sourcing-2027",
+    "company": "ExxonMobil",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-supply-chain-management-2027",
+    "company": "Alphabet (Google)",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-operations-management-2027",
+    "company": "Alphabet (Google)",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-procurement-sourcing-2027",
+    "company": "Alphabet (Google)",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mckesson-supply-chain-management-2027",
+    "company": "McKesson",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McKesson%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mckesson-operations-management-2027",
+    "company": "McKesson",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McKesson%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mckesson-procurement-sourcing-2027",
+    "company": "McKesson",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McKesson%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cencora-supply-chain-management-2027",
+    "company": "Cencora",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cencora%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cencora-operations-management-2027",
+    "company": "Cencora",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cencora%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cencora-procurement-sourcing-2027",
+    "company": "Cencora",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cencora%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-supply-chain-management-2027",
+    "company": "Costco",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-operations-management-2027",
+    "company": "Costco",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-procurement-sourcing-2027",
+    "company": "Costco",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "jpmorgan-chase-supply-chain-management-2027",
+    "company": "JPMorgan Chase",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "jpmorgan-chase-operations-management-2027",
+    "company": "JPMorgan Chase",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "jpmorgan-chase-procurement-sourcing-2027",
+    "company": "JPMorgan Chase",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-supply-chain-management-2027",
+    "company": "Microsoft",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-operations-management-2027",
+    "company": "Microsoft",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-procurement-sourcing-2027",
+    "company": "Microsoft",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cardinal-health-supply-chain-management-2027",
+    "company": "Cardinal Health",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cardinal-health-operations-management-2027",
+    "company": "Cardinal Health",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cardinal-health-procurement-sourcing-2027",
+    "company": "Cardinal Health",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "chevron-supply-chain-management-2027",
+    "company": "Chevron",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Chevron%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "chevron-operations-management-2027",
+    "company": "Chevron",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Chevron%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "chevron-procurement-sourcing-2027",
+    "company": "Chevron",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Chevron%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cigna-supply-chain-management-2027",
+    "company": "Cigna",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cigna%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cigna-operations-management-2027",
+    "company": "Cigna",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cigna%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cigna-procurement-sourcing-2027",
+    "company": "Cigna",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cigna%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-supply-chain-management-2027",
+    "company": "Ford Motor",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-operations-management-2027",
+    "company": "Ford Motor",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-procurement-sourcing-2027",
+    "company": "Ford Motor",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bank-of-america-supply-chain-management-2027",
+    "company": "Bank of America",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bank-of-america-operations-management-2027",
+    "company": "Bank of America",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bank-of-america-procurement-sourcing-2027",
+    "company": "Bank of America",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-supply-chain-management-2027",
+    "company": "General Motors",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-operations-management-2027",
+    "company": "General Motors",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-procurement-sourcing-2027",
+    "company": "General Motors",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "elevance-health-supply-chain-management-2027",
+    "company": "Elevance Health",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "elevance-health-operations-management-2027",
+    "company": "Elevance Health",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "elevance-health-procurement-sourcing-2027",
+    "company": "Elevance Health",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "citigroup-supply-chain-management-2027",
+    "company": "Citigroup",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Citigroup%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "citigroup-operations-management-2027",
+    "company": "Citigroup",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Citigroup%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "citigroup-procurement-sourcing-2027",
+    "company": "Citigroup",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Citigroup%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "centene-supply-chain-management-2027",
+    "company": "Centene",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Centene%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "centene-operations-management-2027",
+    "company": "Centene",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Centene%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "centene-procurement-sourcing-2027",
+    "company": "Centene",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Centene%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-supply-chain-management-2027",
+    "company": "Home Depot",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-operations-management-2027",
+    "company": "Home Depot",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-procurement-sourcing-2027",
+    "company": "Home Depot",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marathon-petroleum-supply-chain-management-2027",
+    "company": "Marathon Petroleum",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marathon%20Petroleum%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marathon-petroleum-operations-management-2027",
+    "company": "Marathon Petroleum",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marathon%20Petroleum%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marathon-petroleum-procurement-sourcing-2027",
+    "company": "Marathon Petroleum",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marathon%20Petroleum%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-supply-chain-management-2027",
+    "company": "Kroger",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-operations-management-2027",
+    "company": "Kroger",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-procurement-sourcing-2027",
+    "company": "Kroger",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "phillips-66-supply-chain-management-2027",
+    "company": "Phillips 66",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Phillips%2066%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "phillips-66-operations-management-2027",
+    "company": "Phillips 66",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Phillips%2066%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "phillips-66-procurement-sourcing-2027",
+    "company": "Phillips 66",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Phillips%2066%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fannie-mae-supply-chain-management-2027",
+    "company": "Fannie Mae",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Fannie%20Mae%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fannie-mae-operations-management-2027",
+    "company": "Fannie Mae",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Fannie%20Mae%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fannie-mae-procurement-sourcing-2027",
+    "company": "Fannie Mae",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Fannie%20Mae%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-supply-chain-management-2027",
+    "company": "Walgreens",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-operations-management-2027",
+    "company": "Walgreens",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-procurement-sourcing-2027",
+    "company": "Walgreens",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "valero-energy-supply-chain-management-2027",
+    "company": "Valero Energy",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Valero%20Energy%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "valero-energy-operations-management-2027",
+    "company": "Valero Energy",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Valero%20Energy%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "valero-energy-procurement-sourcing-2027",
+    "company": "Valero Energy",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Valero%20Energy%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-supply-chain-management-2027",
+    "company": "Meta",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-operations-management-2027",
+    "company": "Meta",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-procurement-sourcing-2027",
+    "company": "Meta",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-supply-chain-management-2027",
+    "company": "Verizon",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-operations-management-2027",
+    "company": "Verizon",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-procurement-sourcing-2027",
+    "company": "Verizon",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-supply-chain-management-2027",
+    "company": "AT&T",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-operations-management-2027",
+    "company": "AT&T",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-procurement-sourcing-2027",
+    "company": "AT&T",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-supply-chain-management-2027",
+    "company": "Comcast",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-operations-management-2027",
+    "company": "Comcast",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-procurement-sourcing-2027",
+    "company": "Comcast",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wells-fargo-supply-chain-management-2027",
+    "company": "Wells Fargo",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wells-fargo-operations-management-2027",
+    "company": "Wells Fargo",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wells-fargo-procurement-sourcing-2027",
+    "company": "Wells Fargo",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-supply-chain-management-2027",
+    "company": "Target",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-operations-management-2027",
+    "company": "Target",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-procurement-sourcing-2027",
+    "company": "Target",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "humana-supply-chain-management-2027",
+    "company": "Humana",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Humana%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "humana-operations-management-2027",
+    "company": "Humana",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Humana%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "humana-procurement-sourcing-2027",
+    "company": "Humana",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Humana%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-supply-chain-management-2027",
+    "company": "State Farm",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-operations-management-2027",
+    "company": "State Farm",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-procurement-sourcing-2027",
+    "company": "State Farm",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-supply-chain-management-2027",
+    "company": "Tesla",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-operations-management-2027",
+    "company": "Tesla",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-procurement-sourcing-2027",
+    "company": "Tesla",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-supply-chain-management-2027",
+    "company": "Johnson & Johnson",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-operations-management-2027",
+    "company": "Johnson & Johnson",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-procurement-sourcing-2027",
+    "company": "Johnson & Johnson",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "archer-daniels-midland-supply-chain-management-2027",
+    "company": "Archer Daniels Midland",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Archer%20Daniels%20Midland%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "archer-daniels-midland-operations-management-2027",
+    "company": "Archer Daniels Midland",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Archer%20Daniels%20Midland%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "archer-daniels-midland-procurement-sourcing-2027",
+    "company": "Archer Daniels Midland",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Archer%20Daniels%20Midland%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-supply-chain-management-2027",
+    "company": "PepsiCo",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-operations-management-2027",
+    "company": "PepsiCo",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-procurement-sourcing-2027",
+    "company": "PepsiCo",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-supply-chain-management-2027",
+    "company": "UPS",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-operations-management-2027",
+    "company": "UPS",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-procurement-sourcing-2027",
+    "company": "UPS",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-supply-chain-management-2027",
+    "company": "FedEx",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-operations-management-2027",
+    "company": "FedEx",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-procurement-sourcing-2027",
+    "company": "FedEx",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-supply-chain-management-2027",
+    "company": "Disney",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-operations-management-2027",
+    "company": "Disney",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-procurement-sourcing-2027",
+    "company": "Disney",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-supply-chain-management-2027",
+    "company": "Dell Technologies",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-operations-management-2027",
+    "company": "Dell Technologies",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-procurement-sourcing-2027",
+    "company": "Dell Technologies",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-supply-chain-management-2027",
+    "company": "Lowe's",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-operations-management-2027",
+    "company": "Lowe's",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-procurement-sourcing-2027",
+    "company": "Lowe's",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-supply-chain-management-2027",
+    "company": "Procter & Gamble",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-operations-management-2027",
+    "company": "Procter & Gamble",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-procurement-sourcing-2027",
+    "company": "Procter & Gamble",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "boeing-supply-chain-management-2027",
+    "company": "Boeing",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Boeing%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "boeing-operations-management-2027",
+    "company": "Boeing",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Boeing%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "boeing-procurement-sourcing-2027",
+    "company": "Boeing",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Boeing%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-supply-chain-management-2027",
+    "company": "Albertsons",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-operations-management-2027",
+    "company": "Albertsons",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-procurement-sourcing-2027",
+    "company": "Albertsons",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "sysco-supply-chain-management-2027",
+    "company": "Sysco",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Sysco%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "sysco-operations-management-2027",
+    "company": "Sysco",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Sysco%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "sysco-procurement-sourcing-2027",
+    "company": "Sysco",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Sysco%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "rtx-raytheon-supply-chain-management-2027",
+    "company": "RTX (Raytheon)",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "rtx-raytheon-operations-management-2027",
+    "company": "RTX (Raytheon)",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "rtx-raytheon-procurement-sourcing-2027",
+    "company": "RTX (Raytheon)",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lockheed-martin-supply-chain-management-2027",
+    "company": "Lockheed Martin",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lockheed-martin-operations-management-2027",
+    "company": "Lockheed Martin",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lockheed-martin-procurement-sourcing-2027",
+    "company": "Lockheed Martin",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-supply-chain-management-2027",
+    "company": "Intel",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-operations-management-2027",
+    "company": "Intel",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-procurement-sourcing-2027",
+    "company": "Intel",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-supply-chain-management-2027",
+    "company": "IBM",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-operations-management-2027",
+    "company": "IBM",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-procurement-sourcing-2027",
+    "company": "IBM",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "hca-healthcare-supply-chain-management-2027",
+    "company": "HCA Healthcare",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "hca-healthcare-operations-management-2027",
+    "company": "HCA Healthcare",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "hca-healthcare-procurement-sourcing-2027",
+    "company": "HCA Healthcare",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "caterpillar-supply-chain-management-2027",
+    "company": "Caterpillar",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Caterpillar%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "caterpillar-operations-management-2027",
+    "company": "Caterpillar",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Caterpillar%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "caterpillar-procurement-sourcing-2027",
+    "company": "Caterpillar",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Caterpillar%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-supply-chain-management-2027",
+    "company": "Nationwide",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-operations-management-2027",
+    "company": "Nationwide",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-procurement-sourcing-2027",
+    "company": "Nationwide",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-supply-chain-management-2027",
+    "company": "MetLife",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-operations-management-2027",
+    "company": "MetLife",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-procurement-sourcing-2027",
+    "company": "MetLife",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-supply-chain-management-2027",
+    "company": "Coca-Cola",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-operations-management-2027",
+    "company": "Coca-Cola",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-procurement-sourcing-2027",
+    "company": "Coca-Cola",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-supply-chain-management-2027",
+    "company": "Pfizer",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-operations-management-2027",
+    "company": "Pfizer",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-procurement-sourcing-2027",
+    "company": "Pfizer",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-supply-chain-management-2027",
+    "company": "Nike",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-operations-management-2027",
+    "company": "Nike",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-procurement-sourcing-2027",
+    "company": "Nike",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-supply-chain-management-2027",
+    "company": "Merck",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-operations-management-2027",
+    "company": "Merck",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-procurement-sourcing-2027",
+    "company": "Merck",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "honeywell-supply-chain-management-2027",
+    "company": "Honeywell",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Honeywell%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "honeywell-operations-management-2027",
+    "company": "Honeywell",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Honeywell%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "honeywell-procurement-sourcing-2027",
+    "company": "Honeywell",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Honeywell%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-supply-chain-management-2027",
+    "company": "American Express",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-operations-management-2027",
+    "company": "American Express",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-procurement-sourcing-2027",
+    "company": "American Express",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-supply-chain-management-2027",
+    "company": "Abbott",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-operations-management-2027",
+    "company": "Abbott",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-procurement-sourcing-2027",
+    "company": "Abbott",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-supply-chain-management-2027",
+    "company": "3M",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-operations-management-2027",
+    "company": "3M",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-procurement-sourcing-2027",
+    "company": "3M",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "deere-company-supply-chain-management-2027",
+    "company": "Deere & Company",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "deere-company-operations-management-2027",
+    "company": "Deere & Company",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "deere-company-procurement-sourcing-2027",
+    "company": "Deere & Company",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-supply-chain-management-2027",
+    "company": "Oracle",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-operations-management-2027",
+    "company": "Oracle",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-procurement-sourcing-2027",
+    "company": "Oracle",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-electric-supply-chain-management-2027",
+    "company": "General Electric",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Electric%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-electric-operations-management-2027",
+    "company": "General Electric",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Electric%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-electric-procurement-sourcing-2027",
+    "company": "General Electric",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Electric%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-supply-chain-management-2027",
+    "company": "Cisco",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-operations-management-2027",
+    "company": "Cisco",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-procurement-sourcing-2027",
+    "company": "Cisco",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-supply-chain-management-2027",
+    "company": "TJX Companies",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-operations-management-2027",
+    "company": "TJX Companies",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-procurement-sourcing-2027",
+    "company": "TJX Companies",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-supply-chain-management-2027",
+    "company": "NVIDIA",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-operations-management-2027",
+    "company": "NVIDIA",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-procurement-sourcing-2027",
+    "company": "NVIDIA",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-supply-chain-management-2027",
+    "company": "Salesforce",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-operations-management-2027",
+    "company": "Salesforce",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-procurement-sourcing-2027",
+    "company": "Salesforce",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-supply-chain-management-2027",
+    "company": "AbbVie",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-operations-management-2027",
+    "company": "AbbVie",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-procurement-sourcing-2027",
+    "company": "AbbVie",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-supply-chain-management-2027",
+    "company": "Best Buy",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-operations-management-2027",
+    "company": "Best Buy",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-procurement-sourcing-2027",
+    "company": "Best Buy",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bristol-myers-squibb-supply-chain-management-2027",
+    "company": "Bristol Myers Squibb",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bristol-myers-squibb-operations-management-2027",
+    "company": "Bristol Myers Squibb",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bristol-myers-squibb-procurement-sourcing-2027",
+    "company": "Bristol Myers Squibb",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-supply-chain-management-2027",
+    "company": "United Airlines",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-operations-management-2027",
+    "company": "United Airlines",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-procurement-sourcing-2027",
+    "company": "United Airlines",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-supply-chain-management-2027",
+    "company": "Delta Air Lines",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-operations-management-2027",
+    "company": "Delta Air Lines",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-procurement-sourcing-2027",
+    "company": "Delta Air Lines",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-supply-chain-management-2027",
+    "company": "American Airlines",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-operations-management-2027",
+    "company": "American Airlines",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-procurement-sourcing-2027",
+    "company": "American Airlines",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-supply-chain-management-2027",
+    "company": "Tyson Foods",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-operations-management-2027",
+    "company": "Tyson Foods",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-procurement-sourcing-2027",
+    "company": "Tyson Foods",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "prudential-financial-supply-chain-management-2027",
+    "company": "Prudential Financial",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "prudential-financial-operations-management-2027",
+    "company": "Prudential Financial",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "prudential-financial-procurement-sourcing-2027",
+    "company": "Prudential Financial",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-supply-chain-management-2027",
+    "company": "Mondelez",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-operations-management-2027",
+    "company": "Mondelez",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-procurement-sourcing-2027",
+    "company": "Mondelez",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-dynamics-supply-chain-management-2027",
+    "company": "General Dynamics",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-dynamics-operations-management-2027",
+    "company": "General Dynamics",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-dynamics-procurement-sourcing-2027",
+    "company": "General Dynamics",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-supply-chain-management-2027",
+    "company": "Capital One",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-operations-management-2027",
+    "company": "Capital One",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-procurement-sourcing-2027",
+    "company": "Capital One",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-supply-chain-management-2027",
+    "company": "Charter Communications",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-operations-management-2027",
+    "company": "Charter Communications",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-procurement-sourcing-2027",
+    "company": "Charter Communications",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-supply-chain-management-2027",
+    "company": "Nordstrom",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-operations-management-2027",
+    "company": "Nordstrom",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-procurement-sourcing-2027",
+    "company": "Nordstrom",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-supply-chain-management-2027",
+    "company": "Estée Lauder",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-operations-management-2027",
+    "company": "Estée Lauder",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-procurement-sourcing-2027",
+    "company": "Estée Lauder",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-supply-chain-management-2027",
+    "company": "Colgate-Palmolive",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-operations-management-2027",
+    "company": "Colgate-Palmolive",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-procurement-sourcing-2027",
+    "company": "Colgate-Palmolive",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-supply-chain-management-2027",
+    "company": "Kimberly-Clark",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-operations-management-2027",
+    "company": "Kimberly-Clark",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-procurement-sourcing-2027",
+    "company": "Kimberly-Clark",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-supply-chain-management-2027",
+    "company": "General Mills",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-operations-management-2027",
+    "company": "General Mills",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-procurement-sourcing-2027",
+    "company": "General Mills",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-supply-chain-management-2027",
+    "company": "Kellanova",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-operations-management-2027",
+    "company": "Kellanova",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-procurement-sourcing-2027",
+    "company": "Kellanova",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-supply-chain-management-2027",
+    "company": "Kraft Heinz",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-operations-management-2027",
+    "company": "Kraft Heinz",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-procurement-sourcing-2027",
+    "company": "Kraft Heinz",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-supply-chain-management-2027",
+    "company": "Unilever",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-operations-management-2027",
+    "company": "Unilever",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-procurement-sourcing-2027",
+    "company": "Unilever",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-supply-chain-management-2027",
+    "company": "L'Oréal USA",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-operations-management-2027",
+    "company": "L'Oréal USA",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-procurement-sourcing-2027",
+    "company": "L'Oréal USA",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-supply-chain-management-2027",
+    "company": "Anheuser-Busch",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-operations-management-2027",
+    "company": "Anheuser-Busch",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-procurement-sourcing-2027",
+    "company": "Anheuser-Busch",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-supply-chain-management-2027",
+    "company": "Mastercard",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-operations-management-2027",
+    "company": "Mastercard",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-procurement-sourcing-2027",
+    "company": "Mastercard",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-supply-chain-management-2027",
+    "company": "Visa",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-operations-management-2027",
+    "company": "Visa",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-procurement-sourcing-2027",
+    "company": "Visa",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-supply-chain-management-2027",
+    "company": "Adobe",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-operations-management-2027",
+    "company": "Adobe",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-procurement-sourcing-2027",
+    "company": "Adobe",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-supply-chain-management-2027",
+    "company": "Qualcomm",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-operations-management-2027",
+    "company": "Qualcomm",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-procurement-sourcing-2027",
+    "company": "Qualcomm",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "texas-instruments-supply-chain-management-2027",
+    "company": "Texas Instruments",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "texas-instruments-operations-management-2027",
+    "company": "Texas Instruments",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "texas-instruments-procurement-sourcing-2027",
+    "company": "Texas Instruments",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-supply-chain-management-2027",
+    "company": "Medtronic",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-operations-management-2027",
+    "company": "Medtronic",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-procurement-sourcing-2027",
+    "company": "Medtronic",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-supply-chain-management-2027",
+    "company": "Eli Lilly",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-operations-management-2027",
+    "company": "Eli Lilly",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-procurement-sourcing-2027",
+    "company": "Eli Lilly",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "northrop-grumman-supply-chain-management-2027",
+    "company": "Northrop Grumman",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "northrop-grumman-operations-management-2027",
+    "company": "Northrop Grumman",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "northrop-grumman-procurement-sourcing-2027",
+    "company": "Northrop Grumman",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-supply-chain-management-2027",
+    "company": "Marriott",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-operations-management-2027",
+    "company": "Marriott",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-procurement-sourcing-2027",
+    "company": "Marriott",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-supply-chain-management-2027",
+    "company": "Starbucks",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-operations-management-2027",
+    "company": "Starbucks",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-procurement-sourcing-2027",
+    "company": "Starbucks",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-supply-chain-management-2027",
+    "company": "McDonald's",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-operations-management-2027",
+    "company": "McDonald's",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-procurement-sourcing-2027",
+    "company": "McDonald's",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pnc-financial-supply-chain-management-2027",
+    "company": "PNC Financial",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pnc-financial-operations-management-2027",
+    "company": "PNC Financial",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pnc-financial-procurement-sourcing-2027",
+    "company": "PNC Financial",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "travelers-supply-chain-management-2027",
+    "company": "Travelers",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Travelers%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "travelers-operations-management-2027",
+    "company": "Travelers",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Travelers%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "travelers-procurement-sourcing-2027",
+    "company": "Travelers",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Travelers%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-supply-chain-management-2027",
+    "company": "Liberty Mutual",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-operations-management-2027",
+    "company": "Liberty Mutual",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-procurement-sourcing-2027",
+    "company": "Liberty Mutual",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-supply-chain-management-2027",
+    "company": "Progressive",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-operations-management-2027",
+    "company": "Progressive",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-procurement-sourcing-2027",
+    "company": "Progressive",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-supply-chain-management-2027",
+    "company": "Allstate",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-operations-management-2027",
+    "company": "Allstate",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-procurement-sourcing-2027",
+    "company": "Allstate",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cummins-supply-chain-management-2027",
+    "company": "Cummins",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cummins%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cummins-operations-management-2027",
+    "company": "Cummins",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cummins%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cummins-procurement-sourcing-2027",
+    "company": "Cummins",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cummins%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "emerson-electric-supply-chain-management-2027",
+    "company": "Emerson Electric",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "emerson-electric-operations-management-2027",
+    "company": "Emerson Electric",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "emerson-electric-procurement-sourcing-2027",
+    "company": "Emerson Electric",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "paccar-supply-chain-management-2027",
+    "company": "Paccar",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Paccar%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "paccar-operations-management-2027",
+    "company": "Paccar",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Paccar%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "paccar-procurement-sourcing-2027",
+    "company": "Paccar",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Paccar%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-supply-chain-management-2027",
+    "company": "Stanley Black & Decker",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-operations-management-2027",
+    "company": "Stanley Black & Decker",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-procurement-sourcing-2027",
+    "company": "Stanley Black & Decker",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-supply-chain-management-2027",
+    "company": "Whirlpool",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-operations-management-2027",
+    "company": "Whirlpool",
+    "role": "Operations Management Intern",
+    "level": "Internship",
+    "types": [
+      "Operations Management"
+    ],
+    "majors": [
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Operations Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20Operations%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-procurement-sourcing-2027",
+    "company": "Whirlpool",
+    "role": "Procurement & Sourcing Intern",
+    "level": "Internship",
+    "types": [
+      "Procurement & Sourcing"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Economics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Procurement & Sourcing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dhl-supply-chain-logistics-distribution-2027",
+    "company": "DHL Supply Chain",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DHL%20Supply%20Chain%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dhl-supply-chain-supply-chain-management-2027",
+    "company": "DHL Supply Chain",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DHL%20Supply%20Chain%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dhl-supply-chain-demand-supply-planning-2027",
+    "company": "DHL Supply Chain",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DHL%20Supply%20Chain%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "c-h-robinson-logistics-distribution-2027",
+    "company": "C.H. Robinson",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=C.H.%20Robinson%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "c-h-robinson-supply-chain-management-2027",
+    "company": "C.H. Robinson",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=C.H.%20Robinson%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "c-h-robinson-demand-supply-planning-2027",
+    "company": "C.H. Robinson",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "New York, NY",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=C.H.%20Robinson%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kuehne-nagel-logistics-distribution-2027",
+    "company": "Kuehne+Nagel",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kuehne%2BNagel%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kuehne-nagel-supply-chain-management-2027",
+    "company": "Kuehne+Nagel",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kuehne%2BNagel%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kuehne-nagel-demand-supply-planning-2027",
+    "company": "Kuehne+Nagel",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kuehne%2BNagel%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "db-schenker-logistics-distribution-2027",
+    "company": "DB Schenker",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DB%20Schenker%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "db-schenker-supply-chain-management-2027",
+    "company": "DB Schenker",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DB%20Schenker%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "db-schenker-demand-supply-planning-2027",
+    "company": "DB Schenker",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DB%20Schenker%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dsv-logistics-distribution-2027",
+    "company": "DSV",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DSV%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dsv-supply-chain-management-2027",
+    "company": "DSV",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DSV%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dsv-demand-supply-planning-2027",
+    "company": "DSV",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=DSV%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "xpo-logistics-distribution-2027",
+    "company": "XPO",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=XPO%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "xpo-supply-chain-management-2027",
+    "company": "XPO",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=XPO%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "xpo-demand-supply-planning-2027",
+    "company": "XPO",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=XPO%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "j-b-hunt-logistics-distribution-2027",
+    "company": "J.B. Hunt",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=J.B.%20Hunt%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "j-b-hunt-supply-chain-management-2027",
+    "company": "J.B. Hunt",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=J.B.%20Hunt%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "j-b-hunt-demand-supply-planning-2027",
+    "company": "J.B. Hunt",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=J.B.%20Hunt%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ryder-logistics-distribution-2027",
+    "company": "Ryder",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ryder%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ryder-supply-chain-management-2027",
+    "company": "Ryder",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ryder%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ryder-demand-supply-planning-2027",
+    "company": "Ryder",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ryder%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "maersk-logistics-distribution-2027",
+    "company": "Maersk",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Maersk%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "maersk-supply-chain-management-2027",
+    "company": "Maersk",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Maersk%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "maersk-demand-supply-planning-2027",
+    "company": "Maersk",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Maersk%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "expeditors-logistics-distribution-2027",
+    "company": "Expeditors",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Expeditors%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "expeditors-supply-chain-management-2027",
+    "company": "Expeditors",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Expeditors%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "expeditors-demand-supply-planning-2027",
+    "company": "Expeditors",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Boston, MA",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Expeditors%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "gxo-logistics-logistics-distribution-2027",
+    "company": "GXO Logistics",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=GXO%20Logistics%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "gxo-logistics-supply-chain-management-2027",
+    "company": "GXO Logistics",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=GXO%20Logistics%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "gxo-logistics-demand-supply-planning-2027",
+    "company": "GXO Logistics",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=GXO%20Logistics%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "schneider-logistics-distribution-2027",
+    "company": "Schneider",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Schneider%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "schneider-supply-chain-management-2027",
+    "company": "Schneider",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Schneider%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "schneider-demand-supply-planning-2027",
+    "company": "Schneider",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "New York, NY",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Schneider%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "knight-swift-logistics-distribution-2027",
+    "company": "Knight-Swift",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Knight-Swift%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "knight-swift-supply-chain-management-2027",
+    "company": "Knight-Swift",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Knight-Swift%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "knight-swift-demand-supply-planning-2027",
+    "company": "Knight-Swift",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Knight-Swift%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "old-dominion-logistics-distribution-2027",
+    "company": "Old Dominion",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Old%20Dominion%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "old-dominion-supply-chain-management-2027",
+    "company": "Old Dominion",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Old%20Dominion%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "old-dominion-demand-supply-planning-2027",
+    "company": "Old Dominion",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Old%20Dominion%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "flexport-logistics-distribution-2027",
+    "company": "Flexport",
+    "role": "Logistics & Distribution Intern",
+    "level": "Internship",
+    "types": [
+      "Logistics & Distribution"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Logistics & Distribution summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Flexport%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "flexport-supply-chain-management-2027",
+    "company": "Flexport",
+    "role": "Supply Chain Management Intern",
+    "level": "Internship",
+    "types": [
+      "Supply Chain Management"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Operations",
+      "Industrial Engineering",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "operations",
+      "industrial_engineering",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Supply Chain Management summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Flexport%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "flexport-demand-supply-planning-2027",
+    "company": "Flexport",
+    "role": "Demand & Supply Planning Intern",
+    "level": "Internship",
+    "types": [
+      "Demand & Supply Planning"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Analytics",
+      "Statistics"
+    ],
+    "majorTags": [
+      "supply_chain",
+      "business_analytics",
+      "statistics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Demand & Supply Planning summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-34/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Flexport%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
+  }
+];

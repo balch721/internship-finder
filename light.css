@@ -1,0 +1,185 @@
+/* ===== Light mode — soft, lighter palette (not stark white) =====
+   Activated by html[data-theme="light"]; higher specificity than :root so it
+   overrides every page's dark palette without touching their stylesheets. */
+
+html[data-theme="light"]{
+  --bg:#e7edf7;
+  --panel:#f8fafe;
+  --panel2:#eef3fb;
+  --border:#d4ddec;
+  --text:#1b2433;
+  --muted:#586778;
+  --accent:#2f5fd0; --accent2:#1f9b8a;
+  --teal:#0f9b8a; --gold:#b07d12;
+  --up:#1f9d57; --down:#d24545; --flat:#c4881a; --new:#cf3f78;
+  --urgent:#d24545; --soon:#c4881a;
+  --saved:#586778; --applied:#2f5fd0; --interviewing:#c4881a; --accepted:#1f9d57; --rejected:#d24545; --danger:#d24545;
+}
+/* per-family light tint default (blue) — attribute-only selector (specificity
+   0,1,0) is LOWER than each section page's html[data-theme="light"] rule
+   (0,1,1), so the page's own family color always wins regardless of load order */
+[data-theme="light"]{--lt-r:150;--lt-g:178;--lt-b:235}
+
+/* root canvas: a soft wash of the family tint over a near-white base (stable on scroll) */
+html[data-theme="light"]{
+  background-color:#eef2fa !important;
+  background-image:linear-gradient(180deg,
+    rgba(var(--lt-r),var(--lt-g),var(--lt-b),.22) 0%,
+    rgba(var(--lt-r),var(--lt-g),var(--lt-b),.10) 42%,
+    rgba(var(--lt-r),var(--lt-g),var(--lt-b),.04) 78%,
+    rgba(var(--lt-r),var(--lt-g),var(--lt-b),.02) 100%) !important;
+}
+html[data-theme="light"] body{background:transparent !important}
+/* the home page uses a dark animated <canvas>; hide it in light mode and show
+   the mountain-valley scene instead */
+html[data-theme="light"] #scene{display:none !important}
+html[data-theme="light"] .lightscape{display:block !important}
+
+/* ---- section-page dynamic backdrop: pastel family tint ---- */
+html[data-theme="light"] .aurora{
+  opacity:.85 !important;
+  background:
+    radial-gradient(42% 55% at 26% 12%,rgba(var(--lt-r),var(--lt-g),var(--lt-b),.40),transparent 72%),
+    radial-gradient(46% 50% at 74% 6%,rgba(var(--lt-r),var(--lt-g),var(--lt-b),.30),transparent 74%),
+    radial-gradient(60% 45% at 50% 26%,rgba(var(--lt-r),var(--lt-g),var(--lt-b),.18),transparent 80%) !important;
+}
+html[data-theme="light"] .tint{
+  opacity:.7 !important;
+  background:linear-gradient(180deg,
+    rgba(var(--lt-r),var(--lt-g),var(--lt-b),.26) 0%,
+    rgba(var(--lt-r),var(--lt-g),var(--lt-b),.10) 45%,transparent 85%) !important;
+}
+/* ridges: lightened versions of the family tint */
+html[data-theme="light"] .ridge path:nth-of-type(1){fill:rgba(var(--lt-r),var(--lt-g),var(--lt-b),.42) !important}
+html[data-theme="light"] .ridge path:nth-of-type(2){fill:rgba(var(--lt-r),var(--lt-g),var(--lt-b),.58) !important}
+html[data-theme="light"] .ridge path:nth-of-type(3){fill:rgba(var(--lt-r),var(--lt-g),var(--lt-b),.74) !important}
+
+html[data-theme="light"] .backlink{
+  background:rgba(255,255,255,.85) !important;
+  border-color:rgba(40,60,100,.12) !important;
+  box-shadow:0 4px 16px rgba(40,60,100,.15) !important;
+}
+
+/* light mode: turn the stars into soft drifting CLOUD puffs */
+html[data-theme="light"] .starsky i{
+  background:#ffffff !important;
+  filter:blur(5px) !important;
+  box-shadow:0 0 16px 11px rgba(255,255,255,.92),0 0 30px 20px rgba(225,234,250,.5) !important;
+  animation-duration:9s !important;
+}
+
+/* ---- legacy "valley" backdrop on the other pages ---- */
+html[data-theme="light"] .valley path:nth-of-type(1){fill:#cdd9f1 !important}
+html[data-theme="light"] .valley path:nth-of-type(2){fill:#b7c8ea !important}
+html[data-theme="light"] .valley path:nth-of-type(3){fill:#a2b8e0 !important}
+html[data-theme="light"] .vglow{background:radial-gradient(circle at 50% 30%,rgba(110,146,228,.16),transparent 65%) !important}
+
+/* card lift so white-ish panels separate from the bg */
+html[data-theme="light"] .card,
+html[data-theme="light"] .panel,
+html[data-theme="light"] .rcard,
+html[data-theme="light"] .modal{
+  box-shadow:0 1px 3px rgba(30,50,90,.06),0 6px 18px rgba(30,50,90,.06);
+}
+
+/* cursor flashlight: a soft white glow is invisible on light bg, so use a
+   gentle blue deepening instead (GPU-composited, no blend mode) */
+html[data-theme="light"] .flashlight{
+  background:radial-gradient(circle,rgba(72,104,180,.16),transparent 62%) !important;
+}
+
+/* ---- low-contrast text that was tuned for dark cards ---- */
+html[data-theme="light"] .majtag{color:#2f6b34 !important;background:rgba(80,150,90,.13) !important;border-color:rgba(80,150,90,.35) !important}
+html[data-theme="light"] .pay,
+html[data-theme="light"] .lpay,
+html[data-theme="light"] .ltbl .lpay{color:#127a4e !important}
+html[data-theme="light"] .status.open,
+html[data-theme="light"] .status.soon{color:#127a4e !important}
+html[data-theme="light"] .ldeadline,
+html[data-theme="light"] .ltbl .ldeadline{color:#c0392b !important}
+html[data-theme="light"] .tmpl{color:#2a3340 !important}
+html[data-theme="light"] .mk{color:#157a4a !important}
+
+/* =========================== SURVEY =========================== */
+html[data-theme="light"] #survey{
+  background:rgba(255,255,255,.92) !important;
+  border-color:var(--border) !important;
+  box-shadow:0 24px 60px rgba(40,60,100,.16) !important;
+}
+html[data-theme="light"] .progbar{background:#dde5f2 !important}
+html[data-theme="light"] .opt{background:#f3f6fc !important;border-color:var(--border) !important;color:var(--text) !important}
+html[data-theme="light"] .opt.sel,
+html[data-theme="light"] .on{background:rgba(47,95,208,.12) !important;color:#22407f !important}
+html[data-theme="light"] .chip{background:#f3f6fc !important}
+html[data-theme="light"] .note{background:#fff5e1 !important;border-color:#e8cf97 !important;color:#7a5712 !important}
+html[data-theme="light"] .yt,
+html[data-theme="light"] .sectlabel,
+html[data-theme="light"] .tier{background:#e7edf7 !important;color:#34465c !important}
+html[data-theme="light"] .msoon{background:#e7edf7 !important;color:#586778 !important;border-color:var(--border) !important}
+html[data-theme="light"] .mk{background:rgba(31,157,87,.12) !important;color:#157a44 !important;border-color:rgba(31,157,87,.3) !important}
+
+/* ===================== account widget (top-right) ===================== */
+html[data-theme="light"] #aif-acct .aif-btn{background:#ffffff !important;border-color:var(--border) !important;color:#1b2433 !important;box-shadow:0 2px 8px rgba(40,60,100,.1)}
+html[data-theme="light"] #aif-acct .aif-menu{background:#ffffff !important;border-color:var(--border) !important;box-shadow:0 16px 40px rgba(40,60,100,.18) !important}
+html[data-theme="light"] #aif-acct .aif-head{border-color:var(--border) !important}
+html[data-theme="light"] #aif-acct .aif-name{color:#1b2433 !important}
+html[data-theme="light"] #aif-acct .aif-mail{color:#586778 !important}
+html[data-theme="light"] #aif-acct .aif-item{color:#2a3545 !important}
+html[data-theme="light"] #aif-acct .aif-item:hover{background:#eef3fb !important;color:#102036 !important}
+html[data-theme="light"] #aif-acct .aif-item.danger{color:#c0392b !important}
+
+/* =========================== HOME (index) =========================== */
+html[data-theme="light"] body{
+  background:linear-gradient(180deg,#dbe4f4 0%,#e4eaf6 45%,#eef2fa 76%,#e6ebf5 100%) !important;
+}
+html[data-theme="light"] .vign{background:radial-gradient(130% 100% at 50% 8%,transparent 52%,rgba(40,60,100,.10)) !important}
+html[data-theme="light"] .grain{opacity:.03 !important}
+html[data-theme="light"] .navlinks a{color:#3c4a63 !important}
+html[data-theme="light"] .navlinks a:hover{color:#15233a !important;background:rgba(40,60,100,.07) !important}
+html[data-theme="light"] .navlinks a.cta{background:#ffffff !important;color:#1b2433 !important;border-color:rgba(40,60,100,.16) !important}
+html[data-theme="light"] .logo{color:#3c4a63 !important}
+html[data-theme="light"] .logo:hover{color:#15233a !important}
+html[data-theme="light"] .logo .sig{color:#1b2a44 !important}
+html[data-theme="light"] .pill{color:#2a3850 !important;background:rgba(255,255,255,.72) !important;border-color:rgba(40,60,100,.14) !important}
+html[data-theme="light"] h1{color:#141d30 !important}
+html[data-theme="light"] .lede{color:#46536e !important}
+html[data-theme="light"] .stat-row{color:#54627e !important}
+html[data-theme="light"] .stat-row b{color:#141d30 !important}
+html[data-theme="light"] .opt{background:rgba(255,255,255,.8) !important;border-color:rgba(40,60,100,.12) !important;box-shadow:0 10px 30px rgba(40,60,100,.1) !important}
+html[data-theme="light"] .opt h2,
+html[data-theme="light"] .opt:hover h2,
+html[data-theme="light"] .opt.teal:hover h2{color:#141d30 !important}
+html[data-theme="light"] .opt p{color:#46536e !important}
+html[data-theme="light"] .opt .go{background:#2f5fd0 !important;color:#ffffff !important;border-color:transparent !important}
+html[data-theme="light"] .opt.teal .go{background:#0f9b8a !important}
+
+/* multicolored gradient bits: darker, richer tones so they read on light */
+html[data-theme="light"] h1 .accent,
+html[data-theme="light"] .accent{
+  background:linear-gradient(105deg,#2f55c0,#0e8a7b 48%,#bf7415) !important;
+  -webkit-background-clip:text !important;background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+}
+html[data-theme="light"] h1 em{color:#bf7415 !important}
+
+/* =========================== ABOUT =========================== */
+html[data-theme="light"] .card{
+  background:rgba(255,255,255,.9) !important;
+  border-color:var(--border) !important;
+  box-shadow:0 10px 30px rgba(40,60,100,.1) !important;
+}
+html[data-theme="light"] .card h2{color:#141d30 !important}
+html[data-theme="light"] .card p{color:#39465e !important}
+html[data-theme="light"] .sig{color:#8aa0c8 !important;opacity:.55 !important}
+
+/* =========================== DATABASE =========================== */
+html[data-theme="light"] .sub-card{background:#ffffff !important;border:1px solid var(--border) !important}
+html[data-theme="light"] .sub-card.live:hover{background:#f1f6ff !important;box-shadow:0 16px 34px rgba(40,60,100,.14) !important}
+html[data-theme="light"] .cathead{background:rgba(255,255,255,.94) !important;border-color:var(--border) !important}
+html[data-theme="light"] .tagm.soon{background:#e7edf7 !important;color:#586778 !important}
+html[data-theme="light"] .grain{opacity:.25 !important}
+/* database CTA banner: white text on the colored gradient stays readable */
+html[data-theme="light"] .cta .t{color:#ffffff !important}
+html[data-theme="light"] .cta .d{color:rgba(255,255,255,.9) !important}
+html[data-theme="light"] .cta{border-color:rgba(20,30,52,.5) !important;box-shadow:0 6px 22px rgba(40,60,100,.18) !important}
+html[data-theme="light"] .cta .ci{background:rgba(47,95,208,.16) !important;border-color:rgba(47,95,208,.35) !important;color:#2f5fd0 !important}

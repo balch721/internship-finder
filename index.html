@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan's Internship Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#070b12; --text:#f2f5fb; --muted:#9fb0c6; --accent:#7fa8ff; --teal:#5fe0cf; --gold:#ffcf8a; --up:#5fe0a8;
+    --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;background:#070b12}
+  body{font-family:var(--sans);background:linear-gradient(180deg,#060b16 0%,#0b1628 45%,#15294a 72%,#0a1320 100%);color:var(--text);overflow:hidden;height:100vh;position:relative;isolation:isolate}
+  ::selection{background:rgba(127,168,255,.35);color:#fff}
+
+  /* canvas mountain+river scene */
+  #scene{position:fixed;inset:0;z-index:0;display:block;width:100%;height:100%;background:linear-gradient(180deg,#060b16 0%,#0b1628 48%,#15294a 74%,#0a1320 100%)}
+  .lightscape{display:none;position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .lightscape svg{position:absolute;inset:0;width:100%;height:100%}
+  .grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.06;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation:gr 1.4s steps(3) infinite}
+  @keyframes gr{0%{transform:translate(0,0)}33%{transform:translate(-3%,2%)}66%{transform:translate(2%,-2%)}}
+  .vign{position:fixed;inset:0;z-index:1;pointer-events:none;background:radial-gradient(130% 100% at 50% 8%, transparent 46%, rgba(0,0,0,.55))}
+
+  .nav{position:relative;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:24px 32px}
+  .logo{font-family:var(--sans);font-weight:600;font-size:14px;letter-spacing:.02em;line-height:1;color:var(--muted);
+    background:none;border:none;cursor:pointer;padding:10px 14px;transition:color .25s;white-space:nowrap;
+    display:inline-flex;align-items:center;min-width:300px;min-height:46px}
+  .logo:hover{color:#dbe6f7}
+  .logo .lbl{transition:opacity .25s}
+  /* cursive name that reveals left-to-right like it's being written */
+  .logo .sig{font-family:"Parisienne",cursive;font-weight:400;font-size:23px;letter-spacing:.3px;color:#e6eefb;
+    display:inline-block;white-space:nowrap;overflow:hidden;vertical-align:bottom;
+    max-width:0;opacity:0;transition:none}
+  .logo .sig.draw{max-width:340px;opacity:1;transition:max-width 2.6s cubic-bezier(.45,.05,.25,1),opacity .3s ease}
+  .navlinks{display:flex;gap:4px;align-items:center}
+  .navlinks a{color:var(--muted);text-decoration:none;font-size:13.5px;font-weight:500;padding:8px 13px;border-radius:9px;transition:.18s}
+  .navlinks a:hover{color:var(--text);background:rgba(255,255,255,.07)}
+  .navlinks a.cta{font-size:15.5px;font-weight:600;padding:12px 26px;background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(6px)}
+  .navlinks a.cta:hover{background:rgba(127,168,255,.3);border-color:rgba(127,168,255,.5)}
+
+  .hero{position:relative;z-index:4;text-align:center;padding:46px 24px 0;pointer-events:none}
+  .pill{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:500;color:#d8e6ff;letter-spacing:.2px;
+    background:rgba(127,168,255,.1);border:1px solid rgba(127,168,255,.26);padding:6px 14px;border-radius:999px;backdrop-filter:blur(6px)}
+  .pill .dot{width:7px;height:7px;border-radius:50%;background:var(--up);animation:pulse 1.8s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(95,224,168,.5)}70%{box-shadow:0 0 0 7px rgba(95,224,168,0)}100%{box-shadow:0 0 0 0 rgba(95,224,168,0)}}
+  h1{font-family:var(--serif);font-weight:380;font-size:clamp(46px,9vw,108px);line-height:.94;letter-spacing:-1px;margin:20px 0 14px;
+    text-shadow:0 4px 40px rgba(0,0,0,.5)}
+  h1 em{font-style:italic;font-weight:340;color:var(--gold)}
+  h1 .accent{font-style:italic;font-weight:340;background:linear-gradient(100deg,#a9c8ff,#9ff0e2,#ffd9a8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .lede{font-family:var(--sans);color:var(--muted);font-size:clamp(14px,2vw,17px);max-width:540px;margin:26px auto 0;font-weight:400}
+
+  .opts{position:relative;z-index:4;display:flex;gap:20px;justify-content:center;align-items:stretch;
+    max-width:840px;margin:44px auto 0;padding:0 24px;flex-wrap:wrap}
+  .opt{position:relative;flex:1 1 340px;max-width:400px;text-decoration:none;color:inherit;text-align:center;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:230px;
+    background:rgba(13,19,29,.5);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.12);border-radius:20px;
+    padding:36px 30px;overflow:hidden;transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,box-shadow .3s}
+  .opt::before{content:"";position:absolute;inset:0;opacity:0;transition:opacity .35s;
+    background:radial-gradient(420px 280px at var(--px,50%) var(--py,30%),rgba(127,168,255,.22),transparent 64%)}
+  .opt.teal::before{background:radial-gradient(420px 280px at var(--px,50%) var(--py,30%),rgba(95,224,207,.2),transparent 64%)}
+  .opt:hover{transform:translateY(-7px);border-color:rgba(255,255,255,.28);box-shadow:0 30px 70px rgba(0,0,0,.55)}
+  .opt:hover::before{opacity:1}
+  .opt .ic{font-size:40px;display:inline-block;transform-origin:50% 70%;transition:transform .4s cubic-bezier(.2,.7,.2,1);filter:drop-shadow(0 6px 16px rgba(0,0,0,.4))}
+
+  .opt h2{font-family:var(--serif);font-weight:500;font-size:25px;letter-spacing:-.3px;margin:14px 0 8px;position:relative;transition:color .3s,letter-spacing .3s}
+  .opt:hover h2{letter-spacing:0;color:#fff}
+  .opt.teal:hover h2{color:#dffaf4}
+  .opt p{color:var(--muted);font-size:14px;margin:0 0 18px;position:relative;font-weight:400}
+  .opt .go{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:#fff;position:relative;
+    background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);padding:10px 18px;border-radius:999px;transition:gap .25s,background .25s}
+  .opt:hover .go{gap:13px;background:rgba(127,168,255,.26)}
+  .opt.teal:hover .go{background:rgba(95,224,207,.24)}
+
+  .stat-row{position:fixed;left:0;right:0;bottom:22px;z-index:4;display:flex;gap:26px;justify-content:center;color:var(--muted);font-size:12px;pointer-events:none}
+  .stat-row b{color:var(--text);font-weight:600;font-family:var(--serif)}
+
+  .reveal{opacity:0;transform:translateY(22px);animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  .reveal.d1{animation-delay:.1s}.reveal.d2{animation-delay:.2s}.reveal.d3{animation-delay:.32s}.reveal.d4{animation-delay:.44s}
+  @keyframes up{to{opacity:1;transform:none}}
+
+  /* ---------- responsive: tablet ---------- */
+  @media (max-width:980px){
+    .opts{gap:16px;margin-top:34px}
+    .opt{flex:1 1 100%;max-width:520px}
+  }
+  /* ---------- responsive: phone ---------- */
+  @media (max-width:768px){
+    /* allow the page to scroll once content stacks (desktop locks it to 100vh) */
+    html,body{height:auto;min-height:100%;overflow-x:hidden;overflow-y:auto}
+    body{height:auto}
+    #scene{position:fixed}
+    .nav{padding:16px 18px}
+    .navlinks{gap:2px}
+    .navlinks a{font-size:12.5px;padding:7px 9px}
+    .navlinks a.cta{font-size:13.5px;padding:9px 16px}
+    .hero{padding:30px 18px 0}
+    h1{font-size:clamp(34px,11vw,52px);line-height:1.02}
+    .lede{font-size:14px;margin-top:18px;padding:0 6px}
+    .opts{flex-direction:column;align-items:stretch;margin-top:26px;padding:0 18px;gap:14px}
+    .opt{flex:1 1 100%;max-width:none;width:100%;min-height:auto;padding:26px 22px}
+    .opt h2{font-size:21px}
+    .stat-row{position:static;margin:26px 0 30px;gap:16px;flex-wrap:wrap;padding:0 18px}
+  }
+  @media (max-width:430px){
+    .logo{font-size:18px}
+    .navlinks a{padding:6px 7px}
+    .stat-row{font-size:11px;gap:12px}
+  }
+.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+</style>
+<script src="transition.js?v=4"></script>
+<link rel="stylesheet" href="light.css?v=3">
+<script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+</head>
+<body>
+  <canvas id="scene"></canvas>
+  <div class="lightscape" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice">
+      <defs>
+        <linearGradient id="lsky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#d7e3f6"/><stop offset="1" stop-color="#eef3fb"/>
+        </linearGradient>
+        <radialGradient id="lsun" cx="50%" cy="32%" r="30%">
+          <stop offset="0" stop-color="#fff6e3" stop-opacity=".85"/>
+          <stop offset="1" stop-color="#fff6e3" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="1440" height="900" fill="url(#lsky)"/>
+      <circle cx="720" cy="290" r="320" fill="url(#lsun)"/>
+      <g id="lsclouds"></g>
+      <path d="M0,560 L240,470 L430,560 L620,455 L820,575 L1040,470 L1230,560 L1440,490 L1440,900 L0,900 Z" fill="#ccd9ef"/>
+      <path d="M0,640 L260,540 L470,650 L700,545 L940,655 L1180,555 L1440,640 L1440,900 L0,900 Z" fill="#b6c8e7"/>
+      <path d="M0,720 L300,640 L560,730 L820,650 L1080,730 L1440,660 L1440,900 L0,900 Z" fill="#a0b7dd"/>
+      <path d="M0,800 L360,740 L720,800 L1080,745 L1440,800 L1440,900 L0,900 Z" fill="#8ba7d3"/>
+    </svg>
+  </div>
+  <div class="grain"></div>
+  <div class="vign"></div>
+
+  <nav class="nav">
+    <div style="display:flex;align-items:center;gap:6px">
+      <button type="button" id="themeToggle" style="background:none;border:none;cursor:pointer;color:var(--muted);font:inherit;font-size:13.5px;font-weight:500;padding:8px 13px;border-radius:9px" title="Toggle light / dark">🌙 Theme</button>
+      <button class="logo" id="aboutBtn" type="button"><span class="lbl">About →</span></button>
+    </div>
+    <div class="navlinks">
+      <a id="savedLink" href="tracker.html">Saved jobs</a>
+      <a class="cta" id="authLink" href="login.html">Log in</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="pill reveal"><span class="dot"></span> Live · Summer 2027 internships</div>
+    <h1 class="reveal d1">Find the internship<br><span class="accent">that fits you.</span></h1>
+    <p class="lede reveal d2">Two ways in — a personalized survey, or the full database. Move your cursor; the valley shifts with you.</p>
+  </header>
+
+  <main class="opts">
+    <a class="opt reveal d3" href="survey.html">
+      <h2>Find what fits you</h2>
+      <p>Answer a few quick questions — and optionally add your resume — for a personalized, ranked shortlist.</p>
+      <span class="go" data-alt="Let's go →">Take the survey →</span>
+    </a>
+    <a class="opt teal reveal d4" href="database.html">
+      <h2>Explore everything</h2>
+      <p>Browse the whole database by field — business, CS, engineering, healthcare and more.</p>
+      <span class="go" data-alt="Dive in →">Open the database →</span>
+    </a>
+  </main>
+
+  <div class="stat-row reveal d4" id="statRow"></div>
+
+<script>
+  // ===== canvas mountains + river scene (parallax, drifting light, shimmer) =====
+  (function(){if(window.matchMedia&&window.matchMedia('(max-width:768px)').matches)return;
+    // On phones/tablets, disable the heavy animated canvas (water sim + parallax)
+    // for performance; a static CSS gradient backdrop shows instead.
+    const MOBILE = window.matchMedia("(max-width:768px)").matches || window.matchMedia("(pointer:coarse)").matches;
+    const cv=document.getElementById("scene"), ctx=cv.getContext("2d");
+    let W,H,DPR;
+    function resize(){ DPR=Math.min(devicePixelRatio||1,2); W=cv.width=innerWidth*DPR; H=cv.height=innerHeight*DPR; cv.style.width=innerWidth+"px"; cv.style.height=innerHeight+"px"; }
+    resize(); addEventListener("resize",resize);
+
+    const m={x:.5,y:.4,tx:.5,ty:.4};
+    const riverTopFrac=.74;            // water starts here (matches riverTop below)
+
+    // ===== height-field water ripple simulation (real wave propagation) =====
+    const GC=420, GR=150;              // sim grid resolution
+    let cur=new Float32Array(GC*GR), prev=new Float32Array(GC*GR);
+    const wsim=document.createElement("canvas"); wsim.width=GC; wsim.height=GR;
+    const wctx=wsim.getContext("2d");
+    const wimg=wctx.createImageData(GC,GR);
+    let pgx=-1,pgy=-1;                  // previous cursor grid cell (for continuous strokes)
+    function poke(gx,gy,power){
+      if(gx<1||gx>=GC-1||gy<1||gy>=GR-1) return;
+      cur[gy*GC+gx]+=power;            // push the surface down -> spreads as waves
+    }
+    if(!MOBILE) addEventListener("pointermove",e=>{
+      m.tx=e.clientX/innerWidth; m.ty=e.clientY/innerHeight;
+      const fy=e.clientY/innerHeight;
+      if(fy>riverTopFrac-0.02){
+        const gx=Math.floor(e.clientX/innerWidth*GC);
+        const gy=Math.floor((fy-riverTopFrac)/(1-riverTopFrac)*GR);
+        // draw a line of pokes from last point so fast moves stay continuous
+        if(pgx>=0){ const steps=Math.max(Math.abs(gx-pgx),Math.abs(gy-pgy),1);
+          for(let s=1;s<=steps;s+=2){ poke(Math.round(pgx+(gx-pgx)*s/steps), Math.round(pgy+(gy-pgy)*s/steps), -30); } }
+        else poke(gx,gy,-30);
+        pgx=gx; pgy=gy;
+      } else { pgx=-1; }
+    });
+    addEventListener("pointerleave",()=>{ pgx=-1; });
+
+    function stepWater(){
+      // wave equation: next = (left+right+up+down)/2 - prevSelf, then damp
+      for(let y=1;y<GR-1;y++){
+        for(let x=1;x<GC-1;x++){
+          const i=y*GC+x;
+          let v=((cur[i-1]+cur[i+1]+cur[i-GC]+cur[i+GC])*0.5)-prev[i];
+          v*=0.935;                    // damping -> ripples fade smoothly
+          prev[i]=v;
+        }
+      }
+      const t2=cur; cur=prev; prev=t2; // swap buffers
+      // paint highlight from horizontal slope (specular on wavefront)
+      const d=wimg.data;
+      for(let y=0;y<GR;y++){ for(let x=0;x<GC;x++){
+        const i=y*GC+x;
+        const sx = (cur[Math.max(0,(y)*GC+x-1)] - cur[Math.min(GC-1,(y)*GC+x+1)]);
+        const sy = (cur[Math.max(0,(y-1<0?0:y-1)*GC+x)] - cur[(y+1>=GR?GR-1:y+1)*GC+x]);
+        const slope = sx*1.0 + sy*0.4;
+        const k=Math.max(-1,Math.min(1, slope*0.14));
+        const o=i*4;
+        if(k>0){ d[o]=200; d[o+1]=232; d[o+2]=255; d[o+3]=Math.min(180,k*200); }
+        else   { d[o]=10;  d[o+1]=20;  d[o+2]=40;  d[o+3]=Math.min(150,-k*150); }
+      }}
+      wctx.putImageData(wimg,0,0);
+    }
+
+    // deterministic pseudo-random for stable ridgelines
+    function rnd(seed){ let s=Math.sin(seed*999.7)*43758.5; return s-Math.floor(s); }
+    function ridge(baseY, rough, seed){
+      // returns y at normalized x using layered value noise
+      return function(nx){
+        let y=0, amp=1, freq=1.6, sum=0;
+        for(let o=0;o<4;o++){
+          const xx=nx*freq+seed*7.3;
+          const i=Math.floor(xx), f=xx-i;
+          const a=rnd(i+seed), b=rnd(i+1+seed);
+          const u=f*f*(3-2*f);
+          y+=(a+(b-a)*u)*amp; sum+=amp; amp*=.5; freq*=2.1;
+        }
+        return baseY - (y/sum)*rough;
+      };
+    }
+    // mountain layers: far->near, lighter/cooler far, darker near
+    const layers=[
+      {top:.40, rough:.18, seed:3.1, par:.012, col:"#243a5e", glow:.55},
+      {top:.50, rough:.22, seed:8.7, par:.022, col:"#1b2c49", glow:.35},
+      {top:.60, rough:.26, seed:14.2,par:.036, col:"#121f37", glow:.18},
+      {top:.70, rough:.30, seed:21.9,par:.055, col:"#0b1426", glow:.08}
+    ];
+    const riverTop=.74; // below this is water/reflection
+
+    function draw(t){
+      // Reset the canvas on every frame so additive lighting can never build up into a white sky.
+      ctx.globalCompositeOperation="source-over";
+      ctx.globalAlpha=1;
+      ctx.filter="none";
+      ctx.clearRect(0,0,W,H);
+      m.x+=(m.tx-m.x)*.05; m.y+=(m.ty-m.y)*.05;
+      const px=(m.x-.5), py=(m.y-.5);
+
+      // ---- sky ---- (deep night-blue, stays dark right to the top)
+      const sky=ctx.createLinearGradient(0,0,0,H*riverTop);
+      sky.addColorStop(0,"#060b16");
+      sky.addColorStop(.5,"#0b1628");
+      sky.addColorStop(.85,"#15294a");
+      sky.addColorStop(1,"#22436f");
+      ctx.fillStyle=sky; ctx.fillRect(0,0,W,H);
+
+      // sun glow sitting low on the ridgeline so the mountains occlude its
+      // lower half -> reads as a sun peeking out from behind the mountains
+      const sunx=(0.62 + Math.sin(t*0.00002)*0.05 + px*0.05)*W;
+      const suny=(0.52 + Math.cos(t*0.000017)*0.02 + py*0.03)*H;
+      const sg=ctx.createRadialGradient(sunx,suny,0,sunx,suny,Math.min(W,H)*0.24);
+      sg.addColorStop(0,"rgba(255,228,185,0.18)");
+      sg.addColorStop(.28,"rgba(255,200,152,0.08)");
+      sg.addColorStop(.6,"rgba(255,190,150,0.02)");
+      sg.addColorStop(1,"rgba(255,190,150,0)");
+      ctx.globalCompositeOperation="lighter"; ctx.fillStyle=sg; ctx.fillRect(0,0,W,H);
+      ctx.globalCompositeOperation="source-over";
+
+      // Keep the upper hero consistently dark and readable even on bright/high-DPI displays.
+      const skyVeil=ctx.createLinearGradient(0,0,0,H*riverTop);
+      skyVeil.addColorStop(0,"rgba(4,8,18,0.28)");
+      skyVeil.addColorStop(.62,"rgba(7,15,29,0.12)");
+      skyVeil.addColorStop(1,"rgba(7,15,29,0)");
+      ctx.fillStyle=skyVeil; ctx.fillRect(0,0,W,H*riverTop);
+
+      // ---- mountain layers ----
+      layers.forEach((L,idx)=>{
+        const f=ridge(L.top,L.rough,L.seed);
+        const ox=px*L.par*W;     // parallax horizontal shift
+        const oy=py*L.par*H*0.4;
+        ctx.beginPath(); ctx.moveTo(0,H);
+        const step=Math.max(6*DPR,W/240);
+        for(let x=-step;x<=W+step;x+=step){
+          const nx=(x+ox)/W*3.2 + t*0.0000022*(idx+1); // ultra-slow horizontal drift
+          ctx.lineTo(x, f(nx)*H + oy);
+        }
+        ctx.lineTo(W,H); ctx.closePath();
+        ctx.fillStyle=L.col; ctx.fill();
+        // rim light on ridge facing the sun
+        if(L.glow>0){
+          ctx.save(); ctx.clip();
+          const rl=ctx.createLinearGradient(0,L.top*H-40,0,L.top*H+H*0.18);
+          rl.addColorStop(0,`rgba(255,210,160,${0.16*L.glow})`);
+          rl.addColorStop(1,"rgba(255,210,160,0)");
+          ctx.fillStyle=rl; ctx.fillRect(0,0,W,H); ctx.restore();
+        }
+      });
+
+      // ---- river / reflection ----
+      const wy=riverTop*H;
+      const wat=ctx.createLinearGradient(0,wy,0,H);
+      wat.addColorStop(0,"#274a76");
+      wat.addColorStop(.5,"#16273f");
+      wat.addColorStop(1,"#0a1320");
+      ctx.fillStyle=wat; ctx.fillRect(0,wy,W,H-wy);
+      // reflected sun column shimmering
+      ctx.globalCompositeOperation="lighter";
+      for(let i=0;i<46;i++){
+        const ry=wy + (i/46)*(H-wy);
+        const sway=Math.sin(t*0.0009 + i*0.6)* (8+i*1.6)*DPR;
+        const w=(Math.min(W,H)*0.16)*(1+i*0.05);
+        const a=0.10*(1-i/52);
+        const g=ctx.createLinearGradient(sunx-w+sway,ry,sunx+w+sway,ry);
+        g.addColorStop(0,"rgba(255,210,160,0)");
+        g.addColorStop(.5,`rgba(255,214,170,${a})`);
+        g.addColorStop(1,"rgba(255,210,160,0)");
+        ctx.fillStyle=g; ctx.fillRect(0,ry,W,(H-wy)/46+1);
+      }
+      // ---- simulated water ripples: smooth upscaled height-field ----
+      stepWater();
+      ctx.save();
+      ctx.globalCompositeOperation="lighter";
+      ctx.imageSmoothingEnabled=true; ctx.imageSmoothingQuality="high";
+      ctx.filter="blur("+(2.2*DPR)+"px)";  // soften the upscaled grid -> no banding/dither
+      ctx.globalAlpha=0.7;
+      ctx.drawImage(wsim,0,wy,W,H-wy);   // sim grid stretched -> soft smooth water
+      ctx.restore();
+      // soft fog where mountains meet water
+      const fog=ctx.createLinearGradient(0,wy-H*0.10,0,wy+H*0.05);
+      fog.addColorStop(0,"rgba(150,180,215,0)");
+      fog.addColorStop(.6,"rgba(170,195,225,0.16)");
+      fog.addColorStop(1,"rgba(150,180,215,0)");
+      ctx.fillStyle=fog; ctx.fillRect(0,wy-H*0.10,W,H*0.15);
+
+      if(!MOBILE) requestAnimationFrame(draw);
+    }
+    // Mobile: render a single still frame (no animation loop, no water sim).
+    if(MOBILE){ draw(0); addEventListener("resize",()=>draw(0)); }
+    else requestAnimationFrame(draw);
+
+    document.querySelectorAll(".opt").forEach(o=>{
+      if(!MOBILE) o.addEventListener("pointermove",e=>{ const r=o.getBoundingClientRect();
+        o.style.setProperty("--px",(e.clientX-r.left)+"px"); o.style.setProperty("--py",(e.clientY-r.top)+"px"); });
+      // smooth word swap on the button label
+      const go=o.querySelector(".go"); if(!go) return;
+      const base=go.textContent, alt=go.getAttribute("data-alt");
+      if(!alt) return;
+      go.style.transition="opacity .18s ease";
+      o.addEventListener("pointerenter",()=>{ go.style.opacity="0"; setTimeout(()=>{ go.textContent=alt; go.style.opacity="1"; },180); });
+      o.addEventListener("pointerleave",()=>{ go.style.opacity="0"; setTimeout(()=>{ go.textContent=base; go.style.opacity="1"; },180); });
+    });
+  })();
+</script>
+<script src="data.js"></script>
+<script src="data_analytics.js"></script>
+<script src="data_finance.js"></script>
+<script src="data_marketing.js"></script>
+<script src="data_accounting.js"></script>
+<script src="data_operations.js"></script>
+<script src="data_hr.js"></script>
+<script src="data_realestate.js"></script>
+<script src="data_tech.js"></script>
+<script src="data_engineering.js"></script>
+<script src="data_healthcare.js"></script>
+<script>
+  const progs=[window.INTERNSHIPS,window.ANALYTICS_INTERNSHIPS,window.FINANCE_INTERNSHIPS,window.MARKETING_INTERNSHIPS,window.ACCOUNTING_INTERNSHIPS,window.OPERATIONS_INTERNSHIPS,window.HR_INTERNSHIPS,window.REALESTATE_INTERNSHIPS,window.TECH_INTERNSHIPS,window.ENGR_INTERNSHIPS,window.HEALTH_INTERNSHIPS].reduce((a,x)=>a+((x||[]).length),0);
+  const firms=[window.COMPANIES,window.ANALYTICS_COMPANIES,window.FINANCE_COMPANIES,window.MARKETING_COMPANIES,window.ACCOUNTING_COMPANIES,window.OPERATIONS_COMPANIES,window.HR_COMPANIES,window.REALESTATE_COMPANIES,window.TECH_COMPANIES,window.ENGR_COMPANIES,window.HEALTH_COMPANIES].reduce((a,x)=>a+Object.keys(x||{}).length,0);
+  document.getElementById("statRow").innerHTML=`<span><b>32</b> specialties live</span><span><b>${firms}</b> employers</span><span><b>${progs}</b> programs</span>`;
+</script>
+<script>
+  // Log in button: on hover, greet with "Welcome to the valley"
+  (function(){
+    const a=document.getElementById("authLink"); if(!a) return;
+    let saved=null;
+    a.addEventListener("pointerenter",()=>{ saved=a.textContent; a.textContent="Welcome to the valley"; });
+    a.addEventListener("pointerleave",()=>{ if(saved!==null){ a.textContent=saved; saved=null; } });
+  })();
+
+  // About button: on hover, "write out" the name in cursive (left-to-right reveal)
+  (function(){
+    const b=document.getElementById("aboutBtn"); if(!b) return;
+    b.innerHTML='<span class="lbl">About →</span><span class="sig">Aryan Balchandani</span>';
+    const lbl=b.querySelector(".lbl"), sig=b.querySelector(".sig");
+    b.addEventListener("pointerenter",()=>{ lbl.style.display="none"; sig.classList.add("draw"); });
+    b.addEventListener("pointerleave",()=>{ sig.classList.remove("draw"); lbl.style.display=""; });
+    b.addEventListener("click",()=>{ window.location.href="about.html"; });
+  })();
+</script>
+<script type="module" src="firebase-auth.js"></script>
+<script type="module">
+  let t=0;(function r(){ if(window.AIF_AUTH) go(); else if(t++<75) setTimeout(r,40); })();
+  let isLoggedIn=false;
+  function go(){ window.AIF_AUTH.onUser(u=>{ isLoggedIn=!!u; const a=document.getElementById("authLink");
+    if(u){ const n=u.displayName||(u.email?u.email.split("@")[0]:"Account"); a.textContent=n.split(/[ ._-]+/)[0]||n; a.href="account.html"; }
+    else { a.textContent="Log in"; a.href="login.html"; } }); }
+  // Saved-jobs nav link requires login: send guests to log in (returning to the tracker after).
+  const sc=document.getElementById("savedLink");
+  if(sc) sc.addEventListener("click",e=>{
+    if(!isLoggedIn){ e.preventDefault(); window.location.href="login.html?return=tracker.html"; }
+  });
+</script>
+<script>/*lightClouds*/(function(){if(window.matchMedia&&window.matchMedia('(max-width:768px)').matches)return;
+  var g=document.getElementById("lsclouds"); if(!g) return;
+  var NS="http://www.w3.org/2000/svg", W=1440, H=900, clouds=[];
+  // build soft puffy clouds from overlapping ellipses
+  function makeCloud(cx,cy,s){
+    var el=document.createElementNS(NS,"g");
+    el.setAttribute("fill","#ffffff");
+    var puffs=[[0,0,46],[34,6,34],[-32,8,32],[16,-14,30],[-14,-10,28],[60,10,24],[-58,12,22]];
+    puffs.forEach(function(p){
+      var e=document.createElementNS(NS,"ellipse");
+      e.setAttribute("cx",p[0]);e.setAttribute("cy",p[1]);
+      e.setAttribute("rx",p[2]*s);e.setAttribute("ry",p[2]*s*.66);
+      el.appendChild(e);
+    });
+    el.setAttribute("opacity",(0.5+Math.random()*0.35).toFixed(2));
+    g.appendChild(el);
+    return {el:el,x:cx,y:cy,bx:cx,by:cy,s:s,vx:(0.10+Math.random()*0.18)};
+  }
+  for(var i=0;i<7;i++){ clouds.push(makeCloud(Math.random()*W, 90+Math.random()*300, 0.6+Math.random()*0.7)); }
+  var mx=-9999,my=-9999, q=false;
+  function toViewBox(e){
+    var d=document.querySelector(".lightscape svg"); if(!d) return null;
+    var r=d.getBoundingClientRect();
+    return {x:(e.clientX-r.left)/r.width*W, y:(e.clientY-r.top)/r.height*H};
+  }
+  addEventListener("mousemove",function(e){ var p=toViewBox(e); if(p){mx=p.x;my=p.y;} },{passive:true});
+  function tick(){
+    for(var i=0;i<clouds.length;i++){
+      var c=clouds[i];
+      c.bx+=c.vx; if(c.bx>W+120) c.bx=-120;     // slow drift, wrap around
+      var dx=c.bx-mx, dy=c.by-my, d=Math.sqrt(dx*dx+dy*dy);
+      var ox=0, oy=0;
+      if(d<170&&d>0.1){ var f=(1-d/170)*46; ox=dx/d*f; oy=dy/d*f*0.6; } // cursor pushes clouds aside
+      c.x+=((c.bx+ox)-c.x)*0.08; c.y+=((c.by+oy)-c.y)*0.08;            // eased follow
+      c.el.setAttribute("transform","translate("+c.x.toFixed(1)+","+c.y.toFixed(1)+") scale("+c.s+")");
+    }
+    requestAnimationFrame(tick);
+  }
+  tick();
+})();</script>
+<script>/*themeToggleBtn*/(function(){function set(){var b=document.getElementById("themeToggle");if(!b||!window.AIF_THEME)return;b.textContent=(window.AIF_THEME.get()==="light")?"☀️ Theme":"🌙 Theme";}function ready(){if(window.AIF_THEME){var b=document.getElementById("themeToggle");if(b){b.onclick=function(){window.AIF_THEME.toggle();set();};set();}}else setTimeout(ready,40);}ready();})();</script></body>
+</html>

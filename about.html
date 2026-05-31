@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Aryan's Internship Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0f18; --panel:#121a28; --border:#26344a; --text:#eef3fb; --muted:#9fb2cc;
+    --accent:#8fb4ff; --accent2:#6fe0cf; --gold:#ffd79b;
+    --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;overflow-x:hidden;max-width:100%}
+  body{font-family:var(--sans);color:var(--text);line-height:1.65;min-height:100vh;position:relative;
+    background:linear-gradient(180deg,#070c15 0%,#0b1422 42%,#0e1b2e 74%,#0a1320 100%)}
+  ::selection{background:rgba(143,180,255,.32);color:#fff}
+  .valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .valley svg{position:absolute;bottom:0;left:0;width:100%;height:56vh;min-height:360px}
+  .sun{position:fixed;top:8%;left:52%;transform:translateX(-50%);width:300px;height:300px;z-index:0;pointer-events:none;
+    background:radial-gradient(circle,rgba(255,216,165,.16),transparent 68%)}
+  .wrap{position:relative;z-index:2;max-width:640px;margin:0 auto;padding:0 24px 80px}
+  .home{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;font-weight:600;padding:26px 0 0;transition:color .2s}
+  .home:hover{color:var(--text)}
+  .sig{font-family:"Parisienne",cursive;font-size:clamp(40px,8vw,64px);line-height:1.35;padding:6px 0 14px;margin:18px 0 6px;color:#e6eefb}
+  .role{color:var(--accent2);font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+  .card{background:rgba(18,26,40,.82);backdrop-filter:blur(12px);border:1px solid var(--border);border-radius:20px;
+    padding:28px 30px;margin-top:24px;box-shadow:0 24px 60px rgba(0,0,0,.4)}
+  .card h2{font-family:var(--serif);font-weight:480;font-size:22px;margin:0 0 10px;letter-spacing:-.3px}
+  .card p{color:#cdd9ec;font-size:15.5px;margin:0 0 14px}
+  .card p:last-child{margin-bottom:0}
+  .cta{display:inline-block;margin-top:26px;background:linear-gradient(120deg,var(--accent),var(--accent2));color:#0a0f18;
+    text-decoration:none;font-weight:700;font-size:14.5px;padding:13px 26px;border-radius:12px;transition:filter .2s}
+  .cta:hover{filter:brightness(1.08)}
+  @media (max-width:768px){.wrap{padding:0 16px 60px}.card{padding:22px 18px}}
+.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+</style>
+<script src="transition.js?v=4"></script>
+<link rel="stylesheet" href="light.css?v=3">
+<script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+</head>
+<body>
+<div class="valley">
+  <svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,360 C220,318 360,346 560,312 C780,275 940,330 1140,300 C1300,276 1380,300 1440,292 L1440,600 L0,600 Z" fill="#15233a" opacity="0.45"/>
+    <path d="M120,460 C260,420 360,300 520,300 C690,300 780,460 980,460 C1140,460 1240,440 1440,452 L1440,600 L0,600 Z" fill="#101c30"/>
+    <path d="M0,520 C300,470 540,540 820,512 C1080,486 1260,536 1440,500 L1440,600 L0,600 Z" fill="#0a1322"/>
+  </svg>
+</div>
+<div class="sun"></div>
+
+<div class="wrap">
+  <a class="home" href="index.html">← Back to the valley</a>
+  <div class="role">Built by</div>
+  <div class="sig">Aryan Balchandani</div>
+
+  <div class="card">
+    <h2>About this project</h2>
+    <p>Aryan's Internship Finder is a personal project I built to make finding the right summer internship feel less like guesswork. Instead of scrolling endless job boards, you can take a quick survey to get a ranked, personalized shortlist — or explore the whole database by field.</p>
+    <p>Every listing is researched with real company details: tiers, competitiveness, estimated pay, company values, stock and recent news, plus the majors each role actually recruits — so your matches reflect where you'd genuinely fit.</p>
+    <p>It's a work in progress, with more fields going live over time. Thanks for stopping by.</p>
+    <a class="cta" href="survey.html">Find your path →</a>
+  </div>
+</div>
+
+<script type="module" src="firebase-auth.js"></script>
+<script type="module" src="account-widget.js"></script>
+</body>
+</html>

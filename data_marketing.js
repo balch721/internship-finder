@@ -1,0 +1,12969 @@
+// Marketing & Sales — Summer 2027 internships.
+// Globals: MARKETING_LAST_UPDATED, MARKETING_COMPANIES, MARKETING_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
+
+window.MARKETING_LAST_UPDATED = "2026-05-31";
+
+window.MARKETING_COMPANIES = {
+  "Walmart": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WMT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WMT",
+    "stockTrend": "View the live WMT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 1,
+    "hq": "Bentonville, AR",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Amazon": {
+    "tier": "Fortune 100 company",
+    "background": "E-commerce / cloud recruiting marketing & sales talent.",
+    "deepProfile": [
+      "E-commerce / cloud with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AMZN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AMZN",
+    "stockTrend": "View the live AMZN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 2,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "E-commerce / cloud with a well-known early-careers program."
+  },
+  "Apple": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer tech recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AAPL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AAPL",
+    "stockTrend": "View the live AAPL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 4,
+    "hq": "Cupertino, CA",
+    "founded": "Not on file.",
+    "history": "Consumer tech with a well-known early-careers program."
+  },
+  "CVS Health": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Healthcare / retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CVS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CVS",
+    "stockTrend": "View the live CVS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 6,
+    "hq": "Woonsocket, RI",
+    "founded": "Not on file.",
+    "history": "Healthcare / retail with a well-known early-careers program."
+  },
+  "Alphabet (Google)": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GOOGL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GOOGL",
+    "stockTrend": "View the live GOOGL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 8,
+    "hq": "Mountain View, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Costco": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: COST",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/COST",
+    "stockTrend": "View the live COST stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 11,
+    "hq": "Issaquah, WA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Microsoft": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MSFT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MSFT",
+    "stockTrend": "View the live MSFT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 13,
+    "hq": "Redmond, WA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Ford Motor": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Automotive with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: F",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/F",
+    "stockTrend": "View the live F stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 17,
+    "hq": "Dearborn, MI",
+    "founded": "Not on file.",
+    "history": "Automotive with a well-known early-careers program."
+  },
+  "General Motors": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Automotive with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GM",
+    "stockTrend": "View the live GM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 19,
+    "hq": "Detroit, MI",
+    "founded": "Not on file.",
+    "history": "Automotive with a well-known early-careers program."
+  },
+  "Home Depot": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: HD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/HD",
+    "stockTrend": "View the live HD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 23,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Kroger": {
+    "tier": "Fortune 100 company",
+    "background": "Retail / grocery recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail / grocery with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KR",
+    "stockTrend": "View the live KR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 25,
+    "hq": "Cincinnati, OH",
+    "founded": "Not on file.",
+    "history": "Retail / grocery with a well-known early-careers program."
+  },
+  "Walgreens": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Healthcare / retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WBA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WBA",
+    "stockTrend": "View the live WBA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 28,
+    "hq": "Deerfield, IL",
+    "founded": "Not on file.",
+    "history": "Healthcare / retail with a well-known early-careers program."
+  },
+  "Meta": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: META",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/META",
+    "stockTrend": "View the live META stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 30,
+    "hq": "Menlo Park, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Verizon": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: VZ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/VZ",
+    "stockTrend": "View the live VZ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 31,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Telecom with a well-known early-careers program."
+  },
+  "AT&T": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: T",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/T",
+    "stockTrend": "View the live T stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 32,
+    "hq": "Dallas, TX",
+    "founded": "Not on file.",
+    "history": "Telecom with a well-known early-careers program."
+  },
+  "Comcast": {
+    "tier": "Fortune 100 company",
+    "background": "Media / telecom recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Media / telecom with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CMCSA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CMCSA",
+    "stockTrend": "View the live CMCSA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 33,
+    "hq": "Philadelphia, PA",
+    "founded": "Not on file.",
+    "history": "Media / telecom with a well-known early-careers program."
+  },
+  "Target": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TGT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TGT",
+    "stockTrend": "View the live TGT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 36,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "State Farm": {
+    "tier": "Fortune 100 company",
+    "background": "Insurance recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 38,
+    "hq": "Bloomington, IL",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Tesla": {
+    "tier": "Fortune 100 company",
+    "background": "Automotive / energy recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Automotive / energy with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TSLA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TSLA",
+    "stockTrend": "View the live TSLA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 39,
+    "hq": "Austin, TX",
+    "founded": "Not on file.",
+    "history": "Automotive / energy with a well-known early-careers program."
+  },
+  "Johnson & Johnson": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Healthcare with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: JNJ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JNJ",
+    "stockTrend": "View the live JNJ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 41,
+    "hq": "New Brunswick, NJ",
+    "founded": "Not on file.",
+    "history": "Healthcare with a well-known early-careers program."
+  },
+  "PepsiCo": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PEP",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PEP",
+    "stockTrend": "View the live PEP stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 43,
+    "hq": "Purchase, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "UPS": {
+    "tier": "Fortune 100 company",
+    "background": "Logistics recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Logistics with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UPS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UPS",
+    "stockTrend": "View the live UPS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 44,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Logistics with a well-known early-careers program."
+  },
+  "FedEx": {
+    "tier": "Fortune 100 company",
+    "background": "Logistics recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Logistics with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: FDX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/FDX",
+    "stockTrend": "View the live FDX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 45,
+    "hq": "Memphis, TN",
+    "founded": "Not on file.",
+    "history": "Logistics with a well-known early-careers program."
+  },
+  "Disney": {
+    "tier": "Fortune 100 company",
+    "background": "Media / entertainment recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Media / entertainment with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DIS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DIS",
+    "stockTrend": "View the live DIS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 46,
+    "hq": "Burbank, CA",
+    "founded": "Not on file.",
+    "history": "Media / entertainment with a well-known early-careers program."
+  },
+  "Dell Technologies": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DELL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DELL",
+    "stockTrend": "View the live DELL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 47,
+    "hq": "Round Rock, TX",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Lowe's": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: LOW",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/LOW",
+    "stockTrend": "View the live LOW stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 48,
+    "hq": "Mooresville, NC",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Procter & Gamble": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PG",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PG",
+    "stockTrend": "View the live PG stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 4,
+    "news": [],
+    "fortune": 49,
+    "hq": "Cincinnati, OH",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Albertsons": {
+    "tier": "Fortune 100 company",
+    "background": "Retail / grocery recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail / grocery with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ACI",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ACI",
+    "stockTrend": "View the live ACI stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 51,
+    "hq": "Boise, ID",
+    "founded": "Not on file.",
+    "history": "Retail / grocery with a well-known early-careers program."
+  },
+  "Intel": {
+    "tier": "Fortune 100 company",
+    "background": "Semiconductors recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: INTC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/INTC",
+    "stockTrend": "View the live INTC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 55,
+    "hq": "Santa Clara, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "IBM": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: IBM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/IBM",
+    "stockTrend": "View the live IBM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 56,
+    "hq": "Armonk, NY",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Nationwide": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Columbus, OH",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "MetLife": {
+    "tier": "Fortune 100 company",
+    "background": "Insurance recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MET",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MET",
+    "stockTrend": "View the live MET stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 59,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Coca-Cola": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KO",
+    "stockTrend": "View the live KO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 60,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Pfizer": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PFE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PFE",
+    "stockTrend": "View the live PFE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 61,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Nike": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods / apparel recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / apparel with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: NKE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/NKE",
+    "stockTrend": "View the live NKE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 62,
+    "hq": "Beaverton, OR",
+    "founded": "Not on file.",
+    "history": "Consumer goods / apparel with a well-known early-careers program."
+  },
+  "Merck": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MRK",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MRK",
+    "stockTrend": "View the live MRK stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 63,
+    "hq": "Rahway, NJ",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "American Express": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AXP",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AXP",
+    "stockTrend": "View the live AXP stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 65,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Abbott": {
+    "tier": "Fortune 100 company",
+    "background": "Healthcare / devices recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Healthcare / devices with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ABT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ABT",
+    "stockTrend": "View the live ABT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 66,
+    "hq": "Abbott Park, IL",
+    "founded": "Not on file.",
+    "history": "Healthcare / devices with a well-known early-careers program."
+  },
+  "3M": {
+    "tier": "Fortune 100 company",
+    "background": "Industrials recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MMM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MMM",
+    "stockTrend": "View the live MMM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 67,
+    "hq": "St. Paul, MN",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Oracle": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ORCL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ORCL",
+    "stockTrend": "View the live ORCL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 69,
+    "hq": "Austin, TX",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "Cisco": {
+    "tier": "Fortune 100 company",
+    "background": "Tech recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CSCO",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CSCO",
+    "stockTrend": "View the live CSCO stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 71,
+    "hq": "San Jose, CA",
+    "founded": "Not on file.",
+    "history": "Tech with a well-known early-careers program."
+  },
+  "TJX Companies": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TJX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TJX",
+    "stockTrend": "View the live TJX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 72,
+    "hq": "Framingham, MA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "NVIDIA": {
+    "tier": "Fortune 100 company",
+    "background": "Semiconductors recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: NVDA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/NVDA",
+    "stockTrend": "View the live NVDA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 73,
+    "hq": "Santa Clara, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "Salesforce": {
+    "tier": "Fortune 100 company",
+    "background": "Tech / SaaS recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech / SaaS with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CRM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CRM",
+    "stockTrend": "View the live CRM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 74,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "Tech / SaaS with a well-known early-careers program."
+  },
+  "AbbVie": {
+    "tier": "Fortune 100 company",
+    "background": "Pharma recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ABBV",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ABBV",
+    "stockTrend": "View the live ABBV stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 75,
+    "hq": "North Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Best Buy": {
+    "tier": "Fortune 100 company",
+    "background": "Retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BBY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BBY",
+    "stockTrend": "View the live BBY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 76,
+    "hq": "Richfield, MN",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "United Airlines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UAL",
+    "stockTrend": "View the live UAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 78,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "Delta Air Lines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: DAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/DAL",
+    "stockTrend": "View the live DAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 79,
+    "hq": "Atlanta, GA",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "American Airlines": {
+    "tier": "Fortune 100 company",
+    "background": "Airlines recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Airlines with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: AAL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/AAL",
+    "stockTrend": "View the live AAL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 80,
+    "hq": "Fort Worth, TX",
+    "founded": "Not on file.",
+    "history": "Airlines with a well-known early-careers program."
+  },
+  "Tyson Foods": {
+    "tier": "Fortune 100 company",
+    "background": "Consumer goods / food recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: TSN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/TSN",
+    "stockTrend": "View the live TSN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 81,
+    "hq": "Springdale, AR",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Mondelez": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MDLZ",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MDLZ",
+    "stockTrend": "View the live MDLZ stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Capital One": {
+    "tier": "Fortune 100 company",
+    "background": "Financial services recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Financial services with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: COF",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/COF",
+    "stockTrend": "View the live COF stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 84,
+    "hq": "McLean, VA",
+    "founded": "Not on file.",
+    "history": "Financial services with a well-known early-careers program."
+  },
+  "Charter Communications": {
+    "tier": "Fortune 100 company",
+    "background": "Telecom / media recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Telecom / media with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CHTR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CHTR",
+    "stockTrend": "View the live CHTR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": 85,
+    "hq": "Stamford, CT",
+    "founded": "Not on file.",
+    "history": "Telecom / media with a well-known early-careers program."
+  },
+  "Nordstrom": {
+    "tier": "Retail",
+    "background": "Retail recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Retail with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: JWN",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/JWN",
+    "stockTrend": "View the live JWN stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "Retail with a well-known early-careers program."
+  },
+  "Estée Lauder": {
+    "tier": "Consumer goods / beauty",
+    "background": "Consumer goods / beauty recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / beauty with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: EL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/EL",
+    "stockTrend": "View the live EL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods / beauty with a well-known early-careers program."
+  },
+  "Colgate-Palmolive": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: CL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/CL",
+    "stockTrend": "View the live CL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "Kimberly-Clark": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KMB",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KMB",
+    "stockTrend": "View the live KMB stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Irving, TX",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "General Mills": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: GIS",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/GIS",
+    "stockTrend": "View the live GIS stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Kellanova": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: K",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/K",
+    "stockTrend": "View the live K stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Kraft Heinz": {
+    "tier": "Consumer goods / food",
+    "background": "Consumer goods / food recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: KHC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/KHC",
+    "stockTrend": "View the live KHC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer goods / food with a well-known early-careers program."
+  },
+  "Unilever": {
+    "tier": "Consumer goods",
+    "background": "Consumer goods recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: UL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/UL",
+    "stockTrend": "View the live UL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Englewood Cliffs, NJ",
+    "founded": "Not on file.",
+    "history": "Consumer goods with a well-known early-careers program."
+  },
+  "L'Oréal USA": {
+    "tier": "Consumer goods / beauty",
+    "background": "Consumer goods / beauty recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / beauty with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Consumer goods / beauty with a well-known early-careers program."
+  },
+  "Anheuser-Busch": {
+    "tier": "Consumer goods / bev",
+    "background": "Consumer goods / bev recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer goods / bev with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: BUD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/BUD",
+    "stockTrend": "View the live BUD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "St. Louis, MO",
+    "founded": "Not on file.",
+    "history": "Consumer goods / bev with a well-known early-careers program."
+  },
+  "Mastercard": {
+    "tier": "Payments",
+    "background": "Payments recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Payments with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MA",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MA",
+    "stockTrend": "View the live MA stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Purchase, NY",
+    "founded": "Not on file.",
+    "history": "Payments with a well-known early-careers program."
+  },
+  "Visa": {
+    "tier": "Payments",
+    "background": "Payments recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Payments with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: V",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/V",
+    "stockTrend": "View the live V stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Francisco, CA",
+    "founded": "Not on file.",
+    "history": "Payments with a well-known early-careers program."
+  },
+  "Adobe": {
+    "tier": "Tech / SaaS",
+    "background": "Tech / SaaS recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Tech / SaaS with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ADBE",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ADBE",
+    "stockTrend": "View the live ADBE stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Jose, CA",
+    "founded": "Not on file.",
+    "history": "Tech / SaaS with a well-known early-careers program."
+  },
+  "Qualcomm": {
+    "tier": "Semiconductors",
+    "background": "Semiconductors recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Semiconductors with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: QCOM",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/QCOM",
+    "stockTrend": "View the live QCOM stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "San Diego, CA",
+    "founded": "Not on file.",
+    "history": "Semiconductors with a well-known early-careers program."
+  },
+  "Medtronic": {
+    "tier": "Healthcare / devices",
+    "background": "Healthcare / devices recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Healthcare / devices with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MDT",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MDT",
+    "stockTrend": "View the live MDT stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Minneapolis, MN",
+    "founded": "Not on file.",
+    "history": "Healthcare / devices with a well-known early-careers program."
+  },
+  "Eli Lilly": {
+    "tier": "Pharma",
+    "background": "Pharma recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Pharma with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: LLY",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/LLY",
+    "stockTrend": "View the live LLY stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Indianapolis, IN",
+    "founded": "Not on file.",
+    "history": "Pharma with a well-known early-careers program."
+  },
+  "Marriott": {
+    "tier": "Hospitality",
+    "background": "Hospitality recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Hospitality with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MAR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MAR",
+    "stockTrend": "View the live MAR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Bethesda, MD",
+    "founded": "Not on file.",
+    "history": "Hospitality with a well-known early-careers program."
+  },
+  "Starbucks": {
+    "tier": "Consumer / food",
+    "background": "Consumer / food recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: SBUX",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/SBUX",
+    "stockTrend": "View the live SBUX stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Seattle, WA",
+    "founded": "Not on file.",
+    "history": "Consumer / food with a well-known early-careers program."
+  },
+  "McDonald's": {
+    "tier": "Consumer / food",
+    "background": "Consumer / food recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer / food with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: MCD",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/MCD",
+    "stockTrend": "View the live MCD stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "Consumer / food with a well-known early-careers program."
+  },
+  "Liberty Mutual": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Boston, MA",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Progressive": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: PGR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PGR",
+    "stockTrend": "View the live PGR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Mayfield, OH",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Allstate": {
+    "tier": "Insurance",
+    "background": "Insurance recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Insurance with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: ALL",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/ALL",
+    "stockTrend": "View the live ALL stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Northbrook, IL",
+    "founded": "Not on file.",
+    "history": "Insurance with a well-known early-careers program."
+  },
+  "Stanley Black & Decker": {
+    "tier": "Industrials",
+    "background": "Industrials recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Industrials with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: SWK",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/SWK",
+    "stockTrend": "View the live SWK stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New Britain, CT",
+    "founded": "Not on file.",
+    "history": "Industrials with a well-known early-careers program."
+  },
+  "Whirlpool": {
+    "tier": "Consumer durables",
+    "background": "Consumer durables recruiting marketing & sales talent.",
+    "deepProfile": [
+      "Consumer durables with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Integrity, excellence, teamwork, customer focus",
+    "tagline": "",
+    "ticker": "NYSE/NASDAQ: WHR",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WHR",
+    "stockTrend": "View the live WHR stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Benton Harbor, MI",
+    "founded": "Not on file.",
+    "history": "Consumer durables with a well-known early-careers program."
+  },
+  "Omnicom Group": {
+    "tier": "Major employer",
+    "background": "The world's largest advertising holding company",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The world's largest advertising holding company",
+    "tagline": "The world's largest advertising holding company",
+    "ticker": "NYSE/NASDAQ: OMC",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/OMC",
+    "stockTrend": "View the live OMC stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "The world's largest advertising holding company. "
+  },
+  "WPP": {
+    "tier": "Major employer",
+    "background": "A creative transformation company",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A creative transformation company",
+    "tagline": "A creative transformation company",
+    "ticker": "NYSE/NASDAQ: WPP",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/WPP",
+    "stockTrend": "View the live WPP stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "London, UK",
+    "founded": "Not on file.",
+    "history": "A creative transformation company. "
+  },
+  "Publicis Groupe": {
+    "tier": "Major employer",
+    "background": "Viva la difference",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Viva la difference",
+    "tagline": "Viva la difference",
+    "ticker": "NYSE/NASDAQ: PUB",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/PUB",
+    "stockTrend": "View the live PUB stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Paris, France",
+    "founded": "Not on file.",
+    "history": "Viva la difference. "
+  },
+  "Interpublic Group (IPG)": {
+    "tier": "Major employer",
+    "background": "A global marketing and communications company",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A global marketing and communications company",
+    "tagline": "A global marketing and communications company",
+    "ticker": "NYSE/NASDAQ: IPG",
+    "isPublic": true,
+    "stockUrl": "https://finance.yahoo.com/quote/IPG",
+    "stockTrend": "View the live IPG stock chart and trend on Yahoo Finance.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "A global marketing and communications company. "
+  },
+  "Dentsu": {
+    "tier": "Major employer",
+    "background": "Innovating the way brands are built",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Innovating the way brands are built",
+    "tagline": "Innovating the way brands are built",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Tokyo / New York",
+    "founded": "Not on file.",
+    "history": "Innovating the way brands are built. "
+  },
+  "Havas": {
+    "tier": "Major employer",
+    "background": "Making a meaningful difference to brands",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Making a meaningful difference to brands",
+    "tagline": "Making a meaningful difference to brands",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Paris / New York",
+    "founded": "Not on file.",
+    "history": "Making a meaningful difference to brands. "
+  },
+  "Ogilvy": {
+    "tier": "Major employer",
+    "background": "Borderless creativity",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Borderless creativity",
+    "tagline": "Borderless creativity",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Borderless creativity. "
+  },
+  "BBDO": {
+    "tier": "Major employer",
+    "background": "The work, the work, the work",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The work, the work, the work",
+    "tagline": "The work, the work, the work",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "The work, the work, the work. "
+  },
+  "McCann Worldgroup": {
+    "tier": "Major employer",
+    "background": "Truth well told",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Truth well told",
+    "tagline": "Truth well told",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Truth well told. "
+  },
+  "Wieden+Kennedy": {
+    "tier": "Major employer",
+    "background": "An independent creative powerhouse",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "An independent creative powerhouse",
+    "tagline": "An independent creative powerhouse",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Portland, OR",
+    "founded": "Not on file.",
+    "history": "An independent creative powerhouse. "
+  },
+  "Droga5": {
+    "tier": "Major employer",
+    "background": "Creatively led, strategically driven",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Creatively led, strategically driven",
+    "tagline": "Creatively led, strategically driven",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Creatively led, strategically driven. "
+  },
+  "VML": {
+    "tier": "Major employer",
+    "background": "A global brand experience agency",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A global brand experience agency",
+    "tagline": "A global brand experience agency",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Kansas City, MO",
+    "founded": "Not on file.",
+    "history": "A global brand experience agency. "
+  },
+  "GroupM": {
+    "tier": "Major employer",
+    "background": "WPP's media investment group",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "WPP's media investment group",
+    "tagline": "WPP's media investment group",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "WPP's media investment group. "
+  },
+  "Edelman": {
+    "tier": "Major employer",
+    "background": "The world's largest PR firm",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The world's largest PR firm",
+    "tagline": "The world's largest PR firm",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "Not on file.",
+    "history": "The world's largest PR firm. "
+  },
+  "Weber Shandwick": {
+    "tier": "Major employer",
+    "background": "Engaging, always",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Engaging, always",
+    "tagline": "Engaging, always",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Engaging, always. "
+  },
+  "FleishmanHillard": {
+    "tier": "Major employer",
+    "background": "The power of true",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The power of true",
+    "tagline": "The power of true",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "St. Louis, MO",
+    "founded": "Not on file.",
+    "history": "The power of true. "
+  },
+  "Digitas": {
+    "tier": "Major employer",
+    "background": "The connected marketing agency",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "The connected marketing agency",
+    "tagline": "The connected marketing agency",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Boston, MA",
+    "founded": "Not on file.",
+    "history": "The connected marketing agency. "
+  },
+  "Razorfish": {
+    "tier": "Major employer",
+    "background": "A digital experience agency",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "A digital experience agency",
+    "tagline": "A digital experience agency",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "A digital experience agency. "
+  },
+  "R/GA": {
+    "tier": "Major employer",
+    "background": "Design for a connected world",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "Design for a connected world",
+    "tagline": "Design for a connected world",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY",
+    "founded": "Not on file.",
+    "history": "Design for a connected world. "
+  },
+  "The Martin Agency": {
+    "tier": "Major employer",
+    "background": "An award-winning creative agency",
+    "deepProfile": [
+      "A leading firm with an established early-careers internship pipeline; recruiting is structured and often starts the fall before the summer."
+    ],
+    "values": "An award-winning creative agency",
+    "tagline": "An award-winning creative agency",
+    "ticker": "Private",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private or part of a larger parent — no standalone public stock.",
+    "acceptanceRate": "~5-12% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Richmond, VA",
+    "founded": "Not on file.",
+    "history": "An award-winning creative agency. "
+  }
+};
+
+window.MARKETING_INTERNSHIPS = [
+  {
+    "id": "walmart-brand-marketing-2027",
+    "company": "Walmart",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walmart-digital-growth-marketing-2027",
+    "company": "Walmart",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walmart-sales-business-development-2027",
+    "company": "Walmart",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walmart%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-brand-marketing-2027",
+    "company": "Amazon",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-digital-growth-marketing-2027",
+    "company": "Amazon",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "amazon-sales-business-development-2027",
+    "company": "Amazon",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Amazon%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-brand-marketing-2027",
+    "company": "Apple",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-digital-growth-marketing-2027",
+    "company": "Apple",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "apple-sales-business-development-2027",
+    "company": "Apple",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Apple%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-brand-marketing-2027",
+    "company": "CVS Health",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-digital-growth-marketing-2027",
+    "company": "CVS Health",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cvs-health-sales-business-development-2027",
+    "company": "CVS Health",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-brand-marketing-2027",
+    "company": "Alphabet (Google)",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-digital-growth-marketing-2027",
+    "company": "Alphabet (Google)",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "alphabet-google-sales-business-development-2027",
+    "company": "Alphabet (Google)",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-brand-marketing-2027",
+    "company": "Costco",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-digital-growth-marketing-2027",
+    "company": "Costco",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "costco-sales-business-development-2027",
+    "company": "Costco",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Costco%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-brand-marketing-2027",
+    "company": "Microsoft",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-digital-growth-marketing-2027",
+    "company": "Microsoft",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "microsoft-sales-business-development-2027",
+    "company": "Microsoft",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Microsoft%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-brand-marketing-2027",
+    "company": "Ford Motor",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-digital-growth-marketing-2027",
+    "company": "Ford Motor",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ford-motor-sales-business-development-2027",
+    "company": "Ford Motor",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-brand-marketing-2027",
+    "company": "General Motors",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-digital-growth-marketing-2027",
+    "company": "General Motors",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-motors-sales-business-development-2027",
+    "company": "General Motors",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-brand-marketing-2027",
+    "company": "Home Depot",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-digital-growth-marketing-2027",
+    "company": "Home Depot",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "home-depot-sales-business-development-2027",
+    "company": "Home Depot",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-brand-marketing-2027",
+    "company": "Kroger",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-digital-growth-marketing-2027",
+    "company": "Kroger",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kroger-sales-business-development-2027",
+    "company": "Kroger",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kroger%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-brand-marketing-2027",
+    "company": "Walgreens",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-digital-growth-marketing-2027",
+    "company": "Walgreens",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "walgreens-sales-business-development-2027",
+    "company": "Walgreens",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Walgreens%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-brand-marketing-2027",
+    "company": "Meta",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-digital-growth-marketing-2027",
+    "company": "Meta",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "meta-sales-business-development-2027",
+    "company": "Meta",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Meta%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-brand-marketing-2027",
+    "company": "Verizon",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-digital-growth-marketing-2027",
+    "company": "Verizon",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "verizon-sales-business-development-2027",
+    "company": "Verizon",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Verizon%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-brand-marketing-2027",
+    "company": "AT&T",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-digital-growth-marketing-2027",
+    "company": "AT&T",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "at-t-sales-business-development-2027",
+    "company": "AT&T",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AT%26T%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-brand-marketing-2027",
+    "company": "Comcast",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-digital-growth-marketing-2027",
+    "company": "Comcast",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "comcast-sales-business-development-2027",
+    "company": "Comcast",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Comcast%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-brand-marketing-2027",
+    "company": "Target",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-digital-growth-marketing-2027",
+    "company": "Target",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "target-sales-business-development-2027",
+    "company": "Target",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Target%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-brand-marketing-2027",
+    "company": "State Farm",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-digital-growth-marketing-2027",
+    "company": "State Farm",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "state-farm-sales-business-development-2027",
+    "company": "State Farm",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=State%20Farm%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-brand-marketing-2027",
+    "company": "Tesla",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-digital-growth-marketing-2027",
+    "company": "Tesla",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tesla-sales-business-development-2027",
+    "company": "Tesla",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tesla%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-brand-marketing-2027",
+    "company": "Johnson & Johnson",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-digital-growth-marketing-2027",
+    "company": "Johnson & Johnson",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "johnson-johnson-sales-business-development-2027",
+    "company": "Johnson & Johnson",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-brand-marketing-2027",
+    "company": "PepsiCo",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-digital-growth-marketing-2027",
+    "company": "PepsiCo",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pepsico-sales-business-development-2027",
+    "company": "PepsiCo",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=PepsiCo%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-brand-marketing-2027",
+    "company": "UPS",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-digital-growth-marketing-2027",
+    "company": "UPS",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ups-sales-business-development-2027",
+    "company": "UPS",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=UPS%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-brand-marketing-2027",
+    "company": "FedEx",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-digital-growth-marketing-2027",
+    "company": "FedEx",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fedex-sales-business-development-2027",
+    "company": "FedEx",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FedEx%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-brand-marketing-2027",
+    "company": "Disney",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-digital-growth-marketing-2027",
+    "company": "Disney",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "disney-sales-business-development-2027",
+    "company": "Disney",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Disney%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-brand-marketing-2027",
+    "company": "Dell Technologies",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-digital-growth-marketing-2027",
+    "company": "Dell Technologies",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dell-technologies-sales-business-development-2027",
+    "company": "Dell Technologies",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-brand-marketing-2027",
+    "company": "Lowe's",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-digital-growth-marketing-2027",
+    "company": "Lowe's",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "lowe-s-sales-business-development-2027",
+    "company": "Lowe's",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Lowe's%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-brand-marketing-2027",
+    "company": "Procter & Gamble",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-digital-growth-marketing-2027",
+    "company": "Procter & Gamble",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "procter-gamble-sales-business-development-2027",
+    "company": "Procter & Gamble",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-brand-marketing-2027",
+    "company": "Albertsons",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-digital-growth-marketing-2027",
+    "company": "Albertsons",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "albertsons-sales-business-development-2027",
+    "company": "Albertsons",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Albertsons%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-brand-marketing-2027",
+    "company": "Intel",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-digital-growth-marketing-2027",
+    "company": "Intel",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "intel-sales-business-development-2027",
+    "company": "Intel",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Intel%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-brand-marketing-2027",
+    "company": "IBM",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-digital-growth-marketing-2027",
+    "company": "IBM",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ibm-sales-business-development-2027",
+    "company": "IBM",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=IBM%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-brand-marketing-2027",
+    "company": "Nationwide",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-digital-growth-marketing-2027",
+    "company": "Nationwide",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nationwide-sales-business-development-2027",
+    "company": "Nationwide",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nationwide%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-brand-marketing-2027",
+    "company": "MetLife",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-digital-growth-marketing-2027",
+    "company": "MetLife",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "metlife-sales-business-development-2027",
+    "company": "MetLife",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=MetLife%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-brand-marketing-2027",
+    "company": "Coca-Cola",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-digital-growth-marketing-2027",
+    "company": "Coca-Cola",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "coca-cola-sales-business-development-2027",
+    "company": "Coca-Cola",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-brand-marketing-2027",
+    "company": "Pfizer",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-digital-growth-marketing-2027",
+    "company": "Pfizer",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "pfizer-sales-business-development-2027",
+    "company": "Pfizer",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Pfizer%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-brand-marketing-2027",
+    "company": "Nike",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-digital-growth-marketing-2027",
+    "company": "Nike",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nike-sales-business-development-2027",
+    "company": "Nike",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nike%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-brand-marketing-2027",
+    "company": "Merck",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-digital-growth-marketing-2027",
+    "company": "Merck",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "merck-sales-business-development-2027",
+    "company": "Merck",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Merck%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-brand-marketing-2027",
+    "company": "American Express",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-digital-growth-marketing-2027",
+    "company": "American Express",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-express-sales-business-development-2027",
+    "company": "American Express",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Express%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-brand-marketing-2027",
+    "company": "Abbott",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-digital-growth-marketing-2027",
+    "company": "Abbott",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbott-sales-business-development-2027",
+    "company": "Abbott",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Abbott%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-brand-marketing-2027",
+    "company": "3M",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-digital-growth-marketing-2027",
+    "company": "3M",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "3m-sales-business-development-2027",
+    "company": "3M",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=3M%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-brand-marketing-2027",
+    "company": "Oracle",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-digital-growth-marketing-2027",
+    "company": "Oracle",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "oracle-sales-business-development-2027",
+    "company": "Oracle",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Oracle%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-brand-marketing-2027",
+    "company": "Cisco",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-digital-growth-marketing-2027",
+    "company": "Cisco",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "cisco-sales-business-development-2027",
+    "company": "Cisco",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Cisco%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-brand-marketing-2027",
+    "company": "TJX Companies",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-digital-growth-marketing-2027",
+    "company": "TJX Companies",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tjx-companies-sales-business-development-2027",
+    "company": "TJX Companies",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-brand-marketing-2027",
+    "company": "NVIDIA",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-digital-growth-marketing-2027",
+    "company": "NVIDIA",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nvidia-sales-business-development-2027",
+    "company": "NVIDIA",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=NVIDIA%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-brand-marketing-2027",
+    "company": "Salesforce",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-digital-growth-marketing-2027",
+    "company": "Salesforce",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "salesforce-sales-business-development-2027",
+    "company": "Salesforce",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Salesforce%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-brand-marketing-2027",
+    "company": "AbbVie",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-digital-growth-marketing-2027",
+    "company": "AbbVie",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "abbvie-sales-business-development-2027",
+    "company": "AbbVie",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=AbbVie%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-brand-marketing-2027",
+    "company": "Best Buy",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-digital-growth-marketing-2027",
+    "company": "Best Buy",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "best-buy-sales-business-development-2027",
+    "company": "Best Buy",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-brand-marketing-2027",
+    "company": "United Airlines",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-digital-growth-marketing-2027",
+    "company": "United Airlines",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "united-airlines-sales-business-development-2027",
+    "company": "United Airlines",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-brand-marketing-2027",
+    "company": "Delta Air Lines",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-digital-growth-marketing-2027",
+    "company": "Delta Air Lines",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "delta-air-lines-sales-business-development-2027",
+    "company": "Delta Air Lines",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-brand-marketing-2027",
+    "company": "American Airlines",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-digital-growth-marketing-2027",
+    "company": "American Airlines",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "american-airlines-sales-business-development-2027",
+    "company": "American Airlines",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-brand-marketing-2027",
+    "company": "Tyson Foods",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-digital-growth-marketing-2027",
+    "company": "Tyson Foods",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "tyson-foods-sales-business-development-2027",
+    "company": "Tyson Foods",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-brand-marketing-2027",
+    "company": "Mondelez",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-digital-growth-marketing-2027",
+    "company": "Mondelez",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mondelez-sales-business-development-2027",
+    "company": "Mondelez",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mondelez%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-brand-marketing-2027",
+    "company": "Capital One",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-digital-growth-marketing-2027",
+    "company": "Capital One",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "capital-one-sales-business-development-2027",
+    "company": "Capital One",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Capital%20One%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-brand-marketing-2027",
+    "company": "Charter Communications",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-digital-growth-marketing-2027",
+    "company": "Charter Communications",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "charter-communications-sales-business-development-2027",
+    "company": "Charter Communications",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-brand-marketing-2027",
+    "company": "Nordstrom",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-digital-growth-marketing-2027",
+    "company": "Nordstrom",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "nordstrom-sales-business-development-2027",
+    "company": "Nordstrom",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Nordstrom%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-brand-marketing-2027",
+    "company": "Estée Lauder",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-digital-growth-marketing-2027",
+    "company": "Estée Lauder",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "est-e-lauder-sales-business-development-2027",
+    "company": "Estée Lauder",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-brand-marketing-2027",
+    "company": "Colgate-Palmolive",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-digital-growth-marketing-2027",
+    "company": "Colgate-Palmolive",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "colgate-palmolive-sales-business-development-2027",
+    "company": "Colgate-Palmolive",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-brand-marketing-2027",
+    "company": "Kimberly-Clark",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-digital-growth-marketing-2027",
+    "company": "Kimberly-Clark",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kimberly-clark-sales-business-development-2027",
+    "company": "Kimberly-Clark",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-brand-marketing-2027",
+    "company": "General Mills",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-digital-growth-marketing-2027",
+    "company": "General Mills",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "general-mills-sales-business-development-2027",
+    "company": "General Mills",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=General%20Mills%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-brand-marketing-2027",
+    "company": "Kellanova",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-digital-growth-marketing-2027",
+    "company": "Kellanova",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kellanova-sales-business-development-2027",
+    "company": "Kellanova",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kellanova%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-brand-marketing-2027",
+    "company": "Kraft Heinz",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-digital-growth-marketing-2027",
+    "company": "Kraft Heinz",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "kraft-heinz-sales-business-development-2027",
+    "company": "Kraft Heinz",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-brand-marketing-2027",
+    "company": "Unilever",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-digital-growth-marketing-2027",
+    "company": "Unilever",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "unilever-sales-business-development-2027",
+    "company": "Unilever",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Unilever%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-brand-marketing-2027",
+    "company": "L'Oréal USA",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-digital-growth-marketing-2027",
+    "company": "L'Oréal USA",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "l-or-al-usa-sales-business-development-2027",
+    "company": "L'Oréal USA",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-brand-marketing-2027",
+    "company": "Anheuser-Busch",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-digital-growth-marketing-2027",
+    "company": "Anheuser-Busch",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "anheuser-busch-sales-business-development-2027",
+    "company": "Anheuser-Busch",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-brand-marketing-2027",
+    "company": "Mastercard",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-digital-growth-marketing-2027",
+    "company": "Mastercard",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mastercard-sales-business-development-2027",
+    "company": "Mastercard",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Mastercard%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-brand-marketing-2027",
+    "company": "Visa",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-digital-growth-marketing-2027",
+    "company": "Visa",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "visa-sales-business-development-2027",
+    "company": "Visa",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Visa%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-brand-marketing-2027",
+    "company": "Adobe",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-digital-growth-marketing-2027",
+    "company": "Adobe",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "adobe-sales-business-development-2027",
+    "company": "Adobe",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Adobe%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-brand-marketing-2027",
+    "company": "Qualcomm",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-digital-growth-marketing-2027",
+    "company": "Qualcomm",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "qualcomm-sales-business-development-2027",
+    "company": "Qualcomm",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Qualcomm%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-brand-marketing-2027",
+    "company": "Medtronic",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Chicago, IL",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-digital-growth-marketing-2027",
+    "company": "Medtronic",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "medtronic-sales-business-development-2027",
+    "company": "Medtronic",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Dallas, TX",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Medtronic%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-brand-marketing-2027",
+    "company": "Eli Lilly",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-digital-growth-marketing-2027",
+    "company": "Eli Lilly",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "eli-lilly-sales-business-development-2027",
+    "company": "Eli Lilly",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-brand-marketing-2027",
+    "company": "Marriott",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-digital-growth-marketing-2027",
+    "company": "Marriott",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "marriott-sales-business-development-2027",
+    "company": "Marriott",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Seattle, WA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Marriott%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-brand-marketing-2027",
+    "company": "Starbucks",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-digital-growth-marketing-2027",
+    "company": "Starbucks",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "starbucks-sales-business-development-2027",
+    "company": "Starbucks",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Starbucks%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-brand-marketing-2027",
+    "company": "McDonald's",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Dallas, TX",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-digital-growth-marketing-2027",
+    "company": "McDonald's",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mcdonald-s-sales-business-development-2027",
+    "company": "McDonald's",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McDonald's%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-brand-marketing-2027",
+    "company": "Liberty Mutual",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-digital-growth-marketing-2027",
+    "company": "Liberty Mutual",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "liberty-mutual-sales-business-development-2027",
+    "company": "Liberty Mutual",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-brand-marketing-2027",
+    "company": "Progressive",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Seattle, WA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-digital-growth-marketing-2027",
+    "company": "Progressive",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "progressive-sales-business-development-2027",
+    "company": "Progressive",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Chicago, IL",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Progressive%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-brand-marketing-2027",
+    "company": "Allstate",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-digital-growth-marketing-2027",
+    "company": "Allstate",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "allstate-sales-business-development-2027",
+    "company": "Allstate",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Boston, MA",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Allstate%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-brand-marketing-2027",
+    "company": "Stanley Black & Decker",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-digital-growth-marketing-2027",
+    "company": "Stanley Black & Decker",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "stanley-black-decker-sales-business-development-2027",
+    "company": "Stanley Black & Decker",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-brand-marketing-2027",
+    "company": "Whirlpool",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-digital-growth-marketing-2027",
+    "company": "Whirlpool",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "whirlpool-sales-business-development-2027",
+    "company": "Whirlpool",
+    "role": "Sales & Business Development Intern",
+    "level": "Internship",
+    "types": [
+      "Sales & Business Development"
+    ],
+    "majors": [
+      "Business Administration",
+      "Marketing",
+      "Communications",
+      "Economics"
+    ],
+    "majorTags": [
+      "business",
+      "marketing",
+      "communications",
+      "economics"
+    ],
+    "location": "New York, NY",
+    "about": "Sales & Business Development summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Whirlpool%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "omnicom-group-advertising-media-2027",
+    "company": "Omnicom Group",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Omnicom%20Group%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "omnicom-group-brand-marketing-2027",
+    "company": "Omnicom Group",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Omnicom%20Group%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "omnicom-group-public-relations-comms-2027",
+    "company": "Omnicom Group",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Dallas, TX",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Omnicom%20Group%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "omnicom-group-digital-growth-marketing-2027",
+    "company": "Omnicom Group",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Omnicom%20Group%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wpp-advertising-media-2027",
+    "company": "WPP",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=WPP%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wpp-brand-marketing-2027",
+    "company": "WPP",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=WPP%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wpp-public-relations-comms-2027",
+    "company": "WPP",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=WPP%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wpp-digital-growth-marketing-2027",
+    "company": "WPP",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=WPP%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "publicis-groupe-advertising-media-2027",
+    "company": "Publicis Groupe",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Publicis%20Groupe%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "publicis-groupe-brand-marketing-2027",
+    "company": "Publicis Groupe",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Publicis%20Groupe%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "publicis-groupe-public-relations-comms-2027",
+    "company": "Publicis Groupe",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Chicago, IL",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Publicis%20Groupe%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "publicis-groupe-digital-growth-marketing-2027",
+    "company": "Publicis Groupe",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Publicis%20Groupe%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "interpublic-group-ipg-advertising-media-2027",
+    "company": "Interpublic Group (IPG)",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Interpublic%20Group%20(IPG)%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "interpublic-group-ipg-brand-marketing-2027",
+    "company": "Interpublic Group (IPG)",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Interpublic%20Group%20(IPG)%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "interpublic-group-ipg-public-relations-comms-2027",
+    "company": "Interpublic Group (IPG)",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Interpublic%20Group%20(IPG)%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "interpublic-group-ipg-digital-growth-marketing-2027",
+    "company": "Interpublic Group (IPG)",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Interpublic%20Group%20(IPG)%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dentsu-advertising-media-2027",
+    "company": "Dentsu",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dentsu%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dentsu-brand-marketing-2027",
+    "company": "Dentsu",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dentsu%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dentsu-public-relations-comms-2027",
+    "company": "Dentsu",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Seattle, WA",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dentsu%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "dentsu-digital-growth-marketing-2027",
+    "company": "Dentsu",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Dentsu%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "havas-advertising-media-2027",
+    "company": "Havas",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Havas%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "havas-brand-marketing-2027",
+    "company": "Havas",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Havas%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "havas-public-relations-comms-2027",
+    "company": "Havas",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Dallas, TX",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Havas%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "havas-digital-growth-marketing-2027",
+    "company": "Havas",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Havas%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ogilvy-advertising-media-2027",
+    "company": "Ogilvy",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ogilvy%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ogilvy-brand-marketing-2027",
+    "company": "Ogilvy",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ogilvy%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ogilvy-public-relations-comms-2027",
+    "company": "Ogilvy",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ogilvy%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "ogilvy-digital-growth-marketing-2027",
+    "company": "Ogilvy",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Ogilvy%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bbdo-advertising-media-2027",
+    "company": "BBDO",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=BBDO%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bbdo-brand-marketing-2027",
+    "company": "BBDO",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=BBDO%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bbdo-public-relations-comms-2027",
+    "company": "BBDO",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Chicago, IL",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=BBDO%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "bbdo-digital-growth-marketing-2027",
+    "company": "BBDO",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=BBDO%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mccann-worldgroup-advertising-media-2027",
+    "company": "McCann Worldgroup",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McCann%20Worldgroup%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mccann-worldgroup-brand-marketing-2027",
+    "company": "McCann Worldgroup",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McCann%20Worldgroup%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mccann-worldgroup-public-relations-comms-2027",
+    "company": "McCann Worldgroup",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McCann%20Worldgroup%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "mccann-worldgroup-digital-growth-marketing-2027",
+    "company": "McCann Worldgroup",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=McCann%20Worldgroup%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wieden-kennedy-advertising-media-2027",
+    "company": "Wieden+Kennedy",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wieden%2BKennedy%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wieden-kennedy-brand-marketing-2027",
+    "company": "Wieden+Kennedy",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wieden%2BKennedy%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wieden-kennedy-public-relations-comms-2027",
+    "company": "Wieden+Kennedy",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Seattle, WA",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wieden%2BKennedy%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "wieden-kennedy-digital-growth-marketing-2027",
+    "company": "Wieden+Kennedy",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Wieden%2BKennedy%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "droga5-advertising-media-2027",
+    "company": "Droga5",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Droga5%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "droga5-brand-marketing-2027",
+    "company": "Droga5",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Droga5%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "droga5-public-relations-comms-2027",
+    "company": "Droga5",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Dallas, TX",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Droga5%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "droga5-digital-growth-marketing-2027",
+    "company": "Droga5",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Droga5%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "vml-advertising-media-2027",
+    "company": "VML",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=VML%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "vml-brand-marketing-2027",
+    "company": "VML",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=VML%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "vml-public-relations-comms-2027",
+    "company": "VML",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=VML%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "vml-digital-growth-marketing-2027",
+    "company": "VML",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=VML%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "groupm-advertising-media-2027",
+    "company": "GroupM",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=GroupM%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "groupm-brand-marketing-2027",
+    "company": "GroupM",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=GroupM%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "groupm-public-relations-comms-2027",
+    "company": "GroupM",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Chicago, IL",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=GroupM%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "groupm-digital-growth-marketing-2027",
+    "company": "GroupM",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=GroupM%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "edelman-advertising-media-2027",
+    "company": "Edelman",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Edelman%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "edelman-brand-marketing-2027",
+    "company": "Edelman",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Edelman%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "edelman-public-relations-comms-2027",
+    "company": "Edelman",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Edelman%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "edelman-digital-growth-marketing-2027",
+    "company": "Edelman",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Edelman%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "weber-shandwick-advertising-media-2027",
+    "company": "Weber Shandwick",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Weber%20Shandwick%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "weber-shandwick-brand-marketing-2027",
+    "company": "Weber Shandwick",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Weber%20Shandwick%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "weber-shandwick-public-relations-comms-2027",
+    "company": "Weber Shandwick",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Seattle, WA",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Weber%20Shandwick%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "weber-shandwick-digital-growth-marketing-2027",
+    "company": "Weber Shandwick",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Weber%20Shandwick%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fleishmanhillard-advertising-media-2027",
+    "company": "FleishmanHillard",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Chicago, IL",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FleishmanHillard%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fleishmanhillard-brand-marketing-2027",
+    "company": "FleishmanHillard",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FleishmanHillard%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fleishmanhillard-public-relations-comms-2027",
+    "company": "FleishmanHillard",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Dallas, TX",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FleishmanHillard%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "fleishmanhillard-digital-growth-marketing-2027",
+    "company": "FleishmanHillard",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Boston, MA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=FleishmanHillard%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "digitas-advertising-media-2027",
+    "company": "Digitas",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Digitas%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "digitas-brand-marketing-2027",
+    "company": "Digitas",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Digitas%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "digitas-public-relations-comms-2027",
+    "company": "Digitas",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Digitas%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "digitas-digital-growth-marketing-2027",
+    "company": "Digitas",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Digitas%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "razorfish-advertising-media-2027",
+    "company": "Razorfish",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Seattle, WA",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Razorfish%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "razorfish-brand-marketing-2027",
+    "company": "Razorfish",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "New York, NY",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Razorfish%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "razorfish-public-relations-comms-2027",
+    "company": "Razorfish",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Chicago, IL",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Razorfish%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "razorfish-digital-growth-marketing-2027",
+    "company": "Razorfish",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Atlanta, GA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=Razorfish%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "r-ga-advertising-media-2027",
+    "company": "R/GA",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Dallas, TX",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=R%2FGA%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "r-ga-brand-marketing-2027",
+    "company": "R/GA",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Boston, MA",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=R%2FGA%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "r-ga-public-relations-comms-2027",
+    "company": "R/GA",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "San Francisco, CA",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=R%2FGA%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "r-ga-digital-growth-marketing-2027",
+    "company": "R/GA",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "Los Angeles, CA",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "Online assessment"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=R%2FGA%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "the-martin-agency-advertising-media-2027",
+    "company": "The Martin Agency",
+    "role": "Advertising & Media Intern",
+    "level": "Internship",
+    "types": [
+      "Advertising & Media"
+    ],
+    "majors": [
+      "Marketing",
+      "Communications",
+      "Advertising"
+    ],
+    "majorTags": [
+      "marketing",
+      "communications",
+      "business"
+    ],
+    "location": "Minneapolis, MN",
+    "about": "Advertising & Media summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=The%20Martin%20Agency%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "the-martin-agency-brand-marketing-2027",
+    "company": "The Martin Agency",
+    "role": "Brand Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Brand Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Administration",
+      "Communications"
+    ],
+    "majorTags": [
+      "marketing",
+      "business",
+      "communications"
+    ],
+    "location": "Charlotte, NC",
+    "about": "Brand Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "Pymetrics game"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=The%20Martin%20Agency%20Brand%20Marketing%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "the-martin-agency-public-relations-comms-2027",
+    "company": "The Martin Agency",
+    "role": "Public Relations & Comms Intern",
+    "level": "Internship",
+    "types": [
+      "Public Relations & Comms"
+    ],
+    "majors": [
+      "Communications",
+      "Marketing",
+      "Public Relations"
+    ],
+    "majorTags": [
+      "communications",
+      "marketing",
+      "english"
+    ],
+    "location": "Seattle, WA",
+    "about": "Public Relations & Comms summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "No",
+      "assessment": "SHL / numerical test"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=The%20Martin%20Agency%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
+  },
+  {
+    "id": "the-martin-agency-digital-growth-marketing-2027",
+    "company": "The Martin Agency",
+    "role": "Digital & Growth Marketing Intern",
+    "level": "Internship",
+    "types": [
+      "Digital & Growth Marketing"
+    ],
+    "majors": [
+      "Marketing",
+      "Business Analytics",
+      "Data Science",
+      "Business Administration"
+    ],
+    "majorTags": [
+      "marketing",
+      "business_analytics",
+      "data_science",
+      "business"
+    ],
+    "location": "New York, NY",
+    "about": "Digital & Growth Marketing summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$22-35/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "No",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-05-31",
+    "isNew": false,
+    "applyUrl": "https://www.google.com/search?q=The%20Martin%20Agency%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+  }
+];

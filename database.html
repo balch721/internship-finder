@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whole Database — Aryan's Internship Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0f18; --panel:#121a28; --panel2:#16203040; --border:#26344a;
+    --text:#eef3fb; --muted:#9fb2cc; --accent:#8fb4ff; --teal:#6fe0cf; --gold:#ffd79b; --up:#6fe0a8;
+    --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;overflow-x:hidden;max-width:100%}
+  body{font-family:var(--sans);color:var(--text);line-height:1.55;position:relative;min-height:100vh;
+    background:
+      radial-gradient(120% 80% at 15% -10%,rgba(111,224,207,.10),transparent 55%),
+      radial-gradient(110% 70% at 90% 0%,rgba(143,180,255,.12),transparent 55%),
+      linear-gradient(165deg,#0a1426 0%,#0d1b30 40%,#10233c 70%,#0a1524 100%);}
+  ::selection{background:rgba(143,180,255,.32);color:#fff}
+
+  /* layered mountain valley backdrop (static SVG, fixed) */
+  .valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+  .valley svg{position:absolute;bottom:0;left:0;width:100%;height:62vh;min-height:380px}
+  .haze{position:fixed;top:-10%;right:0;width:55vw;max-width:700px;height:50vh;z-index:0;pointer-events:none;
+    background:radial-gradient(circle at 70% 30%,rgba(255,214,165,.10),transparent 60%)}
+  .grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+  .wrap{position:relative;z-index:2;max-width:1080px;margin:0 auto;padding:0 24px 80px}
+  header{padding:30px 0 8px}
+  .hdrrow{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-right:120px}
+  .home{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;font-weight:600;transition:color .2s}
+  .home:hover{color:var(--text)}
+  .kicker{margin-top:22px;display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:600;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--teal);background:rgba(111,224,207,.08);border:1px solid rgba(111,224,207,.22);
+    padding:5px 13px;border-radius:999px}
+  h1{font-family:var(--serif);font-weight:360;font-size:clamp(38px,6vw,66px);line-height:1.0;letter-spacing:-1px;margin:24px 0 10px}
+  h1 .accent{font-style:italic;background:linear-gradient(100deg,#a9c8ff,#9ff0e2,#ffd9a8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .sub{color:var(--muted);font-size:15.5px;max-width:560px}
+
+  /* category = an "elevation band" on the trail */
+  .cat{margin-top:18px;animation:rise .55s both;border-left:2px solid transparent;padding-left:16px;transition:border-color .3s}
+  .cat.open{border-left-color:rgba(143,180,255,.35)}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .cathead{display:flex;align-items:center;gap:14px;cursor:pointer;user-select:none;padding:15px 18px;
+    border:1px solid var(--border);border-radius:15px;background:rgba(18,26,40,.72);backdrop-filter:blur(10px);
+    transition:border-color .25s,background .25s,transform .2s}
+  .cathead:hover{border-color:var(--accent);transform:translateX(3px)}
+  .cat.open .cathead{background:rgba(20,30,48,.9);border-color:rgba(143,180,255,.4)}
+  .cic{width:42px;height:42px;flex:none;display:flex;align-items:center;justify-content:center;border-radius:12px;
+    background:linear-gradient(140deg,rgba(143,180,255,.18),rgba(111,224,207,.12));border:1px solid rgba(143,180,255,.25);color:var(--accent)}
+  .cic svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+  .ctext{flex:1 1 auto;min-width:0}
+  .ctitle{font-family:var(--serif);font-size:19px;font-weight:500;letter-spacing:-.2px}
+  .csub{display:block;font-family:var(--sans);font-size:12px;color:var(--muted);font-weight:400;margin-top:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .cmeta{flex:none;color:var(--muted);font-size:12.5px;display:flex;align-items:center;gap:12px}
+  .chev{transition:transform .3s cubic-bezier(.2,.7,.2,1);font-size:12px;color:var(--muted)}
+  .cat.open .chev{transform:rotate(90deg)}
+  .pilllive{font-size:10.5px;font-weight:700;letter-spacing:.4px;padding:3px 9px;border-radius:999px;background:rgba(111,224,168,.16);color:var(--up);border:1px solid rgba(111,224,168,.32)}
+  .specs{font-size:12px;white-space:nowrap}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px;overflow:hidden;max-height:0;
+    transition:max-height .45s cubic-bezier(.2,.7,.2,1),margin .3s,opacity .35s;opacity:0;margin-top:0}
+  .cat.open .grid{max-height:2400px;opacity:1;margin-top:14px;margin-bottom:6px;padding-top:8px;overflow:visible}
+  .sub-card{position:relative;display:block;text-decoration:none;color:inherit;background:rgba(22,32,48,.6);
+    border:1px solid var(--border);border-radius:13px;padding:16px 17px;overflow:hidden;
+    transition:transform .22s cubic-bezier(.2,.7,.2,1),border-color .22s,box-shadow .22s,background .22s}
+  .sub-card.live::after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(var(--teal),var(--accent));opacity:.7}
+  .sub-card.live:hover{transform:translateY(-5px);border-color:var(--accent);background:rgba(28,40,60,.8);box-shadow:0 16px 34px rgba(0,0,0,.4)}
+  .sub-card.soon{opacity:.5}
+  .sub-card .st{font-size:14.5px;font-weight:650}
+  .sub-card .sd{color:var(--muted);font-size:12px;margin-top:5px}
+  .tagm{display:inline-block;margin-top:10px;font-size:9.5px;font-weight:700;letter-spacing:.5px;padding:3px 8px;border-radius:6px}
+  .tagm.live{background:rgba(111,224,168,.16);color:var(--up)}
+  .tagm.soon{background:#1b2433;color:var(--muted)}
+
+  .cta{display:flex;align-items:center;gap:18px;margin:40px auto 0;max-width:600px;text-decoration:none;color:inherit;
+    background:linear-gradient(120deg,rgba(143,180,255,.14),rgba(111,224,207,.10));border:1.5px solid rgba(10,18,32,.55);
+    box-shadow:0 6px 22px rgba(0,0,0,.28);
+    border-radius:18px;padding:22px 24px;transition:transform .2s,border-color .2s}
+  .cta:hover{transform:translateY(-3px);border-color:rgba(10,18,32,.8)}
+  .cta .ci{width:42px;height:42px;flex:none;border-radius:12px;display:flex;align-items:center;justify-content:center;
+    background:rgba(143,180,255,.18);border:1px solid rgba(143,180,255,.4);color:#cfe0ff}
+  .cta .ci svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+  .cta .t{font-family:var(--serif);font-size:18px;font-weight:500}
+  .cta .d{color:rgba(255,255,255,.82);font-size:13px;margin-top:3px}
+  .cta .t{color:#fff}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:768px){
+    html,body{overflow-x:hidden}
+    .wrap{padding:0 16px 60px}
+    header{padding:56px 0 8px}
+    .hdrrow{flex-direction:column;align-items:flex-start;gap:6px;padding-right:0}
+    h1{font-size:34px}
+    .grid{grid-template-columns:1fr;padding-left:8px}
+    .cat.open .grid{max-height:7000px}
+    .cathead{padding:15px 15px;gap:12px}
+    .cic{width:40px;height:40px}
+    .cmeta{gap:8px}
+    .specs{display:none}
+    .cta{flex-direction:column;text-align:center;align-items:center}
+    /* mobile: drop hover lifts, slides, grain & haze for a calmer, lighter page */
+    .cathead,.cathead:hover,.sub-card,.sub-card.live:hover,.cta,.cta:hover{transition:none;transform:none !important}
+    .grid{transition:max-height .25s ease,opacity .2s}
+    .grain,.haze{display:none}
+    .cat{animation:none}
+  }
+  @media (hover:none){
+    .cathead:hover{transform:none;border-color:var(--border)}
+    .sub-card.live:hover{transform:none;box-shadow:none}
+    .cta:hover{transform:none}
+  }
+.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+</style>
+<script src="transition.js?v=4"></script>
+<link rel="stylesheet" href="light.css?v=3">
+<script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+</head>
+<body>
+<div class="valley">
+  <svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,330 L180,250 L320,300 L520,210 L700,290 L900,200 L1120,280 L1300,230 L1440,290 L1440,600 L0,600 Z" fill="#16243c" opacity="0.55"/>
+    <path d="M0,400 L220,330 L420,390 L640,310 L860,380 L1080,320 L1280,385 L1440,340 L1440,600 L0,600 Z" fill="#101c30" opacity="0.8"/>
+    <path d="M0,470 L260,410 L500,465 L760,405 L1020,460 L1260,415 L1440,455 L1440,600 L0,600 Z" fill="#0a1322"/>
+  </svg>
+</div>
+<div class="haze"></div>
+<div class="grain"></div>
+
+<div class="wrap">
+<header>
+  <div class="hdrrow">
+    <a class="home" href="index.html">← Back to the valley</a>
+    <button type="button" class="home" id="themeToggle" style="background:none;border:none;cursor:pointer;font:inherit" title="Toggle light / dark">🌙 Theme</button>
+    <a class="home" id="savedLink" href="tracker.html" style="color:var(--teal)">★ Saved jobs →</a>
+  </div>
+  <h1>Explore the <span class="accent">database</span></h1>
+  <div class="sub">Every field laid out like trails across the valley. Open a region, then drop into a specialty — live sections are searchable now, the rest are on the way.</div>
+</header>
+
+<div id="cats"></div>
+
+<a class="cta" href="survey.html">
+  <span class="ci"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg></span>
+  <div>
+    <div class="t">Not sure where to start?</div>
+    <div class="d">Take the quick survey and get a personalized, ranked shortlist instead.</div>
+  </div>
+</a>
+</div>
+
+<script>
+  // refined line icons per category (no emojis)
+  const ICONS = {
+    business:'<svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg>',
+    cs:'<svg viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>',
+    engineering:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2.2 2.2M16.8 16.8 19 19M19 5l-2.2 2.2M7.2 16.8 5 19"/></svg>',
+    med:'<svg viewBox="0 0 24 24"><path d="M7 3v5a5 5 0 0 0 10 0V3"/><path d="M7 3h2M15 3h2"/><path d="M12 13v3a4 4 0 0 0 8 0v-1"/><circle cx="20" cy="13" r="1.6"/></svg>'
+  };
+
+  // category → subcategories. live entries link out; others are placeholders.
+  const CATEGORIES = [
+    { key:"business", tag:"Strategy · finance · analytics", title:"Business", subs:[
+      { name:"Consulting & Business Systems", desc:"MBB, Big Four, boutiques, IT-services.", href:"consulting.html", live:true },
+      { name:"Data & Business Analytics", desc:"Analytics, BI, data science across industries.", href:"analytics.html", live:true },
+      { name:"Finance & Banking", desc:"IB, S&T, PE/VC, hedge funds, asset mgmt, fintech.", href:"finance.html", live:true },
+      { name:"Marketing & Sales", desc:"Brand, growth, digital, sales, PR & advertising.", href:"marketing.html", live:true },
+      { name:"Accounting", desc:"Audit, tax, advisory & corporate accounting.", href:"accounting.html", live:true },
+      { name:"Operations & Supply Chain", desc:"Supply chain, logistics, procurement, planning.", href:"operations.html", live:true },
+      { name:"Human Resources", desc:"HRBP, recruiting, people analytics, comp & L&D.", href:"hr.html", live:true },
+      { name:"Real Estate", desc:"Investment, development, asset mgmt, brokerage.", href:"realestate.html", live:true }
+    ]},
+    { key:"cs", tag:"Software · data · AI", title:"Computer Science & Tech", subs:[
+      { name:"Software Engineering", desc:"Backend, frontend, full-stack, mobile.", href:"tech.html?type=Software%20Engineering", live:true },
+      { name:"Data Science & ML", desc:"Modeling, statistics, applied ML.", href:"tech.html?type=Data%20Science%20%26%20ML", live:true },
+      { name:"Artificial Intelligence", desc:"LLMs, agents, research, applied AI.", href:"tech.html?type=Artificial%20Intelligence", live:true },
+      { name:"Product Management", desc:"APM/PM internships at tech firms.", href:"tech.html?type=Product%20Management", live:true },
+      { name:"Cybersecurity", desc:"Security, cloud security, GRC.", href:"tech.html?type=Cybersecurity", live:true },
+      { name:"Cloud & DevOps", desc:"Infra, SRE, platform engineering.", href:"tech.html?type=Cloud%20%26%20DevOps", live:true },
+      { name:"UI/UX & Design", desc:"Product design, research, design systems.", href:"tech.html?type=UI/UX%20%26%20Design", live:true },
+      { name:"IT & Systems", desc:"Systems, networks, technical support.", href:"tech.html?type=IT%20%26%20Systems", live:true }
+    ]},
+    { key:"engineering", tag:"Mechanical · electrical · civil", title:"Engineering", subs:[
+      { name:"Mechanical Engineering", desc:"Design, manufacturing, robotics.", href:"engineering.html?type=Mechanical%20Engineering", live:true },
+      { name:"Electrical Engineering", desc:"Circuits, power, embedded systems.", href:"engineering.html?type=Electrical%20Engineering", live:true },
+      { name:"Civil Engineering", desc:"Structural, transportation, construction.", href:"engineering.html?type=Civil%20Engineering", live:true },
+      { name:"Chemical Engineering", desc:"Process, materials, energy.", href:"engineering.html?type=Chemical%20Engineering", live:true },
+      { name:"Industrial Engineering", desc:"Process improvement, Lean/Six Sigma, ops.", href:"engineering.html?type=Industrial%20Engineering", live:true },
+      { name:"Aerospace Engineering", desc:"Aircraft, propulsion, space systems.", href:"engineering.html?type=Aerospace%20Engineering", live:true },
+      { name:"Biomedical Engineering", desc:"Medical devices, imaging, bio-systems.", href:"engineering.html?type=Biomedical%20Engineering", live:true },
+      { name:"Environmental Engineering", desc:"Sustainability, water, energy systems.", href:"engineering.html?type=Environmental%20Engineering", live:true }
+    ]},
+    { key:"med", tag:"Pharma · clinical · biotech", title:"Healthcare & Medicine", subs:[
+      { name:"Pharmaceuticals", desc:"Pharma R&D, drug development, commercial.", href:"healthcare.html?type=Pharmaceuticals", live:true },
+      { name:"Clinical Research", desc:"Trials, regulatory, clinical ops.", href:"healthcare.html?type=Clinical%20Research", live:true },
+      { name:"Biotech & Life Sciences", desc:"Genomics, therapeutics, lab research.", href:"healthcare.html?type=Biotech%20%26%20Life%20Sciences", live:true },
+      { name:"Medical Devices", desc:"Device design, quality, regulatory.", href:"healthcare.html?type=Medical%20Devices", live:true },
+      { name:"Public Health", desc:"Epidemiology, policy, global health.", href:"healthcare.html?type=Public%20Health", live:true },
+      { name:"Healthcare Administration", desc:"Hospital ops, health systems, policy.", href:"healthcare.html?type=Healthcare%20Administration", live:true },
+      { name:"Health Tech / Digital Health", desc:"Health software, telemedicine, data.", href:"healthcare.html?type=Health%20Tech%20/%20Digital%20Health", live:true },
+      { name:"Nursing & Allied Health", desc:"Clinical, allied health programs.", href:"healthcare.html?type=Nursing%20%26%20Allied%20Health", live:true }
+    ]}
+  ];
+
+  function liveCount(c){ return c.subs.filter(s=>s.live).length; }
+
+  document.getElementById("cats").innerHTML = CATEGORIES.map((c,i)=>{
+    const subs = c.subs.map(s=>{
+      const cls = "sub-card "+(s.live?"live":"soon");
+      const tag = s.live?'<span class="tagm live">LIVE</span>':'<span class="tagm soon">COMING SOON</span>';
+      const inner = `<div class="st">${s.name}</div><div class="sd">${s.desc}</div>${tag}`;
+      return s.live ? `<a class="${cls}" href="${s.href}">${inner}</a>` : `<div class="${cls}">${inner}</div>`;
+    }).join("");
+    const live = liveCount(c);
+    const meta = live ? `<span class="pilllive">${live} LIVE</span>` : "";
+    // restore saved open/closed state; default = only the first category open
+    let openState=null;
+    try{ openState=JSON.parse(localStorage.getItem("aif_db_open")||"null"); }catch(e){}
+    const isOpen = openState ? !!openState[c.key] : (i===0);
+    return `<div class="cat${isOpen?' open':''}" data-key="${c.key}">
+      <div class="cathead" onclick="toggleCat(this.parentElement)">
+        <span class="cic">${ICONS[c.key]||""}</span>
+        <span class="ctext"><span class="ctitle">${c.title}</span><span class="csub">${c.tag}</span></span>
+        <span class="cmeta">${meta}<span class="specs">${c.subs.length} specialties</span><span class="chev">▶</span></span>
+      </div>
+      <div class="grid">${subs}</div>
+    </div>`;
+  }).join("");
+
+  // toggle a category and persist every category's open/closed state across refreshes
+  function toggleCat(el){
+    el.classList.toggle("open");
+    const state={};
+    document.querySelectorAll("#cats .cat").forEach(c=>{ state[c.getAttribute("data-key")]=c.classList.contains("open"); });
+    try{ localStorage.setItem("aif_db_open", JSON.stringify(state)); }catch(e){}
+  }
+</script>
+<script type="module" src="firebase-auth.js"></script>
+<script type="module" src="account-widget.js"></script>
+<script>/*themeToggleBtn*/(function(){function set(){var b=document.getElementById("themeToggle");if(!b||!window.AIF_THEME)return;b.textContent=(window.AIF_THEME.get()==="light")?"☀️ Theme":"🌙 Theme";}function ready(){if(window.AIF_THEME){var b=document.getElementById("themeToggle");if(b){b.onclick=function(){window.AIF_THEME.toggle();set();};set();}}else setTimeout(ready,40);}ready();})();</script></body>
+</html>
