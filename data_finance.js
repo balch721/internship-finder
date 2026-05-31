@@ -1,5 +1,6 @@
 // Finance & Banking — Summer 2027. Globals: FINANCE_LAST_UPDATED, FINANCE_COMPANIES, FINANCE_INTERNSHIPS. Stock links to Yahoo Finance.
 window.FINANCE_LAST_UPDATED = "2026-05-31";
+// linkcheck_cursor: finance batch 1 verified 2026-05-31 — Goldman Sachs, Morgan Stanley(IB), J.P. Morgan, Bank of America, Citi. Next run: resume at Barclays/Deutsche Bank.
 
 window.FINANCE_COMPANIES = {
   "Goldman Sachs": {
@@ -6593,7 +6594,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
     "id": "goldman-sachs-sales-trading-2027",
@@ -6631,7 +6632,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
     "id": "goldman-sachs-equity-research-2027",
@@ -6667,7 +6668,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Equity%20Research%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
     "id": "goldman-sachs-ib-mergers-acquisitions-2027",
@@ -6705,7 +6706,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
     "id": "goldman-sachs-ib-industrials-coverage-2027",
@@ -6743,7 +6744,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
     "id": "goldman-sachs-ib-technology-media-telecom-2027",
@@ -6781,7 +6782,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
     "id": "goldman-sachs-ib-healthcare-coverage-2027",
@@ -6819,7 +6820,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
     "id": "morgan-stanley-investment-banking-2027",
@@ -6857,7 +6858,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
   },
   {
     "id": "morgan-stanley-sales-trading-2027",
@@ -6969,7 +6970,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
   },
   {
     "id": "morgan-stanley-ib-technology-media-telecom-2027",
@@ -7007,7 +7008,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
   },
   {
     "id": "morgan-stanley-ib-healthcare-coverage-2027",
@@ -7045,7 +7046,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
   },
   {
     "id": "morgan-stanley-ib-financial-sponsors-2027",
@@ -7083,7 +7084,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
   },
   {
     "id": "j-p-morgan-investment-banking-2027",
@@ -7121,7 +7122,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=J.P.%20Morgan%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
   },
   {
     "id": "j-p-morgan-sales-trading-2027",
@@ -7159,7 +7160,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=J.P.%20Morgan%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
+    "applyUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325"
   },
   {
     "id": "j-p-morgan-capital-markets-2027",
@@ -7231,7 +7232,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=J.P.%20Morgan%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
   },
   {
     "id": "j-p-morgan-ib-healthcare-coverage-2027",
@@ -7269,7 +7270,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=J.P.%20Morgan%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
   },
   {
     "id": "j-p-morgan-ib-financial-sponsors-2027",
@@ -7307,7 +7308,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=J.P.%20Morgan%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
   },
   {
     "id": "j-p-morgan-ib-leveraged-finance-2027",
@@ -7345,7 +7346,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=J.P.%20Morgan%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
   },
   {
     "id": "bank-of-america-investment-banking-2027",
@@ -7383,7 +7384,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
   },
   {
     "id": "bank-of-america-sales-trading-2027",
@@ -7455,7 +7456,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Capital%20Markets%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13932/global-capital-markets-summer-analyst-program-2027-multiple-locations"
   },
   {
     "id": "bank-of-america-ib-healthcare-coverage-2027",
@@ -7493,7 +7494,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
   },
   {
     "id": "bank-of-america-ib-financial-sponsors-2027",
@@ -7531,7 +7532,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
   },
   {
     "id": "bank-of-america-ib-leveraged-finance-2027",
@@ -7569,7 +7570,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
   },
   {
     "id": "bank-of-america-ib-consumer-retail-2027",
@@ -7607,7 +7608,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
   },
   {
     "id": "citi-investment-banking-2027",
@@ -7645,7 +7646,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citi%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
   },
   {
     "id": "citi-sales-trading-2027",
@@ -7717,7 +7718,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citi%20Capital%20Markets%20summer%202027%20internship%20careers"
+    "applyUrl": "https://jobs.citi.com/job/new-york/banking-capital-markets-summer-analyst-new-york-city-us-2027/287/89623966816"
   },
   {
     "id": "citi-ib-financial-sponsors-2027",
@@ -7755,7 +7756,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citi%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
   },
   {
     "id": "citi-ib-leveraged-finance-2027",
@@ -7793,7 +7794,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citi%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
   },
   {
     "id": "citi-ib-consumer-retail-2027",
@@ -7831,7 +7832,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citi%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
   },
   {
     "id": "citi-ib-energy-power-2027",
@@ -7869,7 +7870,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citi%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
   },
   {
     "id": "barclays-investment-banking-2027",
