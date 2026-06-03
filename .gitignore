@@ -2,3 +2,6 @@
 *.log
 node_modules/
 _*.txt
+publish.sh
+com.aryan.internship-publish.plist
+.deploy_test

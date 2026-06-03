@@ -1,9 +1,30 @@
 // CS & Tech — Summer 2027 internships.
 // Globals: TECH_LAST_UPDATED, TECH_COMPANIES, TECH_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.TECH_LAST_UPDATED = "2026-05-31";
+window.TECH_LAST_UPDATED = "2026-06-03";
 
 window.TECH_COMPANIES = {
+  "Aquatic Capital Management": {
+    "tier": "Quant Hedge Fund",
+    "background": "Quantitative investment manager applying scientific research and technology to global financial markets; recruits software and research interns into its trading and research infrastructure.",
+    "deepProfile": [
+      "Aquatic is a Chicago-based quantitative investment manager founded to tackle complex challenges in global financial markets using cutting-edge scientific research and technological innovation. Software Engineering interns build high-performance, distributed systems powering research and trading infrastructure, working alongside experienced engineers and quants on low-latency, high-throughput data processing. The interview process is rigorous and the firm explicitly values strong programming (Python/C++), algorithms, and systems knowledge."
+    ],
+    "values": "Curiosity, meritocracy, collaboration, ambition, calm determination",
+    "tagline": "Quantitative investing powered by science and technology",
+    "ticker": null,
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": null,
+    "acceptanceRate": "~1-2% (est.)",
+    "competitiveness": "Extremely competitive",
+    "compScore": 5,
+    "news": [],
+    "fortune": null,
+    "hq": "Chicago, IL",
+    "founded": "2020",
+    "history": "Founded in 2020 by Marwan Abboud, Aquatic Capital Management is a quantitative investment firm in an early stage of rapid growth, building its research and engineering teams around a culture of meritocracy and scientific rigor."
+  },
   "Google": {
     "tier": "Big Tech (FAANG)",
     "background": "Big Tech (FAANG) — a major recruiter of software and AI interns.",
@@ -2086,6 +2107,44 @@ window.TECH_COMPANIES = {
 };
 
 window.TECH_INTERNSHIPS = [
+  {
+    "id": "aquatic-capital-software-engineering-2027",
+    "company": "Aquatic Capital Management",
+    "role": "Software Engineer Intern (Summer 2027)",
+    "level": "Internship",
+    "types": [
+      "Software Engineering"
+    ],
+    "majors": [
+      "Computer Science",
+      "Mathematics",
+      "Statistics",
+      "Physics",
+      "Machine Learning"
+    ],
+    "majorTags": [
+      "computer_science",
+      "mathematics",
+      "statistics",
+      "physics",
+      "machine_learning"
+    ],
+    "location": "Chicago, IL",
+    "about": "Summer 2027 Software Engineering internship at a quantitative hedge fund: build high-performance, distributed systems powering live research and trading infrastructure alongside engineers and quants. For students graduating Fall 2027–Spring 2028 with strong Python/C++, algorithms, and systems skills.",
+    "status": "Open",
+    "due": "Rolling — apply early",
+    "deadline": null,
+    "comp": "~$10-15k/month (est.)",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Not required",
+      "writtenAnswers": "Yes",
+      "assessment": "GitHub submission + technical interviews"
+    },
+    "dateAdded": "2026-06-03",
+    "isNew": true,
+    "applyUrl": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002"
+  },
   {
     "id": "google-software-engineering-2027",
     "company": "Google",

@@ -1,5 +1,5 @@
 // Finance & Banking — Summer 2027. Globals: FINANCE_LAST_UPDATED, FINANCE_COMPANIES, FINANCE_INTERNSHIPS. Stock links to Yahoo Finance.
-window.FINANCE_LAST_UPDATED = "2026-05-31";
+window.FINANCE_LAST_UPDATED = "2026-06-03";
 // linkcheck_cursor: finance batch 2 verified 2026-05-31 — prev: GS, MS, JPM, BofA, Citi; now Barclays (IB Coverage/M&A + Sales & Trading) direct links. Next run: resume at Deutsche Bank/UBS.
 
 window.FINANCE_COMPANIES = {
@@ -9494,7 +9494,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Securities%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://www.wellsfargojobs.com/en/jobs/r-512552/2027-summer-internship-early-careers-investment-banking/"
   },
   {
     "id": "wells-fargo-securities-sales-trading-2027",
@@ -15106,7 +15106,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=BlackRock%20Asset%20Management%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.blackrock.com/job/new-york/2027-summer-internship-program-amers/45831/90628276544"
   },
   {
     "id": "blackrock-risk-quant-finance-2027",
@@ -23178,8 +23178,8 @@ window.FINANCE_INTERNSHIPS = [
     ],
     "location": "Los Angeles, CA",
     "about": "M&A and capital-raising advisory; build models, comps, and pitch materials.",
-    "status": "Opens ~fall 2026",
-    "due": "Opens ~fall 2026",
+    "status": "Open",
+    "due": "Rolling — apply early",
     "deadline": null,
     "comp": "~$110-130k annualized (~$45/hr) — est.",
     "reqs": {
@@ -23190,7 +23190,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=PMCF%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.plantemoran.com/2027-pmcf-investment-banking-summer-intern/job/16978F6FA5930EF3ED03A8EAD037D259"
   },
   {
     "id": "eastdil-secured-investment-banking-2027",
