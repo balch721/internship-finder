@@ -1,6 +1,6 @@
 // Finance & Banking — Summer 2027. Globals: FINANCE_LAST_UPDATED, FINANCE_COMPANIES, FINANCE_INTERNSHIPS. Stock links to Yahoo Finance.
 window.FINANCE_LAST_UPDATED = "2026-06-09";
-// linkcheck_cursor: finance batch 2 verified 2026-05-31 — prev: GS, MS, JPM, BofA, Citi; now Barclays (IB Coverage/M&A + Sales & Trading) direct links. Next run: resume at Deutsche Bank/UBS.
+// linkcheck_cursor: finance batch 3 checked 2026-06-09 — Deutsche Bank & UBS reviewed: 2027 IB summer-analyst cycles closed (Dec 2025–Jan 2026), no exact role apply pages live, left applyUrls as-is. Added Wells Fargo Securities Houston (Energy) IB 2027 card with verified direct link. Next run: resume at Jefferies / Houlihan Lokey / Moelis.
 
 window.FINANCE_COMPANIES = {
   "Goldman Sachs": {
@@ -6558,6 +6558,44 @@ window.FINANCE_COMPANIES = {
 };
 
 window.FINANCE_INTERNSHIPS = [
+  {
+    "id": "wells-fargo-securities-investment-banking-houston-2027",
+    "company": "Wells Fargo Securities",
+    "role": "Investment Banking Summer Analyst — Houston (Energy)",
+    "level": "Internship",
+    "types": [
+      "Investment Banking"
+    ],
+    "majors": [
+      "Finance",
+      "Economics",
+      "Accounting",
+      "Business Administration",
+      "Mathematics"
+    ],
+    "majorTags": [
+      "finance",
+      "economics",
+      "accounting",
+      "business",
+      "math"
+    ],
+    "location": "Houston, TX",
+    "about": "Houston-based IB summer analyst seat with an energy/power coverage focus: build models, comps, and pitch materials supporting M&A and capital-raising for energy clients.",
+    "status": "Opens ~fall 2026",
+    "due": "Opens ~fall 2026",
+    "deadline": null,
+    "comp": "~$110-130k annualized (~$45/hr) — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Required",
+      "writtenAnswers": "Yes",
+      "assessment": "HireVue / video screen"
+    },
+    "dateAdded": "2026-06-09",
+    "isNew": true,
+    "applyUrl": "https://www.wellsfargojobs.com/en/jobs/r-507805/2027-summer-internship-early-careers-investment-banking-houston/"
+  },
   {
     "id": "goldman-sachs-investment-banking-2027",
     "company": "Goldman Sachs",

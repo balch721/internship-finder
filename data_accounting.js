@@ -12581,8 +12581,8 @@ window.ACCOUNTING_INTERNSHIPS = [
     ],
     "location": "Boston, MA",
     "about": "Audit & Assurance summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
-    "status": "Opens ~fall 2026",
-    "due": "Opens ~fall 2026",
+    "status": "Open — apply (2027 Audit or Tax Intern)",
+    "due": "Rolling — apply early",
     "deadline": null,
     "comp": "~$25-38/hr — est.",
     "reqs": {
@@ -12593,7 +12593,7 @@ window.ACCOUNTING_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Plante%20Moran%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.plantemoran.com/2027-audit-or-tax-intern/job/5805524CAF683F5083CB4626A821B480"
   },
   {
     "id": "plante-moran-tax-2027",
@@ -12613,8 +12613,8 @@ window.ACCOUNTING_INTERNSHIPS = [
     ],
     "location": "San Francisco, CA",
     "about": "Tax summer internship: hands-on project work, exposure to leaders, and a structured early-careers experience.",
-    "status": "Opens ~fall 2026",
-    "due": "Opens ~fall 2026",
+    "status": "Open — apply (2027 Audit or Tax Intern)",
+    "due": "Rolling — apply early",
     "deadline": null,
     "comp": "~$25-38/hr — est.",
     "reqs": {
@@ -12625,7 +12625,7 @@ window.ACCOUNTING_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Plante%20Moran%20Tax%20summer%202027%20internship%20careers"
+    "applyUrl": "https://careers.plantemoran.com/2027-audit-or-tax-intern/job/5805524CAF683F5083CB4626A821B480"
   },
   {
     "id": "plante-moran-advisory-consulting-2027",

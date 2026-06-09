@@ -2733,10 +2733,69 @@ window.OPERATIONS_COMPANIES = {
     "hq": "San Francisco, CA",
     "founded": "Not on file.",
     "history": "The platform for global logistics. "
+  },
+  "Naval Nuclear Laboratory": {
+    "tier": "Government / Defense R&D",
+    "background": "A U.S. government-owned research and development laboratory (operated by Fleet Management & Procurement) that supports the U.S. Navy's nuclear propulsion program; hires procurement and supply-chain interns into its mission-critical operations.",
+    "deepProfile": [
+      "The Naval Nuclear Laboratory (NNL) develops and sustains the nuclear propulsion technology that powers the U.S. Navy's submarines and aircraft carriers. It operates under the Naval Nuclear Propulsion Program and runs structured 10–12 week summer internships starting May/June, including a Procurement & Supply Chain track. Interns get an immersive, hands-on professional experience tied directly to their field of study, working alongside engineers and operations professionals on real procurement, sourcing, and supply-chain projects.",
+      "Because the work supports national defense, roles typically require U.S. citizenship and the ability to obtain the necessary clearances. The lab emphasizes safety, rigor, and technical excellence, and offers a strong intern-to-full-time pipeline for students pursuing business, supply chain, or related degrees."
+    ],
+    "values": "Safety, technical excellence, integrity, mission focus, national service.",
+    "tagline": "Powering the U.S. Navy's nuclear fleet.",
+    "ticker": "Government-operated",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Government-owned R&D laboratory — no public stock.",
+    "acceptanceRate": "~5-10% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "Niskayuna, NY & West Mifflin, PA",
+    "founded": "1946 (Naval Reactors program origins)",
+    "history": "The Naval Nuclear Laboratory traces its roots to the founding of the U.S. Naval Reactors program in 1946 under Admiral Hyman Rickover. Today it is a government-owned laboratory supporting the design, development, and lifecycle sustainment of naval nuclear propulsion systems, employing thousands of engineers, scientists, and operations professionals across sites in New York and Pennsylvania."
   }
 };
 
 window.OPERATIONS_INTERNSHIPS = [
+  {
+    "id": "naval-nuclear-laboratory-procurement-supply-chain-2027",
+    "company": "Naval Nuclear Laboratory",
+    "role": "Procurement & Supply Chain Internship — Summer 2027",
+    "level": "Junior internship",
+    "types": [
+      "Procurement",
+      "Supply Chain"
+    ],
+    "majors": [
+      "Supply Chain Management",
+      "Business Administration",
+      "Industrial Engineering",
+      "Operations Management"
+    ],
+    "majorTags": [
+      "supply-chain",
+      "business",
+      "industrial-engineering",
+      "operations"
+    ],
+    "location": "Niskayuna, NY / West Mifflin, PA",
+    "about": "10–12 week Summer 2027 procurement & supply-chain internship (starting May/June 2027) supporting the U.S. Navy's nuclear propulsion program: real sourcing, procurement, and supply-chain projects. Requires U.S. citizenship; must have completed at least the first full year of college by May 2027.",
+    "status": "Open — apply (Summer 2027)",
+    "due": "Rolling — apply early",
+    "deadline": null,
+    "comp": "$21.50-$30.50/hr",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-06-09",
+    "isNew": true,
+    "applyUrl": "https://doe.jobs/jobs/418476704-procurement-supply-chain-internship-summer-2027"
+  },
   {
     "id": "walmart-supply-chain-management-2027",
     "company": "Walmart",

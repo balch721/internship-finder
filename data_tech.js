@@ -2103,10 +2103,110 @@ window.TECH_COMPANIES = {
     "hq": "McLean, VA",
     "founded": "Not on file.",
     "history": "Tech / defense consulting headquartered in McLean, VA; a top destination for CS and engineering interns."
+  },
+  "PwC": {
+    "tier": "Big 4 — Tech & Digital",
+    "background": "One of the Big Four professional-services firms; its Products & Technology / Digital practice hires software engineering interns to build internal platforms, client-facing products, and AI-enabled tooling.",
+    "deepProfile": [
+      "PwC (PricewaterhouseCoopers) is one of the Big Four firms and runs a large, structured early-careers program. Beyond audit and tax, PwC has invested heavily in a Products & Technology organization that builds the firm's own software, data platforms, and AI tools. Software Engineering interns work on real internal and client products using modern stacks (cloud, full-stack web, data engineering), with strong mentorship and a clear path to full-time offers. Recruiting is structured and typically opens the summer/fall before the internship and fills on a rolling basis.",
+      "On culture: PwC emphasizes its purpose to 'build trust in society and solve important problems,' a collaborative team environment, and broad exposure across industries. For a tech-track applicant, the appeal is combining engineering work with the business breadth and brand of a Big Four firm; be ready to show coding fundamentals plus communication and client-readiness."
+    ],
+    "values": "Act with integrity, make a difference, care, work together, reimagine the possible.",
+    "tagline": "Build trust in society and solve important problems.",
+    "ticker": "Private partnership",
+    "isPublic": false,
+    "stockUrl": null,
+    "stockTrend": "Private partnership — no public stock.",
+    "acceptanceRate": "~5-10% (est.)",
+    "competitiveness": "Competitive",
+    "compScore": 3,
+    "news": [],
+    "fortune": null,
+    "hq": "New York, NY (US firm); London, UK (global network)",
+    "founded": "1998 (PwC merger; legacy firms 1849/1865)",
+    "history": "PwC was formed in 1998 through the merger of Price Waterhouse and Coopers & Lybrand, whose roots trace to the mid-19th century. Today it is one of the Big Four professional-services networks, operating in over 150 countries, with a fast-growing Products & Technology and Digital practice that recruits software, data, and cloud engineering interns alongside its traditional audit, tax, and advisory pipelines."
   }
 };
 
 window.TECH_INTERNSHIPS = [
+  {
+    "id": "pwc-ai-engineering-data-scientist-2027",
+    "company": "PwC",
+    "role": "AI Engineering / Data Scientist — Summer 2027 Internship",
+    "level": "Junior internship",
+    "types": [
+      "Data Science & ML",
+      "Artificial Intelligence"
+    ],
+    "majors": [
+      "Computer Science",
+      "Data Science",
+      "Statistics",
+      "Mathematics",
+      "Information Systems"
+    ],
+    "majorTags": [
+      "computer-science",
+      "data-science",
+      "statistics",
+      "math",
+      "information-systems"
+    ],
+    "location": "Multiple US offices (Atlanta, Chicago, Washington DC, Dallas, Los Angeles, +more)",
+    "about": "Summer 2027 internship building AI/ML and data-science solutions in PwC's Products & Technology / AI practice: developing models, GenAI tooling, and data pipelines for internal and client use. Strong mentorship and a clear full-time conversion path.",
+    "status": "Open — apply (rolling)",
+    "due": "Rolling — apply early; cycle opens summer/fall 2026.",
+    "deadline": null,
+    "comp": "~$35-45/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment / technical screen"
+    },
+    "dateAdded": "2026-06-09",
+    "isNew": true,
+    "applyUrl": "https://jobs.us.pwc.com/job/atlanta/ai-engineering-data-scientist-summer-2027-internship/932/90657128112"
+  },
+  {
+    "id": "pwc-software-engineering-2027",
+    "company": "PwC",
+    "role": "Software Engineering — Summer 2027 Internship",
+    "level": "Junior internship",
+    "types": [
+      "Software Engineering",
+      "Digital & Products"
+    ],
+    "majors": [
+      "Computer Science",
+      "Software Engineering",
+      "Computer Engineering",
+      "Information Systems",
+      "Data Science"
+    ],
+    "majorTags": [
+      "computer-science",
+      "software-engineering",
+      "computer-engineering",
+      "information-systems",
+      "data-science"
+    ],
+    "location": "Multiple US offices (Atlanta and other PwC US locations)",
+    "about": "Summer 2027 software engineering internship in PwC's Products & Technology / Digital practice: building internal platforms, client-facing products, and AI-enabled tooling using modern full-stack, cloud, and data engineering stacks. Structured mentorship with a strong full-time conversion path.",
+    "status": "Open — apply (rolling)",
+    "due": "Rolling — apply early; cycle opens summer/fall 2026.",
+    "deadline": null,
+    "comp": "~$35-45/hr — est.",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Optional",
+      "writtenAnswers": "Yes",
+      "assessment": "Online assessment / coding screen"
+    },
+    "dateAdded": "2026-06-09",
+    "isNew": true,
+    "applyUrl": "https://jobs.us.pwc.com/job/atlanta/software-engineering-summer-2027-internship/932/90657128048"
+  },
   {
     "id": "aquatic-capital-software-engineering-2027",
     "company": "Aquatic Capital Management",

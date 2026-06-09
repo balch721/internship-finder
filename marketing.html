@@ -266,6 +266,13 @@ html[data-theme="light"]{--lt-r:150;--lt-g:178;--lt-b:235}
   function matchFilters(d){return (!activeLevel||d.level===activeLevel)&&matchFortune(d)&&matchActiveType(d)&&matchQ(d);}
   function matchQ(d){const c=C[d.company]||{};const h=(d.role+" "+d.company+" "+d.about+" "+d.types.join(" ")+" "+(c.tier||"")).toLowerCase();return !q||h.includes(q);}
   function daysLeft(dl){if(!dl)return null;const end=new Date(dl+"T23:59:59");return Math.ceil((end-new Date())/(864e5));}
+  // --- ordering helpers: new-to-top / closed-to-bottom (applied in default 'type' view only) ---
+  function _pd(s){if(!s)return null;var t=Date.parse(s);return isNaN(t)?null:t;}
+  function isNewCard(d){var t=_pd(d.dateAdded);if(t===null)return !!d.isNew;return (Date.now()-t)<=6048e5;}
+  function isClosedCard(d){if(/closed/i.test(d.status||""))return true;var n=daysLeft(d.deadline);return n!==null&&n<0;}
+  function _closeTime(d){if(d.closedAt){var t=Date.parse(d.closedAt);if(!isNaN(t))return t;}if(d.deadline){var t2=Date.parse(d.deadline+"T23:59:59");if(!isNaN(t2))return t2;}return null;}
+  function closedOver24h(d){if(!isClosedCard(d))return false;var t=_closeTime(d);if(t===null)return true;return (Date.now()-t)>864e5;}
+  function orderTier(d){if(closedOver24h(d))return 2;if(isNewCard(d))return 0;return 1;}
   function cdBadge(d){const n=daysLeft(d.deadline);if(n===null)return "";if(n<0)return `<span class="cd closed">closed</span>`;const cls=n<=7?"urgent":n<=30?"soon":"";return `<span class="cd ${cls}">${n}d left</span>`;}
 
   function cardHTML(d){
@@ -324,7 +331,7 @@ html[data-theme="light"]{--lt-r:150;--lt-g:178;--lt-b:235}
       const singleType = !!activeType && activeType!=="__startup__";
       types.forEach(type=>{
         let list=data.filter(d=> singleType ? d.types.includes(type) : d.types[0]===type ).filter(matchFilters);
-        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);
+        list.sort((a,b)=>{const ta=orderTier(a),tb=orderTier(b);if(ta!==tb)return ta-tb;const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);
           const ca=C[a.company]||{},cb=C[b.company]||{};if((cb.compScore||0)!==(ca.compScore||0))return (cb.compScore||0)-(ca.compScore||0);
           return a.company.localeCompare(b.company);});
         if(!list.length)return;total+=list.length;
