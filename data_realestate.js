@@ -1,7 +1,7 @@
 // Real Estate — Summer 2027 internships.
 // Globals: REALESTATE_LAST_UPDATED, REALESTATE_COMPANIES, REALESTATE_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.REALESTATE_LAST_UPDATED = "2026-05-31";
+window.REALESTATE_LAST_UPDATED = "2026-06-09";
 
 window.REALESTATE_COMPANIES = {
   "Prologis": {

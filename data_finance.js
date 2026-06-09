@@ -1,5 +1,5 @@
 // Finance & Banking — Summer 2027. Globals: FINANCE_LAST_UPDATED, FINANCE_COMPANIES, FINANCE_INTERNSHIPS. Stock links to Yahoo Finance.
-window.FINANCE_LAST_UPDATED = "2026-06-03";
+window.FINANCE_LAST_UPDATED = "2026-06-09";
 // linkcheck_cursor: finance batch 2 verified 2026-05-31 — prev: GS, MS, JPM, BofA, Citi; now Barclays (IB Coverage/M&A + Sales & Trading) direct links. Next run: resume at Deutsche Bank/UBS.
 
 window.FINANCE_COMPANIES = {

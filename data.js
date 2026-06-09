@@ -1,5 +1,5 @@
 // Consulting & Business Systems — Summer 2027. Globals: LAST_UPDATED, COMPANIES, INTERNSHIPS.
-window.LAST_UPDATED = "2026-05-31";
+window.LAST_UPDATED = "2026-06-09";
 
 window.COMPANIES = {
   "McKinsey & Company": {

@@ -1,7 +1,7 @@
 // Accounting — Summer 2027 internships.
 // Globals: ACCOUNTING_LAST_UPDATED, ACCOUNTING_COMPANIES, ACCOUNTING_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.ACCOUNTING_LAST_UPDATED = "2026-05-31";
+window.ACCOUNTING_LAST_UPDATED = "2026-06-09";
 
 window.ACCOUNTING_COMPANIES = {
   "Walmart": {

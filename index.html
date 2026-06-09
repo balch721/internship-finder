@@ -455,13 +455,9 @@
     a.addEventListener("pointerleave",()=>{ if(saved!==null){ a.textContent=saved; saved=null; } });
   })();
 
-  // About button: on hover, "write out" the name in cursive (left-to-right reveal)
+  // About button: plain link (cursive name-reveal removed)
   (function(){
     const b=document.getElementById("aboutBtn"); if(!b) return;
-    b.innerHTML='<span class="lbl">About →</span><span class="sig">Aryan Balchandani</span>';
-    const lbl=b.querySelector(".lbl"), sig=b.querySelector(".sig");
-    b.addEventListener("pointerenter",()=>{ lbl.style.display="none"; sig.classList.add("draw"); });
-    b.addEventListener("pointerleave",()=>{ sig.classList.remove("draw"); lbl.style.display=""; });
     b.addEventListener("click",()=>{ window.location.href="about.html"; });
   })();
 

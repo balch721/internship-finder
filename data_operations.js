@@ -1,7 +1,7 @@
 // Operations & Supply Chain — Summer 2027 internships.
 // Globals: OPERATIONS_LAST_UPDATED, OPERATIONS_COMPANIES, OPERATIONS_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.OPERATIONS_LAST_UPDATED = "2026-05-31";
+window.OPERATIONS_LAST_UPDATED = "2026-06-09";
 
 window.OPERATIONS_COMPANIES = {
   "Walmart": {

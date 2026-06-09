@@ -1,7 +1,7 @@
 // Human Resources — Summer 2027 internships.
 // Globals: HR_LAST_UPDATED, HR_COMPANIES, HR_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.HR_LAST_UPDATED = "2026-05-31";
+window.HR_LAST_UPDATED = "2026-06-09";
 
 window.HR_COMPANIES = {
   "Walmart": {

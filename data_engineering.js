@@ -1,7 +1,7 @@
 // Engineering — Summer 2027 internships & co-ops.
 // Globals: ENGR_LAST_UPDATED, ENGR_COMPANIES, ENGR_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.ENGR_LAST_UPDATED = "2026-05-31";
+window.ENGR_LAST_UPDATED = "2026-06-09";
 
 window.ENGR_COMPANIES = {
   "Boeing": {

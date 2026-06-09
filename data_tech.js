@@ -1,7 +1,7 @@
 // CS & Tech — Summer 2027 internships.
 // Globals: TECH_LAST_UPDATED, TECH_COMPANIES, TECH_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.TECH_LAST_UPDATED = "2026-06-03";
+window.TECH_LAST_UPDATED = "2026-06-09";
 
 window.TECH_COMPANIES = {
   "Aquatic Capital Management": {

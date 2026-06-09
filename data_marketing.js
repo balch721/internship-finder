@@ -1,7 +1,7 @@
 // Marketing & Sales — Summer 2027 internships.
 // Globals: MARKETING_LAST_UPDATED, MARKETING_COMPANIES, MARKETING_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.MARKETING_LAST_UPDATED = "2026-05-31";
+window.MARKETING_LAST_UPDATED = "2026-06-09";
 
 window.MARKETING_COMPANIES = {
   "Walmart": {

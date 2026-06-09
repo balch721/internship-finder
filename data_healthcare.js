@@ -1,7 +1,7 @@
 // Healthcare & Medicine — Summer 2027 internships.
 // Globals: HEALTH_LAST_UPDATED, HEALTH_COMPANIES, HEALTH_INTERNSHIPS. Pay & acceptance are rough public ESTIMATES; tickers/HQ are real.
 
-window.HEALTH_LAST_UPDATED = "2026-05-31";
+window.HEALTH_LAST_UPDATED = "2026-06-09";
 
 window.HEALTH_COMPANIES = {
   "Johnson & Johnson": {
