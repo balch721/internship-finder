@@ -164,10 +164,13 @@
       <rect width="1440" height="900" fill="url(#lsky)"/>
       <circle cx="720" cy="290" r="320" fill="url(#lsun)"/>
       <g id="lsclouds"></g>
-      <path class="lsridge" data-depth="22" d="M-200,560 L240,470 L430,560 L620,455 L820,575 L1040,470 L1230,560 L1640,490 L1640,1100 L-200,1100 Z" fill="#ccd9ef"/>
-      <path class="lsridge" data-depth="40" d="M-200,640 L260,540 L470,650 L700,545 L940,655 L1180,555 L1640,640 L1640,1100 L-200,1100 Z" fill="#b6c8e7"/>
-      <path class="lsridge" data-depth="62" d="M-200,720 L300,640 L560,730 L820,650 L1080,730 L1640,660 L1640,1100 L-200,1100 Z" fill="#a0b7dd"/>
-      <path class="lsridge" data-depth="88" d="M-200,800 L360,740 L720,800 L1080,745 L1640,800 L1640,1100 L-200,1100 Z" fill="#8ba7d3"/>
+      <!-- Light-mode vertical mountain valley: steep side peaks + layered center depth. -->
+      <path class="lsridge" data-depth="42" d="M-260,900 L-260,350 L-160,270 L-80,330 L20,210 L110,285 L205,150 L300,330 L390,300 L510,445 L640,560 L720,610 L820,520 L935,370 L1030,430 L1120,245 L1195,310 L1275,185 L1360,285 L1460,120 L1580,265 L1700,205 L1700,900 Z" fill="#d3dff3"/>
+      <path class="lsridge" data-depth="74" d="M-260,900 L-260,455 L-175,350 L-95,425 L20,265 L95,365 L190,210 L275,445 L385,385 L505,545 L630,640 L720,690 L830,605 L930,455 L1025,525 L1115,345 L1200,430 L1295,270 L1375,425 L1480,230 L1585,410 L1700,340 L1700,900 Z" fill="#bdcfe9"/>
+      <path class="lsridge" data-depth="106" d="M-260,900 L-260,585 L-180,470 L-80,545 L40,385 L130,520 L250,345 L340,585 L460,520 L600,665 L715,735 L845,670 L960,520 L1045,610 L1160,430 L1245,555 L1365,380 L1465,555 L1585,450 L1700,510 L1700,900 Z" fill="#a7bfe1"/>
+      <path class="lsridge" data-depth="140" d="M-260,900 L-260,710 L-160,610 L-65,690 L55,535 L150,675 L275,505 L390,705 L530,655 L690,770 L790,805 L935,725 L1050,620 L1145,700 L1260,535 L1345,710 L1465,600 L1585,720 L1700,645 L1700,900 Z" fill="#87a6d2"/>
+      <path class="lsridge" data-depth="170" d="M-260,900 L-260,775 L-140,690 L-40,760 L90,630 L200,780 L325,660 L470,805 L620,760 L720,825 L840,785 L1000,690 L1120,805 L1265,670 L1385,815 L1510,720 L1700,790 L1700,900 Z" fill="#6f91c3" opacity=".72"/>
+      <path d="M-260,900 L-260,810 C-180,790 -110,840 -40,815 C70,780 145,860 260,825 C360,795 465,860 570,835 C680,805 800,870 930,835 C1050,805 1140,850 1250,820 C1380,785 1480,850 1700,810 L1700,900 Z" fill="#2d517f" opacity=".32"/>
     </svg>
   </div>
   <div class="grain"></div>
@@ -493,25 +496,28 @@
 </script>
 <script>/*lightClouds*/(function(){if(window.matchMedia&&window.matchMedia('(max-width:768px)').matches)return;
   var g=document.getElementById("lsclouds"); if(!g) return;
+  // keep clouds visible above the mountain artwork, but the whole SVG still sits behind the content cards
+  if(g.parentNode) g.parentNode.appendChild(g);
   var NS="http://www.w3.org/2000/svg", W=1440, H=900, clouds=[];
   // build soft puffy clouds from overlapping ellipses
   function makeCloud(cx,cy,s){
     var el=document.createElementNS(NS,"g");
     el.setAttribute("fill","#ffffff");
-    var puffs=[[0,0,46],[34,6,34],[-32,8,32],[16,-14,30],[-14,-10,28],[60,10,24],[-58,12,22]];
+    el.setAttribute("class","lscloud");
+    var puffs=[[0,0,52],[38,7,38],[-36,9,36],[18,-16,34],[-16,-12,32],[68,12,28],[-66,14,26]];
     puffs.forEach(function(p){
       var e=document.createElementNS(NS,"ellipse");
       e.setAttribute("cx",p[0]);e.setAttribute("cy",p[1]);
       e.setAttribute("rx",p[2]*s);e.setAttribute("ry",p[2]*s*.66);
       el.appendChild(e);
     });
-    el.setAttribute("opacity",(0.5+Math.random()*0.35).toFixed(2));
+    el.setAttribute("opacity",(0.58+Math.random()*0.28).toFixed(2));
     g.appendChild(el);
-    return {el:el,x:cx,y:cy,bx:cx,by:cy,s:s,vx:(0.10+Math.random()*0.18)};
+    return {el:el,x:cx,y:cy,bx:cx,by:cy,s:s,vx:(0.08+Math.random()*0.16)};
   }
   // evenly stagger clouds across the width (no random bunching), vary height/size
-  var NC=6;for(var i=0;i<NC;i++){ var cx=((i+0.5)/NC)*W+(Math.random()-0.5)*(W/NC*0.5);
-    clouds.push(makeCloud(cx, 70+Math.random()*300, 0.55+Math.random()*0.6)); }
+  var NC=8;for(var i=0;i<NC;i++){ var cx=((i+0.5)/NC)*W+(Math.random()-0.5)*(W/NC*0.45);
+    clouds.push(makeCloud(cx, 45+Math.random()*235, 0.62+Math.random()*0.62)); }
   var mx=-9999,my=-9999, q=false;
   function toViewBox(e){
     var d=document.querySelector(".lightscape svg"); if(!d) return null;
@@ -524,17 +530,17 @@
   addEventListener("mousemove",function(e){ var p=toViewBox(e); if(p){mx=p.x;my=p.y;}
     pxn=(e.clientX/innerWidth-0.5); pyn=(e.clientY/innerHeight-0.5); },{passive:true});
   function tick(){
-    rcx+=(pxn-rcx)*0.09;
+    rcx+=(pxn-rcx)*0.10;
     for(var r=0;r<ridges.length;r++){ var dp=+ridges[r].getAttribute("data-depth")||10;
       // horizontal-only parallax — vertical sliding was what exposed the diagonal "bars"
-      ridges[r].setAttribute("transform","translate("+(-rcx*dp).toFixed(2)+",0)"); }
+      ridges[r].setAttribute("transform","translate("+(-rcx*dp*0.35).toFixed(2)+",0)"); }
     for(var i=0;i<clouds.length;i++){
       var c=clouds[i];
-      c.bx+=c.vx; if(c.bx>W+160){ c.bx=-160; c.x=-160; }   // drift + wrap (teleport x too, no fly-back)
+      c.bx+=c.vx*1.55; if(c.bx>W+180){ c.bx=-180; c.x=-180; }   // drift + wrap (teleport x too, no fly-back)
       var dx=c.bx-mx, dy=c.by-my, d=Math.sqrt(dx*dx+dy*dy);
       var ox=0, oy=0;
-      if(d<120&&d>0.1){ var f=(1-d/120)*16; ox=dx/d*f; oy=dy/d*f*0.4; } // soft cursor push
-      c.x+=((c.bx+ox)-c.x)*0.05; c.y+=((c.by+oy)-c.y)*0.05;            // eased follow
+      if(d<180&&d>0.1){ var f=(1-d/180)*24; ox=dx/d*f; oy=dy/d*f*0.45; } // soft interactive cursor push
+      c.x+=((c.bx+ox)-c.x)*0.07; c.y+=((c.by+oy)-c.y)*0.07;            // eased follow
       c.el.setAttribute("transform","translate("+c.x.toFixed(1)+","+c.y.toFixed(1)+") scale("+c.s+")");
     }
     requestAnimationFrame(tick);

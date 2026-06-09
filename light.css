@@ -205,3 +205,10 @@ html[data-theme="light"] .cta .t{color:#ffffff !important}
 html[data-theme="light"] .cta .d{color:rgba(255,255,255,.9) !important}
 html[data-theme="light"] .cta{border-color:rgba(20,30,52,.5) !important;box-shadow:0 6px 22px rgba(40,60,100,.18) !important}
 html[data-theme="light"] .cta .ci{background:rgba(47,95,208,.16) !important;border-color:rgba(47,95,208,.35) !important;color:#2f5fd0 !important}
+
+/* Home light-mode cleanup: keep noise still/subtle and let the new vertical mountains move at the same lively feel as dark mode. */
+html[data-theme="light"] .grain{opacity:.03 !important;animation:none !important}
+html[data-theme="light"] .lightscape{filter:saturate(1.04) contrast(1.02) !important}
+
+/* Home light-mode clouds: visible, soft, and still moved by the JS cursor interaction. */
+html[data-theme="light"] .lscloud{filter:drop-shadow(0 12px 24px rgba(70,100,150,.10)) !important}
