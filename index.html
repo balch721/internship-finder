@@ -524,9 +524,10 @@
   addEventListener("mousemove",function(e){ var p=toViewBox(e); if(p){mx=p.x;my=p.y;}
     pxn=(e.clientX/innerWidth-0.5); pyn=(e.clientY/innerHeight-0.5); },{passive:true});
   function tick(){
-    rcx+=(pxn-rcx)*0.09; rcy+=(pyn-rcy)*0.09;
+    rcx+=(pxn-rcx)*0.09;
     for(var r=0;r<ridges.length;r++){ var dp=+ridges[r].getAttribute("data-depth")||10;
-      ridges[r].setAttribute("transform","translate("+(-rcx*dp).toFixed(2)+","+(-rcy*dp*0.4).toFixed(2)+")"); }
+      // horizontal-only parallax — vertical sliding was what exposed the diagonal "bars"
+      ridges[r].setAttribute("transform","translate("+(-rcx*dp).toFixed(2)+",0)"); }
     for(var i=0;i<clouds.length;i++){
       var c=clouds[i];
       c.bx+=c.vx; if(c.bx>W+160){ c.bx=-160; c.x=-160; }   // drift + wrap (teleport x too, no fly-back)
