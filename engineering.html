@@ -75,6 +75,8 @@
   .lvlbadge.jr{font-size:10px;font-weight:700;padding:3px 7px;border-radius:6px;background:#1b2c44;color:#9fc3ff;border:1px solid #2d456b}
   .lvlbadge.jr.abs{position:absolute;top:14px;right:14px}
   .badge.new+.lvlbadge.abs,.lvlbadge.abs+.badge.new{top:40px}
+.badgewrap{position:absolute;top:14px;right:14px;display:flex;gap:6px;align-items:center;z-index:4}
+.badgewrap .badge,.badgewrap .lvlbadge{position:static;top:auto;right:auto}
   .row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px}
   .status{font-weight:600}
   .status.open{color:#a6e3b8} .status.soon{color:#a6e3b8}
@@ -278,7 +280,7 @@ html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
   function cardHTML(d){
     const c=C[d.company]||{};const soph=d.level==="Sophomore / early-insight";
     return `
-      ${(function(){var b=[];var lv=((d.level||"")+" "+(d.role||""));if(/sophomore|freshman|first.?year|early.?insight|rising sophomore/i.test(lv))b.push('<span class="lvlbadge soph abs">SOPHOMORE</span>');else b.push('<span class="lvlbadge jr abs">JUNIOR</span>');if(d.isNew)b.push('<span class="badge new">NEW</span>');return b.join("");})()}
+      ${(function(){var b=[];if(d.isNew)b.push('<span class="badge new">NEW</span>');var lv=((d.level||"")+" "+(d.role||""));if(/sophomore|freshman|first.?year|early.?insight|rising sophomore/i.test(lv))b.push('<span class="lvlbadge soph">SOPHOMORE</span>');else b.push('<span class="lvlbadge jr">JUNIOR</span>');return '<div class="badgewrap">'+b.join("")+'</div>';})()}
       <div class="co">${d.company}</div>
       <div class="tagrow"><span class="tier">${c.tier||""}</span>${fortuneBadge(c)}${startupBadge(c)}</div>
       <div class="role">${d.role}</div>
@@ -289,7 +291,7 @@ html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
       <div class="about">${d.about}</div>
       <div class="due">🗓 ${d.due}</div>
       <div class="meta">${d.types.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
-      ${(d.majors&&d.majors.length)?`<div class="majors"><span class="majlabel">Majors recruited</span>${d.majors.slice(0,5).map(mj=>`<span class="majtag">${mj}</span>`).join("")}</div>`:""}
+      
       <button class="savebtn${isSaved(d)?' on':''}" data-save="1">${isSaved(d)?'★ Saved':'☆ Save'}</button>`;
   }
   function makeCard(d){
@@ -305,7 +307,7 @@ html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
     const tb=document.createElement("tbody");
     list.forEach(d=>{
       const tr=document.createElement("tr");tr.className="lrow";
-      tr.innerHTML=`<td><button class="lsave${isSaved(d)?' on':''}" title="Save">${isSaved(d)?'★':'☆'}</button></td><td class="lco">${d.company}</td><td class="lrole">${d.role}</td><td class="lty">${(d.types||[]).join(", ")}</td><td><span class="status ${statusClass(d.status)}">${d.status}</span></td><td class="ldeadline">${d.due||"—"}</td><td class="lloc">${d.location||"—"}</td>`;
+      tr.innerHTML=`<td><button class="lsave${isSaved(d)?' on':''}" title="Save">${isSaved(d)?'★':'☆'}</button></td><td class="lco">${d.company}</td><td class="lrole">${d.role}</td><td class="lty">${(d.types||[]).join(", ")}</td><td><span class="status ${statusClass(d.status)}">${d.status}</span> ${isOpen(d.status)?'<span class="livehint on">✅ live</span>':'<span class="livehint off">🔜 soon</span>'}</td><td class="ldeadline">${d.due||"—"}</td><td class="lloc">${d.location||"—"}</td>`;
       tr.onclick=()=>openModal(d);
       const sb=tr.querySelector('.lsave');
       if(sb)sb.onclick=(e)=>{e.stopPropagation();toggleSave(d);const on=isSaved(d);sb.classList.toggle('on',on);sb.textContent=on?'★':'☆';};

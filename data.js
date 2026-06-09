@@ -4805,19 +4805,19 @@ window.INTERNSHIPS = [
       "any"
     ],
     "location": "US offices nationwide",
-    "about": "10-week internship of training, live client casework, and team activities; all majors welcome, strong conversion to full-time Associate Consultant.",
-    "status": "Opens ~mid-2026",
-    "due": "Cycle-based, multiple windows; one Summer 2027 window reported ~July 19, 2026 (school-dependent).",
-    "deadline": "2026-07-19",
+    "about": "10-week internship of training, live client casework, and team activities; all majors welcome, strong conversion to full-time Associate Consultant. For Summer 2027, Bain opened two windows — Round 1 (closed Mar 29, 2026) and Round 2, the last MBB window still open (deadline Aug 31, 2026).",
+    "status": "Open — Round 2 (Deadline #2)",
+    "due": "Round 2 deadline Aug 31, 2026 (Round 1 closed Mar 29, 2026). Last open MBB Summer 2027 window.",
+    "deadline": "2026-08-31",
     "comp": "~$9,000/month (~$52/hr) — est.",
     "reqs": {
       "cv": "Required",
-      "coverLetter": "Not required",
-      "writtenAnswers": "No",
+      "coverLetter": "Required",
+      "writtenAnswers": "Test scores (SAT/ACT/GMAT/GRE) + transcript + top 3 office preferences",
       "assessment": "HireVue / video screen"
     },
-    "dateAdded": "2026-05-29",
-    "isNew": false,
+    "dateAdded": "2026-06-09",
+    "isNew": true,
     "applyUrl": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/"
   },
   {
