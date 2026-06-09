@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aryan's Internship Finder</title>
+<title>Telos — Find what you're for</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
@@ -55,6 +55,33 @@
   h1 .accent{font-style:italic;font-weight:340;background:linear-gradient(100deg,#a9c8ff,#9ff0e2,#ffd9a8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   .lede{font-family:var(--sans);color:var(--muted);font-size:clamp(14px,2vw,17px);max-width:540px;margin:26px auto 0;font-weight:400}
 
+  /* ---- Telos brand lockup ---- */
+  .brandlock{display:flex;align-items:center;justify-content:center;gap:clamp(10px,1.4vw,18px);margin:30px auto 8px}
+  .brandmark{width:clamp(44px,6vw,72px);height:clamp(44px,6vw,72px);flex:none;display:block;filter:drop-shadow(0 6px 26px rgba(159,240,226,.25))}
+  .brandmark{cursor:pointer;pointer-events:auto;transition:transform .4s cubic-bezier(.2,.7,.2,1),filter .4s}
+  .brandmark .orb{animation:spin 26s linear infinite;transform-origin:50px 50px;transition:none}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  /* hover: spin fast + gentle pulse + brighter glow */
+  .brandmark:hover{transform:scale(1.08);filter:drop-shadow(0 6px 30px rgba(159,240,226,.55))}
+  .brandmark:hover .orb{animation:spin 1.6s linear infinite}
+  .brandmark:hover .core{animation:corepulse 1.6s ease-in-out infinite}
+  @keyframes corepulse{0%,100%{r:7.5}50%{r:10}}
+  .wordmark{font-family:var(--serif);font-weight:360;font-size:clamp(54px,10vw,104px);line-height:1;letter-spacing:-2px;
+    background:linear-gradient(104deg,#a9c8ff,#9ff0e2 48%,#ffd9a8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    text-shadow:0 4px 50px rgba(0,0,0,.4)}
+  .tagline{font-family:var(--serif);font-style:italic;font-weight:340;font-size:clamp(22px,4.2vw,44px);line-height:1.1;letter-spacing:-.4px;
+    margin:10px 0 4px;color:#eaf1fb;text-shadow:0 3px 30px rgba(0,0,0,.45)}
+  .tagline .pur{background:linear-gradient(100deg,#a9c8ff,#9ff0e2,#ffd9a8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .brandlock{cursor:pointer}
+  /* warp-into-about: word + everything fades, ONLY the logo flies to center and expands */
+  .brandlock.warp .wordmark{animation:warpfade .3s ease forwards}
+  @keyframes warpfade{to{opacity:0;transform:translateX(14px)}}
+  .warpmark{position:fixed;left:50%;top:46%;z-index:1000;width:clamp(56px,8vw,90px);height:clamp(56px,8vw,90px);
+    transform:translate(-50%,-50%) scale(1);transform-origin:center;pointer-events:none;
+    animation:warpgrow .8s cubic-bezier(.5,0,.85,1) forwards;filter:drop-shadow(0 0 40px rgba(159,240,226,.6))}
+  .warpmark .orb{animation:spin 1.1s linear infinite;transform-origin:50px 50px}
+  @keyframes warpgrow{0%{transform:translate(-50%,-50%) scale(1);opacity:1}100%{transform:translate(-50%,-50%) scale(11);opacity:0}}
+
   .opts{position:relative;z-index:4;display:flex;gap:20px;justify-content:center;align-items:stretch;
     max-width:840px;margin:44px auto 0;padding:0 24px;flex-wrap:wrap}
   .opt{position:relative;flex:1 1 340px;max-width:400px;text-decoration:none;color:inherit;text-align:center;
@@ -99,9 +126,12 @@
     .navlinks{gap:2px}
     .navlinks a{font-size:12.5px;padding:7px 9px}
     .navlinks a.cta{font-size:13.5px;padding:9px 16px}
-    .hero{padding:30px 18px 0}
-    h1{font-size:clamp(34px,11vw,52px);line-height:1.02}
-    .lede{font-size:14px;margin-top:18px;padding:0 6px}
+    .hero{padding:26px 16px 0}
+    .brandlock{gap:10px;margin:18px auto 6px}
+    .brandmark{width:40px;height:40px}
+    .wordmark{font-size:clamp(40px,15vw,72px);letter-spacing:-1px}
+    .tagline{font-size:clamp(20px,6.5vw,34px);margin:8px 0 2px}
+    .lede{font-size:14px;margin-top:16px;padding:0 6px}
     .opts{flex-direction:column;align-items:stretch;margin-top:26px;padding:0 18px;gap:14px}
     .opt{flex:1 1 100%;max-width:none;width:100%;min-height:auto;padding:26px 22px}
     .opt h2{font-size:21px}
@@ -134,10 +164,10 @@
       <rect width="1440" height="900" fill="url(#lsky)"/>
       <circle cx="720" cy="290" r="320" fill="url(#lsun)"/>
       <g id="lsclouds"></g>
-      <path d="M0,560 L240,470 L430,560 L620,455 L820,575 L1040,470 L1230,560 L1440,490 L1440,900 L0,900 Z" fill="#ccd9ef"/>
-      <path d="M0,640 L260,540 L470,650 L700,545 L940,655 L1180,555 L1440,640 L1440,900 L0,900 Z" fill="#b6c8e7"/>
-      <path d="M0,720 L300,640 L560,730 L820,650 L1080,730 L1440,660 L1440,900 L0,900 Z" fill="#a0b7dd"/>
-      <path d="M0,800 L360,740 L720,800 L1080,745 L1440,800 L1440,900 L0,900 Z" fill="#8ba7d3"/>
+      <path class="lsridge" data-depth="22" d="M-200,560 L240,470 L430,560 L620,455 L820,575 L1040,470 L1230,560 L1640,490 L1640,1100 L-200,1100 Z" fill="#ccd9ef"/>
+      <path class="lsridge" data-depth="40" d="M-200,640 L260,540 L470,650 L700,545 L940,655 L1180,555 L1640,640 L1640,1100 L-200,1100 Z" fill="#b6c8e7"/>
+      <path class="lsridge" data-depth="62" d="M-200,720 L300,640 L560,730 L820,650 L1080,730 L1640,660 L1640,1100 L-200,1100 Z" fill="#a0b7dd"/>
+      <path class="lsridge" data-depth="88" d="M-200,800 L360,740 L720,800 L1080,745 L1640,800 L1640,1100 L-200,1100 Z" fill="#8ba7d3"/>
     </svg>
   </div>
   <div class="grain"></div>
@@ -156,8 +186,28 @@
 
   <header class="hero">
     <div class="pill reveal"><span class="dot"></span> Live · Summer 2027 internships</div>
-    <h1 class="reveal d1">Find the internship<br><span class="accent">that fits you.</span></h1>
-    <p class="lede reveal d2">Two ways in — a personalized survey, or the full database. Move your cursor; the valley shifts with you.</p>
+    <div class="brandlock reveal d1">
+      <svg class="brandmark" id="brandmark" role="link" tabindex="0" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="About Telos">
+        <defs>
+          <linearGradient id="tg" x1="0" y1="0" x2="1" y2="1">
+            <stop class="tgs1" offset="0" stop-color="#a9c8ff"/><stop class="tgs2" offset=".5" stop-color="#9ff0e2"/><stop class="tgs3" offset="1" stop-color="#ffd9a8"/>
+          </linearGradient>
+          <radialGradient id="tcore" cx="50%" cy="50%" r="50%">
+            <stop class="tcs1" offset="0" stop-color="#fff"/><stop class="tcs2" offset="1" stop-color="#9ff0e2"/>
+          </radialGradient>
+        </defs>
+        <circle cx="50" cy="50" r="44" stroke="url(#tg)" stroke-width="1.4" opacity=".35"/>
+        <g class="orb">
+          <ellipse cx="50" cy="50" rx="44" ry="17" stroke="url(#tg)" stroke-width="1.6" opacity=".7"/>
+          <ellipse cx="50" cy="50" rx="17" ry="44" stroke="url(#tg)" stroke-width="1.6" opacity=".7"/>
+        </g>
+        <circle class="core" cx="50" cy="50" r="7.5" fill="url(#tcore)"/>
+        <circle cx="50" cy="50" r="11.5" stroke="url(#tg)" stroke-width="1.2" opacity=".8"/>
+      </svg>
+      <div class="wordmark">Telos</div>
+    </div>
+    <h1 class="tagline reveal d2">Find what you're <span class="pur">for.</span></h1>
+    <p class="lede reveal d2">Telos maps your path to the right internship — take a personalized survey, or explore the whole database by field. Move your cursor; the valley shifts with you.</p>
   </header>
 
   <main class="opts">
@@ -414,6 +464,23 @@
     b.addEventListener("pointerleave",()=>{ sig.classList.remove("draw"); lbl.style.display=""; });
     b.addEventListener("click",()=>{ window.location.href="about.html"; });
   })();
+
+  // Click the Telos logo -> warp transition into the About page
+  (function(){
+    const mark=document.getElementById("brandmark"); if(!mark) return;
+    const lock=mark.closest(".brandlock");
+    let going=false;
+    function warp(){
+      if(going) return; going=true;
+      // clone just the logo mark, drop it center-screen, expand it
+      const clone=mark.cloneNode(true); clone.removeAttribute("id"); clone.classList.remove("brandmark"); clone.classList.add("warpmark");
+      document.body.appendChild(clone);
+      requestAnimationFrame(()=>{ if(lock) lock.classList.add("warp"); });
+      setTimeout(()=>{ window.location.href="about.html"; }, 780);
+    }
+    mark.addEventListener("click", warp);
+    mark.addEventListener("keydown", e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); warp(); } });
+  })();
 </script>
 <script type="module" src="firebase-auth.js"></script>
 <script type="module">
@@ -446,22 +513,31 @@
     g.appendChild(el);
     return {el:el,x:cx,y:cy,bx:cx,by:cy,s:s,vx:(0.10+Math.random()*0.18)};
   }
-  for(var i=0;i<7;i++){ clouds.push(makeCloud(Math.random()*W, 90+Math.random()*300, 0.6+Math.random()*0.7)); }
+  // evenly stagger clouds across the width (no random bunching), vary height/size
+  var NC=6;for(var i=0;i<NC;i++){ var cx=((i+0.5)/NC)*W+(Math.random()-0.5)*(W/NC*0.5);
+    clouds.push(makeCloud(cx, 70+Math.random()*300, 0.55+Math.random()*0.6)); }
   var mx=-9999,my=-9999, q=false;
   function toViewBox(e){
     var d=document.querySelector(".lightscape svg"); if(!d) return null;
     var r=d.getBoundingClientRect();
     return {x:(e.clientX-r.left)/r.width*W, y:(e.clientY-r.top)/r.height*H};
   }
-  addEventListener("mousemove",function(e){ var p=toViewBox(e); if(p){mx=p.x;my=p.y;} },{passive:true});
+  // parallax: mountains shift slightly with the cursor (ridges overscan ±200px so no edge shows)
+  var ridges=[].slice.call(document.querySelectorAll(".lsridge"));
+  var pxn=0,pyn=0,rcx=0,rcy=0;
+  addEventListener("mousemove",function(e){ var p=toViewBox(e); if(p){mx=p.x;my=p.y;}
+    pxn=(e.clientX/innerWidth-0.5); pyn=(e.clientY/innerHeight-0.5); },{passive:true});
   function tick(){
+    rcx+=(pxn-rcx)*0.09; rcy+=(pyn-rcy)*0.09;
+    for(var r=0;r<ridges.length;r++){ var dp=+ridges[r].getAttribute("data-depth")||10;
+      ridges[r].setAttribute("transform","translate("+(-rcx*dp).toFixed(2)+","+(-rcy*dp*0.4).toFixed(2)+")"); }
     for(var i=0;i<clouds.length;i++){
       var c=clouds[i];
-      c.bx+=c.vx; if(c.bx>W+120) c.bx=-120;     // slow drift, wrap around
+      c.bx+=c.vx; if(c.bx>W+160){ c.bx=-160; c.x=-160; }   // drift + wrap (teleport x too, no fly-back)
       var dx=c.bx-mx, dy=c.by-my, d=Math.sqrt(dx*dx+dy*dy);
       var ox=0, oy=0;
-      if(d<170&&d>0.1){ var f=(1-d/170)*46; ox=dx/d*f; oy=dy/d*f*0.6; } // cursor pushes clouds aside
-      c.x+=((c.bx+ox)-c.x)*0.08; c.y+=((c.by+oy)-c.y)*0.08;            // eased follow
+      if(d<120&&d>0.1){ var f=(1-d/120)*16; ox=dx/d*f; oy=dy/d*f*0.4; } // soft cursor push
+      c.x+=((c.bx+ox)-c.x)*0.05; c.y+=((c.by+oy)-c.y)*0.05;            // eased follow
       c.el.setAttribute("transform","translate("+c.x.toFixed(1)+","+c.y.toFixed(1)+") scale("+c.s+")");
     }
     requestAnimationFrame(tick);

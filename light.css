@@ -60,13 +60,18 @@ html[data-theme="light"] .backlink{
   box-shadow:0 4px 16px rgba(40,60,100,.15) !important;
 }
 
-/* light mode: turn the stars into soft drifting CLOUD puffs */
+/* light mode: soft feathered cloud puffs — gentle white core fading to nothing,
+   with a slow opacity drift so they breathe instead of looking like hard dots.
+   They stay interactive (JS nudges them) without vanishing because they use a
+   radial-gradient + slow keyframe, not a flicker-prone blur+shadow+scale. */
 html[data-theme="light"] .starsky i{
-  background:#ffffff !important;
-  filter:blur(5px) !important;
-  box-shadow:0 0 16px 11px rgba(255,255,255,.92),0 0 30px 20px rgba(225,234,250,.5) !important;
-  animation-duration:9s !important;
+  width:64px !important;height:64px !important;margin:-32px 0 0 -32px !important;
+  background:radial-gradient(circle,rgba(255,255,255,.78) 0%,rgba(255,255,255,.34) 38%,rgba(255,255,255,.10) 60%,rgba(255,255,255,0) 78%) !important;
+  box-shadow:none !important;
+  filter:none !important;
+  animation:puffbreathe 7s ease-in-out infinite !important;
 }
+@keyframes puffbreathe{0%,100%{opacity:.45}50%{opacity:.85}}
 
 /* ---- legacy "valley" backdrop on the other pages ---- */
 html[data-theme="light"] .valley path:nth-of-type(1){fill:#cdd9f1 !important}
@@ -161,6 +166,23 @@ html[data-theme="light"] .accent{
   -webkit-text-fill-color:transparent !important;
 }
 html[data-theme="light"] h1 em{color:#bf7415 !important}
+/* Telos brand lockup in light mode — darker, richer so it reads on the pale sky */
+html[data-theme="light"] .wordmark,
+html[data-theme="light"] .tagline .pur{
+  background:linear-gradient(104deg,#24489f,#0b6e63 48%,#9a5d10) !important;
+  -webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;
+}
+html[data-theme="light"] .tagline{color:#141d30 !important}
+/* darker logo mark strokes in light mode */
+/* logo darker in light mode: recolor the gradient stops so the whole mark
+   (static AND the warp clone, which reuses the same gradients) goes dark */
+html[data-theme="light"] .tgs1{stop-color:#2f55c0 !important}
+html[data-theme="light"] .tgs2{stop-color:#1f7e72 !important}
+html[data-theme="light"] .tgs3{stop-color:#9a5d10 !important}
+html[data-theme="light"] .tcs1{stop-color:#3f63c8 !important}
+html[data-theme="light"] .tcs2{stop-color:#1f4f93 !important}
+html[data-theme="light"] .brandmark{filter:drop-shadow(0 6px 22px rgba(40,70,140,.22)) !important}
+html[data-theme="light"] .warpmark{filter:drop-shadow(0 0 30px rgba(40,70,140,.3)) !important}
 
 /* =========================== ABOUT =========================== */
 html[data-theme="light"] .card{
