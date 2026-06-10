@@ -185,6 +185,33 @@
     .rcard:hover{transform:none}
   }
 .aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
+
+  /* ---- auth gate: covers the survey until a signed-in user is confirmed ---- */
+  #authGate{position:fixed;inset:0;z-index:200;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:14px;text-align:center;padding:30px;background:linear-gradient(180deg,#070c15 0%,#0b1422 50%,#0a1320 100%)}
+  #authGate .gicon{font-size:30px}
+  #authGate .gh{font-family:var(--serif);font-size:26px;font-weight:420;letter-spacing:-.4px}
+  #authGate .gp{font-size:14px;color:var(--muted);max-width:430px;line-height:1.55}
+  #authGate a.gbtn{margin-top:6px;background:linear-gradient(120deg,var(--accent),var(--accent2));color:#0a0f18;text-decoration:none;
+    font-weight:700;font-size:14.5px;padding:12px 26px;border-radius:12px}
+  #authGate a.glink{color:var(--muted);font-size:13px;text-decoration:underline}
+  /* keep the survey + results hidden until auth is confirmed (survives bfcache/back-button) */
+  body:not(.authed) #survey,body:not(.authed) #results,body:not(.authed) #choice{display:none !important}
+  body.authed #authGate{display:none}
+
+  /* ---- returning-user choice screen ---- */
+  #choice{max-width:560px;margin:26px auto 0;background:rgba(18,26,40,.82);backdrop-filter:blur(12px);border:1px solid var(--border);
+    border-radius:20px;padding:30px 28px;box-shadow:0 24px 60px rgba(0,0,0,.4);text-align:center}
+  #choice h2{font-family:var(--serif);font-weight:440;font-size:25px;margin:0 0 6px;letter-spacing:-.4px}
+  #choice .csub{color:var(--muted);font-size:14px;margin:0 auto 6px;max-width:420px}
+  #choice .cwhen{color:var(--accent2);font-size:12.5px;margin-bottom:20px}
+  #choice .cbtns{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+  #choice .cbtn{flex:1;min-width:200px;border:1px solid var(--border);border-radius:14px;padding:18px 16px;cursor:pointer;
+    background:rgba(22,32,48,.6);transition:transform .16s,border-color .16s;text-align:left}
+  #choice .cbtn:hover{transform:translateY(-2px);border-color:var(--accent)}
+  #choice .cbtn .ct{font-size:15.5px;font-weight:700;margin-bottom:3px}
+  #choice .cbtn .cd{font-size:12.5px;color:var(--muted);line-height:1.45}
+  #choice .cbtn.primary{background:linear-gradient(120deg,rgba(143,180,255,.16),rgba(111,224,207,.12));border-color:var(--accent)}
 </style>
 <script src="transition.js?v=4"></script>
 <link rel="stylesheet" href="light.css?v=3">
@@ -259,6 +286,17 @@
     <span class="badge">The trailhead</span>
     <h1>Let's find <span class="accent">your path</span></h1>
     <p>A few quick questions to map your route — answer honestly and we'll point you toward the internships that fit.</p>
+  </div>
+
+  <!-- RETURNING-USER CHOICE (shown if saved results exist for this account) -->
+  <div id="choice" style="display:none">
+    <h2>Welcome back 👋</h2>
+    <div class="csub">You've already taken the survey on this account. Want to pick up your last trail map, or start fresh?</div>
+    <div class="cwhen" id="choiceWhen"></div>
+    <div class="cbtns">
+      <button class="cbtn primary" id="useLast"><div class="ct">↩ Use my last results</div><div class="cd">Jump straight to your saved matches — recomputed against the latest internships.</div></button>
+      <button class="cbtn" id="retake"><div class="ct">↺ Take the survey again</div><div class="cd">Answer fresh; your new results replace the saved ones for this account.</div></button>
+    </div>
   </div>
 
   <!-- SURVEY -->
@@ -663,11 +701,11 @@ function finish(){
   $("yourtags").innerHTML = tagBits.map(t=>`<span class="yt">${t}</span>`).join("");
 
   $("rsub").textContent = top.length
-    ? `${top.length} relevant ${top.length===1?"internship":"internships"} for you, drawn from the ${pool.length} programs across our live sections. As more fields go live, your matches grow.`
-    : `No close matches in our live sections yet — only Consulting and Data & Business Analytics are live right now. As more fields go live, your matches will grow.`;
+    ? `${top.length} relevant ${top.length===1?"internship":"internships"} for you, drawn from ${pool.length} programs across all 11 sections.`
+    : `No close matches yet — try editing your major or interests, as nothing in the database lined up closely with what you entered.`;
 
-  const emptyNote = `<div class="note">No strong matches yet. The live sections (Consulting, Data &amp; Business Analytics) may not line up with what you entered — try editing your interests or major, or check back as more fields go live.</div>`;
-  $("rlist").innerHTML = `<div class="note">Consulting, Data &amp; Business Analytics, and Finance &amp; Banking are live so far, so matches come from those. More fields are coming — retake the survey later for fresh results.</div>` +
+  const emptyNote = `<div class="note">No strong matches yet. Nothing across our 11 sections lined up closely with what you entered — try editing your interests or major and run it again.</div>`;
+  $("rlist").innerHTML = `<div class="note">Matches are drawn from all 11 live sections — Consulting &amp; Business, Finance, Analytics, Marketing, Accounting, Operations, HR, Real Estate, Tech, Engineering, and Healthcare.</div>` +
     (top.length ? "" : emptyNote) +
     top.map(s=>{
       const {d,c,section}=s.item; const cls=s.pct>=80?"hi":s.pct>=60?"mid":"lo";
@@ -693,12 +731,67 @@ function finish(){
     if(sb) sb.onclick=(e)=>{e.stopPropagation();toggleSave(it.d);const on=isSaved(it.d);sb.classList.toggle("on",on);sb.textContent=on?"★ Saved":"☆ Save";};
     card.onclick=()=>openModal(it);
   });
+  saveSurveyResults();   // persist this trail map to the signed-in account
   window.scrollTo({top:0,behavior:"smooth"});
 }
 
 $("restartBtn").onclick=()=>{
   step=0; survey.answers={ field:null, major:"", interests:"", grad:null, size:null, location:null, resume:"" };
-  $("results").style.display="none"; $("survey").style.display="block"; renderStep(1);
+  $("results").style.display="none"; $("choice").style.display="none"; $("survey").style.display="block"; renderStep(1);
+  window.scrollTo({top:0,behavior:"smooth"});
+};
+
+/* ---------------- account-based result storage ---------------- */
+/* Results are tied to the signed-in account (keyed by Firebase uid) so a user's
+   trail map persists between visits and is private to their account. */
+let CURRENT_UID=null;
+function surveyKey(uid){ return "aif_survey_"+uid; }
+function saveSurveyResults(){
+  if(!CURRENT_UID) return;
+  try{
+    localStorage.setItem(surveyKey(CURRENT_UID), JSON.stringify({
+      answers: survey.answers, savedAt: Date.now(), v:1
+    }));
+  }catch(e){}
+}
+function loadSurveyResults(){
+  if(!CURRENT_UID) return null;
+  try{ return JSON.parse(localStorage.getItem(surveyKey(CURRENT_UID))||"null"); }catch(e){ return null; }
+}
+function whenText(ts){
+  const d=Math.floor((Date.now()-ts)/86400000);
+  if(d<=0) return "Saved earlier today";
+  if(d===1) return "Saved yesterday";
+  if(d<30) return "Saved "+d+" days ago";
+  return "Saved on "+new Date(ts).toLocaleDateString();
+}
+
+/* Called by the auth module once a signed-in user is confirmed. */
+window.AIF_SET_USER=function(u){
+  CURRENT_UID = u ? u.uid : null;
+  if(!u) return;
+  const saved=loadSurveyResults();
+  if(saved && saved.answers){
+    // returning user → offer "use last results" or "retake"
+    $("survey").style.display="none";
+    $("results").style.display="none";
+    $("choice").style.display="block";
+    $("choiceWhen").textContent = whenText(saved.savedAt);
+  } else {
+    $("choice").style.display="none";
+    $("survey").style.display="block";
+  }
+};
+$("useLast").onclick=()=>{
+  const saved=loadSurveyResults();
+  if(!saved||!saved.answers){ $("choice").style.display="none"; $("survey").style.display="block"; return; }
+  survey.answers = Object.assign({ field:null, major:"", interests:"", grad:null, size:null, location:null, resume:"" }, saved.answers);
+  $("choice").style.display="none";
+  finish(); // recompute against the latest internship data, then render results
+};
+$("retake").onclick=()=>{
+  step=0; survey.answers={ field:null, major:"", interests:"", grad:null, size:null, location:null, resume:"" };
+  $("choice").style.display="none"; $("results").style.display="none"; $("survey").style.display="block"; renderStep(1);
   window.scrollTo({top:0,behavior:"smooth"});
 };
 
@@ -707,22 +800,47 @@ renderStep(1);
 <script type="module" src="firebase-auth.js"></script>
 <script type="module" src="account-widget.js"></script>
 <script type="module">
-  // Personalized survey requires sign-in.
+  /* Personalized survey requires sign-in. The #authGate overlay is visible by DEFAULT
+     (see CSS) and only hidden once a real user is confirmed — so pressing Back / bfcache
+     restore can never expose the survey. We also re-check on pageshow. */
   (function(){
-    const gate = document.getElementById("authGate");
-    let settled=false, tries=0;
-    function prompt(){
-      gate.innerHTML = `
-        <div style="font-size:18px;font-weight:700">🔒 Sign in to get personalized matches</div>
-        <div style="font-size:14px;color:#9aa4b2;max-width:430px">The personalized survey is account-only so your matches and resume can follow you across devices. It's free and quick.</div>
-        <a href="login.html?return=survey.html" style="margin-top:6px;background:#5b8cff;color:#fff;text-decoration:none;font-weight:650;font-size:14px;padding:11px 22px;border-radius:11px">Log in or create an account →</a>
-        <a href="database.html" style="color:#9aa4b2;font-size:13px;text-decoration:underline">Or browse the whole database without an account</a>`;
+    let currentUser=null;
+    function applyAuth(u){
+      currentUser = u || null;
+      if(window.AIF_SET_USER) window.AIF_SET_USER(currentUser);
+      if(u){
+        document.body.classList.add("authed");
+      } else {
+        document.body.classList.remove("authed");
+        // not signed in → send to login, but the gate already covers the page either way
+        if(!/[?&]nogate=1/.test(location.search)){
+          location.replace("login.html?return=survey.html");
+        }
+      }
     }
-    function ready(cb){ if(window.AIF_AUTH) return cb(); if(tries++>75){ prompt(); return; } setTimeout(()=>ready(cb),40); }
-    ready(()=>{ window.AIF_AUTH.onUser(u=>{ settled=true; if(u){ gate.style.display="none"; } else { window.location.href="login.html?return=survey.html"; } }); });
-    setTimeout(()=>{ if(!settled && !window.AIF_AUTH) prompt(); }, 3500);
+    function ready(cb,tries){ tries=tries||0; if(window.AIF_AUTH) return cb();
+      if(tries>120){ /* auth never loaded: leave gate up */ return; } setTimeout(()=>ready(cb,tries+1),40); }
+    ready(()=>{ window.AIF_AUTH.onUser(applyAuth); });
+    // bfcache / back-button restore: re-verify; if we don't have a confirmed user, re-gate.
+    window.addEventListener("pageshow", function(e){
+      if(e.persisted){
+        if(!(window.AIF_AUTH && window.AIF_AUTH.currentUser && window.AIF_AUTH.currentUser())){
+          document.body.classList.remove("authed");
+        }
+      }
+    });
   })();
 </script>
   <div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
+
+  <!-- AUTH GATE — visible by default; only hidden once a signed-in user is confirmed.
+       Being default-visible means the back button / bfcache can never reveal the survey. -->
+  <div id="authGate">
+    <div class="gicon">🔒</div>
+    <div class="gh">Sign in to find your matches</div>
+    <div class="gp">The personalized survey is account-only, so your answers, resume, and trail map follow you across devices. It's free and takes a moment.</div>
+    <a class="gbtn" href="login.html?return=survey.html">Log in or create an account →</a>
+    <a class="glink" href="database.html">Or browse the whole database without an account</a>
+  </div>
 </body>
 </html>
