@@ -32,7 +32,7 @@
 
   .wrap{position:relative;z-index:2;max-width:1080px;margin:0 auto;padding:0 24px 80px}
   header{padding:30px 0 8px}
-  .hdrrow{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-right:120px}
+  .hdrrow{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
   .home{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;font-weight:600;transition:color .2s}
   .home:hover{color:var(--text)}
   .kicker{margin-top:22px;display:inline-flex;align-items:center;gap:8px;font-size:11.5px;font-weight:600;letter-spacing:.14em;
@@ -90,6 +90,153 @@
   .cta .d{color:rgba(255,255,255,.82);font-size:13px;margin-top:3px}
   .cta .t{color:#fff}
 
+  /* ---------- centered hero ---------- */
+  header{text-align:center}
+  header .sub{margin:0 auto}
+  /* ---------- company search ---------- */
+  .cosearch{position:relative;margin-top:24px}
+  .cosearch input{width:100%;background:rgba(18,26,40,.72);border:1px solid var(--border);color:var(--text);
+    padding:14px 18px;border-radius:13px;font-size:14.5px;outline:none;backdrop-filter:blur(10px);transition:border-color .2s;text-align:center}
+  .cosearch input:focus{border-color:var(--accent)}
+  .cosearch input::placeholder{color:var(--muted)}
+  #coResults{margin-top:12px;display:flex;flex-direction:column;gap:12px;text-align:left}
+  .cohint{color:var(--muted);font-size:11.5px;margin-top:7px;text-align:center;opacity:.85}
+
+  /* Enter ⇒ the SAME rich cards as the section pages (scoped under #coResults to avoid clashing with the category .grid) */
+  #coResults .cardgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(335px,1fr));gap:16px}
+  #coResults .card{background:rgba(18,26,40,.85);border:1px solid var(--border);border-radius:14px;padding:18px 18px 52px;cursor:pointer;transition:.14s;position:relative;display:flex;flex-direction:column;gap:7px}
+  #coResults .card:hover{border-color:var(--accent);transform:translateY(-2px)}
+  #coResults .card .co{font-size:13px;color:var(--accent);font-weight:600;padding-right:150px}
+  #coResults .tier{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff;width:fit-content;margin:0}
+  #coResults .card .role{font-size:15.5px;font-weight:650;line-height:1.3;padding-right:150px}
+  #coResults .card .about{font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  #coResults .meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:8px}
+  #coResults .tag{font-size:11px;padding:3px 8px;border-radius:6px;background:#1b2433;color:var(--muted);border:1px solid var(--border)}
+  #coResults .tagrow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding-right:150px}
+  #coResults .badgewrap{position:absolute;top:14px;right:14px;display:flex;gap:6px;align-items:center;z-index:4;flex-wrap:wrap;justify-content:flex-end;max-width:150px}
+  #coResults .badge.new{font-size:10px;font-weight:700;letter-spacing:.4px;padding:3px 7px;border-radius:6px;background:#ff5d8f;color:#fff}
+  #coResults .vbadge{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.4px;padding:3px 7px;border-radius:6px;text-transform:uppercase}
+  #coResults .vbadge.active{background:rgba(54,211,153,.24);color:#2fe0a0;border:1px solid rgba(54,211,153,.6)}
+  #coResults .vbadge.verified{background:rgba(54,211,153,.16);color:#36d399;border:1px solid rgba(54,211,153,.4)}
+  #coResults .vbadge.expected{background:rgba(245,165,36,.14);color:#f5a524;border:1px solid rgba(245,165,36,.34)}
+  #coResults .lvlbadge.jr{font-size:10px;font-weight:700;padding:3px 7px;border-radius:6px;background:#1b2c44;color:#9fc3ff;border:1px solid #2d456b}
+  #coResults .lvlbadge.soph,#coResults .soph{font-size:10px;font-weight:700;padding:3px 7px;border-radius:6px;background:#2d2440;color:#cdb6ff;border:1px solid #4a3d6b}
+  #coResults .fbadge,.modal .fbadge{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff;vertical-align:middle}
+  #coResults .sbadge,.modal .sbadge{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:2px 8px;border-radius:6px;background:#2d2440;color:#cdb6ff;border:1px solid #4a3d6b;vertical-align:middle}
+  #coResults .row,.modal .row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px}
+  #coResults .status,.modal .status{font-weight:600}
+  #coResults .status.open,.modal .status.open,#coResults .status.soon,.modal .status.soon{color:#a6e3b8}
+  #coResults .stars,.modal .stars{color:#e8b339;letter-spacing:1px;font-size:12px}
+  #coResults .pay{color:#a8e0c4;font-size:12px;font-weight:600}
+  #coResults .cd,.modal .cd{font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;background:#232a36;color:var(--muted)}
+  #coResults .cd.urgent,.modal .cd.urgent{background:#3a1d22;color:#ff9aa6}
+  #coResults .cd.soon,.modal .cd.soon{background:#3a2f17;color:#f5cf86}
+  #coResults .cd.closed,.modal .cd.closed{background:#262a31;color:#8a93a0}
+  #coResults .due{font-size:12px;color:var(--muted)}
+  #coResults .savebtn{position:absolute;bottom:14px;right:14px;background:#1b2433;border:1px solid var(--border);color:var(--muted);font-size:11.5px;font-weight:600;padding:5px 10px;border-radius:8px;cursor:pointer;z-index:2}
+  #coResults .savebtn:hover{color:var(--text);border-color:var(--accent)}
+  #coResults .savebtn.on{background:rgba(143,180,255,.16);border-color:var(--accent);color:#bcd0ff}
+  #coResults .cardapply{position:absolute;bottom:14px;left:18px;display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:700;color:#fff;background:var(--accent);padding:5px 12px;border-radius:8px;text-decoration:none}
+  #coResults .cardapply:hover{filter:brightness(1.08)}
+  #coResults .livehint.off{position:absolute;bottom:18px;left:18px;font-size:11px;font-weight:600;color:var(--muted)}
+
+  /* detail modal (same as section pages) */
+  .overlay{position:fixed;inset:0;background:rgba(0,0,0,.64);display:none;align-items:flex-start;justify-content:center;padding:34px 20px;z-index:999;overflow-y:auto}
+  .overlay.show{display:flex}
+  .modal{background:#121a28;border:1px solid var(--border);border-radius:18px;max-width:740px;width:100%;padding:26px 28px;position:relative;text-align:left}
+  .modal h2{margin:0 0 2px;font-size:21px}
+  .modal .mco{color:var(--accent);font-weight:600;font-size:14px}
+  .modal .mtier{margin:8px 0 2px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .modal .tier{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff}
+  .modal .soph{font-size:10px;font-weight:700;padding:3px 7px;border-radius:6px;background:#2d2440;color:#cdb6ff;border:1px solid #4a3d6b}
+  .close{position:absolute;top:14px;right:18px;background:none;border:none;color:var(--muted);font-size:26px;cursor:pointer;line-height:1}
+  .close:hover{color:var(--text)}
+  .tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);margin:16px 0 4px;flex-wrap:wrap}
+  .tab{padding:8px 12px;font-size:12.5px;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;font-weight:600}
+  .tab:hover{color:var(--text)}
+  .tab.active{color:var(--text);border-bottom-color:var(--accent)}
+  .pane{display:none;padding-top:12px}
+  .pane.active{display:block}
+  .pane h3{font-size:11.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:16px 0 6px}
+  .pane h3:first-child{margin-top:4px}
+  .pane p{margin:0 0 10px;font-size:14.5px;color:#cdd3dc}
+  .kv{display:flex;gap:10px;font-size:13.5px;margin:5px 0}
+  .kv b{color:var(--muted);font-weight:500;min-width:120px}
+  ul.tips{margin:4px 0 0;padding-left:18px} ul.tips li{font-size:14px;color:#cdd3dc;margin-bottom:8px}
+  .applybar{margin-top:16px;padding-top:14px;border-top:1px solid var(--border)}
+  .apply{display:inline-block;margin-top:20px;background:var(--accent);color:#fff;text-decoration:none;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px}
+  .apply:hover{filter:brightness(1.1)}
+  .soon-btn{display:inline-block;margin-top:20px;background:#262a31;color:#9aa4b2;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px;border:1px dashed var(--border)}
+  .applynote{font-size:12px;color:var(--muted);margin-top:10px;word-break:break-all}
+  .newsitem{display:block;padding:11px 0;border-bottom:1px solid var(--border);text-decoration:none}
+  .newsitem:last-child{border-bottom:none}
+  .newsitem .nt{color:var(--text);font-size:14px;font-weight:600}
+  .newsitem:hover .nt{color:var(--accent)}
+  .newsitem .nm{color:var(--muted);font-size:12px;margin-top:2px}
+  .netlink{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 13px;background:#1b2433;border:1px solid var(--border);border-radius:10px;margin-bottom:8px;text-decoration:none}
+  .netlink:hover{border-color:var(--accent)}
+  .netlink .nl{color:var(--text);font-size:13.5px;font-weight:600}
+  .netlink .ns{color:var(--accent);font-size:12px;white-space:nowrap}
+  .tmpl{background:#1b2433;border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:13px;color:#cdd3dc;white-space:pre-wrap;margin-bottom:10px}
+  .stockbox{background:#1b2433;border:1px solid var(--border);border-radius:12px;padding:14px 16px}
+  .stockhead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .chg{font-weight:700;font-size:15px}
+  .chg.up{color:#6fe0a8} .chg.down{color:#ff6b6b} .chg.flat{color:#f5a524}
+  .stocktext{font-size:12.5px;color:var(--muted);margin-top:8px}
+  .private{font-size:13.5px;color:var(--muted);font-style:italic}
+  @media (max-width:768px){
+    #coResults .cardgrid{grid-template-columns:1fr;gap:12px}
+    .modal{padding:20px 18px;border-radius:14px}
+    .kv{flex-direction:column;gap:2px}.kv b{min-width:0}
+  }
+
+  /* ---------- light mode for the company search + modal ---------- */
+  html[data-theme="light"] .cosearch input{background:var(--panel)}
+  html[data-theme="light"] .cogroup,
+  html[data-theme="light"] #coResults .card,
+  html[data-theme="light"] .modal{background:var(--panel)}
+  html[data-theme="light"] #coResults .tag,
+  html[data-theme="light"] #coResults .tier,
+  html[data-theme="light"] #coResults .fbadge,
+  html[data-theme="light"] #coResults .sbadge,
+  html[data-theme="light"] #coResults .cd,
+  html[data-theme="light"] #coResults .savebtn,
+  html[data-theme="light"] .corole .crsec,
+  html[data-theme="light"] .cogroup .cotier,
+  html[data-theme="light"] .modal .tier,
+  html[data-theme="light"] .modal .fbadge,
+  html[data-theme="light"] .modal .sbadge,
+  html[data-theme="light"] .modal .cd,
+  html[data-theme="light"] .netlink,
+  html[data-theme="light"] .tmpl,
+  html[data-theme="light"] .stockbox{background:var(--panel2);color:var(--muted);border-color:var(--border)}
+  html[data-theme="light"] #coResults .lvlbadge.jr{background:#dbe7fb;color:#2f5fd0;border-color:#b9cdf2}
+  html[data-theme="light"] #coResults .lvlbadge.soph,html[data-theme="light"] .modal .soph{background:#ece3fb;color:#6a3fb8;border-color:#d2c2ef}
+  html[data-theme="light"] .pane p,
+  html[data-theme="light"] ul.tips li,
+  html[data-theme="light"] .tmpl{color:var(--text)}
+  html[data-theme="light"] #coResults .status.open,html[data-theme="light"] .modal .status.open,
+  html[data-theme="light"] #coResults .status.soon,html[data-theme="light"] .modal .status.soon{color:#1f7a45}
+  html[data-theme="light"] #coResults .pay{color:#1f7a55}
+  html[data-theme="light"] .overlay{background:rgba(30,42,64,.45)}
+  html[data-theme="light"] .soon-btn{background:var(--panel2);color:var(--muted);border-color:var(--border)}
+  .cogroup{background:rgba(18,26,40,.78);border:1px solid var(--border);border-radius:14px;padding:14px 16px;backdrop-filter:blur(10px)}
+  .cogroup .cohead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .cogroup .coname{font-family:var(--serif);font-size:17px;font-weight:550}
+  .cogroup .cotier{font-size:10px;font-weight:700;letter-spacing:.3px;padding:2px 7px;border-radius:6px;background:#222a36;color:#bcd0ff}
+  .cogroup .cocount{color:var(--muted);font-size:12px;margin-left:auto}
+  .corole{display:flex;align-items:center;gap:9px;padding:8px 2px;border-top:1px solid var(--border);text-decoration:none;color:inherit;flex-wrap:wrap}
+  .corole:first-of-type{margin-top:9px}
+  .corole:hover .crr{color:var(--accent)}
+  .corole .crr{font-size:13.5px;font-weight:600;transition:color .15s}
+  .corole .crs{font-size:11px;color:var(--muted)}
+  .corole .crsec{font-size:10.5px;font-weight:600;color:var(--muted);background:#1b2433;border:1px solid var(--border);padding:2px 8px;border-radius:999px;margin-left:auto;white-space:nowrap}
+  .cobadge{font-size:8.5px;font-weight:700;letter-spacing:.35px;padding:1px 5px;border-radius:5px;text-transform:uppercase;line-height:1.35}
+  .cobadge.active{background:rgba(111,224,168,.22);color:var(--up);border:1px solid rgba(111,224,168,.5)}
+  .cobadge.verified{background:rgba(111,224,168,.12);color:var(--up);border:1px solid rgba(111,224,168,.3)}
+  .cobadge.expected{background:rgba(245,165,36,.14);color:#f5a524;border:1px solid rgba(245,165,36,.34)}
+  .comsg{color:var(--muted);font-size:13px;padding:6px 2px}
+
   /* ---------- responsive ---------- */
   @media (max-width:768px){
     html,body{overflow-x:hidden}
@@ -136,14 +283,19 @@
 <header>
   <div class="hdrrow">
     <a class="home" href="index.html">← Back to the valley</a>
-    <button type="button" class="home" id="themeToggle" style="background:none;border:none;cursor:pointer;font:inherit" title="Toggle light / dark">🌙 Theme</button>
     <a class="home" id="savedLink" href="tracker.html" style="color:var(--teal)">★ Saved jobs →</a>
   </div>
   <h1>Explore the <span class="accent">database</span></h1>
   <div class="sub">Every field laid out like trails across the valley. Open a region, then drop into a specialty — live sections are searchable now, the rest are on the way.</div>
+  <div class="cosearch">
+    <input id="coSearch" type="search" placeholder="Search any company — e.g. Deloitte, Google, Pfizer…" autocomplete="off" spellcheck="false">
+    <div id="coResults" hidden></div>
+  </div>
 </header>
 
 <div id="cats"></div>
+
+<div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
 
 <a class="cta" href="survey.html">
   <span class="ci"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/></svg></span>
@@ -240,7 +392,252 @@
     try{ localStorage.setItem("aif_db_open", JSON.stringify(state)); }catch(e){}
   }
 </script>
+<script>
+/* ---------- global company search (lazy-loads all section data on first use) ---------- */
+(function(){
+  const SOURCES=[
+    {js:"data.js",            comp:"COMPANIES",            ints:"INTERNSHIPS",            page:"consulting.html", label:"Consulting"},
+    {js:"data_analytics.js",  comp:"ANALYTICS_COMPANIES",  ints:"ANALYTICS_INTERNSHIPS",  page:"analytics.html",  label:"Analytics"},
+    {js:"data_finance.js",    comp:"FINANCE_COMPANIES",    ints:"FINANCE_INTERNSHIPS",    page:"finance.html",    label:"Finance"},
+    {js:"data_marketing.js",  comp:"MARKETING_COMPANIES",  ints:"MARKETING_INTERNSHIPS",  page:"marketing.html",  label:"Marketing"},
+    {js:"data_accounting.js", comp:"ACCOUNTING_COMPANIES", ints:"ACCOUNTING_INTERNSHIPS", page:"accounting.html", label:"Accounting"},
+    {js:"data_operations.js", comp:"OPERATIONS_COMPANIES", ints:"OPERATIONS_INTERNSHIPS", page:"operations.html", label:"Operations"},
+    {js:"data_hr.js",         comp:"HR_COMPANIES",         ints:"HR_INTERNSHIPS",         page:"hr.html",         label:"HR"},
+    {js:"data_realestate.js", comp:"REALESTATE_COMPANIES", ints:"REALESTATE_INTERNSHIPS", page:"realestate.html", label:"Real Estate"},
+    {js:"data_tech.js",       comp:"TECH_COMPANIES",       ints:"TECH_INTERNSHIPS",       page:"tech.html",       label:"Tech"},
+    {js:"data_engineering.js",comp:"ENGR_COMPANIES",       ints:"ENGR_INTERNSHIPS",       page:"engineering.html",label:"Engineering"},
+    {js:"data_healthcare.js", comp:"HEALTH_COMPANIES",     ints:"HEALTH_INTERNSHIPS",     page:"healthcare.html", label:"Healthcare"}
+  ];
+  const input=document.getElementById("coSearch"), box=document.getElementById("coResults");
+  const cats=document.getElementById("cats"), cta=document.querySelector(".cta");
+  let loadState=0; // 0 = not started, 1 = loading, 2 = ready
+  let index=null;
+
+  function loadAll(){
+    if(loadState) return;
+    loadState=1;
+    let left=SOURCES.length;
+    SOURCES.forEach(s=>{
+      const el=document.createElement("script");
+      el.src=s.js; el.async=true;
+      el.onload=el.onerror=()=>{ if(--left===0){ buildIndex(); loadState=2; run(); } };
+      document.body.appendChild(el);
+    });
+  }
+  function buildIndex(){
+    index={};
+    SOURCES.forEach(s=>{
+      const ints=window[s.ints]||[], comps=window[s.comp]||{};
+      ints.forEach(d=>{
+        if(!d||!d.company) return;
+        const key=d.company.toLowerCase();
+        if(!index[key]) index[key]={name:d.company,tier:(comps[d.company]||{}).tier||"",roles:[]};
+        index[key].roles.push({d:d,c:comps[d.company]||{},page:s.page,label:s.label,section:s.page.replace(".html","")});
+      });
+    });
+  }
+  function badge(r){
+    const active=r.d.verified&&isOpen(r.d.status);
+    const cls=active?"active":(r.d.verified?"verified":"expected");
+    return '<span class="cobadge '+cls+'">'+cls+'</span>';
+  }
+  const esc=t=>String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/"/g,"&quot;");
+  const isOpen=s=>/^open[\s(]/i.test(s||"");
+  let mode="list"; // typing = compact grouped list; Enter = full card grid
+  function hits(term){
+    return Object.values(index).filter(c=>c.name.toLowerCase().includes(term))
+      .sort((a,b)=>b.roles.length-a.roles.length).slice(0,10);
+  }
+  function renderList(found){
+    return found.map(c=>{
+      const rows=c.roles.slice(0,12).map(r=>
+        '<a class="corole" href="'+r.page+'?q='+encodeURIComponent(c.name)+'">'+badge(r)+
+        '<span class="crr">'+esc(r.d.role)+'</span><span class="crs">'+esc(r.d.level||"")+'</span>'+
+        '<span class="crsec">'+r.label+'</span></a>').join("");
+      const more=c.roles.length>12?'<div class="comsg">+'+(c.roles.length-12)+' more — press Enter to see every role as cards</div>':'';
+      return '<div class="cogroup"><div class="cohead"><span class="coname">'+esc(c.name)+'</span>'+
+        (c.tier?'<span class="cotier">'+esc(c.tier)+'</span>':'')+
+        '<span class="cocount">'+c.roles.length+' role'+(c.roles.length>1?'s':'')+'</span></div>'+rows+more+'</div>';
+    }).join("")+'<div class="cohint">Press Enter to expand results into full cards</div>';
+  }
+
+  /* ---- full section-page cards + detail modal (open in place, no redirect) ---- */
+  function savedStore(){try{return JSON.parse(localStorage.getItem("aif_saved")||"{}");}catch(e){return {};}}
+  function savedKey(r){return r.section+"::"+r.d.id;}
+  function isSaved(r){return !!savedStore()[savedKey(r)];}
+  function toggleSave(r){
+    const s=savedStore(); const k=savedKey(r); const d=r.d;
+    if(s[k]){delete s[k];}
+    else{s[k]={section:r.section,id:d.id,company:d.company,role:d.role,status:"Saved",applyUrl:d.applyUrl,comp:d.comp||"",due:d.due||"",ts:Date.now()};}
+    localStorage.setItem("aif_saved",JSON.stringify(s));
+  }
+  function stars(n){return "★".repeat(n)+"☆".repeat(5-n);}
+  function statusClass(s){return isOpen(s)?"open":"soon";}
+  function daysLeft(dl){if(!dl)return null;const end=new Date(dl+"T23:59:59");return Math.ceil((end-new Date())/(864e5));}
+  function cdBadge(d){const n=daysLeft(d.deadline);if(n===null)return "";if(n<0)return '<span class="cd closed">closed</span>';const cls=n<=7?"urgent":n<=30?"soon":"";return '<span class="cd '+cls+'">'+n+'d left</span>';}
+  function fortuneBadge(c){return c&&c.fortune?'<span class="fbadge" title="Fortune 500 rank #'+c.fortune+'">Fortune '+(Math.ceil(c.fortune/100)*100)+'</span>':"";}
+  function startupBadge(c){return c&&c.startup?'<span class="sbadge" title="Venture-backed / high-growth startup">🚀 Startup</span>':"";}
+  function vbadgeHTML(d){const act=d.verified&&isOpen(d.status);
+    return act?'<span class="vbadge active">Active</span>':(d.verified?'<span class="vbadge verified">Verified</span>':'<span class="vbadge expected">Expected</span>');}
+  function cardHTML(r){
+    const d=r.d,c=r.c;
+    const b=[vbadgeHTML(d)];
+    if(d.isNew)b.push('<span class="badge new">NEW</span>');
+    const lv=((d.level||"")+" "+(d.role||""));
+    b.push(/sophomore|freshman|first.?year|early.?insight|rising sophomore/i.test(lv)?'<span class="lvlbadge soph">SOPHOMORE</span>':'<span class="lvlbadge jr">JUNIOR</span>');
+    return '<div class="badgewrap">'+b.join("")+'</div>'+
+      '<div class="co">'+esc(d.company)+'</div>'+
+      '<div class="tagrow"><span class="tier">'+esc(c.tier||r.label)+'</span>'+fortuneBadge(c)+startupBadge(c)+'</div>'+
+      '<div class="role">'+esc(d.role)+'</div>'+
+      '<div class="row"><span class="status '+statusClass(d.status)+'">'+esc(d.status)+'</span> '+cdBadge(d)+'</div>'+
+      '<div class="row"><span class="stars" title="Competitiveness (est.)">'+stars(c.compScore||0)+'</span><span style="color:var(--muted)">'+esc(c.acceptanceRate||"")+'</span></div>'+
+      '<div class="row"><span class="pay">💵 '+esc(d.comp||"—")+'</span></div>'+
+      '<div class="about">'+esc(d.about||"")+'</div>'+
+      '<div class="due">🗓 '+esc(d.due||"")+'</div>'+
+      '<div class="meta">'+ (d.types||[]).map(t=>'<span class="tag">'+esc(t)+'</span>').join("") +'<span class="tag">'+r.label+'</span></div>'+
+      '<div class="row">'+((d.verified&&d.applyUrl&&/^https?:/.test(d.applyUrl))?'<a class="cardapply" href="'+d.applyUrl+'" target="_blank" rel="noopener">'+(isOpen(d.status)?'Apply ↗':'Program page ↗')+'</a>':'<span class="livehint off">🔜 posting link not yet confirmed</span>')+'</div>'+
+      '<button class="savebtn'+(isSaved(r)?' on':'')+'">'+(isSaved(r)?'★ Saved':'☆ Save')+'</button>';
+  }
+  function makeCard(r){
+    const el=document.createElement("div");el.className="card";el.innerHTML=cardHTML(r);
+    el.onclick=()=>openModal(r);
+    const ap=el.querySelector(".cardapply"); if(ap)ap.onclick=e=>e.stopPropagation();
+    const sb=el.querySelector(".savebtn");
+    if(sb)sb.onclick=e=>{e.stopPropagation();toggleSave(r);const on=isSaved(r);sb.classList.toggle("on",on);sb.textContent=on?'★ Saved':'☆ Save';};
+    return el;
+  }
+  function renderCards(found){
+    const frag=document.createDocumentFragment();
+    found.forEach(c=>{
+      const head=document.createElement("div");head.className="cogroup";
+      head.innerHTML='<div class="cohead"><span class="coname">'+esc(c.name)+'</span>'+
+        (c.tier?'<span class="cotier">'+esc(c.tier)+'</span>':'')+
+        '<span class="cocount">'+c.roles.length+' role'+(c.roles.length>1?'s':'')+'</span></div>';
+      frag.appendChild(head);
+      const grid=document.createElement("div");grid.className="cardgrid";
+      c.roles.forEach(r=>grid.appendChild(makeCard(r)));
+      frag.appendChild(grid);
+    });
+    return frag;
+  }
+  // modal panes (same content as section pages)
+  function coreName(company){return company.replace(/\(.*?\)/g,"").trim();}
+  function networking(company){
+    const n=coreName(company);
+    const lq=s=>"https://www.linkedin.com/search/results/people/?keywords="+encodeURIComponent(s);
+    return [
+      {label:"University / campus recruiters",url:lq(n+" university recruiter")},
+      {label:"Early-careers / talent acquisition",url:lq(n+" early careers recruiter")},
+      {label:"Recent summer analysts / interns",url:lq(n+" summer analyst intern")},
+      {label:"Recent grads in this team",url:lq(n+" analyst")}
+    ];
+  }
+  const TEMPLATES=[
+    {h:"Cold note to a recruiter / early-careers contact",t:"Hi [Name],\n\nI'm a [year] at [School] studying [major], and I'm really interested in [Firm]'s [program/role] for Summer 2027. I'd love to learn more about what makes a strong candidate and how to put my best foot forward. Would you have 15 minutes for a quick call in the coming weeks?\n\nThank you so much for your time!\n[Your name]"},
+    {h:"Coffee-chat note to a recent analyst / alum",t:"Hi [Name],\n\nI saw you went to [School] and are now a [role] at [Firm] — congrats! I'm a [year] exploring this field and would really value 15 minutes to hear about your path and any advice for the [program] application. No worries if you're busy. Thanks!\n[Your name]"}
+  ];
+  function sparkline(s){const dir=s.direction;const pts=dir==="up"?[38,34,30,22,18,12]:dir==="down"?[12,16,14,24,30,38]:[22,20,24,21,23,22];
+    const w=300,h=46,step=w/(pts.length-1);const dd=pts.map((y,i)=>(i?'L':'M')+(i*step).toFixed(1)+','+y).join(" ");
+    const col=dir==="up"?"#6fe0a8":dir==="down"?"#ff6b6b":"#f5a524";
+    return '<svg width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'" style="margin-top:8px"><path d="'+dd+'" fill="none" stroke="'+col+'" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';}
+  function payStockPane(d,c){
+    let s="<h3>Pay (this internship)</h3><p>"+esc(d.comp||"Not available.")+"</p>";
+    if(c.isPublic&&c.stock){const st=c.stock,arrow=st.direction==="up"?"▲":st.direction==="down"?"▼":"▬",pct=(st.changePct>0?"+":"")+st.changePct+"%";
+      s+='<h3>Stock — last 12 months</h3><div class="stockbox"><div class="stockhead"><div><b>'+esc(c.ticker||"")+'</b> &nbsp; <span style="color:var(--muted)">'+esc(st.start)+' → '+esc(st.end)+'</span></div><div class="chg '+st.direction+'">'+arrow+' '+pct+'</div></div>'+sparkline(st)+'<div class="stocktext">'+esc(c.stockTrend||"")+'<br>As of '+esc(st.asOf||"")+'. Approximate — verify a live quote.</div></div>';
+    } else {s+='<h3>Stock — last 12 months</h3><div class="private">'+esc(c.stockTrend||"Private — no public stock.")+'</div>';}
+    return s;
+  }
+  function newsPane(c){if(!c.news||!c.news.length)return '<p style="color:var(--muted)">No recent news on file.</p>';
+    return c.news.map(n=>'<a class="newsitem" href="'+n.url+'" target="_blank" rel="noopener"><div class="nt">'+esc(n.title)+' ↗</div><div class="nm">'+esc(n.source)+' · '+esc(n.date)+'</div></a>').join("");}
+  function deepPane(c,d){
+    const ps=(c.deepProfile||[]).map(p=>"<p>"+esc(p)+"</p>").join("");
+    const fort=c.fortune?("It ranks as a Fortune "+(Math.ceil(c.fortune/100)*100)+" company (approximately #"+c.fortune+" on the list). "):"";
+    const pub=c.isPublic?("The firm is publicly traded"+(c.ticker?(" under "+c.ticker):"")+", so its performance is visible to the market. "):"It is privately held or operates within a larger parent company. ";
+    const hist=c.history||c.background||"";
+    const comp=c.competitiveness?("Recruiting here is considered "+c.competitiveness.toLowerCase()+(c.acceptanceRate?(", with an estimated acceptance rate of "+c.acceptanceRate):"")+". "):"";
+    const bg=[hist,pub+fort,comp].filter(Boolean).join(" ");
+    return "<h3>Headquarters</h3><p>"+esc(c.hq||"Not on file — check the company's official site.")+"</p>"+
+      "<h3>Founded</h3><p>"+esc(c.founded||"Not on file.")+"</p>"+
+      "<h3>History &amp; background</h3><p>"+esc(bg||"—")+"</p>"+
+      (ps?"<h3>Culture, morals &amp; reputation</h3>"+ps:"")+
+      "<h3>What they value</h3><p>"+esc(c.values||"—")+"</p>"+
+      (c.tier?"<h3>Where it sits in the industry</h3><p>The firm is generally regarded as a <b>"+esc(c.tier)+"</b> within its space.</p>":"");
+  }
+  function netPane(d){
+    const links=networking(d.company).map(l=>'<a class="netlink" href="'+l.url+'" target="_blank" rel="noopener"><span class="nl">'+esc(l.label)+'</span><span class="ns">Search LinkedIn ↗</span></a>').join("");
+    const tmpls=TEMPLATES.map(t=>"<h3>"+esc(t.h)+'</h3><div class="tmpl">'+esc(t.t)+"</div>").join("");
+    return "<h3>People worth reaching out to at "+esc(d.company)+"</h3>"+
+      '<p style="font-size:13px;color:var(--muted)">These open LinkedIn searches for the people who actually respond — campus recruiters, early-careers talent acquisition, and recent analysts/alumni. Tip: add your own school to the search to find alumni, who reply far more often.</p>'+
+      links+"<h3>Outreach templates</h3>"+tmpls;
+  }
+  var _AUTHED=false,_AUTHKNOWN=false;
+  (function _wireAuth(){if(window.AIF_AUTH&&window.AIF_AUTH.onUser){window.AIF_AUTH.onUser(function(u){_AUTHED=!!u;_AUTHKNOWN=true;});}else{setTimeout(_wireAuth,60);}})();
+  function openModal(r){
+    if(_AUTHKNOWN && !_AUTHED){ var rt=encodeURIComponent("database.html"); location.href="login.html?return="+rt; return; }
+    const d=r.d,c=r.c;const m=document.getElementById("modal");
+    m.innerHTML='<button class="close" id="mclose">×</button>'+
+      "<h2>"+esc(d.role)+"</h2>"+
+      '<div class="mco">'+esc(d.company)+" · "+r.label+"</div>"+
+      '<div class="mtier"><span class="tier">'+esc(c.tier||"")+"</span>"+(d.level==="Sophomore / early-insight"?'<span class="soph">SOPHOMORE</span>':"")+" "+cdBadge(d)+"</div>"+
+      '<div class="tabs">'+
+        '<div class="tab active" data-p="ov">Overview</div>'+
+        '<div class="tab" data-p="deep">Deep Dive</div>'+
+        '<div class="tab" data-p="net">Networking</div>'+
+        '<div class="tab" data-p="comp">Competitiveness</div>'+
+        '<div class="tab" data-p="pay">Pay &amp; Stock</div>'+
+        '<div class="tab" data-p="news">News</div>'+
+      "</div>"+
+      '<div class="pane active" data-p="ov">'+
+        '<div class="kv"><b>Status</b><span class="status '+statusClass(d.status)+'">'+esc(d.status)+"</span></div>"+
+        '<div class="kv"><b>Deadline</b><span>'+esc(d.due||"—")+"</span></div>"+
+        '<div class="kv"><b>Pay (est.)</b><span>'+esc(d.comp||"—")+"</span></div>"+
+        '<div class="kv"><b>Location</b><span>'+esc(d.location||"—")+"</span></div>"+
+        '<div class="kv"><b>Specialty</b><span>'+esc((d.types||[]).join(" · "))+"</span></div>"+
+        '<div class="kv"><b>Majors recruited</b><span>'+esc((d.majors||[]).join(", ")||"—")+"</span></div>"+
+        (d.reqs?'<div class="kv"><b>Resume / CV</b><span>'+esc(d.reqs.cv||"—")+'</span></div><div class="kv"><b>Cover letter</b><span>'+esc(d.reqs.coverLetter||"—")+'</span></div><div class="kv"><b>Written answers</b><span>'+esc(d.reqs.writtenAnswers||"—")+'</span></div><div class="kv"><b>Assessment / test</b><span>'+esc(d.reqs.assessment||"—")+"</span></div>":"")+
+        "<h3>What the role involves</h3><p>"+esc(d.about||"")+"</p>"+
+        "<h3>Company background</h3><p>"+esc(c.background||"")+"</p>"+
+      "</div>"+
+      '<div class="pane" data-p="deep">'+deepPane(c,d)+'<div class="applynote" style="margin-top:14px"><a href="'+(d.applyUrl||"#")+'" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Program website ↗</a></div></div>'+
+      '<div class="pane" data-p="net">'+netPane(d)+"</div>"+
+      '<div class="pane" data-p="comp">'+
+        '<div class="kv"><b>Tier</b><span>'+esc(c.tier||"")+"</span></div>"+
+        '<div class="kv"><b>Competitiveness</b><span><span class="stars">'+stars(c.compScore||0)+"</span> &nbsp;"+esc(c.competitiveness||"")+"</span></div>"+
+        '<div class="kv"><b>Acceptance rate</b><span>'+esc(c.acceptanceRate||"n/a")+"</span></div>"+
+        '<div class="kv"><b>Level</b><span>'+esc(d.level||"—")+"</span></div>"+
+        '<p style="margin-top:14px;color:var(--muted);font-size:13px">Acceptance rates and competitiveness are rough public estimates for orientation, not official figures.</p>'+
+      "</div>"+
+      '<div class="pane" data-p="pay">'+payStockPane(d,c)+"</div>"+
+      '<div class="pane" data-p="news"><h3>Recent news</h3>'+newsPane(c)+"</div>"+
+      (isOpen(d.status)?'<div class="applybar"><a class="apply" href="'+d.applyUrl+'" target="_blank" rel="noopener">Go to this role’s application →</a></div>':'<div class="applybar"><div class="soon-btn">🔜 Application not open yet — coming soon</div></div>');
+    m.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
+      m.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+      m.querySelectorAll(".pane").forEach(x=>x.classList.remove("active"));
+      t.classList.add("active");m.querySelector('.pane[data-p="'+t.dataset.p+'"]').classList.add("active");
+    });
+    m.querySelector("#mclose").onclick=closeModal;
+    document.getElementById("overlay").classList.add("show");
+  }
+  function closeModal(){document.getElementById("overlay").classList.remove("show");}
+  document.getElementById("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeModal();});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+
+  function run(){
+    const term=input.value.trim().toLowerCase();
+    if(term.length<2){ box.hidden=true; box.innerHTML=""; cats.style.display=""; if(cta)cta.style.display=""; return; }
+    cats.style.display="none"; if(cta)cta.style.display="none"; box.hidden=false;
+    if(loadState<2){ box.innerHTML='<div class="comsg">Loading all sections…</div>'; loadAll(); return; }
+    const found=hits(term);
+    if(!found.length){ box.innerHTML='<div class="comsg">No companies match “'+esc(input.value.trim())+'” anywhere in the database.</div>'; return; }
+    if(mode==="cards"){ box.innerHTML=""; box.appendChild(renderCards(found)); }
+    else { box.innerHTML=renderList(found); }
+  }
+  input.addEventListener("focus",loadAll,{once:true});
+  input.addEventListener("input",()=>{ mode="list"; run(); });
+  input.addEventListener("keydown",e=>{ if(e.key==="Enter"){ e.preventDefault(); mode="cards"; run(); } });
+})();
+</script>
 <script type="module" src="firebase-auth.js"></script>
 <script type="module" src="account-widget.js"></script>
-<script>/*themeToggleBtn*/(function(){function set(){var b=document.getElementById("themeToggle");if(!b||!window.AIF_THEME)return;b.textContent=(window.AIF_THEME.get()==="light")?"☀️ Theme":"🌙 Theme";}function ready(){if(window.AIF_THEME){var b=document.getElementById("themeToggle");if(b){b.onclick=function(){window.AIF_THEME.toggle();set();};set();}}else setTimeout(ready,40);}ready();})();</script></body>
+</body>
 </html>

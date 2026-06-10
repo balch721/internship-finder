@@ -207,7 +207,7 @@ html[data-theme="light"]{--lt-r:150;--lt-g:178;--lt-b:235}
 
 /* disclaimer tidy */
 .disclaimer{line-height:1.6;padding:10px 14px}
-.disclaimer .vbadge{margin:0 2px;vertical-align:middle}
+.disclaimer .vbadge{margin:0 2px;vertical-align:baseline;font-size:8.5px;font-weight:700;padding:1px 5px;line-height:1.35;letter-spacing:.35px;border-radius:5px}
 </style>
 <script src="transition.js?v=4"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="light.css?v=3">
@@ -528,6 +528,8 @@ html[data-theme="light"]{--lt-r:150;--lt-g:178;--lt-b:235}
   try{var _qt=new URLSearchParams(location.search).get('type');
     if(_qt){var _m=allTypes.find(function(t){return t.toLowerCase()===_qt.toLowerCase();});
       if(_m){activeType=_m;var _ts=document.getElementById('typeSel');if(_ts)_ts.value=_m;}}}catch(e){}
+  // deep-link: ?q=<term> pre-fills the search box (used by the company search on the database page)
+  try{var _qq=new URLSearchParams(location.search).get('q');if(_qq){q=_qq.toLowerCase();var _si=document.getElementById('search');if(_si)_si.value=_qq;}}catch(e){}
   render();
 </script>
 <script type="module" src="firebase-auth.js"></script>

@@ -39,6 +39,50 @@
 .aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
 </style>
 <script src="transition.js?v=4"></script>
+<script>/*warp-in handoff from the home logo*/(function(){try{if(sessionStorage.getItem("aif_warp")==="1"){sessionStorage.removeItem("aif_warp");document.documentElement.classList.add("warpin");}}catch(e){}})();</script>
+<style>
+/* iris-open arrival: the page is revealed through a growing circle while the orb expands and melts away */
+html.warpin body{opacity:1 !important;transition:none !important}
+.warpin-hole{position:fixed;left:50%;top:42%;z-index:2000;width:24px;height:24px;margin:-12px 0 0 -12px;border-radius:50%;
+  pointer-events:none;background:transparent;box-shadow:0 0 0 250vmax #0b1220}
+html[data-theme="light"] .warpin-hole{box-shadow:0 0 0 250vmax #e7edf7} /* matches the light handoff color */
+.warpin-orb{position:fixed;left:50%;top:42%;z-index:2001;width:76px;height:76px;margin:-38px 0 0 -38px;pointer-events:none;
+  filter:drop-shadow(0 6px 30px rgba(159,240,226,.45))}
+.warpin-orb .orb{transform-origin:50px 50px;animation:warpinspin 1s linear infinite}
+@keyframes warpinspin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.warpin-hole,.warpin-orb{display:none}}
+</style>
+<script>
+(function(){
+  if(!document.documentElement.classList.contains("warpin"))return;
+  if(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+  function go(){
+    var hole=document.createElement("div");hole.className="warpin-hole";
+    document.body.appendChild(hole);
+    var orb=document.createElement("div");orb.className="warpin-orb";
+    orb.innerHTML='<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+      '<defs><linearGradient id="wtg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a9c8ff"/><stop offset=".5" stop-color="#9ff0e2"/><stop offset="1" stop-color="#ffd9a8"/></linearGradient>'+
+      '<radialGradient id="wtc" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#9ff0e2"/></radialGradient></defs>'+
+      '<circle cx="50" cy="50" r="44" stroke="url(#wtg)" stroke-width="1.4" opacity=".35"/>'+
+      '<g class="orb"><ellipse cx="50" cy="50" rx="44" ry="17" stroke="url(#wtg)" stroke-width="1.6" opacity=".7"/>'+
+      '<ellipse cx="50" cy="50" rx="17" ry="44" stroke="url(#wtg)" stroke-width="1.6" opacity=".7"/></g>'+
+      '<circle cx="50" cy="50" r="7.5" fill="url(#wtc)"/><circle cx="50" cy="50" r="11.5" stroke="url(#wtg)" stroke-width="1.2" opacity=".8"/></svg>';
+    document.body.appendChild(orb);
+    var CX=innerWidth/2,CY=innerHeight*0.42;
+    var reach=Math.hypot(Math.max(CX,innerWidth-CX),Math.max(CY,innerHeight-CY))*1.06;
+    hole.animate([{transform:"scale(1)"},{transform:"scale("+(reach/12)+")"}],
+      {duration:1100,easing:"cubic-bezier(.55,.05,.35,1)",fill:"forwards"});
+    // the orb grows WITH the opening, then melts into the page
+    orb.animate([
+      {transform:"scale(2.1)",opacity:1},
+      {transform:"scale(5.5)",opacity:.9,offset:.55},
+      {transform:"scale(9)",opacity:0}
+    ],{duration:1100,easing:"cubic-bezier(.5,.05,.4,1)",fill:"forwards"});
+    setTimeout(function(){hole.remove();orb.remove();},1250);
+  }
+  if(document.body)go();else document.addEventListener("DOMContentLoaded",go);
+})();
+</script>
 <link rel="stylesheet" href="light.css?v=3">
 <script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
 </head>
