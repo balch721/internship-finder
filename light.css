@@ -104,6 +104,10 @@ html[data-theme="light"] .ldeadline,
 html[data-theme="light"] .ltbl .ldeadline{color:#c0392b !important}
 html[data-theme="light"] .tmpl{color:#2a3340 !important}
 html[data-theme="light"] .mk{color:#157a4a !important}
+/* modal deep-dive body text was a pale grey (#cdd3dc) tuned for dark cards */
+html[data-theme="light"] .pane p{color:#2a3545 !important}
+html[data-theme="light"] .pane h3{color:#4a5a72 !important}
+html[data-theme="light"] .kv b{color:#34465c !important}
 
 /* =========================== SURVEY =========================== */
 html[data-theme="light"] #survey{
@@ -148,8 +152,8 @@ html[data-theme="light"] .logo .sig{color:#1b2a44 !important}
 html[data-theme="light"] .pill{color:#2a3850 !important;background:rgba(255,255,255,.72) !important;border-color:rgba(40,60,100,.14) !important}
 html[data-theme="light"] h1{color:#141d30 !important}
 html[data-theme="light"] .lede{color:#46536e !important}
-html[data-theme="light"] .stat-row{color:#54627e !important}
-html[data-theme="light"] .stat-row b{color:#141d30 !important}
+html[data-theme="light"] .stat-row{color:rgba(255,255,255,.82) !important;text-shadow:0 1px 6px rgba(20,40,80,.35) !important}
+html[data-theme="light"] .stat-row b{color:#ffffff !important;text-shadow:0 1px 6px rgba(20,40,80,.45) !important}
 html[data-theme="light"] .opt{background:rgba(255,255,255,.8) !important;border-color:rgba(40,60,100,.12) !important;box-shadow:0 10px 30px rgba(40,60,100,.1) !important}
 html[data-theme="light"] .opt h2,
 html[data-theme="light"] .opt:hover h2,

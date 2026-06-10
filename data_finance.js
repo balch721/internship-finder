@@ -9084,7 +9084,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=BNP%20Paribas%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-global-banking-corporate-finance"
   },
   {
     "id": "bnp-paribas-capital-markets-2027",
@@ -9118,7 +9118,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=BNP%20Paribas%20Capital%20Markets%20summer%202027%20internship%20careers"
+    "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-global-markets-sales-trading"
   },
   {
     "id": "bnp-paribas-ib-mergers-acquisitions-2027",
@@ -9156,7 +9156,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=BNP%20Paribas%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-global-banking-corporate-finance"
   },
   {
     "id": "bnp-paribas-ib-industrials-coverage-2027",
@@ -9194,7 +9194,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=BNP%20Paribas%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-corporate-financial-institutions-coverage"
   },
   {
     "id": "bnp-paribas-ib-technology-media-telecom-2027",
@@ -9232,7 +9232,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=BNP%20Paribas%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-corporate-financial-institutions-coverage"
   },
   {
     "id": "bnp-paribas-ib-healthcare-coverage-2027",
@@ -9270,7 +9270,7 @@ window.FINANCE_INTERNSHIPS = [
     },
     "dateAdded": "2026-05-31",
     "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=BNP%20Paribas%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
+    "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-corporate-financial-institutions-coverage"
   },
   {
     "id": "hsbc-investment-banking-2027",

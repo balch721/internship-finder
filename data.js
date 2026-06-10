@@ -1838,6 +1838,32 @@ window.COMPANIES = {
     "founded": "1972",
     "history": "The #1 firm globally in restructuring and announced M&A deal count; strong mid-cap franchise."
   },
+  "BNP Paribas (Strategy & Transformation)": {
+    "tier": "In-house strategy / internal consulting",
+    "background": "The internal consulting (Strategy & Transformation) arm of BNP Paribas, a leading European global bank, advising the bank's own executive leadership on strategy, operating-model transformation and analytics in the Americas region.",
+    "deepProfile": [
+      "BNP Paribas' Strategy & Transformation (S&T) organization partners with executive management to design and drive strategically important initiatives across the full change-management value chain — strategic planning, business development, operating-model transformation, process reengineering and advanced analytics. It is comprised of five sub-teams: Consulting & Transformation, Analytics Lab, CEO Office, Sustainability Office, and Corporate Governance.",
+      "The Transversal Change (TRAC) team is a rotational leadership-development program that gives more junior team members a structured, curated project experience to learn the core consulting skill set. Interns get access to top-tier-consulting-style training combined with the resources of a premier global investment bank, working on engagements that span multiple business lines, functions and regions."
+    ],
+    "tips": [
+      "Apply early — the internship is the bank's primary pipeline for early talent and reviews are rolling.",
+      "Emphasize structured problem-solving, analytical rigor and clear communication; all majors are accepted but a demonstrated interest in financial services and consulting helps.",
+      "Highlight Excel/PowerPoint proficiency and any prior consulting or financial-services exposure."
+    ],
+    "values": "Responsible and sustainable global leader; diversity, equity & inclusion; client focus.",
+    "tagline": "The bank for a changing world.",
+    "ticker": "EPA: BNP (Euronext Paris)",
+    "isPublic": true,
+    "stock": null,
+    "stockTrend": "Public (Euronext Paris: BNP) — live price not tracked for this firm yet; check a current quote.",
+    "acceptanceRate": "~3-6% (est.)",
+    "competitiveness": "Highly competitive",
+    "compScore": 5,
+    "news": [],
+    "hq": "Paris, France (US: Jersey City, NJ / New York, NY)",
+    "founded": "2000",
+    "history": "Formed in 2000 from the merger of BNP and Paribas; today one of Europe's largest banks with a presence in 65 countries and ~190,000 employees, and over 3,500 staff across 10 US states."
+  },
   "Infosys Consulting": {
     "tier": "Global IT-services consulting",
     "background": "US arm of Infosys blending strategy, process and tech transformation for enterprise clients.",
@@ -4741,6 +4767,46 @@ window.INTERNSHIPS = [
     "dateAdded": "2026-05-29",
     "isNew": false,
     "applyUrl": "https://www.mckinsey.com/careers/search-jobs?query=business%20analyst%20intern&countries=United%20States"
+  },
+  {
+    "id": "bnp-paribas-st-internal-consulting-2027",
+    "company": "BNP Paribas (Strategy & Transformation)",
+    "role": "2027 Summer Analyst Intern — Strategy & Transformation (Internal Consulting)",
+    "level": "Junior internship",
+    "types": [
+      "Internal Consulting",
+      "Strategy Consulting",
+      "Management Consulting"
+    ],
+    "majors": [
+      "Business Administration",
+      "Economics",
+      "Finance",
+      "Engineering",
+      "(all majors accepted)"
+    ],
+    "majorTags": [
+      "business",
+      "economics",
+      "finance",
+      "engineering",
+      "any"
+    ],
+    "location": "Jersey City, NJ & New York, NY",
+    "about": "Summer analyst role on the bank's internal-consulting (Strategy & Transformation) team via the rotational TRAC program: structured, curated project experience analyzing complex business problems, building client deliverables and supporting operating-model transformation and analytics. Internship is the bank's primary early-talent pipeline; graduation year Winter 2027–Spring 2028.",
+    "status": "Open — apply now",
+    "due": "Rolling — apply early",
+    "deadline": null,
+    "comp": "$95,000 base salary (NY/Jersey City)",
+    "reqs": {
+      "cv": "Required",
+      "coverLetter": "Recommended",
+      "writtenAnswers": "Yes",
+      "assessment": "—"
+    },
+    "dateAdded": "2026-06-09",
+    "isNew": true,
+    "applyUrl": "https://bwelcome.hr.bnpparibas/en_US/externalcareers/JobDetails?jobId=82813&source=BNP+Paribas+website"
   },
   {
     "id": "bcg-2027-summer-associate",
