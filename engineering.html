@@ -32,7 +32,7 @@
   .section h2{font-size:15px;letter-spacing:.3px;margin:0 0 4px;display:flex;align-items:center;gap:10px}
   .section .scount{color:var(--muted);font-size:12px;font-weight:400}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(335px,1fr));gap:16px;margin-top:12px}
-  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px 18px 46px;cursor:pointer;transition:.14s;position:relative;display:flex;flex-direction:column;gap:7px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px 18px 52px;cursor:pointer;transition:.14s;position:relative;display:flex;flex-direction:column;gap:7px}
   .card:hover{border-color:var(--accent);transform:translateY(-2px)}
   .card .co{font-size:13px;color:var(--accent);font-weight:600}
   .tier{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.3px;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff;width:fit-content}
@@ -197,6 +197,17 @@ html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
 .badgewrap{flex-wrap:wrap;justify-content:flex-end;max-width:150px}
 
 .vbadge.active{background:rgba(54,211,153,.24);color:#2fe0a0;border:1px solid rgba(54,211,153,.6)}
+
+.cardapply{margin-top:8px}
+
+/* apply link aligned with Save on the bottom row */
+.cardapply{position:absolute;bottom:14px;left:18px;margin:0 !important;font-size:11.5px;padding:5px 12px}
+.card .row:has(.cardapply),.card .row:has(.livehint.off){position:static}
+.livehint.off{position:absolute;bottom:18px;left:18px}
+
+/* disclaimer tidy */
+.disclaimer{line-height:1.6;padding:10px 14px}
+.disclaimer .vbadge{margin:0 2px;vertical-align:middle}
 </style>
 <script src="transition.js?v=4"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="light.css?v=3">
@@ -308,12 +319,12 @@ html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
       <div class="tagrow"><span class="tier">${c.tier||""}</span>${fortuneBadge(c)}${startupBadge(c)}</div>
       <div class="role">${d.role}</div>
       <div class="row"><span class="status ${statusClass(d.status)}">${d.status}</span> ${cdBadge(d)}</div>
-      <div class="row">${(d.verified&&d.applyUrl&&/^https?:/.test(d.applyUrl))?'<a class="cardapply" href="'+d.applyUrl+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">View posting ↗</a>':'<span class="livehint off">🔜 posting link not yet confirmed</span>'}</div>
       <div class="row"><span class="stars" title="Competitiveness (est.)">${stars(c.compScore||0)}</span><span style="color:var(--muted)">${c.acceptanceRate||""}</span></div>
       <div class="row"><span class="pay">💵 ${d.comp||"—"}</span></div>
       <div class="about">${d.about}</div>
       <div class="due">🗓 ${d.due}</div>
       <div class="meta">${d.types.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
+      <div class="row">${(d.verified&&d.applyUrl&&/^https?:/.test(d.applyUrl))?'<a class="cardapply" href="'+d.applyUrl+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">'+(isOpen(d.status)?'Apply ↗':'Program page ↗')+'</a>':'<span class="livehint off">🔜 posting link not yet confirmed</span>'}</div>
       
       <button class="savebtn${isSaved(d)?' on':''}" data-save="1">${isSaved(d)?'★ Saved':'☆ Save'}</button>`;
   }
@@ -461,7 +472,11 @@ html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
       <h3>Outreach templates</h3>${tmpls}`;
   }
 
+  var _AUTHED=false,_AUTHKNOWN=false;
+  (function _wireAuth(){if(window.AIF_AUTH&&window.AIF_AUTH.onUser){window.AIF_AUTH.onUser(function(u){_AUTHED=!!u;_AUTHKNOWN=true;});}else{setTimeout(_wireAuth,60);}})();
+  function _isAuthed(){return _AUTHED;}
   function openModal(d){
+    if(_AUTHKNOWN && !_AUTHED){ var rt=encodeURIComponent(location.pathname.split('/').pop()+location.search); location.href='login.html?return='+rt; return; }
     const c=C[d.company]||{};const m=document.getElementById("modal");
     m.innerHTML=`
       <button class="close" onclick="closeModal()">×</button>
