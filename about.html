@@ -43,6 +43,10 @@
 <style>
 /* iris-open arrival: the page is revealed through a growing circle while the orb expands and melts away */
 html.warpin body{opacity:1 !important;transition:none !important}
+/* cover from the very first paint — removed the moment the animated iris takes over (no flash, no freeze) */
+html.warpin body::before{content:"";position:fixed;inset:0;z-index:1999;background:#0b1220}
+html[data-theme="light"].warpin body::before{background:#e7edf7}
+html.warpin.warpgo body::before{content:none}
 .warpin-hole{position:fixed;left:50%;top:42%;z-index:2000;width:24px;height:24px;margin:-12px 0 0 -12px;border-radius:50%;
   pointer-events:none;background:transparent;box-shadow:0 0 0 250vmax #0b1220}
 html[data-theme="light"] .warpin-hole{box-shadow:0 0 0 250vmax #e7edf7} /* matches the light handoff color */
@@ -78,9 +82,12 @@ html[data-theme="light"] .warpin-hole{box-shadow:0 0 0 250vmax #e7edf7} /* match
       {transform:"scale(5.5)",opacity:.9,offset:.55},
       {transform:"scale(9)",opacity:0}
     ],{duration:1100,easing:"cubic-bezier(.5,.05,.4,1)",fill:"forwards"});
+    // swap the static first-paint cover for the animated iris on the same frame
+    requestAnimationFrame(function(){document.documentElement.classList.add("warpgo");});
     setTimeout(function(){hole.remove();orb.remove();},1250);
   }
-  if(document.body)go();else document.addEventListener("DOMContentLoaded",go);
+  // start the instant <body> exists — never wait for DOMContentLoaded (deferred scripts would stall it)
+  (function waitBody(){ if(document.body) go(); else requestAnimationFrame(waitBody); })();
 })();
 </script>
 <link rel="stylesheet" href="light.css?v=3">

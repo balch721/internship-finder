@@ -86,7 +86,7 @@
   /* iris reveal continues on the About page itself (sessionStorage handoff) */
   .warpmark{z-index:1002}
   /* seamless handoff: the last home frame fades into the exact dark the About page arrives with */
-  .warpdark{position:fixed;inset:0;z-index:1001;background:#0b1220;opacity:0;pointer-events:none;transition:opacity .34s ease}
+  .warpdark{position:fixed;inset:0;z-index:1001;background:#0b1220;opacity:0;pointer-events:none;transition:opacity .26s ease}
   html[data-theme="light"] .warpdark{background:#e7edf7} /* light mode hands off into the light About backdrop */
   @media (prefers-reduced-motion:reduce){.warpmark,.warpiris{display:none}}
 
@@ -530,7 +530,7 @@
         });
         // fade the whole scene into the same dark the About page opens from — no visible break
         const dark=document.createElement("div"); dark.className="warpdark"; document.body.appendChild(dark);
-        setTimeout(()=>{ dark.style.opacity="1"; }, 460);
+        setTimeout(()=>{ dark.style.opacity="1"; }, 570); // reaches full dark right as navigation fires — no held black frame
         try{ sessionStorage.setItem("aif_warp","1"); }catch(e){}
         setTimeout(()=>{ window.location.href="about.html"; }, 840);
       } else {
