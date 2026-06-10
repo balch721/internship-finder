@@ -6593,7 +6593,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-06-09",
-    "isNew": true,
+    "verified": false, "isNew": true,
     "applyUrl": "https://www.wellsfargojobs.com/en/jobs/r-507805/2027-summer-internship-early-careers-investment-banking-houston/"
   },
   {
@@ -6631,7 +6631,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": true, "isNew": false,
     "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
@@ -6669,7 +6669,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": true, "isNew": false,
     "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
@@ -6705,7 +6705,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": true, "isNew": false,
     "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
@@ -6743,7 +6743,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": true, "isNew": false,
     "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
@@ -6781,7 +6781,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": true, "isNew": false,
     "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
@@ -6819,7 +6819,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": true, "isNew": false,
     "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
@@ -6857,7 +6857,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": true, "isNew": false,
     "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
@@ -6895,8 +6895,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
     "id": "morgan-stanley-sales-trading-2027",
@@ -6933,8 +6933,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
     "id": "morgan-stanley-equity-research-2027",
@@ -6969,8 +6969,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Equity%20Research%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
     "id": "morgan-stanley-ib-industrials-coverage-2027",
@@ -7007,8 +7007,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
     "id": "morgan-stanley-ib-technology-media-telecom-2027",
@@ -7045,8 +7045,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
     "id": "morgan-stanley-ib-healthcare-coverage-2027",
@@ -7083,8 +7083,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
     "id": "morgan-stanley-ib-financial-sponsors-2027",
@@ -7121,8 +7121,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://morganstanley.tal.net/vx/candidate/apply/20793"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
     "id": "j-p-morgan-investment-banking-2027",
@@ -7159,8 +7159,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "j-p-morgan-sales-trading-2027",
@@ -7197,8 +7197,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "j-p-morgan-capital-markets-2027",
@@ -7231,8 +7231,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=J.P.%20Morgan%20Capital%20Markets%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "j-p-morgan-ib-technology-media-telecom-2027",
@@ -7269,8 +7269,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "j-p-morgan-ib-healthcare-coverage-2027",
@@ -7307,8 +7307,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "j-p-morgan-ib-financial-sponsors-2027",
@@ -7345,8 +7345,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "j-p-morgan-ib-leveraged-finance-2027",
@@ -7383,8 +7383,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/investment-banking-summer-analyst"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "bank-of-america-investment-banking-2027",
@@ -7421,8 +7421,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "bank-of-america-sales-trading-2027",
@@ -7459,8 +7459,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "bank-of-america-capital-markets-2027",
@@ -7493,8 +7493,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13932/global-capital-markets-summer-analyst-program-2027-multiple-locations"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "bank-of-america-ib-healthcare-coverage-2027",
@@ -7531,8 +7531,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "bank-of-america-ib-financial-sponsors-2027",
@@ -7569,8 +7569,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "bank-of-america-ib-leveraged-finance-2027",
@@ -7607,8 +7607,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "bank-of-america-ib-consumer-retail-2027",
@@ -7645,8 +7645,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://careers.bankofamerica.com/en-us/students/job-detail/13953/global-investment-banking-summer-analyst-program-2027-multiple-locations"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "citi-investment-banking-2027",
@@ -7683,8 +7683,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.citi.com/early-careers"
   },
   {
     "id": "citi-sales-trading-2027",
@@ -7721,7 +7721,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citi%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -7755,7 +7755,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.citi.com/job/new-york/banking-capital-markets-summer-analyst-new-york-city-us-2027/287/89623966816"
   },
   {
@@ -7793,8 +7793,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://jobs.citi.com/early-careers"
   },
   {
     "id": "citi-ib-leveraged-finance-2027",
@@ -7831,7 +7831,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
   },
   {
@@ -7869,7 +7869,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
   },
   {
@@ -7907,7 +7907,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-analyst-new-york-city-us-2027/287/89623967312"
   },
   {
@@ -7945,7 +7945,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://search.jobs.barclays/job/new-york/banking-analyst-coverage-m-and-a-summer-internship-program-2027-new-york-city/13015/89084599680"
   },
   {
@@ -7983,7 +7983,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://search.jobs.barclays/job/new-york/sales-trading-and-structuring-analyst-summer-internship-program-2027-new-york/13015/89060416544"
   },
   {
@@ -8021,7 +8021,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Barclays%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8059,7 +8059,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Barclays%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8097,7 +8097,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Barclays%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8135,7 +8135,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Barclays%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8173,7 +8173,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deutsche%20Bank%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8211,7 +8211,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deutsche%20Bank%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -8249,7 +8249,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deutsche%20Bank%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8287,7 +8287,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deutsche%20Bank%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8325,7 +8325,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deutsche%20Bank%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8363,7 +8363,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deutsche%20Bank%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8401,7 +8401,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UBS%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8439,7 +8439,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UBS%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -8475,7 +8475,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UBS%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -8513,7 +8513,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UBS%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8551,7 +8551,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UBS%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8589,7 +8589,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UBS%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8627,7 +8627,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UBS%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8665,7 +8665,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Credit%20Suisse%20(UBS)%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8703,7 +8703,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Credit%20Suisse%20(UBS)%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8741,7 +8741,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Credit%20Suisse%20(UBS)%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8779,7 +8779,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Credit%20Suisse%20(UBS)%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8817,7 +8817,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Credit%20Suisse%20(UBS)%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8855,7 +8855,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RBC%20Capital%20Markets%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8893,7 +8893,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RBC%20Capital%20Markets%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -8931,7 +8931,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RBC%20Capital%20Markets%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -8969,7 +8969,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RBC%20Capital%20Markets%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9007,7 +9007,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RBC%20Capital%20Markets%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9045,7 +9045,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RBC%20Capital%20Markets%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9083,7 +9083,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-global-banking-corporate-finance"
   },
   {
@@ -9117,7 +9117,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-internship-global-markets-sales-trading"
   },
   {
@@ -9155,7 +9155,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-global-banking-corporate-finance"
   },
   {
@@ -9193,7 +9193,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-corporate-financial-institutions-coverage"
   },
   {
@@ -9231,7 +9231,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-corporate-financial-institutions-coverage"
   },
   {
@@ -9269,7 +9269,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://group.bnpparibas/en/careers/job-offer/2027-summer-analyst-corporate-financial-institutions-coverage"
   },
   {
@@ -9307,7 +9307,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HSBC%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9341,7 +9341,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HSBC%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -9379,7 +9379,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HSBC%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9417,7 +9417,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HSBC%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9455,7 +9455,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HSBC%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9493,7 +9493,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HSBC%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9531,7 +9531,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.wellsfargojobs.com/en/jobs/r-512552/2027-summer-internship-early-careers-investment-banking/"
   },
   {
@@ -9569,7 +9569,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Securities%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -9607,7 +9607,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Securities%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9645,7 +9645,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Securities%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9683,7 +9683,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Securities%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9721,7 +9721,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Securities%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9759,7 +9759,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Evercore%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9795,7 +9795,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Evercore%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -9833,7 +9833,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Evercore%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9871,7 +9871,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Evercore%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9909,7 +9909,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Evercore%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9947,7 +9947,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centerview%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -9985,7 +9985,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centerview%20Partners%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10023,7 +10023,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centerview%20Partners%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10061,7 +10061,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centerview%20Partners%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10099,7 +10099,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lazard%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10137,7 +10137,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lazard%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10175,7 +10175,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lazard%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10213,7 +10213,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lazard%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10251,7 +10251,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moelis%20%26%20Company%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10289,7 +10289,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moelis%20%26%20Company%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10327,7 +10327,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moelis%20%26%20Company%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10365,7 +10365,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moelis%20%26%20Company%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10403,7 +10403,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PJT%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10441,7 +10441,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PJT%20Partners%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10479,7 +10479,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PJT%20Partners%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10517,7 +10517,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PJT%20Partners%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10555,7 +10555,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Perella%20Weinberg%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10593,7 +10593,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Perella%20Weinberg%20Partners%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10631,7 +10631,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Perella%20Weinberg%20Partners%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10669,7 +10669,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Perella%20Weinberg%20Partners%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10707,7 +10707,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Houlihan%20Lokey%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10745,7 +10745,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Houlihan%20Lokey%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10783,7 +10783,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Houlihan%20Lokey%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10821,7 +10821,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Houlihan%20Lokey%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10859,7 +10859,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greenhill%20(Mizuho)%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10897,7 +10897,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greenhill%20(Mizuho)%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10935,7 +10935,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greenhill%20(Mizuho)%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -10973,7 +10973,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greenhill%20(Mizuho)%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11011,7 +11011,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Guggenheim%20Securities%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11049,7 +11049,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Guggenheim%20Securities%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11087,7 +11087,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Guggenheim%20Securities%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11125,7 +11125,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Guggenheim%20Securities%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11163,7 +11163,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qatalyst%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11201,7 +11201,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qatalyst%20Partners%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11239,7 +11239,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qatalyst%20Partners%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11277,7 +11277,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qatalyst%20Partners%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11315,7 +11315,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allen%20%26%20Company%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11353,7 +11353,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allen%20%26%20Company%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11391,7 +11391,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allen%20%26%20Company%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11429,7 +11429,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allen%20%26%20Company%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11467,7 +11467,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Jefferies%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11505,7 +11505,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Jefferies%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -11541,7 +11541,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Jefferies%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -11579,7 +11579,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Jefferies%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11617,7 +11617,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Jefferies%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11655,7 +11655,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Jefferies%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11693,7 +11693,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rothschild%20%26%20Co%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11731,7 +11731,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rothschild%20%26%20Co%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11769,7 +11769,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rothschild%20%26%20Co%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11807,7 +11807,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rothschild%20%26%20Co%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11845,7 +11845,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=William%20Blair%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11881,7 +11881,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=William%20Blair%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -11919,7 +11919,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=William%20Blair%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11957,7 +11957,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baird%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -11993,7 +11993,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baird%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -12031,7 +12031,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baird%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12069,7 +12069,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Harris%20Williams%20(PNC)%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12107,7 +12107,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Harris%20Williams%20(PNC)%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12145,7 +12145,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lincoln%20International%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12183,7 +12183,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lincoln%20International%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12221,7 +12221,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Piper%20Sandler%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12257,7 +12257,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Piper%20Sandler%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -12295,7 +12295,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Piper%20Sandler%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12333,7 +12333,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stifel%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12369,7 +12369,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stifel%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -12407,7 +12407,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stifel%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12445,7 +12445,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Raymond%20James%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12483,7 +12483,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Raymond%20James%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12521,7 +12521,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cowen%20(TD)%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12557,7 +12557,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cowen%20(TD)%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -12595,7 +12595,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cowen%20(TD)%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12633,7 +12633,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BMO%20Capital%20Markets%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12667,7 +12667,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BMO%20Capital%20Markets%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -12705,7 +12705,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BMO%20Capital%20Markets%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12743,7 +12743,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TD%20Securities%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12777,7 +12777,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TD%20Securities%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -12815,7 +12815,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TD%20Securities%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12853,7 +12853,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Scotiabank%20GBM%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12887,7 +12887,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Scotiabank%20GBM%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -12925,7 +12925,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Scotiabank%20GBM%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -12963,7 +12963,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CIBC%20Capital%20Markets%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13001,7 +13001,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CIBC%20Capital%20Markets%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13039,7 +13039,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mizuho%20Americas%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13073,7 +13073,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mizuho%20Americas%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -13111,7 +13111,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mizuho%20Americas%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13149,7 +13149,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nomura%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13187,7 +13187,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nomura%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -13225,7 +13225,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nomura%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13263,7 +13263,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=SMBC%20Nikko%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13301,7 +13301,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=SMBC%20Nikko%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13339,7 +13339,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Macquarie%20Capital%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13377,7 +13377,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Macquarie%20Capital%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13415,7 +13415,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wedbush%20Securities%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13451,7 +13451,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wedbush%20Securities%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -13489,7 +13489,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wedbush%20Securities%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13527,7 +13527,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oppenheimer%20%26%20Co.%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13563,7 +13563,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oppenheimer%20%26%20Co.%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -13601,7 +13601,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oppenheimer%20%26%20Co.%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13639,7 +13639,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stephens%20Inc.%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13677,7 +13677,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stephens%20Inc.%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13715,7 +13715,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Needham%20%26%20Company%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13751,7 +13751,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Needham%20%26%20Company%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -13789,7 +13789,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Needham%20%26%20Company%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13827,7 +13827,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Janney%20Montgomery%20Scott%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13865,7 +13865,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Janney%20Montgomery%20Scott%20Consumer%20%26%20Retail%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13903,7 +13903,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brown%20Gibbons%20Lang%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13941,7 +13941,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brown%20Gibbons%20Lang%20Energy%20%26%20Power%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -13979,7 +13979,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=KeyBanc%20Capital%20Markets%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14017,7 +14017,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=KeyBanc%20Capital%20Markets%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14055,7 +14055,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Truist%20Securities%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14093,7 +14093,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Truist%20Securities%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14131,7 +14131,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fifth%20Third%20Securities%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14169,7 +14169,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fifth%20Third%20Securities%20Mergers%20%26%20Acquisitions%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14207,7 +14207,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regions%20Securities%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14245,7 +14245,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regions%20Securities%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14283,7 +14283,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Securities%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14321,7 +14321,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Securities%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14359,7 +14359,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Santander%20US%20Capital%20Markets%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14393,7 +14393,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Santander%20US%20Capital%20Markets%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -14431,7 +14431,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Santander%20US%20Capital%20Markets%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14469,7 +14469,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Societe%20Generale%20CIB%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14507,7 +14507,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Societe%20Generale%20CIB%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -14545,7 +14545,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Societe%20Generale%20CIB%20Financial%20Sponsors%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14579,7 +14579,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20(Corporate%20%26%20Investment)%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -14617,7 +14617,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centerbridge%20Advisory%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14655,7 +14655,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=LionTree%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14693,7 +14693,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Solomon%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14731,7 +14731,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DC%20Advisory%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14769,7 +14769,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sandler%20O'Neill%20(PS)%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14807,7 +14807,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Keefe%2C%20Bruyette%20%26%20Woods%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14843,7 +14843,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Keefe%2C%20Bruyette%20%26%20Woods%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -14881,7 +14881,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Leerink%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14917,7 +14917,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Leerink%20Partners%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -14955,7 +14955,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Union%20Square%20Advisors%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -14993,7 +14993,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GCA%20%2F%20Houlihan%20tech%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -15031,7 +15031,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Foros%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -15069,7 +15069,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ducera%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -15107,7 +15107,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Robey%20Warshaw%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -15143,7 +15143,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.blackrock.com/job/new-york/2027-summer-internship-program-amers/45831/90628276544"
   },
   {
@@ -15181,7 +15181,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BlackRock%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -15217,7 +15217,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vanguard%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15253,7 +15253,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fidelity%20Investments%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15287,7 +15287,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fidelity%20Investments%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15323,7 +15323,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Street%20Global%20Advisors%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15361,7 +15361,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Street%20Global%20Advisors%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -15397,7 +15397,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=T.%20Rowe%20Price%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15433,7 +15433,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=T.%20Rowe%20Price%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -15469,7 +15469,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20Group%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15505,7 +15505,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PIMCO%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15543,7 +15543,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PIMCO%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -15579,7 +15579,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Invesco%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15615,7 +15615,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Franklin%20Templeton%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15651,7 +15651,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nuveen%20(TIAA)%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15687,7 +15687,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wellington%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15723,7 +15723,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wellington%20Management%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -15759,7 +15759,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AllianceBernstein%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15795,7 +15795,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AllianceBernstein%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -15831,7 +15831,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Neuberger%20Berman%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15867,7 +15867,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northern%20Trust%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15901,7 +15901,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northern%20Trust%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15937,7 +15937,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dimensional%20Fund%20Advisors%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15973,7 +15973,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blackstone%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16009,8 +16009,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Blackstone%20Asset%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.blackstone.com/careers/students/"
   },
   {
     "id": "kkr-private-equity-2027",
@@ -16045,8 +16045,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=KKR%20Private%20Equity%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.blackstone.com/careers/students/"
   },
   {
     "id": "the-carlyle-group-private-equity-2027",
@@ -16081,8 +16081,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=The%20Carlyle%20Group%20Private%20Equity%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.kkr.com/careers/student-careers"
   },
   {
     "id": "apollo-global-management-private-equity-2027",
@@ -16117,7 +16117,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Apollo%20Global%20Management%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16153,7 +16153,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Apollo%20Global%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -16189,7 +16189,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TPG%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16225,7 +16225,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bain%20Capital%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16261,8 +16261,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bain%20Capital%20Venture%20Capital%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/"
   },
   {
     "id": "advent-international-private-equity-2027",
@@ -16297,8 +16297,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Advent%20International%20Private%20Equity%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/"
   },
   {
     "id": "warburg-pincus-private-equity-2027",
@@ -16333,7 +16333,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Warburg%20Pincus%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16369,7 +16369,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Silver%20Lake%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16405,7 +16405,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vista%20Equity%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16441,7 +16441,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thoma%20Bravo%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16477,7 +16477,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Atlantic%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16513,7 +16513,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Atlantic%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -16549,7 +16549,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hellman%20%26%20Friedman%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16585,7 +16585,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Leonard%20Green%20%26%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16621,7 +16621,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Clayton%2C%20Dubilier%20%26%20Rice%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16657,7 +16657,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ares%20Management%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -16693,7 +16693,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ares%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -16729,7 +16729,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Andreessen%20Horowitz%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -16765,7 +16765,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sequoia%20Capital%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -16801,7 +16801,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kleiner%20Perkins%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -16837,7 +16837,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Accel%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -16873,7 +16873,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bessemer%20Venture%20Partners%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -16909,7 +16909,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lightspeed%20Venture%20Partners%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -16945,7 +16945,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Catalyst%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -16981,7 +16981,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Insight%20Partners%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -17017,7 +17017,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Insight%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -17057,7 +17057,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citadel%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17095,8 +17095,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citadel%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.citadel.com/careers/open-opportunities/"
   },
   {
     "id": "citadel-securities-hedge-fund-quant-2027",
@@ -17135,8 +17135,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citadel%20Securities%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.citadel.com/careers/open-opportunities/"
   },
   {
     "id": "citadel-securities-sales-trading-2027",
@@ -17173,8 +17173,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Citadel%20Securities%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.citadel.com/careers/open-opportunities/"
   },
   {
     "id": "jane-street-hedge-fund-quant-2027",
@@ -17213,8 +17213,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Jane%20Street%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.citadel.com/careers/open-opportunities/"
   },
   {
     "id": "two-sigma-hedge-fund-quant-2027",
@@ -17253,7 +17253,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Two%20Sigma%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17291,8 +17291,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Two%20Sigma%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Software-Engineering-Internship-NYC/13353"
   },
   {
     "id": "bridgewater-associates-hedge-fund-quant-2027",
@@ -17331,8 +17331,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bridgewater%20Associates%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Software-Engineering-Internship-NYC/13353"
   },
   {
     "id": "bridgewater-associates-risk-quant-finance-2027",
@@ -17369,8 +17369,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bridgewater%20Associates%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.bridgewater.com/2027-investment-associate-internship-program"
   },
   {
     "id": "d-e-shaw-hedge-fund-quant-2027",
@@ -17409,8 +17409,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=D.E.%20Shaw%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.bridgewater.com/2027-investment-associate-internship-program"
   },
   {
     "id": "d-e-shaw-risk-quant-finance-2027",
@@ -17447,7 +17447,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=D.E.%20Shaw%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -17487,7 +17487,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Millennium%20Management%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17527,7 +17527,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Point72%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17567,7 +17567,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hudson%20River%20Trading%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17607,7 +17607,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Jump%20Trading%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17647,7 +17647,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IMC%20Trading%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17687,7 +17687,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Optiver%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17727,7 +17727,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=SIG%20(Susquehanna)%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17767,8 +17767,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=AQR%20Capital%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Software-Engineering-Internship-NYC/13353"
   },
   {
     "id": "aqr-capital-risk-quant-finance-2027",
@@ -17805,7 +17805,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AQR%20Capital%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -17845,7 +17845,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Renaissance%20Technologies%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17883,7 +17883,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Renaissance%20Technologies%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -17923,7 +17923,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DRW%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -17963,7 +17963,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Virtu%20Financial%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -18001,7 +18001,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Virtu%20Financial%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -18041,7 +18041,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Five%20Rings%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -18081,7 +18081,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Akuna%20Capital%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -18121,7 +18121,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tower%20Research%20Capital%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -18161,7 +18161,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flow%20Traders%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -18201,7 +18201,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Old%20Mission%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -18241,7 +18241,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wolverine%20Trading%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -18281,7 +18281,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Belvedere%20Trading%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -18319,7 +18319,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stripe%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18355,8 +18355,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Stripe%20Corporate%20Finance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://stripe.com/jobs/listing/software-engineer-intern-summer-and-winter/7210115/apply"
   },
   {
     "id": "paypal-fintech-2027",
@@ -18393,8 +18393,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=PayPal%20Fintech%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://stripe.com/jobs/listing/software-engineer-intern-summer-and-winter/7210115/apply"
   },
   {
     "id": "paypal-corporate-finance-2027",
@@ -18429,7 +18429,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PayPal%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -18467,7 +18467,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Block%20(Square)%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18503,7 +18503,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Block%20(Square)%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -18541,7 +18541,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coinbase%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18579,7 +18579,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coinbase%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -18617,7 +18617,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Robinhood%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18653,7 +18653,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Robinhood%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -18691,7 +18691,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Plaid%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18729,7 +18729,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chime%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18767,7 +18767,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=SoFi%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18803,7 +18803,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=SoFi%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -18841,7 +18841,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Affirm%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18879,7 +18879,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Affirm%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -18917,7 +18917,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brex%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18955,7 +18955,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ramp%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -18993,7 +18993,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -19029,7 +19029,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19067,7 +19067,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19105,7 +19105,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -19141,7 +19141,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19177,7 +19177,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19215,7 +19215,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -19253,7 +19253,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19291,7 +19291,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fiserv%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -19327,7 +19327,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fiserv%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19363,7 +19363,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19401,7 +19401,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -19437,7 +19437,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -19475,7 +19475,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -19511,7 +19511,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19547,7 +19547,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -19585,7 +19585,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -19621,7 +19621,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -19657,7 +19657,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19695,7 +19695,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=The%20Hartford%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -19731,8 +19731,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=The%20Hartford%20Corporate%20Finance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.ford.com/en/programs/summer-internship-program.html"
   },
   {
     "id": "chubb-insurance-actuarial-2027",
@@ -19769,8 +19769,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Chubb%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.ford.com/en/programs/summer-internship-program.html"
   },
   {
     "id": "chubb-corporate-finance-2027",
@@ -19805,7 +19805,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chubb%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19843,7 +19843,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AIG%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -19879,7 +19879,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AIG%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19917,7 +19917,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -19955,7 +19955,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -19993,7 +19993,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -20029,7 +20029,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20067,7 +20067,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aflac%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -20103,7 +20103,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aflac%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20141,7 +20141,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=New%20York%20Life%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -20177,7 +20177,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=New%20York%20Life%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20215,7 +20215,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northwestern%20Mutual%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -20249,7 +20249,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northwestern%20Mutual%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20287,7 +20287,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -20323,7 +20323,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20361,7 +20361,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marsh%20McLennan%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -20399,7 +20399,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marsh%20McLennan%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20437,7 +20437,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aon%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -20475,7 +20475,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aon%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20509,7 +20509,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20Schwab%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20545,7 +20545,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20Schwab%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20579,7 +20579,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Wealth%20Management%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20613,8 +20613,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Merrill%20(Bank%20of%20America)%20Wealth%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
     "id": "edward-jones-wealth-management-2027",
@@ -20647,7 +20647,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edward%20Jones%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20681,7 +20681,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Raymond%20James%20(Wealth)%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20717,7 +20717,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amazon%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20753,8 +20753,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "microsoft-finance-corporate-finance-2027",
@@ -20789,8 +20789,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Microsoft%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "google-finance-corporate-finance-2027",
@@ -20825,8 +20825,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Google%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "johnson-johnson-finance-corporate-finance-2027",
@@ -20861,8 +20861,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "procter-gamble-finance-corporate-finance-2027",
@@ -20897,8 +20897,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "walt-disney-finance-corporate-finance-2027",
@@ -20933,7 +20933,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walt%20Disney%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20969,7 +20969,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -21005,7 +21005,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ExxonMobil%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -21041,7 +21041,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20(Finance)%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -21079,7 +21079,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FT%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21117,8 +21117,8 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Ardea%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "ardea-partners-ib-industrials-coverage-2027",
@@ -21155,7 +21155,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ardea%20Partners%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21193,7 +21193,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ardea%20Partners%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21231,7 +21231,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ardea%20Partners%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21269,7 +21269,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Raine%20Group%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21307,7 +21307,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=M.%20Klein%20%26%20Company%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21341,7 +21341,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=U.S.%20Bancorp%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -21379,7 +21379,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=U.S.%20Bancorp%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21417,7 +21417,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novelty%20Hill%20Capital%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21455,7 +21455,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agentis%20Capital%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21493,7 +21493,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chinook%20Capital%20Advisors%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21531,7 +21531,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zachary%20Scott%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21569,7 +21569,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=KeyBank%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21603,7 +21603,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=KeyBank%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -21641,7 +21641,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hennepin%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21679,7 +21679,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AQ%20Technology%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21717,7 +21717,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rockefeller%20Capital%20Management%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21751,7 +21751,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rockefeller%20Capital%20Management%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -21787,7 +21787,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rockefeller%20Capital%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -21825,7 +21825,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Provident%20Healthcare%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21863,7 +21863,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bridgepoint%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21901,7 +21901,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ziegler%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -21935,7 +21935,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ziegler%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -21973,7 +21973,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BrightTower%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22011,7 +22011,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Equiteq%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22049,7 +22049,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mesirow%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22083,7 +22083,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mesirow%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -22121,7 +22121,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mesirow%20Real%20Estate%2C%20Gaming%20%26%20Lodging%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22159,7 +22159,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cascadia%20Capital%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22197,7 +22197,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fifth%20Third%20Bank%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22231,7 +22231,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fifth%20Third%20Bank%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -22269,7 +22269,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capstone%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22307,7 +22307,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capstone%20Partners%20Industrials%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22343,7 +22343,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rabobank%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -22377,7 +22377,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rabobank%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -22415,7 +22415,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Huntington%20National%20Bank%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22449,7 +22449,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Huntington%20National%20Bank%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -22487,7 +22487,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lloyds%20Banking%20Group%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22521,7 +22521,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lloyds%20Banking%20Group%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -22555,7 +22555,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regions%20Bank%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -22593,7 +22593,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regions%20Bank%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22631,7 +22631,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MTS%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22669,7 +22669,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Howden%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22707,7 +22707,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Howden%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -22745,7 +22745,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northborne%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22783,7 +22783,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cantor%20Fitzgerald%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22821,7 +22821,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cantor%20Fitzgerald%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -22855,7 +22855,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cantor%20Fitzgerald%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -22893,7 +22893,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cantor%20Fitzgerald%20Financial%20Institutions%20Group%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22931,7 +22931,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aeris%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -22969,7 +22969,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tidal%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23007,7 +23007,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JLL%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23041,7 +23041,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JLL%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -23079,7 +23079,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MUFG%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23113,7 +23113,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MUFG%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -23151,7 +23151,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Capital%20Bank%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23189,7 +23189,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stout%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23227,7 +23227,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.plantemoran.com/2027-pmcf-investment-banking-summer-intern/job/16978F6FA5930EF3ED03A8EAD037D259"
   },
   {
@@ -23265,7 +23265,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eastdil%20Secured%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23299,7 +23299,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eastdil%20Secured%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -23337,7 +23337,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CMD%20Global%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23375,7 +23375,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Q%20Advisors%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23413,7 +23413,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Shea%20%26%20Company%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23451,7 +23451,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Campbell%20Lutyens%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23487,7 +23487,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Campbell%20Lutyens%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -23525,7 +23525,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BTIG%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -23563,7 +23563,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BTIG%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23601,7 +23601,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BTIG%20Technology%2C%20Media%20%26%20Telecom%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23639,7 +23639,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=D.A.%20Davidson%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23677,7 +23677,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=D.A.%20Davidson%20Healthcare%20Coverage%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23715,7 +23715,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GLC%20Advisors%20%26%20Co%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23753,7 +23753,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Loop%20Capital%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23787,7 +23787,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Loop%20Capital%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -23825,7 +23825,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Loop%20Capital%20Leveraged%20Finance%20investment%20banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23863,7 +23863,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marathon%20Capital%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23901,7 +23901,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Standard%20Chartered%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -23935,7 +23935,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Standard%20Chartered%20Capital%20Markets%20summer%202027%20internship%20careers"
   },
   {
@@ -23973,7 +23973,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VantEdge%20Partners%20Investment%20Banking%20summer%202027%20internship%20careers"
   },
   {
@@ -24009,7 +24009,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Waterfall%20Asset%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -24047,7 +24047,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Waterfall%20Asset%20Management%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -24083,7 +24083,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=StepStone%20Group%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24119,7 +24119,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=StepStone%20Group%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -24155,7 +24155,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=University%20Partners%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -24191,7 +24191,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=University%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24231,7 +24231,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capula%20Investment%20Management%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -24267,7 +24267,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brio%20Real%20Estate%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -24303,7 +24303,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brio%20Real%20Estate%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24339,7 +24339,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kline%20Hill%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24375,7 +24375,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lead%20Edge%20Capital%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24411,7 +24411,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lead%20Edge%20Capital%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -24447,7 +24447,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Apogem%20Capital%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24483,7 +24483,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Apogem%20Capital%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -24519,7 +24519,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Alpine%20Investors%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24555,7 +24555,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Arena%20Investors%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -24591,7 +24591,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Arena%20Investors%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24627,7 +24627,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Evergreen%20Services%20Group%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24663,7 +24663,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Koch%20Industries%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -24699,7 +24699,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Koch%20Industries%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24735,7 +24735,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PSG%20Equity%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24771,7 +24771,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PSG%20Equity%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -24807,7 +24807,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CIFC%20Asset%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -24845,7 +24845,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CIFC%20Asset%20Management%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -24881,7 +24881,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HarbourVest%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24917,7 +24917,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HarbourVest%20Partners%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -24953,7 +24953,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20Southwest%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -24989,7 +24989,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20Southwest%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -25025,7 +25025,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ardian%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25061,7 +25061,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ardian%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -25097,7 +25097,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Orion%20Group%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25133,7 +25133,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GCM%20Grosvenor%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25169,7 +25169,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GCM%20Grosvenor%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -25205,7 +25205,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GID%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -25241,7 +25241,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GID%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25281,7 +25281,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bracebridge%20Capital%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -25317,7 +25317,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Battery%20Ventures%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -25353,7 +25353,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Battery%20Ventures%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25389,7 +25389,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Audax%20Group%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25425,7 +25425,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Access%20Holdings%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25465,7 +25465,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Weiss%20Asset%20Management%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -25503,7 +25503,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Weiss%20Asset%20Management%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -25539,7 +25539,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oak%20Hill%20Advisors%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -25575,7 +25575,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oak%20Hill%20Advisors%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25615,7 +25615,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Balyasny%20Asset%20Management%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -25651,7 +25651,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PSP%20Investments%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25687,7 +25687,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PSP%20Investments%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -25725,7 +25725,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PSP%20Investments%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -25761,7 +25761,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=LLR%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25801,7 +25801,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Readystate%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -25837,7 +25837,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Readystate%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25873,7 +25873,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Silversmith%20Capital%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -25909,7 +25909,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Silversmith%20Capital%20Partners%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -25945,7 +25945,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ATLAS%20SP%20Partners%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -25983,7 +25983,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ATLAS%20SP%20Partners%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -26023,7 +26023,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sculptor%20Capital%20Management%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -26059,7 +26059,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sculptor%20Capital%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26095,7 +26095,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stone%20Point%20Capital%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26131,7 +26131,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Harris%20Associates%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26167,7 +26167,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Harris%20Associates%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -26203,7 +26203,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=The%20Riverside%20Company%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26239,7 +26239,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Graham%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26275,7 +26275,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GTCR%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26311,7 +26311,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=K1%20Investment%20Management%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26347,7 +26347,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Temasek%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26383,7 +26383,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Temasek%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26419,7 +26419,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nonantum%20Capital%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26455,7 +26455,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brinley%20Partners%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26491,7 +26491,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brinley%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26527,7 +26527,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Summit%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26563,7 +26563,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Summit%20Partners%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -26599,7 +26599,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sands%20Capital%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26635,7 +26635,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sands%20Capital%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -26671,7 +26671,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Long%20Ridge%20Equity%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26707,7 +26707,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Long%20Ridge%20Equity%20Partners%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -26743,7 +26743,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adams%20Street%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26779,7 +26779,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adams%20Street%20Partners%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26815,7 +26815,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Susquehanna%20Growth%20Equity%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26851,7 +26851,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Susquehanna%20Growth%20Equity%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -26887,7 +26887,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AEW%20Capital%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26923,7 +26923,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AEW%20Capital%20Management%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -26959,7 +26959,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AgWest%20Farm%20Credit%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -26997,7 +26997,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AgWest%20Farm%20Credit%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -27033,7 +27033,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blue%20Owl%20Capital%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27069,7 +27069,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blue%20Owl%20Capital%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -27109,7 +27109,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brevan%20Howard%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -27145,7 +27145,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ethical%20Capital%20Partners%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -27181,7 +27181,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GIC%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27217,7 +27217,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GIC%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -27255,7 +27255,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GIC%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -27291,7 +27291,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JMI%20Equity%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -27331,7 +27331,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=M31%20Capital%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -27367,7 +27367,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=M31%20Capital%20Venture%20Capital%20summer%202027%20internship%20careers"
   },
   {
@@ -27403,7 +27403,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stellex%20Capital%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -27443,7 +27443,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verition%20Fund%20Management%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -27479,7 +27479,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Barings%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27517,7 +27517,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Barings%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -27555,7 +27555,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rothesay%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -27591,7 +27591,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Rothesay%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27627,7 +27627,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UVIMCO%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27663,7 +27663,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PGIM%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27701,7 +27701,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PGIM%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -27737,7 +27737,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dodge%20%26%20Cox%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27773,7 +27773,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dodge%20%26%20Cox%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -27809,7 +27809,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TCW%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27847,7 +27847,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TCW%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -27883,7 +27883,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CBRE%20Investment%20Management%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27919,7 +27919,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CBRE%20Investment%20Management%20Private%20Equity%20summer%202027%20internship%20careers"
   },
   {
@@ -27953,7 +27953,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wealthspire%20Advisors%20Wealth%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27993,7 +27993,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abdiel%20Capital%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28029,7 +28029,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fidelity%20International%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -28065,7 +28065,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fidelity%20International%20Equity%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -28105,7 +28105,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Voloridge%20Investment%20Management%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28143,7 +28143,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Voloridge%20Investment%20Management%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -28183,7 +28183,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aquatic%20Capital%20Management%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28223,7 +28223,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GTS%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28261,7 +28261,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GTS%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -28299,7 +28299,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Musket%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -28339,7 +28339,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Musket%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28377,7 +28377,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Castleton%20Commodities%20International%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -28417,7 +28417,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chicago%20Trading%20Company%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28457,7 +28457,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DV%20Trading%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28495,7 +28495,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DV%20Trading%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -28535,7 +28535,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSA%20Capital%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28573,7 +28573,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gunvor%20Group%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -28613,7 +28613,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quantbot%20Technologies%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28653,7 +28653,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Squarepoint%20Capital%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28691,7 +28691,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Squarepoint%20Capital%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -28729,7 +28729,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Talos%20Fintech%20summer%202027%20internship%20careers"
   },
   {
@@ -28769,7 +28769,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Talos%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28807,7 +28807,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Trillium%20Trading%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -28847,7 +28847,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Trillium%20Trading%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28887,7 +28887,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Xantium%20Hedge%20Fund%20%2F%20Quant%20summer%202027%20internship%20careers"
   },
   {
@@ -28925,7 +28925,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BP%20(Trading)%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -28963,7 +28963,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Equinor%20(Trading)%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -29001,7 +29001,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Shell%20(Trading)%20Sales%20%26%20Trading%20summer%202027%20internship%20careers"
   },
   {
@@ -29039,7 +29039,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Federated%20Insurance%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -29075,7 +29075,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Federated%20Insurance%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -29113,7 +29113,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Global%20Atlantic%20Insurance%20%2F%20Actuarial%20summer%202027%20internship%20careers"
   },
   {
@@ -29149,7 +29149,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Global%20Atlantic%20Asset%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -29185,7 +29185,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Global%20Atlantic%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -29221,7 +29221,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Apple%20(Finance%20Dev%20Program)%20Corporate%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -29259,7 +29259,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moody's%20Risk%20%26%20Quant%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -29295,7 +29295,7 @@ window.FINANCE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moody's%20Corporate%20Finance%20summer%202027%20internship%20careers"
   }
 ];

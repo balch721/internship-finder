@@ -2075,8 +2075,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Brand%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "walmart-digital-growth-marketing-2027",
@@ -2111,8 +2111,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "walmart-sales-business-development-2027",
@@ -2147,8 +2147,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "amazon-brand-marketing-2027",
@@ -2181,8 +2181,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Brand%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "amazon-digital-growth-marketing-2027",
@@ -2217,8 +2217,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "amazon-sales-business-development-2027",
@@ -2253,8 +2253,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "apple-brand-marketing-2027",
@@ -2287,8 +2287,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Brand%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "apple-digital-growth-marketing-2027",
@@ -2323,8 +2323,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "apple-sales-business-development-2027",
@@ -2359,8 +2359,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "cvs-health-brand-marketing-2027",
@@ -2393,8 +2393,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Brand%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "cvs-health-digital-growth-marketing-2027",
@@ -2429,8 +2429,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "cvs-health-sales-business-development-2027",
@@ -2465,8 +2465,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "alphabet-google-brand-marketing-2027",
@@ -2499,8 +2499,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Brand%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "alphabet-google-digital-growth-marketing-2027",
@@ -2535,8 +2535,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "alphabet-google-sales-business-development-2027",
@@ -2571,8 +2571,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "costco-brand-marketing-2027",
@@ -2605,7 +2605,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -2641,7 +2641,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -2677,7 +2677,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -2711,8 +2711,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Microsoft%20Brand%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "microsoft-digital-growth-marketing-2027",
@@ -2747,8 +2747,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Microsoft%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "microsoft-sales-business-development-2027",
@@ -2783,8 +2783,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Microsoft%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "ford-motor-brand-marketing-2027",
@@ -2817,8 +2817,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Brand%20Marketing%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://www.careers.ford.com/en/programs/summer-internship-program.html"
   },
   {
     "id": "ford-motor-digital-growth-marketing-2027",
@@ -2853,8 +2853,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.ford.com/en/programs/summer-internship-program.html"
   },
   {
     "id": "ford-motor-sales-business-development-2027",
@@ -2889,8 +2889,8 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://www.careers.ford.com/en/programs/summer-internship-program.html"
   },
   {
     "id": "general-motors-brand-marketing-2027",
@@ -2923,7 +2923,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -2959,7 +2959,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -2995,7 +2995,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3029,7 +3029,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3065,7 +3065,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3101,7 +3101,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3135,7 +3135,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3171,7 +3171,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3207,7 +3207,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3241,7 +3241,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3277,7 +3277,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3313,7 +3313,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3347,7 +3347,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3383,7 +3383,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3419,7 +3419,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3453,7 +3453,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3489,7 +3489,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3525,7 +3525,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3559,7 +3559,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3595,7 +3595,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3631,7 +3631,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3665,7 +3665,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3701,7 +3701,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3737,7 +3737,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3771,7 +3771,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3807,7 +3807,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3843,7 +3843,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3877,7 +3877,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3913,7 +3913,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -3949,7 +3949,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3983,7 +3983,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4019,7 +4019,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4055,7 +4055,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4089,7 +4089,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4125,7 +4125,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4161,7 +4161,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4195,7 +4195,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4231,7 +4231,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4267,7 +4267,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4301,7 +4301,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4337,7 +4337,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4373,7 +4373,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4407,7 +4407,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4443,7 +4443,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4479,7 +4479,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4513,7 +4513,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4549,7 +4549,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4585,7 +4585,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4619,7 +4619,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4655,7 +4655,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4691,7 +4691,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4725,7 +4725,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4761,7 +4761,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4797,7 +4797,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4831,7 +4831,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4867,7 +4867,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4903,7 +4903,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4937,7 +4937,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -4973,7 +4973,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5009,7 +5009,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5043,7 +5043,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5079,7 +5079,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5115,7 +5115,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5149,7 +5149,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5185,7 +5185,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5221,7 +5221,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5255,7 +5255,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5291,7 +5291,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5327,7 +5327,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5361,7 +5361,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5397,7 +5397,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5433,7 +5433,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5467,7 +5467,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5503,7 +5503,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5539,7 +5539,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5573,7 +5573,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5609,7 +5609,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5645,7 +5645,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5679,7 +5679,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5715,7 +5715,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5751,7 +5751,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5785,7 +5785,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5821,7 +5821,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5857,7 +5857,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5891,7 +5891,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5927,7 +5927,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -5963,7 +5963,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5997,7 +5997,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6033,7 +6033,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6069,7 +6069,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6103,7 +6103,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6139,7 +6139,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6175,7 +6175,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6209,7 +6209,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6245,7 +6245,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6281,7 +6281,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6315,7 +6315,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6351,7 +6351,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6387,7 +6387,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6421,7 +6421,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6457,7 +6457,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6493,7 +6493,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6527,7 +6527,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6563,7 +6563,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6599,7 +6599,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6633,7 +6633,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6669,7 +6669,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6705,7 +6705,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6739,7 +6739,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6775,7 +6775,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6811,7 +6811,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6845,7 +6845,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6881,7 +6881,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6917,7 +6917,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6951,7 +6951,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -6987,7 +6987,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7023,7 +7023,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7057,7 +7057,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7093,7 +7093,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7129,7 +7129,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7163,7 +7163,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7199,7 +7199,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7235,7 +7235,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7269,7 +7269,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7305,7 +7305,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7341,7 +7341,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7375,7 +7375,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7411,7 +7411,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7447,7 +7447,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7481,7 +7481,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7517,7 +7517,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7553,7 +7553,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7587,7 +7587,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7623,7 +7623,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7659,7 +7659,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7693,7 +7693,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7729,7 +7729,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7765,7 +7765,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7799,7 +7799,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7835,7 +7835,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7871,7 +7871,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7905,7 +7905,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7941,7 +7941,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -7977,7 +7977,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8011,7 +8011,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8047,7 +8047,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8083,7 +8083,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8117,7 +8117,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8153,7 +8153,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8189,7 +8189,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8223,7 +8223,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8259,7 +8259,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8295,7 +8295,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8329,7 +8329,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8365,7 +8365,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8401,7 +8401,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8435,7 +8435,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8471,7 +8471,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8507,7 +8507,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8541,7 +8541,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8577,7 +8577,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8613,7 +8613,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8647,7 +8647,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8683,7 +8683,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8719,7 +8719,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8753,7 +8753,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8789,7 +8789,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8825,7 +8825,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8859,7 +8859,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8895,7 +8895,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -8931,7 +8931,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8965,7 +8965,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9001,7 +9001,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9037,7 +9037,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9071,7 +9071,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9107,7 +9107,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9143,7 +9143,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9177,7 +9177,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9213,7 +9213,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9249,7 +9249,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9283,7 +9283,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9319,7 +9319,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9355,7 +9355,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9389,7 +9389,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9425,7 +9425,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9461,7 +9461,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9495,7 +9495,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9531,7 +9531,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9567,7 +9567,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9601,7 +9601,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9637,7 +9637,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9673,7 +9673,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9707,7 +9707,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9743,7 +9743,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9779,7 +9779,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9813,7 +9813,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9849,7 +9849,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9885,7 +9885,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -9919,7 +9919,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9955,7 +9955,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -9991,7 +9991,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -10025,7 +10025,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10061,7 +10061,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10097,7 +10097,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -10131,7 +10131,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10167,7 +10167,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10203,7 +10203,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Sales%20%26%20Business%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -10237,7 +10237,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Omnicom%20Group%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -10271,7 +10271,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Omnicom%20Group%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10305,7 +10305,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Omnicom%20Group%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -10341,7 +10341,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Omnicom%20Group%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10375,7 +10375,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WPP%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -10409,7 +10409,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WPP%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10443,7 +10443,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WPP%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -10479,7 +10479,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WPP%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10513,7 +10513,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Publicis%20Groupe%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -10547,7 +10547,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Publicis%20Groupe%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10581,7 +10581,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Publicis%20Groupe%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -10617,7 +10617,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Publicis%20Groupe%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10651,7 +10651,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Interpublic%20Group%20(IPG)%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -10685,7 +10685,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Interpublic%20Group%20(IPG)%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10719,7 +10719,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Interpublic%20Group%20(IPG)%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -10755,7 +10755,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Interpublic%20Group%20(IPG)%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10789,7 +10789,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dentsu%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -10823,7 +10823,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dentsu%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10857,7 +10857,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dentsu%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -10893,7 +10893,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dentsu%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10927,7 +10927,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Havas%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -10961,7 +10961,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Havas%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -10995,7 +10995,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Havas%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -11031,7 +11031,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Havas%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11065,7 +11065,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ogilvy%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -11099,7 +11099,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ogilvy%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11133,7 +11133,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ogilvy%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -11169,7 +11169,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ogilvy%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11203,7 +11203,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BBDO%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -11237,7 +11237,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BBDO%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11271,7 +11271,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BBDO%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -11307,7 +11307,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BBDO%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11341,7 +11341,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McCann%20Worldgroup%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -11375,7 +11375,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McCann%20Worldgroup%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11409,7 +11409,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McCann%20Worldgroup%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -11445,7 +11445,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McCann%20Worldgroup%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11479,7 +11479,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wieden%2BKennedy%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -11513,7 +11513,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wieden%2BKennedy%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11547,7 +11547,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wieden%2BKennedy%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -11583,7 +11583,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wieden%2BKennedy%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11617,7 +11617,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Droga5%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -11651,7 +11651,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Droga5%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11685,7 +11685,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Droga5%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -11721,7 +11721,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Droga5%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11755,7 +11755,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VML%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -11789,7 +11789,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VML%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11823,7 +11823,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VML%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -11859,7 +11859,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VML%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11893,7 +11893,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GroupM%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -11927,7 +11927,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GroupM%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -11961,7 +11961,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GroupM%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -11997,7 +11997,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GroupM%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12031,7 +12031,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edelman%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -12065,7 +12065,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edelman%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12099,7 +12099,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edelman%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -12135,7 +12135,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edelman%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12169,7 +12169,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Weber%20Shandwick%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -12203,7 +12203,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Weber%20Shandwick%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12237,7 +12237,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Weber%20Shandwick%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -12273,7 +12273,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Weber%20Shandwick%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12307,7 +12307,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FleishmanHillard%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -12341,7 +12341,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FleishmanHillard%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12375,7 +12375,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FleishmanHillard%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -12411,7 +12411,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FleishmanHillard%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12445,7 +12445,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digitas%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -12479,7 +12479,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digitas%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12513,7 +12513,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digitas%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -12549,7 +12549,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digitas%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12583,7 +12583,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Razorfish%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -12617,7 +12617,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Razorfish%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12651,7 +12651,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Razorfish%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -12687,7 +12687,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Razorfish%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12721,7 +12721,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=R%2FGA%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -12755,7 +12755,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=R%2FGA%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12789,7 +12789,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=R%2FGA%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -12825,7 +12825,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=R%2FGA%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12859,7 +12859,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=The%20Martin%20Agency%20Advertising%20%26%20Media%20summer%202027%20internship%20careers"
   },
   {
@@ -12893,7 +12893,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=The%20Martin%20Agency%20Brand%20Marketing%20summer%202027%20internship%20careers"
   },
   {
@@ -12927,7 +12927,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=The%20Martin%20Agency%20Public%20Relations%20%26%20Comms%20summer%202027%20internship%20careers"
   },
   {
@@ -12963,7 +12963,7 @@ window.MARKETING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=The%20Martin%20Agency%20Digital%20%26%20Growth%20Marketing%20summer%202027%20internship%20careers"
   }
 ];

@@ -175,6 +175,22 @@ html{background-color:#080d16;background-image:linear-gradient(180deg,#080d16 0%
 html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
 
 /*mobile-static*/@media (max-width:768px){.flashlight,.starsky{display:none !important}.aurora{opacity:.5 !important}}
+
+/* uniform filter-bar layout (same on every section page) */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.controls>input[type=search]{flex:1 1 100%;min-width:0}
+.controls>.sel{flex:1 1 0;min-width:150px}
+.controls>.sel select{flex:1;width:100%}
+@media(max-width:680px){.controls>.sel{flex:1 1 100%}}
+
+/* Verified vs Expected system */
+.disclaimer{margin-top:12px;font-size:12px;line-height:1.5;color:var(--muted);background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:9px 13px;position:relative}
+.disclaimer b{color:var(--text)}
+.vbadge{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.4px;padding:3px 7px;border-radius:6px;text-transform:uppercase}
+.vbadge.verified{background:rgba(54,211,153,.16);color:#36d399;border:1px solid rgba(54,211,153,.4)}
+.vbadge.expected{background:rgba(245,165,36,.14);color:#f5a524;border:1px solid rgba(245,165,36,.34)}
+.cardapply{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:#fff;background:var(--accent);padding:6px 12px;border-radius:8px;text-decoration:none;margin-top:2px;width:fit-content}
+.cardapply:hover{filter:brightness(1.08)}
 </style>
 <script src="transition.js?v=4"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="light.css?v=3">
@@ -188,6 +204,7 @@ html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
     <a href="database.html" class="backlink">← Back to database</a>
     <h1 style="margin-top:6px">Engineering — Summer 2027</h1>
     <div class="sub">Mechanical, electrical, civil, chemical, industrial, aerospace, biomedical &amp; environmental engineering internships &amp; co-ops · tier, competitiveness, pay, stock &amp; networking · last update: <span id="updated"></span></div>
+    <div class="disclaimer"><b>About these listings:</b> roles marked <span class="vbadge verified">Verified</span> have a confirmed, currently-open application link. Roles marked <span class="vbadge expected">Expected</span> are based on the employer's past cycles and have not yet been confirmed open for this year — treat them as strong leads, not guaranteed openings. Pay, acceptance rates and some deadlines are estimates (labeled “est.”).</div>
     <div class="controls">
       <input id="search" type="search" placeholder="Search firm, role, or keyword…">
       <label class="sel"><span class="lbl">Level</span><select id="levelSel"></select></label>
@@ -280,12 +297,12 @@ html[data-theme="light"]{--lt-r:240;--lt-g:186;--lt-b:150}
   function cardHTML(d){
     const c=C[d.company]||{};const soph=d.level==="Sophomore / early-insight";
     return `
-      ${(function(){var b=[];if(d.isNew)b.push('<span class="badge new">NEW</span>');var lv=((d.level||"")+" "+(d.role||""));if(/sophomore|freshman|first.?year|early.?insight|rising sophomore/i.test(lv))b.push('<span class="lvlbadge soph">SOPHOMORE</span>');else b.push('<span class="lvlbadge jr">JUNIOR</span>');return '<div class="badgewrap">'+b.join("")+'</div>';})()}
+      ${(function(){var b=[];b.push(d.verified?'<span class="vbadge verified">Verified</span>':'<span class="vbadge expected">Expected</span>');if(d.isNew)b.push('<span class="badge new">NEW</span>');var lv=((d.level||"")+" "+(d.role||""));if(/sophomore|freshman|first.?year|early.?insight|rising sophomore/i.test(lv))b.push('<span class="lvlbadge soph">SOPHOMORE</span>');else b.push('<span class="lvlbadge jr">JUNIOR</span>');return '<div class="badgewrap">'+b.join("")+'</div>';})()}
       <div class="co">${d.company}</div>
       <div class="tagrow"><span class="tier">${c.tier||""}</span>${fortuneBadge(c)}${startupBadge(c)}</div>
       <div class="role">${d.role}</div>
       <div class="row"><span class="status ${statusClass(d.status)}">${d.status}</span> ${cdBadge(d)}</div>
-      <div class="row">${isOpen(d.status)?'<span class="livehint on">✅ apply link live</span>':'<span class="livehint off">🔜 apply link coming soon</span>'}</div>
+      <div class="row">${(d.verified&&d.applyUrl&&/^https?:/.test(d.applyUrl))?'<a class="cardapply" href="'+d.applyUrl+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">Apply ↗</a>':'<span class="livehint off">🔜 apply link not yet confirmed</span>'}</div>
       <div class="row"><span class="stars" title="Competitiveness (est.)">${stars(c.compScore||0)}</span><span style="color:var(--muted)">${c.acceptanceRate||""}</span></div>
       <div class="row"><span class="pay">💵 ${d.comp||"—"}</span></div>
       <div class="about">${d.about}</div>

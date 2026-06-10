@@ -8978,8 +8978,8 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/about/careers/applications/students/"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "meta-2027",
@@ -9024,7 +9024,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": true, "isNew": false,
     "applyUrl": "https://www.metacareers.com/careerprograms/students"
   },
   {
@@ -9074,8 +9074,8 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
-    "applyUrl": "https://www.amazon.jobs/content/en/career-programs/university"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "microsoft-2027",
@@ -9124,8 +9124,8 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
-    "applyUrl": "https://careers.microsoft.com/v2/global/en/students"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "apple-2027",
@@ -9170,8 +9170,8 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
-    "applyUrl": "https://www.apple.com/careers/us/students.html"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "netflix-2027",
@@ -9216,7 +9216,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://explore.jobs.netflix.net/careers"
   },
   {
@@ -9261,7 +9261,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
   },
   {
@@ -9309,7 +9309,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.salesforce.com/company/careers/university-recruiting/"
   },
   {
@@ -9355,7 +9355,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.adobe.com/careers/university.html"
   },
   {
@@ -9402,7 +9402,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.oracle.com/careers/students-grads/"
   },
   {
@@ -9452,7 +9452,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.ibm.com/careers/internships"
   },
   {
@@ -9498,7 +9498,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.uber.com/us/en/careers/teams/university/"
   },
   {
@@ -9548,7 +9548,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careersatdoordash.com/university-careers/"
   },
   {
@@ -9594,7 +9594,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.pinterestcareers.com/university/"
   },
   {
@@ -9640,7 +9640,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.snap.com/university-grads"
   },
   {
@@ -9686,7 +9686,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.redditinc.com/careers"
   },
   {
@@ -9732,7 +9732,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.lifeatspotify.com/students"
   },
   {
@@ -9782,7 +9782,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.linkedin.com/students"
   },
   {
@@ -9827,7 +9827,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.databricks.com/company/careers/university-recruiting"
   },
   {
@@ -9872,7 +9872,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.snowflake.com/us/en/university"
   },
   {
@@ -9922,7 +9922,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.palantir.com/careers/students-and-early-talent/"
   },
   {
@@ -9970,7 +9970,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://stripe.com/jobs/university"
   },
   {
@@ -10020,7 +10020,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://block.xyz/careers/early-careers"
   },
   {
@@ -10068,7 +10068,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.intuit.com/careers/programs/internships/"
   },
   {
@@ -10120,7 +10120,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/data-analytics-opportunities"
   },
   {
@@ -10161,7 +10161,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
   },
   {
@@ -10211,7 +10211,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.morganstanley.com/people-opportunities/students-graduates"
   },
   {
@@ -10259,7 +10259,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs/quantitative-data-analytics"
   },
   {
@@ -10309,7 +10309,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.citi.com/early-careers"
   },
   {
@@ -10355,7 +10355,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.wellsfargojobs.com/en/early-careers/undergraduate-programs/analytics-data/"
   },
   {
@@ -10403,7 +10403,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.capitalonecareers.com/internship-programs"
   },
   {
@@ -10453,7 +10453,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.americanexpress.com/en-us/careers/student-programs/global-students-page.html"
   },
   {
@@ -10501,7 +10501,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.mastercard.com/us/en/students"
   },
   {
@@ -10549,7 +10549,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://corporate.visa.com/en/careers/early-careers.html"
   },
   {
@@ -10599,7 +10599,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.blackrock.com/students-and-graduates-americas"
   },
   {
@@ -10645,7 +10645,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.fidelity.com/en/students/internships/"
   },
   {
@@ -10693,7 +10693,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.vanguardjobs.com/students-and-recent-graduates/internships/"
   },
   {
@@ -10739,7 +10739,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.statestreet.com/global/en/state-street-early-careers"
   },
   {
@@ -10780,7 +10780,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.citadel.com/careers/internships/"
   },
   {
@@ -10821,7 +10821,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.citadelsecurities.com/careers/internships/"
   },
   {
@@ -10862,7 +10862,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.twosigma.com/careers/internships/"
   },
   {
@@ -10903,7 +10903,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.janestreet.com/join-jane-street/internships/"
   },
   {
@@ -10944,7 +10944,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.deshaw.com/careers/internships"
   },
   {
@@ -10985,7 +10985,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.point72.com/"
   },
   {
@@ -11026,7 +11026,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.mlp.com/careers/students/"
   },
   {
@@ -11067,7 +11067,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.aqr.com/About-Us/Our-Internship-Program"
   },
   {
@@ -11108,7 +11108,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.bridgewater.com/working-at-bridgewater/students"
   },
   {
@@ -11149,7 +11149,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.jumptrading.com/hr/students-new-grads"
   },
   {
@@ -11197,7 +11197,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.walmart.com/us/en/home/careers-areas/students"
   },
   {
@@ -11243,7 +11243,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://corporate.target.com/careers/career-areas/intern-entry-level/internships"
   },
   {
@@ -11286,7 +11286,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.costco.com/"
   },
   {
@@ -11334,7 +11334,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.homedepot.com/students-internships/"
   },
   {
@@ -11382,7 +11382,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://talent.lowes.com/us/en/students-and-grads"
   },
   {
@@ -11428,7 +11428,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.thekrogerco.com/careers/students/"
   },
   {
@@ -11471,7 +11471,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.albertsonscompanies.com/careers/internships.html"
   },
   {
@@ -11519,7 +11519,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.cvshealth.com/us/en/students"
   },
   {
@@ -11562,7 +11562,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.walgreens.com/en/students"
   },
   {
@@ -11610,7 +11610,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.pgcareers.com/global/en/internships"
   },
   {
@@ -11656,7 +11656,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.unilever.com/early-careers"
   },
   {
@@ -11706,7 +11706,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.pepsicojobs.com/internshipsprograms"
   },
   {
@@ -11752,7 +11752,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.coca-colacompany.com/careers/career-areas"
   },
   {
@@ -11795,7 +11795,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.nestlejobs.com/early-careers"
   },
   {
@@ -11841,7 +11841,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://mondelezinternational.com/Careers/Early-Careers"
   },
   {
@@ -11889,7 +11889,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.generalmills.com/campus"
   },
   {
@@ -11932,7 +11932,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.kraftheinz.com/"
   },
   {
@@ -11975,7 +11975,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.kimberly-clark.com/en/career-pathways/interns-and-new-graduates"
   },
   {
@@ -12021,7 +12021,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.colgate.com/content/student-opportunities/"
   },
   {
@@ -12069,7 +12069,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.nike.com/"
   },
   {
@@ -12115,7 +12115,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.lululemon.com/"
   },
   {
@@ -12161,7 +12161,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.levistrauss.com/careers/"
   },
   {
@@ -12207,7 +12207,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.elcompanies.com/en/careers/students/internships"
   },
   {
@@ -12255,7 +12255,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.starbucks.com/discover-opportunities/internships/"
   },
   {
@@ -12303,7 +12303,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.unitedhealthgroup.com/careers/en/early-careers/programs/technology-and-analytics.html"
   },
   {
@@ -12351,7 +12351,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.thecignagroup.com/us/en/summer-internship-program"
   },
   {
@@ -12399,7 +12399,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.elevancehealth.com/early-student-opportunities"
   },
   {
@@ -12447,7 +12447,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.humana.com/us/en/students-professional-programs"
   },
   {
@@ -12495,7 +12495,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/"
   },
   {
@@ -12543,7 +12543,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.pfizer.com/en/about/careers/early-careers"
   },
   {
@@ -12588,7 +12588,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.merck.com/us/en/interns"
   },
   {
@@ -12634,7 +12634,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.lilly.com/us/en/internships"
   },
   {
@@ -12682,7 +12682,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.abbvie.com/join-us/internships.html"
   },
   {
@@ -12732,7 +12732,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.amgen.com/en/students-graduates"
   },
   {
@@ -12778,7 +12778,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.bms.com/internships-co-ops/"
   },
   {
@@ -12824,7 +12824,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.gene.com/us/en/internship-opportunities"
   },
   {
@@ -12874,7 +12874,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.novartis.com/us-en/careers/early-talent"
   },
   {
@@ -12920,7 +12920,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.modernatx.com/en-US/careers/students-early-career"
   },
   {
@@ -12968,7 +12968,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.medtronic.com/en-us/our-company/careers/early-careers.html"
   },
   {
@@ -13016,7 +13016,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.jobs.abbott/us/en/university-internship-program"
   },
   {
@@ -13064,7 +13064,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.bostonscientific.com/en-US/careers/students.html"
   },
   {
@@ -13110,7 +13110,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.gehealthcare.com/global/en/internship"
   },
   {
@@ -13155,7 +13155,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.geaerospace.com/global/en/us-internships"
   },
   {
@@ -13203,7 +13203,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.boeing.com/it-internships"
   },
   {
@@ -13249,7 +13249,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.lockheedmartin.com/en-us/careers/candidates/students-early-careers/internships.html"
   },
   {
@@ -13297,7 +13297,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.rtx.com/global/en/campus"
   },
   {
@@ -13345,7 +13345,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.honeywell.com/us/en/students-graduates"
   },
   {
@@ -13393,7 +13393,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.caterpillar.com/en/students-graduates/interns-and-graduates/"
   },
   {
@@ -13438,7 +13438,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.deere.com/"
   },
   {
@@ -13487,7 +13487,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.3m.com/3M/en_US/careers-us/"
   },
   {
@@ -13535,7 +13535,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.careers.ford.com/en/programs/students-and-graduates.html"
   },
   {
@@ -13583,7 +13583,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://search-careers.gm.com/en/early-careers/internship-program/"
   },
   {
@@ -13630,7 +13630,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.tesla.com/careers/internships"
   },
   {
@@ -13678,7 +13678,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://corporate.exxonmobil.com/careers/internship-opportunities"
   },
   {
@@ -13723,7 +13723,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.chevron.com/students-and-graduates/internship-programs"
   },
   {
@@ -13768,7 +13768,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.att.jobs/early-careers"
   },
   {
@@ -13814,7 +13814,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://mycareer.verizon.com/life-at-verizon/students-internships/"
   },
   {
@@ -13859,7 +13859,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.t-mobile.com/internship"
   },
   {
@@ -13907,7 +13907,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.disneycareers.com/internships"
   },
   {
@@ -13958,7 +13958,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.wbd.com/early-careers"
   },
   {
@@ -14008,7 +14008,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.nbcunicareers.com/early-careers"
   },
   {
@@ -14054,7 +14054,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.paramount.com/careers"
   },
   {
@@ -14102,7 +14102,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.sonyinteractive.com/en/careers/students-and-graduates/"
   },
   {
@@ -14150,7 +14150,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.ea.com/careers/early-careers"
   },
   {
@@ -14201,7 +14201,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.riotgames.com/en/university-programs"
   },
   {
@@ -14251,7 +14251,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.epicgames.com/site/en-US/careers/students"
   },
   {
@@ -14302,7 +14302,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.roblox.com/university"
   },
   {
@@ -14348,7 +14348,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.take2games.com/careers"
   },
   {
@@ -14396,7 +14396,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.nba.com"
   },
   {
@@ -14444,7 +14444,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.nfl.com/careers/"
   },
   {
@@ -14492,7 +14492,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.mlb.com/careers"
   },
   {
@@ -14543,7 +14543,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.nielsen.com/careers/students-and-graduates/"
   },
   {
@@ -14589,7 +14589,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.marriott.com/students-and-grads/"
   },
   {
@@ -14635,7 +14635,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.hilton.com/us/en/early-career"
   },
   {
@@ -14683,7 +14683,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.delta.com/us/en/careers/students-and-grads"
   },
   {
@@ -14731,7 +14731,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.united.com/us/en/students"
   },
   {
@@ -14774,7 +14774,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.aa.com/students-and-grads"
   },
   {
@@ -14817,7 +14817,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.southwestair.com/university"
   },
   {
@@ -14868,7 +14868,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.expediagroup.com/early-careers/"
   },
   {
@@ -14919,7 +14919,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.booking.com/early-careers"
   },
   {
@@ -14969,7 +14969,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.mckinsey.com/careers/students"
   },
   {
@@ -15019,7 +15019,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.bcg.com/bcgx"
   },
   {
@@ -15069,7 +15069,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://fractal.ai/careers/"
   },
   {
@@ -15119,7 +15119,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.tigeranalytics.com/careers/"
   },
   {
@@ -15167,7 +15167,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.numerator.com/careers/"
   },
   {
@@ -15218,7 +15218,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.circana.com/careers"
   },
   {
@@ -15268,7 +15268,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://job-boards.greenhouse.io/8451university"
   },
   {
@@ -15316,7 +15316,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.gartner.com/students"
   },
   {
@@ -15364,7 +15364,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.mckesson.com/careers/students-and-early-career/"
   },
   {
@@ -15412,7 +15412,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.virtual.cencora.com/early-talent"
   },
   {
@@ -15460,7 +15460,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.cardinalhealth.com/en/careers/students-and-grads.html"
   },
   {
@@ -15508,7 +15508,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.centene.com/us/en/students"
   },
   {
@@ -15558,7 +15558,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.dell.com/en/university-relations"
   },
   {
@@ -15608,7 +15608,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.cisco.com/c/en/us/about/careers/we-are-cisco/early-in-career.html"
   },
   {
@@ -15658,7 +15658,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.intel.com/content/www/us/en/jobs/students.html"
   },
   {
@@ -15706,7 +15706,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.hp.com/us-en/careers/students-graduates.html"
   },
   {
@@ -15753,7 +15753,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.hpe.com/us/en/students"
   },
   {
@@ -15801,7 +15801,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.qualcomm.com/company/careers/university"
   },
   {
@@ -15851,7 +15851,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.micron.com/careers/students-and-graduates"
   },
   {
@@ -15899,7 +15899,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.ti.com/students-and-graduates/"
   },
   {
@@ -15947,7 +15947,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.broadcom.com/company/careers/students"
   },
   {
@@ -15997,7 +15997,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.amd.com/en/corporate/careers/students-graduates.html"
   },
   {
@@ -16048,7 +16048,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.prudential.com/early-careers"
   },
   {
@@ -16096,7 +16096,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.metlife.com/us-en/early-careers"
   },
   {
@@ -16147,7 +16147,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.allstate.jobs/students/"
   },
   {
@@ -16198,7 +16198,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.progressive.com/careers/students-and-grads/"
   },
   {
@@ -16249,7 +16249,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.travelers.com/early-career/"
   },
   {
@@ -16297,7 +16297,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.aig.com/careers/students-and-graduates"
   },
   {
@@ -16345,7 +16345,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.tysonfoods.com/careers/early-careers"
   },
   {
@@ -16393,7 +16393,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.sysco.com/early-careers"
   },
   {
@@ -16441,7 +16441,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.adm.com/en-us/careers/students-and-graduates/"
   },
   {
@@ -16489,7 +16489,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.gd.com/careers"
   },
   {
@@ -16537,7 +16537,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.northropgrumman.com/careers/students-and-entry-level"
   },
   {
@@ -16585,7 +16585,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.fedex.com/early-careers"
   },
   {
@@ -16636,7 +16636,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.jobs-ups.com/early-career"
   },
   {
@@ -16684,7 +16684,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.spectrum.com/early-careers"
   },
   {
@@ -16730,7 +16730,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.tjx.com/careers/students-and-grads"
   },
   {
@@ -16776,7 +16776,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.bestbuy-jobs.com/corporate/early-careers/"
   },
   {
@@ -16819,7 +16819,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.dollargeneral.com/early-career"
   },
   {
@@ -16862,7 +16862,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.sherwin-williams.com/early-careers/"
   },
   {
@@ -16910,7 +16910,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.phillips66.com/careers/students-and-graduates/"
   },
   {
@@ -16958,7 +16958,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.valero.com/"
   },
   {
@@ -17006,7 +17006,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.marathonpetroleum.com/Careers/"
   },
   {
@@ -17054,7 +17054,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.conocophillips.com/careers/students-graduates/"
   },
   {
@@ -17102,7 +17102,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://corporate.dow.com/en-us/careers/students-and-graduates.html"
   },
   {
@@ -17150,7 +17150,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.dupont.com/us/en/students"
   },
   {
@@ -17201,7 +17201,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.usbank.com/global/en/students"
   },
   {
@@ -17252,7 +17252,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.pnc.com/en/careers/early-talent.html"
   },
   {
@@ -17303,7 +17303,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.truist.com/us/en/early-careers"
   },
   {
@@ -17354,7 +17354,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.aboutschwab.com/careers/internships"
   },
   {
@@ -17402,7 +17402,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.careers.fiserv.com/early-career"
   },
   {
@@ -17450,7 +17450,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.fisglobal.com/us/en/early-career"
   },
   {
@@ -17498,7 +17498,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://jobs.globalpayments.com/en/early-careers/"
   },
   {
@@ -17546,7 +17546,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.appliedmaterials.com/students"
   },
   {
@@ -17589,7 +17589,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://nucor.com/careers"
   },
   {
@@ -17635,7 +17635,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://openai.com/careers/",
     "startup": true
   },
@@ -17677,7 +17677,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.anthropic.com/careers/jobs",
     "startup": true
   },
@@ -17723,7 +17723,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://scale.com/careers/university",
     "startup": true
   },
@@ -17770,7 +17770,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.perplexity.ai/hub/careers",
     "startup": true
   },
@@ -17821,7 +17821,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://ramp.com/emerging-talent",
     "startup": true
   },
@@ -17872,7 +17872,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.brex.com/careers",
     "startup": true
   },
@@ -17921,7 +17921,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://mercury.com/jobs",
     "startup": true
   },
@@ -17969,7 +17969,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://plaid.com/careers/",
     "startup": true
   },
@@ -18018,7 +18018,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.rippling.com/careers",
     "startup": true
   },
@@ -18062,7 +18062,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.deel.com/careers/",
     "startup": true
   },
@@ -18111,7 +18111,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://gusto.com/about/careers",
     "startup": true
   },
@@ -18160,7 +18160,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.chime.com/",
     "startup": true
   },
@@ -18209,7 +18209,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.flexport.com/careers/jobs/",
     "startup": true
   },
@@ -18257,7 +18257,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.notion.com/careers",
     "startup": true
   },
@@ -18304,7 +18304,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://airtable.com/careers/roles",
     "startup": true
   },
@@ -18351,7 +18351,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.figma.com/careers/",
     "startup": true
   },
@@ -18399,7 +18399,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://retool.com/careers",
     "startup": true
   },
@@ -18447,7 +18447,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.sigmacomputing.com/company/careers",
     "startup": true
   },
@@ -18493,7 +18493,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://hex.tech/careers/",
     "startup": true
   },
@@ -18536,7 +18536,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.getdbt.com/about-us/careers",
     "startup": true
   },
@@ -18579,7 +18579,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.fivetran.com/careers",
     "startup": true
   },
@@ -18626,7 +18626,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://amplitude.com/careers",
     "startup": true
   },
@@ -18672,7 +18672,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.datarobot.com/careers/",
     "startup": true
   },
@@ -18716,7 +18716,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.thoughtspot.com/careers",
     "startup": true
   },
@@ -18765,7 +18765,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.alteryx.com/about-us/careers",
     "startup": true
   },
@@ -18811,7 +18811,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://wandb.ai/site/careers/",
     "startup": true
   },
@@ -18857,7 +18857,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.anduril.com/early-careers",
     "startup": true
   },
@@ -18903,7 +18903,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.wiz.io/careers",
     "startup": true
   },
@@ -18952,7 +18952,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.vanta.com/company/careers",
     "startup": true
   },
@@ -18998,7 +18998,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.rubrik.com/company/careers",
     "startup": true
   },
@@ -19044,7 +19044,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Suited assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.samsara.com/company/careers",
     "startup": true
   },
@@ -19092,7 +19092,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.coinbase.com/careers/positions",
     "startup": true
   },
@@ -19143,7 +19143,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.robinhood.com/",
     "startup": true
   },
@@ -19192,7 +19192,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.sofi.com/careers/university-recruiting/",
     "startup": true
   },
@@ -19243,7 +19243,7 @@ window.ANALYTICS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-29",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.affirm.com/careers",
     "startup": true
   }

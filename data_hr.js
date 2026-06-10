@@ -2558,8 +2558,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "walmart-talent-acquisition-recruiting-2027",
@@ -2592,8 +2592,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "walmart-people-analytics-2027",
@@ -2628,8 +2628,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20People%20Analytics%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "amazon-hr-generalist-hrbp-2027",
@@ -2662,8 +2662,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "amazon-talent-acquisition-recruiting-2027",
@@ -2696,8 +2696,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "amazon-people-analytics-2027",
@@ -2732,8 +2732,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20People%20Analytics%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "apple-hr-generalist-hrbp-2027",
@@ -2766,8 +2766,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "apple-talent-acquisition-recruiting-2027",
@@ -2800,8 +2800,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "apple-people-analytics-2027",
@@ -2836,8 +2836,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20People%20Analytics%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "unitedhealth-group-hr-generalist-hrbp-2027",
@@ -2870,8 +2870,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html"
   },
   {
     "id": "unitedhealth-group-talent-acquisition-recruiting-2027",
@@ -2904,8 +2904,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html"
   },
   {
     "id": "unitedhealth-group-people-analytics-2027",
@@ -2940,8 +2940,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20People%20Analytics%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html"
   },
   {
     "id": "berkshire-hathaway-hr-generalist-hrbp-2027",
@@ -2974,7 +2974,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -3008,7 +3008,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -3044,7 +3044,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -3078,8 +3078,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "cvs-health-talent-acquisition-recruiting-2027",
@@ -3112,8 +3112,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "cvs-health-people-analytics-2027",
@@ -3148,8 +3148,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20People%20Analytics%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "exxonmobil-hr-generalist-hrbp-2027",
@@ -3182,8 +3182,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Engineering-Students-Seeking-Internship-Co-op-Opportunities-TX-77001/1314842000/"
   },
   {
     "id": "exxonmobil-talent-acquisition-recruiting-2027",
@@ -3216,8 +3216,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Engineering-Students-Seeking-Internship-Co-op-Opportunities-TX-77001/1314842000/"
   },
   {
     "id": "exxonmobil-people-analytics-2027",
@@ -3252,8 +3252,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20People%20Analytics%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Engineering-Students-Seeking-Internship-Co-op-Opportunities-TX-77001/1314842000/"
   },
   {
     "id": "alphabet-google-hr-generalist-hrbp-2027",
@@ -3286,8 +3286,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "alphabet-google-talent-acquisition-recruiting-2027",
@@ -3320,8 +3320,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "alphabet-google-people-analytics-2027",
@@ -3356,8 +3356,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20People%20Analytics%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "costco-hr-generalist-hrbp-2027",
@@ -3390,7 +3390,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -3424,7 +3424,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -3460,7 +3460,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -3494,8 +3494,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "jpmorgan-chase-talent-acquisition-recruiting-2027",
@@ -3528,8 +3528,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "jpmorgan-chase-people-analytics-2027",
@@ -3564,8 +3564,8 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20People%20Analytics%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "microsoft-hr-generalist-hrbp-2027",
@@ -3598,7 +3598,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Microsoft%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -3632,7 +3632,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Microsoft%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -3668,7 +3668,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Microsoft%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -3702,7 +3702,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chevron%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -3736,7 +3736,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chevron%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -3772,7 +3772,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chevron%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -3806,7 +3806,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -3840,7 +3840,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -3876,7 +3876,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -3910,7 +3910,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -3944,7 +3944,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -3980,7 +3980,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4014,7 +4014,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4048,7 +4048,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4084,7 +4084,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4118,7 +4118,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4152,7 +4152,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4188,7 +4188,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4222,7 +4222,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4256,7 +4256,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4292,7 +4292,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4326,7 +4326,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citigroup%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4360,7 +4360,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citigroup%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4396,7 +4396,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citigroup%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4430,7 +4430,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4464,7 +4464,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4500,7 +4500,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4534,7 +4534,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4568,7 +4568,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4604,7 +4604,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4638,7 +4638,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4672,7 +4672,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4708,7 +4708,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4742,7 +4742,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4776,7 +4776,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4812,7 +4812,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4846,7 +4846,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4880,7 +4880,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -4916,7 +4916,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -4950,7 +4950,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -4984,7 +4984,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5020,7 +5020,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5054,7 +5054,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5088,7 +5088,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5124,7 +5124,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5158,7 +5158,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5192,7 +5192,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5228,7 +5228,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5262,7 +5262,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5296,7 +5296,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5332,7 +5332,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5366,7 +5366,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5400,7 +5400,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5436,7 +5436,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5470,7 +5470,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5504,7 +5504,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5540,7 +5540,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5574,7 +5574,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5608,7 +5608,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5644,7 +5644,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5678,7 +5678,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5712,7 +5712,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5748,7 +5748,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5782,7 +5782,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5816,7 +5816,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5852,7 +5852,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5886,7 +5886,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -5920,7 +5920,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -5956,7 +5956,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -5990,7 +5990,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6024,7 +6024,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6060,7 +6060,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6094,7 +6094,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6128,7 +6128,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6164,7 +6164,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6198,7 +6198,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6232,7 +6232,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6268,7 +6268,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6302,7 +6302,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6336,7 +6336,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6372,7 +6372,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6406,7 +6406,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6440,7 +6440,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6476,7 +6476,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6510,7 +6510,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6544,7 +6544,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6580,7 +6580,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6614,7 +6614,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6648,7 +6648,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6684,7 +6684,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6718,7 +6718,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6752,7 +6752,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6788,7 +6788,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6822,7 +6822,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boeing%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6856,7 +6856,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boeing%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6892,7 +6892,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boeing%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -6926,7 +6926,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -6960,7 +6960,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -6996,7 +6996,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7030,7 +7030,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7064,7 +7064,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7100,7 +7100,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7134,7 +7134,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7168,7 +7168,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7204,7 +7204,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7238,7 +7238,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7272,7 +7272,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7308,7 +7308,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7342,7 +7342,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7376,7 +7376,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7412,7 +7412,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7446,7 +7446,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7480,7 +7480,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7516,7 +7516,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7550,7 +7550,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Caterpillar%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7584,7 +7584,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Caterpillar%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7620,7 +7620,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Caterpillar%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7654,7 +7654,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7688,7 +7688,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7724,7 +7724,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7758,7 +7758,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7792,7 +7792,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7828,7 +7828,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7862,7 +7862,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -7896,7 +7896,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -7932,7 +7932,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -7966,7 +7966,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8000,7 +8000,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8036,7 +8036,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8070,7 +8070,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8104,7 +8104,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8140,7 +8140,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8174,7 +8174,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8208,7 +8208,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8244,7 +8244,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8278,7 +8278,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Honeywell%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8312,7 +8312,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Honeywell%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8348,7 +8348,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Honeywell%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8382,7 +8382,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8416,7 +8416,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8452,7 +8452,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8486,7 +8486,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8520,7 +8520,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8556,7 +8556,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8590,7 +8590,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8624,7 +8624,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8660,7 +8660,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8694,7 +8694,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8728,7 +8728,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8764,7 +8764,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8798,7 +8798,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8832,7 +8832,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8868,7 +8868,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -8902,7 +8902,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -8936,7 +8936,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -8972,7 +8972,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9006,7 +9006,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9040,7 +9040,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9076,7 +9076,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9110,7 +9110,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9144,7 +9144,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9180,7 +9180,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9214,7 +9214,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9248,7 +9248,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9284,7 +9284,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9318,7 +9318,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9352,7 +9352,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9388,7 +9388,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9422,7 +9422,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9456,7 +9456,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9492,7 +9492,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9526,7 +9526,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9560,7 +9560,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9596,7 +9596,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9630,7 +9630,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9664,7 +9664,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9700,7 +9700,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9734,7 +9734,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9768,7 +9768,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9804,7 +9804,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9838,7 +9838,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9872,7 +9872,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -9908,7 +9908,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -9942,7 +9942,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -9976,7 +9976,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10012,7 +10012,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10046,7 +10046,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10080,7 +10080,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10116,7 +10116,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10150,7 +10150,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10184,7 +10184,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10220,7 +10220,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10254,7 +10254,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10288,7 +10288,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10324,7 +10324,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10358,7 +10358,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10392,7 +10392,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10428,7 +10428,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10462,7 +10462,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10496,7 +10496,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10532,7 +10532,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10566,7 +10566,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10600,7 +10600,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10636,7 +10636,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10670,7 +10670,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10704,7 +10704,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10740,7 +10740,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10774,7 +10774,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10808,7 +10808,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10844,7 +10844,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10878,7 +10878,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -10912,7 +10912,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -10948,7 +10948,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -10982,7 +10982,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11016,7 +11016,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11052,7 +11052,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11086,7 +11086,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11120,7 +11120,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11156,7 +11156,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11190,7 +11190,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11224,7 +11224,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11260,7 +11260,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11294,7 +11294,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11328,7 +11328,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11364,7 +11364,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11398,7 +11398,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11432,7 +11432,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11468,7 +11468,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11502,7 +11502,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11536,7 +11536,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11572,7 +11572,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11606,7 +11606,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11640,7 +11640,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11676,7 +11676,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11710,7 +11710,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11744,7 +11744,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11780,7 +11780,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11814,7 +11814,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11848,7 +11848,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11884,7 +11884,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -11918,7 +11918,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -11952,7 +11952,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -11988,7 +11988,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12022,7 +12022,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12056,7 +12056,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12092,7 +12092,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12126,7 +12126,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12160,7 +12160,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12196,7 +12196,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12230,7 +12230,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12264,7 +12264,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12300,7 +12300,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12334,7 +12334,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12368,7 +12368,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12404,7 +12404,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12438,7 +12438,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12472,7 +12472,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12508,7 +12508,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12542,7 +12542,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12576,7 +12576,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12612,7 +12612,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12646,7 +12646,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12680,7 +12680,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12716,7 +12716,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12750,7 +12750,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12784,7 +12784,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12820,7 +12820,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12854,7 +12854,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12888,7 +12888,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -12924,7 +12924,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -12958,7 +12958,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -12992,7 +12992,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13028,7 +13028,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13062,7 +13062,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -13096,7 +13096,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13132,7 +13132,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13166,7 +13166,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -13200,7 +13200,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13236,7 +13236,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13270,7 +13270,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -13304,7 +13304,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13340,7 +13340,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13374,7 +13374,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cummins%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -13408,7 +13408,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cummins%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13444,7 +13444,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cummins%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13478,7 +13478,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -13512,7 +13512,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13548,7 +13548,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13582,7 +13582,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -13616,7 +13616,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13652,7 +13652,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13686,7 +13686,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20HR%20Generalist%20%2F%20HRBP%20summer%202027%20internship%20careers"
   },
   {
@@ -13720,7 +13720,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13756,7 +13756,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20People%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13790,7 +13790,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Randstad%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13824,7 +13824,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Randstad%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -13858,7 +13858,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Randstad%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -13892,7 +13892,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adecco%20Group%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -13926,7 +13926,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adecco%20Group%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -13960,7 +13960,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adecco%20Group%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -13994,7 +13994,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ManpowerGroup%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14028,7 +14028,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ManpowerGroup%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14062,7 +14062,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ManpowerGroup%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14096,7 +14096,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Robert%20Half%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14130,7 +14130,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Robert%20Half%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14164,7 +14164,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Robert%20Half%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14198,7 +14198,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Insight%20Global%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14232,7 +14232,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Insight%20Global%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14266,7 +14266,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Insight%20Global%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14300,7 +14300,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Korn%20Ferry%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14334,7 +14334,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Korn%20Ferry%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14368,7 +14368,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Korn%20Ferry%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14402,7 +14402,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ADP%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14436,7 +14436,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ADP%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14470,7 +14470,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ADP%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14504,7 +14504,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Workday%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14538,7 +14538,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Workday%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14572,7 +14572,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Workday%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14606,7 +14606,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Paychex%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14640,7 +14640,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Paychex%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14674,7 +14674,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Paychex%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14708,7 +14708,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aerotek%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14742,7 +14742,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aerotek%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14776,7 +14776,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aerotek%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14810,7 +14810,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kelly%20Services%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14844,7 +14844,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kelly%20Services%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14878,7 +14878,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kelly%20Services%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   },
   {
@@ -14912,7 +14912,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mercer%20Talent%20Acquisition%20%2F%20Recruiting%20summer%202027%20internship%20careers"
   },
   {
@@ -14946,7 +14946,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mercer%20Talent%20%26%20Org%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -14980,7 +14980,7 @@ window.HR_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mercer%20Total%20Rewards%20%2F%20Compensation%20summer%202027%20internship%20careers"
   }
 ];

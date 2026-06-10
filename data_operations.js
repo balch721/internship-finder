@@ -2793,7 +2793,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-06-09",
-    "isNew": true,
+    "verified": false, "isNew": true,
     "applyUrl": "https://doe.jobs/jobs/418476704-procurement-supply-chain-internship-summer-2027"
   },
   {
@@ -2829,8 +2829,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "walmart-operations-management-2027",
@@ -2863,8 +2863,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Operations%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "walmart-procurement-sourcing-2027",
@@ -2897,8 +2897,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "amazon-supply-chain-management-2027",
@@ -2933,8 +2933,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "amazon-operations-management-2027",
@@ -2967,8 +2967,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Operations%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "amazon-procurement-sourcing-2027",
@@ -3001,8 +3001,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "apple-supply-chain-management-2027",
@@ -3037,8 +3037,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "apple-operations-management-2027",
@@ -3071,8 +3071,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Operations%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "apple-procurement-sourcing-2027",
@@ -3105,8 +3105,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "unitedhealth-group-supply-chain-management-2027",
@@ -3141,8 +3141,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html"
   },
   {
     "id": "unitedhealth-group-operations-management-2027",
@@ -3175,8 +3175,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Operations%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html"
   },
   {
     "id": "unitedhealth-group-procurement-sourcing-2027",
@@ -3209,8 +3209,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html"
   },
   {
     "id": "cvs-health-supply-chain-management-2027",
@@ -3245,8 +3245,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "cvs-health-operations-management-2027",
@@ -3279,8 +3279,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Operations%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "cvs-health-procurement-sourcing-2027",
@@ -3313,8 +3313,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "exxonmobil-supply-chain-management-2027",
@@ -3349,8 +3349,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Engineering-Students-Seeking-Internship-Co-op-Opportunities-TX-77001/1314842000/"
   },
   {
     "id": "exxonmobil-operations-management-2027",
@@ -3383,8 +3383,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Operations%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Engineering-Students-Seeking-Internship-Co-op-Opportunities-TX-77001/1314842000/"
   },
   {
     "id": "exxonmobil-procurement-sourcing-2027",
@@ -3417,8 +3417,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Engineering-Students-Seeking-Internship-Co-op-Opportunities-TX-77001/1314842000/"
   },
   {
     "id": "alphabet-google-supply-chain-management-2027",
@@ -3453,8 +3453,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "alphabet-google-operations-management-2027",
@@ -3487,8 +3487,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Operations%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "alphabet-google-procurement-sourcing-2027",
@@ -3521,8 +3521,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "mckesson-supply-chain-management-2027",
@@ -3557,7 +3557,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3591,7 +3591,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3625,7 +3625,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -3661,7 +3661,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3695,7 +3695,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3729,7 +3729,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -3765,7 +3765,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3799,7 +3799,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3833,7 +3833,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -3869,8 +3869,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "jpmorgan-chase-operations-management-2027",
@@ -3903,8 +3903,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Operations%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "jpmorgan-chase-procurement-sourcing-2027",
@@ -3937,8 +3937,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "microsoft-supply-chain-management-2027",
@@ -3973,8 +3973,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Microsoft%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "microsoft-operations-management-2027",
@@ -4007,7 +4007,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Microsoft%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4041,7 +4041,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Microsoft%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4077,7 +4077,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4111,7 +4111,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4145,7 +4145,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4181,8 +4181,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Chevron%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://careers.chevron.com/students-and-graduates/internship-programs/engineering-internship"
   },
   {
     "id": "chevron-operations-management-2027",
@@ -4215,7 +4215,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chevron%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4249,7 +4249,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Chevron%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4285,7 +4285,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4319,7 +4319,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4353,7 +4353,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4389,7 +4389,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4423,7 +4423,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4457,7 +4457,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4493,8 +4493,8 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "bank-of-america-operations-management-2027",
@@ -4527,7 +4527,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4561,7 +4561,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4597,7 +4597,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4631,7 +4631,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4665,7 +4665,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Motors%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4701,7 +4701,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4735,7 +4735,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4769,7 +4769,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4805,7 +4805,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citigroup%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4839,7 +4839,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citigroup%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4873,7 +4873,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citigroup%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -4909,7 +4909,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4943,7 +4943,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4977,7 +4977,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5013,7 +5013,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5047,7 +5047,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5081,7 +5081,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5117,7 +5117,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marathon%20Petroleum%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5151,7 +5151,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marathon%20Petroleum%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5185,7 +5185,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marathon%20Petroleum%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5221,7 +5221,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5255,7 +5255,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5289,7 +5289,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5325,7 +5325,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Phillips%2066%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5359,7 +5359,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Phillips%2066%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5393,7 +5393,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Phillips%2066%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5429,7 +5429,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fannie%20Mae%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5463,7 +5463,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fannie%20Mae%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5497,7 +5497,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fannie%20Mae%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5533,7 +5533,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5567,7 +5567,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5601,7 +5601,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5637,7 +5637,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Valero%20Energy%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5671,7 +5671,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Valero%20Energy%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5705,7 +5705,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Valero%20Energy%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5741,7 +5741,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5775,7 +5775,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5809,7 +5809,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5845,7 +5845,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5879,7 +5879,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5913,7 +5913,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -5949,7 +5949,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5983,7 +5983,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6017,7 +6017,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6053,7 +6053,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6087,7 +6087,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6121,7 +6121,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6157,7 +6157,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6191,7 +6191,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6225,7 +6225,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6261,7 +6261,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6295,7 +6295,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6329,7 +6329,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6365,7 +6365,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6399,7 +6399,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6433,7 +6433,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6469,7 +6469,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6503,7 +6503,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6537,7 +6537,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6573,7 +6573,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6607,7 +6607,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6641,7 +6641,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6677,7 +6677,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6711,7 +6711,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6745,7 +6745,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6781,7 +6781,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Archer%20Daniels%20Midland%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6815,7 +6815,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Archer%20Daniels%20Midland%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6849,7 +6849,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Archer%20Daniels%20Midland%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6885,7 +6885,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6919,7 +6919,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6953,7 +6953,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -6989,7 +6989,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7023,7 +7023,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7057,7 +7057,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7093,7 +7093,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7127,7 +7127,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7161,7 +7161,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7197,7 +7197,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7231,7 +7231,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7265,7 +7265,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7301,7 +7301,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7335,7 +7335,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7369,7 +7369,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7405,7 +7405,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7439,7 +7439,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7473,7 +7473,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7509,7 +7509,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7543,7 +7543,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7577,7 +7577,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7613,7 +7613,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boeing%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7647,7 +7647,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boeing%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7681,7 +7681,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boeing%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7717,7 +7717,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7751,7 +7751,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7785,7 +7785,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7821,7 +7821,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sysco%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7855,7 +7855,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sysco%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7889,7 +7889,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sysco%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -7925,7 +7925,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7959,7 +7959,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7993,7 +7993,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8029,7 +8029,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8063,7 +8063,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8097,7 +8097,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8133,7 +8133,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8167,7 +8167,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8201,7 +8201,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8237,7 +8237,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8271,7 +8271,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8305,7 +8305,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8341,7 +8341,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8375,7 +8375,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8409,7 +8409,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8445,7 +8445,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Caterpillar%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8479,7 +8479,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Caterpillar%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8513,7 +8513,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Caterpillar%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8549,7 +8549,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8583,7 +8583,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8617,7 +8617,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8653,7 +8653,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8687,7 +8687,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8721,7 +8721,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8757,7 +8757,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8791,7 +8791,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8825,7 +8825,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8861,7 +8861,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8895,7 +8895,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8929,7 +8929,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -8965,7 +8965,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8999,7 +8999,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9033,7 +9033,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9069,7 +9069,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9103,7 +9103,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9137,7 +9137,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9173,7 +9173,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Honeywell%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9207,7 +9207,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Honeywell%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9241,7 +9241,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Honeywell%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9277,7 +9277,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9311,7 +9311,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9345,7 +9345,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9381,7 +9381,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9415,7 +9415,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9449,7 +9449,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9485,7 +9485,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9519,7 +9519,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9553,7 +9553,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9589,7 +9589,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9623,7 +9623,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9657,7 +9657,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9693,7 +9693,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9727,7 +9727,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9761,7 +9761,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9797,7 +9797,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9831,7 +9831,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9865,7 +9865,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -9901,7 +9901,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9935,7 +9935,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9969,7 +9969,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10005,7 +10005,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10039,7 +10039,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10073,7 +10073,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10109,7 +10109,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10143,7 +10143,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10177,7 +10177,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10213,7 +10213,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10247,7 +10247,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10281,7 +10281,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10317,7 +10317,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10351,7 +10351,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10385,7 +10385,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10421,7 +10421,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10455,7 +10455,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10489,7 +10489,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10525,7 +10525,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10559,7 +10559,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10593,7 +10593,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10629,7 +10629,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10663,7 +10663,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10697,7 +10697,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10733,7 +10733,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10767,7 +10767,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10801,7 +10801,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10837,7 +10837,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10871,7 +10871,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10905,7 +10905,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -10941,7 +10941,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10975,7 +10975,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11009,7 +11009,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11045,7 +11045,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11079,7 +11079,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11113,7 +11113,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11149,7 +11149,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11183,7 +11183,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11217,7 +11217,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11253,7 +11253,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11287,7 +11287,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11321,7 +11321,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11357,7 +11357,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11391,7 +11391,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11425,7 +11425,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11461,7 +11461,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11495,7 +11495,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11529,7 +11529,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11565,7 +11565,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11599,7 +11599,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11633,7 +11633,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11669,7 +11669,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11703,7 +11703,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11737,7 +11737,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11773,7 +11773,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11807,7 +11807,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11841,7 +11841,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11877,7 +11877,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11911,7 +11911,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11945,7 +11945,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -11981,7 +11981,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12015,7 +12015,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12049,7 +12049,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12085,7 +12085,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12119,7 +12119,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12153,7 +12153,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12189,7 +12189,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12223,7 +12223,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12257,7 +12257,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12293,7 +12293,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12327,7 +12327,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12361,7 +12361,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12397,7 +12397,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12431,7 +12431,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12465,7 +12465,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12501,7 +12501,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12535,7 +12535,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12569,7 +12569,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12605,7 +12605,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12639,7 +12639,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12673,7 +12673,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12709,7 +12709,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12743,7 +12743,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12777,7 +12777,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12813,7 +12813,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12847,7 +12847,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12881,7 +12881,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -12917,7 +12917,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12951,7 +12951,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12985,7 +12985,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13021,7 +13021,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13055,7 +13055,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13089,7 +13089,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13125,7 +13125,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13159,7 +13159,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13193,7 +13193,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13229,7 +13229,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13263,7 +13263,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13297,7 +13297,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13333,7 +13333,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13367,7 +13367,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13401,7 +13401,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13437,7 +13437,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13471,7 +13471,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13505,7 +13505,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13541,7 +13541,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13575,7 +13575,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13609,7 +13609,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13645,7 +13645,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13679,7 +13679,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13713,7 +13713,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13749,7 +13749,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13783,7 +13783,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13817,7 +13817,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13853,7 +13853,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13887,7 +13887,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13921,7 +13921,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -13957,7 +13957,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13991,7 +13991,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14025,7 +14025,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -14061,7 +14061,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14095,7 +14095,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14129,7 +14129,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -14165,7 +14165,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14199,7 +14199,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14233,7 +14233,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -14269,7 +14269,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cummins%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14303,7 +14303,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cummins%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14337,7 +14337,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cummins%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -14373,7 +14373,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14407,7 +14407,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14441,7 +14441,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -14477,7 +14477,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Paccar%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14511,7 +14511,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Paccar%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14545,7 +14545,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Paccar%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -14581,7 +14581,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14615,7 +14615,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14649,7 +14649,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -14685,7 +14685,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14719,7 +14719,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Operations%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14753,7 +14753,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Procurement%20%26%20Sourcing%20summer%202027%20internship%20careers"
   },
   {
@@ -14787,7 +14787,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DHL%20Supply%20Chain%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -14823,7 +14823,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DHL%20Supply%20Chain%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14857,7 +14857,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DHL%20Supply%20Chain%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -14891,7 +14891,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=C.H.%20Robinson%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -14927,7 +14927,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=C.H.%20Robinson%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14961,7 +14961,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=C.H.%20Robinson%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -14995,7 +14995,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kuehne%2BNagel%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15031,7 +15031,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kuehne%2BNagel%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15065,7 +15065,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kuehne%2BNagel%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15099,7 +15099,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DB%20Schenker%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15135,7 +15135,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DB%20Schenker%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15169,7 +15169,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DB%20Schenker%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15203,7 +15203,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DSV%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15239,7 +15239,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DSV%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15273,7 +15273,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=DSV%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15307,7 +15307,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=XPO%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15343,7 +15343,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=XPO%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15377,7 +15377,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=XPO%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15411,7 +15411,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=J.B.%20Hunt%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15447,7 +15447,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=J.B.%20Hunt%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15481,7 +15481,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=J.B.%20Hunt%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15515,7 +15515,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ryder%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15551,7 +15551,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ryder%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15585,7 +15585,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ryder%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15619,7 +15619,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Maersk%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15655,7 +15655,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Maersk%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15689,7 +15689,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Maersk%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15723,7 +15723,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Expeditors%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15759,7 +15759,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Expeditors%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15793,7 +15793,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Expeditors%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15827,7 +15827,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GXO%20Logistics%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15863,7 +15863,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GXO%20Logistics%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15897,7 +15897,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GXO%20Logistics%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15931,7 +15931,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Schneider%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -15967,7 +15967,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Schneider%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -16001,7 +16001,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Schneider%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -16035,7 +16035,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Knight-Swift%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -16071,7 +16071,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Knight-Swift%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -16105,7 +16105,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Knight-Swift%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -16139,7 +16139,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Old%20Dominion%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -16175,7 +16175,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Old%20Dominion%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -16209,7 +16209,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Old%20Dominion%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -16243,7 +16243,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flexport%20Logistics%20%26%20Distribution%20summer%202027%20internship%20careers"
   },
   {
@@ -16279,7 +16279,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flexport%20Supply%20Chain%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -16313,7 +16313,7 @@ window.OPERATIONS_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flexport%20Demand%20%26%20Supply%20Planning%20summer%202027%20internship%20careers"
   }
 ];

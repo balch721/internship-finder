@@ -880,8 +880,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Prologis%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.prologis.com/about/careers"
   },
   {
     "id": "prologis-acquisitions-development-2027",
@@ -914,8 +914,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Prologis%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.prologis.com/about/careers"
   },
   {
     "id": "prologis-asset-portfolio-management-2027",
@@ -948,8 +948,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Prologis%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.prologis.com/about/careers"
   },
   {
     "id": "prologis-capital-markets-re-2027",
@@ -982,8 +982,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Prologis%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.prologis.com/about/careers"
   },
   {
     "id": "prologis-brokerage-advisory-2027",
@@ -1016,8 +1016,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Prologis%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.prologis.com/about/careers"
   },
   {
     "id": "prologis-property-facilities-2027",
@@ -1050,8 +1050,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Prologis%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.prologis.com/about/careers"
   },
   {
     "id": "american-tower-real-estate-investment-2027",
@@ -1086,7 +1086,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Tower%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -1120,7 +1120,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Tower%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -1154,7 +1154,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Tower%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -1188,7 +1188,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Tower%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -1222,7 +1222,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Tower%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -1256,7 +1256,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Tower%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -1292,7 +1292,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Equinix%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -1326,7 +1326,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Equinix%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -1360,7 +1360,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Equinix%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -1394,7 +1394,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Equinix%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -1428,7 +1428,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Equinix%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -1462,7 +1462,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Equinix%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -1498,7 +1498,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Simon%20Property%20Group%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -1532,7 +1532,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Simon%20Property%20Group%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -1566,7 +1566,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Simon%20Property%20Group%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -1600,7 +1600,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Simon%20Property%20Group%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -1634,7 +1634,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Simon%20Property%20Group%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -1668,7 +1668,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Simon%20Property%20Group%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -1704,7 +1704,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Realty%20Income%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -1738,7 +1738,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Realty%20Income%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -1772,7 +1772,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Realty%20Income%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -1806,7 +1806,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Realty%20Income%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -1840,7 +1840,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Realty%20Income%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -1874,7 +1874,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Realty%20Income%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -1910,7 +1910,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Welltower%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -1944,7 +1944,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Welltower%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -1978,7 +1978,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Welltower%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -2012,7 +2012,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Welltower%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -2046,7 +2046,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Welltower%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -2080,7 +2080,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Welltower%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -2116,7 +2116,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digital%20Realty%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -2150,7 +2150,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digital%20Realty%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -2184,7 +2184,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digital%20Realty%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -2218,7 +2218,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digital%20Realty%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -2252,7 +2252,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digital%20Realty%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -2286,7 +2286,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Digital%20Realty%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -2322,7 +2322,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Public%20Storage%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -2356,7 +2356,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Public%20Storage%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -2390,7 +2390,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Public%20Storage%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -2424,7 +2424,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Public%20Storage%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -2458,7 +2458,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Public%20Storage%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -2492,7 +2492,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Public%20Storage%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -2528,8 +2528,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CBRE%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.cbre.com/careers/students-and-graduates"
   },
   {
     "id": "cbre-acquisitions-development-2027",
@@ -2562,8 +2562,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CBRE%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.cbre.com/careers/students-and-graduates"
   },
   {
     "id": "cbre-asset-portfolio-management-2027",
@@ -2596,8 +2596,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CBRE%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.cbre.com/careers/students-and-graduates"
   },
   {
     "id": "cbre-capital-markets-re-2027",
@@ -2630,8 +2630,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CBRE%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.cbre.com/careers/students-and-graduates"
   },
   {
     "id": "cbre-brokerage-advisory-2027",
@@ -2664,8 +2664,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CBRE%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.cbre.com/careers/students-and-graduates"
   },
   {
     "id": "cbre-property-facilities-2027",
@@ -2698,8 +2698,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CBRE%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.cbre.com/careers/students-and-graduates"
   },
   {
     "id": "jll-real-estate-investment-2027",
@@ -2734,8 +2734,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JLL%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jll.com/en-us/careers/early-careers"
   },
   {
     "id": "jll-acquisitions-development-2027",
@@ -2768,7 +2768,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JLL%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -2802,8 +2802,8 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JLL%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://www.jll.com/en-us/careers/early-careers"
   },
   {
     "id": "jll-capital-markets-re-2027",
@@ -2836,7 +2836,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JLL%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -2870,7 +2870,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JLL%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -2904,7 +2904,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JLL%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -2940,7 +2940,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cushman%20%26%20Wakefield%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -2974,7 +2974,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cushman%20%26%20Wakefield%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3008,7 +3008,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cushman%20%26%20Wakefield%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3042,7 +3042,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cushman%20%26%20Wakefield%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -3076,7 +3076,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cushman%20%26%20Wakefield%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -3110,7 +3110,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cushman%20%26%20Wakefield%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -3146,7 +3146,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AvalonBay%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -3180,7 +3180,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AvalonBay%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3214,7 +3214,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AvalonBay%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3248,7 +3248,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AvalonBay%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -3282,7 +3282,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AvalonBay%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -3316,7 +3316,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AvalonBay%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -3352,7 +3352,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Properties%20(BXP)%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -3386,7 +3386,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Properties%20(BXP)%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3420,7 +3420,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Properties%20(BXP)%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3454,7 +3454,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Properties%20(BXP)%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -3488,7 +3488,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Properties%20(BXP)%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -3522,7 +3522,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Properties%20(BXP)%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -3558,7 +3558,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hines%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -3592,7 +3592,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hines%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3626,7 +3626,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hines%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3660,7 +3660,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hines%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -3694,7 +3694,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hines%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -3728,7 +3728,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hines%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -3764,7 +3764,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tishman%20Speyer%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -3798,7 +3798,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tishman%20Speyer%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -3832,7 +3832,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tishman%20Speyer%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3866,7 +3866,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tishman%20Speyer%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -3900,7 +3900,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tishman%20Speyer%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -3934,7 +3934,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tishman%20Speyer%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -3970,7 +3970,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blackstone%20Real%20Estate%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -4004,7 +4004,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blackstone%20Real%20Estate%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4038,7 +4038,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blackstone%20Real%20Estate%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4072,7 +4072,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blackstone%20Real%20Estate%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -4106,7 +4106,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blackstone%20Real%20Estate%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -4140,7 +4140,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Blackstone%20Real%20Estate%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -4176,7 +4176,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brookfield%20Asset%20Management%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -4210,7 +4210,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brookfield%20Asset%20Management%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4244,7 +4244,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brookfield%20Asset%20Management%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4278,7 +4278,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brookfield%20Asset%20Management%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -4312,7 +4312,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brookfield%20Asset%20Management%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -4346,7 +4346,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Brookfield%20Asset%20Management%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -4382,7 +4382,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Related%20Companies%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -4416,7 +4416,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Related%20Companies%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4450,7 +4450,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Related%20Companies%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4484,7 +4484,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Related%20Companies%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -4518,7 +4518,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Related%20Companies%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -4552,7 +4552,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Related%20Companies%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -4588,7 +4588,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greystar%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -4622,7 +4622,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greystar%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4656,7 +4656,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greystar%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4690,7 +4690,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greystar%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -4724,7 +4724,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greystar%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -4758,7 +4758,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Greystar%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -4794,7 +4794,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ventas%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -4828,7 +4828,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ventas%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -4862,7 +4862,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ventas%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4896,7 +4896,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ventas%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -4930,7 +4930,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ventas%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -4964,7 +4964,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ventas%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -5000,7 +5000,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Extra%20Space%20Storage%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -5034,7 +5034,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Extra%20Space%20Storage%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5068,7 +5068,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Extra%20Space%20Storage%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5102,7 +5102,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Extra%20Space%20Storage%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -5136,7 +5136,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Extra%20Space%20Storage%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -5170,7 +5170,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Extra%20Space%20Storage%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -5206,7 +5206,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Iron%20Mountain%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -5240,7 +5240,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Iron%20Mountain%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5274,7 +5274,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Iron%20Mountain%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5308,7 +5308,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Iron%20Mountain%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -5342,7 +5342,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Iron%20Mountain%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -5376,7 +5376,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Iron%20Mountain%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -5412,7 +5412,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crown%20Castle%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -5446,7 +5446,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crown%20Castle%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5480,7 +5480,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crown%20Castle%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5514,7 +5514,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crown%20Castle%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -5548,7 +5548,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crown%20Castle%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -5582,7 +5582,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crown%20Castle%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -5618,7 +5618,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VICI%20Properties%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -5652,7 +5652,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VICI%20Properties%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5686,7 +5686,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VICI%20Properties%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5720,7 +5720,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VICI%20Properties%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -5754,7 +5754,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VICI%20Properties%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -5788,7 +5788,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=VICI%20Properties%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -5824,7 +5824,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimco%20Realty%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -5858,7 +5858,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimco%20Realty%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -5892,7 +5892,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimco%20Realty%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5926,7 +5926,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimco%20Realty%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -5960,7 +5960,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimco%20Realty%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -5994,7 +5994,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimco%20Realty%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -6030,7 +6030,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Invitation%20Homes%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -6064,7 +6064,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Invitation%20Homes%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6098,7 +6098,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Invitation%20Homes%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6132,7 +6132,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Invitation%20Homes%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -6166,7 +6166,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Invitation%20Homes%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -6200,7 +6200,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Invitation%20Homes%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -6236,7 +6236,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Camden%20Property%20Trust%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -6270,7 +6270,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Camden%20Property%20Trust%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6304,7 +6304,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Camden%20Property%20Trust%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6338,7 +6338,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Camden%20Property%20Trust%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -6372,7 +6372,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Camden%20Property%20Trust%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -6406,7 +6406,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Camden%20Property%20Trust%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -6442,7 +6442,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Healthpeak%20Properties%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -6476,7 +6476,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Healthpeak%20Properties%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6510,7 +6510,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Healthpeak%20Properties%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6544,7 +6544,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Healthpeak%20Properties%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -6578,7 +6578,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Healthpeak%20Properties%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -6612,7 +6612,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Healthpeak%20Properties%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -6648,7 +6648,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=W.%20P.%20Carey%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -6682,7 +6682,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=W.%20P.%20Carey%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6716,7 +6716,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=W.%20P.%20Carey%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6750,7 +6750,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=W.%20P.%20Carey%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -6784,7 +6784,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=W.%20P.%20Carey%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -6818,7 +6818,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=W.%20P.%20Carey%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -6854,7 +6854,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Newmark%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -6888,7 +6888,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Newmark%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -6922,7 +6922,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Newmark%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6956,7 +6956,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Newmark%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -6990,7 +6990,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Newmark%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -7024,7 +7024,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Newmark%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -7060,7 +7060,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colliers%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -7094,7 +7094,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colliers%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7128,7 +7128,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colliers%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7162,7 +7162,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colliers%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -7196,7 +7196,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colliers%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -7230,7 +7230,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colliers%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -7266,7 +7266,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcus%20%26%20Millichap%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -7300,7 +7300,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcus%20%26%20Millichap%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7334,7 +7334,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcus%20%26%20Millichap%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7368,7 +7368,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcus%20%26%20Millichap%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -7402,7 +7402,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcus%20%26%20Millichap%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -7436,7 +7436,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcus%20%26%20Millichap%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -7472,7 +7472,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eastdil%20Secured%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -7506,7 +7506,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eastdil%20Secured%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7540,7 +7540,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eastdil%20Secured%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7574,7 +7574,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eastdil%20Secured%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -7608,7 +7608,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eastdil%20Secured%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -7642,7 +7642,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eastdil%20Secured%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -7678,7 +7678,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walker%20%26%20Dunlop%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -7712,7 +7712,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walker%20%26%20Dunlop%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7746,7 +7746,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walker%20%26%20Dunlop%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7780,7 +7780,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walker%20%26%20Dunlop%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -7814,7 +7814,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walker%20%26%20Dunlop%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -7848,7 +7848,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walker%20%26%20Dunlop%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -7884,7 +7884,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starwood%20Capital%20Group%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -7918,7 +7918,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starwood%20Capital%20Group%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -7952,7 +7952,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starwood%20Capital%20Group%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7986,7 +7986,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starwood%20Capital%20Group%20Capital%20Markets%20(RE)%20summer%202027%20internship%20careers"
   },
   {
@@ -8020,7 +8020,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starwood%20Capital%20Group%20Brokerage%20%26%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -8054,7 +8054,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starwood%20Capital%20Group%20Property%20%26%20Facilities%20summer%202027%20internship%20careers"
   },
   {
@@ -8090,7 +8090,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -8124,7 +8124,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8158,7 +8158,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8194,7 +8194,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -8228,7 +8228,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8262,7 +8262,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8298,7 +8298,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -8332,7 +8332,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8366,7 +8366,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8402,7 +8402,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -8436,7 +8436,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8470,7 +8470,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8506,7 +8506,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Real%20Estate%20Investment%20summer%202027%20internship%20careers"
   },
   {
@@ -8540,7 +8540,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Acquisitions%20%26%20Development%20summer%202027%20internship%20careers"
   },
   {
@@ -8574,7 +8574,7 @@ window.REALESTATE_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Asset%20%26%20Portfolio%20Management%20summer%202027%20internship%20careers"
   }
 ];

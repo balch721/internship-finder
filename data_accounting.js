@@ -2936,8 +2936,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "walmart-internal-audit-2027",
@@ -2970,8 +2970,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Walmart%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.walmart.com/undergraduate-internships"
   },
   {
     "id": "amazon-corporate-accounting-2027",
@@ -3004,8 +3004,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "amazon-internal-audit-2027",
@@ -3038,8 +3038,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Amazon%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.amazon.jobs/en/teams/internships-for-students"
   },
   {
     "id": "apple-corporate-accounting-2027",
@@ -3072,8 +3072,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "apple-internal-audit-2027",
@@ -3106,8 +3106,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Apple%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.apple.com/en-us/details/200606145/software-engineering-internships?team=STDNT"
   },
   {
     "id": "unitedhealth-group-corporate-accounting-2027",
@@ -3140,8 +3140,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html"
   },
   {
     "id": "unitedhealth-group-internal-audit-2027",
@@ -3174,8 +3174,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.unitedhealthgroup.com/careers/en/work/early-careers.html"
   },
   {
     "id": "berkshire-hathaway-corporate-accounting-2027",
@@ -3208,7 +3208,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -3242,7 +3242,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Berkshire%20Hathaway%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -3276,8 +3276,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "cvs-health-internal-audit-2027",
@@ -3310,8 +3310,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=CVS%20Health%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.cvshealth.com/us/en/job/R0752573/Data-Science-Undergraduate-Internship-Summer-2026"
   },
   {
     "id": "exxonmobil-corporate-accounting-2027",
@@ -3344,8 +3344,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Engineering-Students-Seeking-Internship-Co-op-Opportunities-TX-77001/1314842000/"
   },
   {
     "id": "exxonmobil-internal-audit-2027",
@@ -3378,8 +3378,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=ExxonMobil%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://jobs.exxonmobil.com/ExxonMobil/job/Houston-Engineering-Students-Seeking-Internship-Co-op-Opportunities-TX-77001/1314842000/"
   },
   {
     "id": "alphabet-google-corporate-accounting-2027",
@@ -3412,8 +3412,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "alphabet-google-internal-audit-2027",
@@ -3446,8 +3446,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Alphabet%20(Google)%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.google.com/about/careers/applications/jobs/results/"
   },
   {
     "id": "mckesson-corporate-accounting-2027",
@@ -3480,7 +3480,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -3514,7 +3514,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -3548,7 +3548,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -3582,7 +3582,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -3616,7 +3616,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -3650,7 +3650,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Costco%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -3684,8 +3684,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "jpmorgan-chase-internal-audit-2027",
@@ -3718,8 +3718,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=JPMorgan%20Chase%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs"
   },
   {
     "id": "microsoft-corporate-accounting-2027",
@@ -3752,8 +3752,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Microsoft%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "microsoft-internal-audit-2027",
@@ -3786,8 +3786,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Microsoft%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.microsoft.com/v2/global/en/exploremicrosoft"
   },
   {
     "id": "cardinal-health-corporate-accounting-2027",
@@ -3820,7 +3820,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -3854,7 +3854,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -3888,8 +3888,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Chevron%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.chevron.com/students-and-graduates/internship-programs/engineering-internship"
   },
   {
     "id": "chevron-internal-audit-2027",
@@ -3922,8 +3922,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Chevron%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.chevron.com/students-and-graduates/internship-programs/engineering-internship"
   },
   {
     "id": "cigna-corporate-accounting-2027",
@@ -3956,7 +3956,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -3990,7 +3990,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4024,8 +4024,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.ford.com/en/programs/summer-internship-program.html"
   },
   {
     "id": "ford-motor-internal-audit-2027",
@@ -4058,8 +4058,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Ford%20Motor%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.ford.com/en/programs/summer-internship-program.html"
   },
   {
     "id": "bank-of-america-corporate-accounting-2027",
@@ -4092,8 +4092,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "bank-of-america-internal-audit-2027",
@@ -4126,8 +4126,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Bank%20of%20America%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://careers.bankofamerica.com/en-us/students/programs"
   },
   {
     "id": "general-motors-corporate-accounting-2027",
@@ -4160,8 +4160,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://search-careers.gm.com/en/early-careers/internship-program/"
   },
   {
     "id": "general-motors-internal-audit-2027",
@@ -4194,8 +4194,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=General%20Motors%20Internal%20Audit%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://search-careers.gm.com/en/early-careers/internship-program/"
   },
   {
     "id": "elevance-health-corporate-accounting-2027",
@@ -4228,7 +4228,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4262,7 +4262,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4296,7 +4296,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citigroup%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4330,7 +4330,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Citigroup%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4364,7 +4364,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4398,7 +4398,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4432,7 +4432,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4466,7 +4466,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Home%20Depot%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4500,7 +4500,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marathon%20Petroleum%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4534,7 +4534,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marathon%20Petroleum%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4568,7 +4568,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4602,7 +4602,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kroger%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4636,7 +4636,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Phillips%2066%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4670,7 +4670,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Phillips%2066%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4704,7 +4704,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fannie%20Mae%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4738,7 +4738,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fannie%20Mae%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4772,7 +4772,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4806,7 +4806,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Walgreens%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4840,7 +4840,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Valero%20Energy%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4874,7 +4874,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Valero%20Energy%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4908,7 +4908,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -4942,7 +4942,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Meta%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -4976,7 +4976,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5010,7 +5010,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Verizon%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5044,7 +5044,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5078,7 +5078,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AT%26T%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5112,7 +5112,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5146,7 +5146,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Comcast%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5180,7 +5180,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5214,7 +5214,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wells%20Fargo%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5248,7 +5248,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5282,7 +5282,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Goldman%20Sachs%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5316,7 +5316,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5350,7 +5350,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Target%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5384,7 +5384,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5418,7 +5418,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5452,7 +5452,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5486,7 +5486,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=State%20Farm%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5520,7 +5520,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5554,7 +5554,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tesla%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5588,7 +5588,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5622,7 +5622,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Morgan%20Stanley%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5656,7 +5656,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5690,7 +5690,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5724,7 +5724,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Archer%20Daniels%20Midland%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5758,7 +5758,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Archer%20Daniels%20Midland%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5792,7 +5792,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5826,7 +5826,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PepsiCo%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5860,7 +5860,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5894,7 +5894,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UPS%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5928,7 +5928,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -5962,7 +5962,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=FedEx%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -5996,7 +5996,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6030,7 +6030,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Disney%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6064,8 +6064,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Corporate%20Accounting%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://jobs.dell.com/en/internships"
   },
   {
     "id": "dell-technologies-internal-audit-2027",
@@ -6098,7 +6098,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dell%20Technologies%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6132,7 +6132,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6166,7 +6166,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lowe's%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6200,7 +6200,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6234,7 +6234,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Procter%20%26%20Gamble%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6268,7 +6268,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boeing%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6302,7 +6302,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boeing%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6336,7 +6336,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6370,7 +6370,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Albertsons%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6404,7 +6404,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sysco%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6438,7 +6438,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sysco%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6472,7 +6472,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6506,7 +6506,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTX%20(Raytheon)%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6540,7 +6540,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6574,7 +6574,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Lockheed%20Martin%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6608,7 +6608,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6642,7 +6642,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intel%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6676,7 +6676,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6710,7 +6710,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IBM%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6744,7 +6744,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6778,7 +6778,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6812,7 +6812,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Caterpillar%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6846,7 +6846,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Caterpillar%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6880,7 +6880,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6914,7 +6914,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nationwide%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -6948,7 +6948,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -6982,7 +6982,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=MetLife%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7016,7 +7016,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7050,7 +7050,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Coca-Cola%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7084,7 +7084,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7118,7 +7118,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7152,7 +7152,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7186,7 +7186,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nike%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7220,7 +7220,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7254,7 +7254,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7288,7 +7288,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Honeywell%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7322,7 +7322,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Honeywell%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7356,7 +7356,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7390,7 +7390,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Express%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7424,7 +7424,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7458,7 +7458,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7492,7 +7492,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7526,7 +7526,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=3M%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7560,7 +7560,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7594,7 +7594,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deere%20%26%20Company%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7628,7 +7628,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7662,7 +7662,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7696,7 +7696,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7730,7 +7730,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Electric%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7764,7 +7764,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7798,7 +7798,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cisco%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7832,7 +7832,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7866,7 +7866,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=TJX%20Companies%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7900,7 +7900,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -7934,7 +7934,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NVIDIA%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -7968,7 +7968,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8002,7 +8002,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Salesforce%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8036,7 +8036,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8070,7 +8070,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8104,7 +8104,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8138,7 +8138,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Best%20Buy%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8172,7 +8172,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8206,7 +8206,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8240,7 +8240,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8274,7 +8274,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=United%20Airlines%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8308,7 +8308,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8342,7 +8342,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Delta%20Air%20Lines%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8376,7 +8376,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8410,7 +8410,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Airlines%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8444,7 +8444,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8478,7 +8478,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tyson%20Foods%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8512,7 +8512,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8546,7 +8546,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Prudential%20Financial%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8580,7 +8580,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8614,7 +8614,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mondelez%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8648,7 +8648,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8682,7 +8682,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Dynamics%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8716,7 +8716,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8750,7 +8750,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Capital%20One%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8784,7 +8784,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8818,7 +8818,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charter%20Communications%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8852,7 +8852,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8886,7 +8886,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Nordstrom%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8920,7 +8920,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -8954,7 +8954,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Est%C3%A9e%20Lauder%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -8988,7 +8988,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9022,7 +9022,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Colgate-Palmolive%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9056,7 +9056,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9090,7 +9090,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kimberly-Clark%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9124,7 +9124,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9158,7 +9158,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=General%20Mills%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9192,7 +9192,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9226,7 +9226,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kellanova%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9260,7 +9260,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9294,7 +9294,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kraft%20Heinz%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9328,7 +9328,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9362,7 +9362,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Unilever%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9396,7 +9396,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9430,7 +9430,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=L'Or%C3%A9al%20USA%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9464,7 +9464,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9498,7 +9498,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Anheuser-Busch%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9532,7 +9532,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9566,7 +9566,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mastercard%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9600,7 +9600,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9634,7 +9634,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Visa%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9668,7 +9668,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9702,7 +9702,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Adobe%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9736,7 +9736,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9770,7 +9770,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Qualcomm%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9804,7 +9804,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9838,7 +9838,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Texas%20Instruments%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9872,7 +9872,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9906,7 +9906,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -9940,7 +9940,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -9974,7 +9974,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10008,7 +10008,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10042,7 +10042,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Northrop%20Grumman%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10076,7 +10076,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10110,7 +10110,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marriott%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10144,7 +10144,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10178,7 +10178,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Starbucks%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10212,7 +10212,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10246,7 +10246,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McDonald's%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10280,7 +10280,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10314,7 +10314,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PNC%20Financial%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10348,7 +10348,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10382,7 +10382,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Travelers%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10416,7 +10416,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10450,7 +10450,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Liberty%20Mutual%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10484,7 +10484,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10518,7 +10518,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Progressive%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10552,7 +10552,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10586,7 +10586,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Allstate%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10620,7 +10620,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cummins%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10654,7 +10654,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cummins%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10688,7 +10688,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10722,7 +10722,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Emerson%20Electric%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10756,7 +10756,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Paccar%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10790,7 +10790,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Paccar%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10824,7 +10824,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10858,7 +10858,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stanley%20Black%20%26%20Decker%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10892,7 +10892,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Corporate%20Accounting%20summer%202027%20internship%20careers"
   },
   {
@@ -10926,7 +10926,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Whirlpool%20Internal%20Audit%20summer%202027%20internship%20careers"
   },
   {
@@ -10960,7 +10960,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deloitte%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -10992,7 +10992,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deloitte%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -11028,8 +11028,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Deloitte%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.deloitte.com/us/en/careers/internships.html"
   },
   {
     "id": "deloitte-transaction-advisory-2027",
@@ -11062,7 +11062,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Deloitte%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -11096,7 +11096,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PwC%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -11128,8 +11128,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=PwC%20Tax%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.pwc.com/us/en/careers/entry-level/internships.html"
   },
   {
     "id": "pwc-advisory-consulting-2027",
@@ -11164,8 +11164,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=PwC%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.pwc.com/us/en/careers/entry-level/internships.html"
   },
   {
     "id": "pwc-transaction-advisory-2027",
@@ -11198,7 +11198,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=PwC%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -11232,8 +11232,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=EY%20(Ernst%20%26%20Young)%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.pwc.com/us/en/careers/entry-level/internships.html"
   },
   {
     "id": "ey-ernst-young-tax-2027",
@@ -11264,8 +11264,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=EY%20(Ernst%20%26%20Young)%20Tax%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.ey.com/en_us/careers/internships-student-programs"
   },
   {
     "id": "ey-ernst-young-advisory-consulting-2027",
@@ -11300,8 +11300,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=EY%20(Ernst%20%26%20Young)%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.ey.com/en_us/careers/internships-student-programs"
   },
   {
     "id": "ey-ernst-young-transaction-advisory-2027",
@@ -11334,8 +11334,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=EY%20(Ernst%20%26%20Young)%20Transaction%20Advisory%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.ey.com/en_us/careers/internships-student-programs"
   },
   {
     "id": "kpmg-audit-assurance-2027",
@@ -11368,8 +11368,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=KPMG%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.ey.com/en_us/careers/internships-student-programs"
   },
   {
     "id": "kpmg-tax-2027",
@@ -11400,8 +11400,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=KPMG%20Tax%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.kpmguscareers.com/early-career/"
   },
   {
     "id": "kpmg-advisory-consulting-2027",
@@ -11436,8 +11436,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=KPMG%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.kpmguscareers.com/early-career/"
   },
   {
     "id": "kpmg-transaction-advisory-2027",
@@ -11470,8 +11470,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=KPMG%20Transaction%20Advisory%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.kpmguscareers.com/early-career/"
   },
   {
     "id": "rsm-us-audit-assurance-2027",
@@ -11504,8 +11504,8 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=RSM%20US%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.kpmguscareers.com/early-career/"
   },
   {
     "id": "rsm-us-tax-2027",
@@ -11536,7 +11536,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RSM%20US%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -11572,7 +11572,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RSM%20US%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -11606,7 +11606,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RSM%20US%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -11640,7 +11640,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BDO%20USA%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -11672,7 +11672,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BDO%20USA%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -11708,7 +11708,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BDO%20USA%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -11742,7 +11742,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=BDO%20USA%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -11776,7 +11776,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Grant%20Thornton%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -11808,7 +11808,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Grant%20Thornton%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -11844,7 +11844,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Grant%20Thornton%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -11878,7 +11878,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Grant%20Thornton%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -11912,7 +11912,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CLA%20(CliftonLarsonAllen)%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -11944,7 +11944,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CLA%20(CliftonLarsonAllen)%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -11980,7 +11980,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CLA%20(CliftonLarsonAllen)%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -12014,7 +12014,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CLA%20(CliftonLarsonAllen)%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -12048,7 +12048,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baker%20Tilly%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -12080,7 +12080,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baker%20Tilly%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -12116,7 +12116,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baker%20Tilly%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -12150,7 +12150,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baker%20Tilly%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -12184,7 +12184,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crowe%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -12216,7 +12216,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crowe%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -12252,7 +12252,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crowe%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -12286,7 +12286,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Crowe%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -12320,7 +12320,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Forvis%20Mazars%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -12352,7 +12352,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Forvis%20Mazars%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -12388,7 +12388,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Forvis%20Mazars%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -12422,7 +12422,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Forvis%20Mazars%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -12456,7 +12456,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moss%20Adams%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -12488,7 +12488,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moss%20Adams%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -12524,7 +12524,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moss%20Adams%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -12558,7 +12558,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moss%20Adams%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -12592,7 +12592,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.plantemoran.com/2027-audit-or-tax-intern/job/5805524CAF683F5083CB4626A821B480"
   },
   {
@@ -12624,7 +12624,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://careers.plantemoran.com/2027-audit-or-tax-intern/job/5805524CAF683F5083CB4626A821B480"
   },
   {
@@ -12660,7 +12660,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Plante%20Moran%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -12694,7 +12694,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Plante%20Moran%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -12728,7 +12728,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CBIZ%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -12760,7 +12760,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CBIZ%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -12796,7 +12796,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CBIZ%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -12830,7 +12830,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CBIZ%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -12864,7 +12864,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cohen%20%26%20Company%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -12896,7 +12896,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cohen%20%26%20Company%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -12932,7 +12932,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cohen%20%26%20Company%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -12966,7 +12966,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cohen%20%26%20Company%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -13000,7 +13000,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcum%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -13032,7 +13032,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcum%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -13068,7 +13068,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcum%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -13102,7 +13102,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Marcum%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -13136,7 +13136,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CohnReznick%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -13168,7 +13168,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CohnReznick%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -13204,7 +13204,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CohnReznick%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -13238,7 +13238,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CohnReznick%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -13272,7 +13272,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wipfli%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -13304,7 +13304,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wipfli%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -13340,7 +13340,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wipfli%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -13374,7 +13374,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Wipfli%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -13408,7 +13408,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aprio%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -13440,7 +13440,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aprio%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -13476,7 +13476,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aprio%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -13510,7 +13510,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Aprio%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   },
   {
@@ -13544,7 +13544,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "HireVue / video screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Armanino%20Audit%20%26%20Assurance%20summer%202027%20internship%20careers"
   },
   {
@@ -13576,7 +13576,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "Pymetrics game"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Armanino%20Tax%20summer%202027%20internship%20careers"
   },
   {
@@ -13612,7 +13612,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "SHL / numerical test"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Armanino%20Advisory%20%26%20Consulting%20summer%202027%20internship%20careers"
   },
   {
@@ -13646,7 +13646,7 @@ window.ACCOUNTING_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Armanino%20Transaction%20Advisory%20summer%202027%20internship%20careers"
   }
 ];

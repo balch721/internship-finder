@@ -1848,8 +1848,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-pharmaceuticals-drug-discovery-2027",
@@ -1886,8 +1886,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-pharmaceuticals-formulation-cmc-2027",
@@ -1924,8 +1924,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-pharmaceuticals-regulatory-affairs-2027",
@@ -1962,8 +1962,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-clinical-research-2027",
@@ -2000,8 +2000,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-clinical-research-clinical-operations-2027",
@@ -2038,8 +2038,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-clinical-research-biostatistics-2027",
@@ -2076,8 +2076,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-clinical-research-data-management-2027",
@@ -2114,8 +2114,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-biotech-life-sciences-2027",
@@ -2152,8 +2152,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-biotech-life-sciences-r-d-lab-research-2027",
@@ -2190,8 +2190,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-biotech-life-sciences-bioprocessing-2027",
@@ -2228,8 +2228,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
+    "verified": true, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-biotech-life-sciences-genomics-2027",
@@ -2266,8 +2266,8 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
-    "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
+    "verified": false, "isNew": false,
+    "applyUrl": "https://www.careers.jnj.com/en/student-opportunities/internships/"
   },
   {
     "id": "johnson-johnson-medical-devices-2027",
@@ -2302,7 +2302,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -2338,7 +2338,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -2374,7 +2374,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -2410,7 +2410,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -2446,7 +2446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -2482,7 +2482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -2518,7 +2518,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -2554,7 +2554,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -2592,7 +2592,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -2630,7 +2630,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -2668,7 +2668,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -2706,7 +2706,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -2744,7 +2744,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -2782,7 +2782,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -2820,7 +2820,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -2858,7 +2858,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -2896,7 +2896,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -2934,7 +2934,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -2972,7 +2972,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -3010,7 +3010,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -3048,7 +3048,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -3086,7 +3086,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -3124,7 +3124,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -3162,7 +3162,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -3200,7 +3200,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -3238,7 +3238,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -3276,7 +3276,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -3314,7 +3314,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -3352,7 +3352,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -3390,7 +3390,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -3428,7 +3428,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -3466,7 +3466,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -3504,7 +3504,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -3542,7 +3542,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -3580,7 +3580,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -3618,7 +3618,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -3656,7 +3656,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -3694,7 +3694,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -3732,7 +3732,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -3770,7 +3770,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -3808,7 +3808,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -3846,7 +3846,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -3884,7 +3884,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -3922,7 +3922,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -3960,7 +3960,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -3998,7 +3998,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -4036,7 +4036,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -4074,7 +4074,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4112,7 +4112,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -4150,7 +4150,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -4188,7 +4188,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -4226,7 +4226,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -4264,7 +4264,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -4302,7 +4302,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -4340,7 +4340,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -4378,7 +4378,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -4416,7 +4416,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -4454,7 +4454,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -4492,7 +4492,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -4530,7 +4530,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -4568,7 +4568,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -4606,7 +4606,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -4644,7 +4644,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -4682,7 +4682,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -4720,7 +4720,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -4758,7 +4758,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -4796,7 +4796,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -4834,7 +4834,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -4872,7 +4872,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -4910,7 +4910,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -4948,7 +4948,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -4986,7 +4986,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5024,7 +5024,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -5062,7 +5062,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -5100,7 +5100,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -5138,7 +5138,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -5176,7 +5176,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -5214,7 +5214,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -5252,7 +5252,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -5290,7 +5290,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -5328,7 +5328,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -5366,7 +5366,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -5404,7 +5404,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -5442,7 +5442,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5480,7 +5480,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -5518,7 +5518,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -5556,7 +5556,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -5594,7 +5594,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -5632,7 +5632,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -5670,7 +5670,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -5708,7 +5708,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -5746,7 +5746,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -5784,7 +5784,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -5822,7 +5822,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -5860,7 +5860,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -5898,7 +5898,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -5936,7 +5936,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -5974,7 +5974,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -6012,7 +6012,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -6050,7 +6050,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -6088,7 +6088,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -6126,7 +6126,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -6164,7 +6164,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -6202,7 +6202,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -6240,7 +6240,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -6278,7 +6278,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -6316,7 +6316,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -6354,7 +6354,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -6392,7 +6392,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -6430,7 +6430,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -6468,7 +6468,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -6506,7 +6506,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -6544,7 +6544,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -6582,7 +6582,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -6620,7 +6620,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -6658,7 +6658,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -6696,7 +6696,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -6734,7 +6734,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -6772,7 +6772,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -6810,7 +6810,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -6848,7 +6848,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -6886,7 +6886,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -6924,7 +6924,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -6962,7 +6962,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7000,7 +7000,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -7038,7 +7038,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -7076,7 +7076,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -7114,7 +7114,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -7152,7 +7152,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -7190,7 +7190,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -7228,7 +7228,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -7266,7 +7266,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -7304,7 +7304,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -7342,7 +7342,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -7380,7 +7380,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -7418,7 +7418,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7456,7 +7456,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -7494,7 +7494,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -7532,7 +7532,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -7570,7 +7570,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -7608,7 +7608,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -7646,7 +7646,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -7684,7 +7684,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -7722,7 +7722,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -7760,7 +7760,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -7798,7 +7798,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -7836,7 +7836,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -7874,7 +7874,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -7912,7 +7912,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -7950,7 +7950,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -7988,7 +7988,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -8026,7 +8026,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -8064,7 +8064,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -8102,7 +8102,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -8140,7 +8140,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -8178,7 +8178,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -8216,7 +8216,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -8254,7 +8254,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -8292,7 +8292,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -8330,7 +8330,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8368,7 +8368,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -8406,7 +8406,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -8444,7 +8444,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -8482,7 +8482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -8520,7 +8520,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -8558,7 +8558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -8596,7 +8596,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -8634,7 +8634,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -8672,7 +8672,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -8710,7 +8710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -8748,7 +8748,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -8786,7 +8786,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -8824,7 +8824,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -8862,7 +8862,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -8900,7 +8900,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -8938,7 +8938,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -8976,7 +8976,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -9014,7 +9014,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -9052,7 +9052,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -9090,7 +9090,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -9128,7 +9128,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -9166,7 +9166,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -9204,7 +9204,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -9242,7 +9242,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9280,7 +9280,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -9318,7 +9318,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -9356,7 +9356,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -9394,7 +9394,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -9432,7 +9432,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -9470,7 +9470,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -9508,7 +9508,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -9546,7 +9546,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -9584,7 +9584,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -9622,7 +9622,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -9660,7 +9660,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -9698,7 +9698,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -9736,7 +9736,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -9774,7 +9774,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -9812,7 +9812,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -9850,7 +9850,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -9888,7 +9888,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -9926,7 +9926,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -9964,7 +9964,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -10002,7 +10002,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10040,7 +10040,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -10078,7 +10078,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -10116,7 +10116,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -10154,7 +10154,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -10192,7 +10192,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -10230,7 +10230,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -10268,7 +10268,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -10306,7 +10306,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -10344,7 +10344,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -10382,7 +10382,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -10420,7 +10420,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -10458,7 +10458,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10496,7 +10496,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -10534,7 +10534,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -10572,7 +10572,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -10610,7 +10610,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -10648,7 +10648,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -10686,7 +10686,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -10724,7 +10724,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -10762,7 +10762,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -10800,7 +10800,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -10838,7 +10838,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -10876,7 +10876,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -10914,7 +10914,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -10952,7 +10952,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -10990,7 +10990,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -11028,7 +11028,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -11066,7 +11066,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -11104,7 +11104,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -11142,7 +11142,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -11180,7 +11180,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -11218,7 +11218,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -11256,7 +11256,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -11294,7 +11294,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -11332,7 +11332,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -11370,7 +11370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11408,7 +11408,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -11446,7 +11446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -11484,7 +11484,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -11522,7 +11522,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -11560,7 +11560,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -11598,7 +11598,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -11636,7 +11636,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -11674,7 +11674,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -11712,7 +11712,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -11750,7 +11750,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -11788,7 +11788,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -11826,7 +11826,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -11864,7 +11864,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -11902,7 +11902,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -11940,7 +11940,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -11978,7 +11978,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -12016,7 +12016,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -12054,7 +12054,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -12092,7 +12092,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -12130,7 +12130,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -12168,7 +12168,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -12206,7 +12206,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -12244,7 +12244,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -12282,7 +12282,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12320,7 +12320,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -12358,7 +12358,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -12396,7 +12396,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -12434,7 +12434,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -12472,7 +12472,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -12510,7 +12510,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -12548,7 +12548,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -12586,7 +12586,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -12624,7 +12624,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -12662,7 +12662,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -12700,7 +12700,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -12738,7 +12738,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -12776,7 +12776,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -12814,7 +12814,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -12852,7 +12852,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -12890,7 +12890,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -12926,7 +12926,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -12962,7 +12962,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -12998,7 +12998,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -13034,7 +13034,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -13070,7 +13070,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -13106,7 +13106,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -13142,7 +13142,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -13178,7 +13178,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13216,7 +13216,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -13254,7 +13254,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -13292,7 +13292,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -13330,7 +13330,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -13366,7 +13366,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -13402,7 +13402,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -13438,7 +13438,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -13474,7 +13474,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -13512,7 +13512,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -13550,7 +13550,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -13588,7 +13588,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -13626,7 +13626,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -13664,7 +13664,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -13702,7 +13702,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -13740,7 +13740,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -13778,7 +13778,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -13814,7 +13814,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -13850,7 +13850,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -13886,7 +13886,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -13922,7 +13922,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -13960,7 +13960,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -13998,7 +13998,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -14036,7 +14036,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -14074,7 +14074,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -14112,7 +14112,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -14150,7 +14150,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -14188,7 +14188,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -14226,7 +14226,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -14262,7 +14262,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -14298,7 +14298,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -14334,7 +14334,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -14370,7 +14370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -14408,7 +14408,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -14446,7 +14446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -14484,7 +14484,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -14522,7 +14522,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -14558,7 +14558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -14594,7 +14594,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -14630,7 +14630,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -14666,7 +14666,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -14704,7 +14704,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -14742,7 +14742,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -14780,7 +14780,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -14818,7 +14818,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -14856,7 +14856,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -14894,7 +14894,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -14932,7 +14932,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -14970,7 +14970,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -15006,7 +15006,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -15042,7 +15042,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -15078,7 +15078,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -15114,7 +15114,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -15152,7 +15152,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -15190,7 +15190,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -15228,7 +15228,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -15266,7 +15266,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -15302,7 +15302,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -15338,7 +15338,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -15374,7 +15374,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -15410,7 +15410,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -15446,7 +15446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -15482,7 +15482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -15518,7 +15518,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -15554,7 +15554,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -15592,7 +15592,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -15630,7 +15630,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -15668,7 +15668,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -15706,7 +15706,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -15744,7 +15744,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -15782,7 +15782,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -15820,7 +15820,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -15858,7 +15858,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -15896,7 +15896,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -15934,7 +15934,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -15972,7 +15972,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -16010,7 +16010,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -16046,7 +16046,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -16082,7 +16082,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -16118,7 +16118,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -16154,7 +16154,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -16192,7 +16192,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -16230,7 +16230,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -16268,7 +16268,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -16306,7 +16306,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -16342,7 +16342,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -16378,7 +16378,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -16414,7 +16414,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -16450,7 +16450,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -16488,7 +16488,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -16526,7 +16526,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -16564,7 +16564,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -16602,7 +16602,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -16638,7 +16638,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -16674,7 +16674,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -16710,7 +16710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -16746,7 +16746,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -16784,7 +16784,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -16822,7 +16822,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -16860,7 +16860,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -16898,7 +16898,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -16934,7 +16934,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -16970,7 +16970,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -17006,7 +17006,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -17042,7 +17042,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -17080,7 +17080,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -17118,7 +17118,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -17156,7 +17156,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -17194,7 +17194,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -17230,7 +17230,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -17266,7 +17266,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -17302,7 +17302,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -17338,7 +17338,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -17374,7 +17374,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -17410,7 +17410,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -17446,7 +17446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -17482,7 +17482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -17520,7 +17520,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -17558,7 +17558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -17596,7 +17596,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -17634,7 +17634,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -17672,7 +17672,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -17710,7 +17710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -17748,7 +17748,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -17786,7 +17786,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -17822,7 +17822,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -17858,7 +17858,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -17894,7 +17894,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -17930,7 +17930,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -17966,7 +17966,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -18002,7 +18002,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -18038,7 +18038,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -18074,7 +18074,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -18112,7 +18112,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -18150,7 +18150,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -18188,7 +18188,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -18226,7 +18226,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -18262,7 +18262,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -18298,7 +18298,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -18334,7 +18334,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -18370,7 +18370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -18408,7 +18408,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -18446,7 +18446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -18484,7 +18484,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -18522,7 +18522,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -18558,7 +18558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -18594,7 +18594,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -18630,7 +18630,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -18666,7 +18666,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -18702,7 +18702,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -18738,7 +18738,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -18774,7 +18774,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -18810,7 +18810,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -18848,7 +18848,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -18886,7 +18886,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -18924,7 +18924,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -18962,7 +18962,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -18998,7 +18998,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -19034,7 +19034,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -19070,7 +19070,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -19106,7 +19106,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -19142,7 +19142,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -19178,7 +19178,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -19214,7 +19214,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -19250,7 +19250,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -19288,7 +19288,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -19326,7 +19326,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -19364,7 +19364,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -19402,7 +19402,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -19438,7 +19438,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -19474,7 +19474,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -19510,7 +19510,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -19546,7 +19546,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Medical%20Devices%20Intern%20%E2%80%94%20Manufacturing%20summer%202027%20internship%20careers"
   },
   {
@@ -19582,7 +19582,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -19618,7 +19618,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -19654,7 +19654,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -19690,7 +19690,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -19728,7 +19728,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -19766,7 +19766,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -19804,7 +19804,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -19842,7 +19842,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -19878,7 +19878,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -19914,7 +19914,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -19950,7 +19950,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -19986,7 +19986,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20022,7 +20022,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -20058,7 +20058,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -20094,7 +20094,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -20130,7 +20130,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -20168,7 +20168,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -20206,7 +20206,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -20244,7 +20244,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -20282,7 +20282,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -20320,7 +20320,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -20358,7 +20358,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -20396,7 +20396,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -20434,7 +20434,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20470,7 +20470,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -20506,7 +20506,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -20542,7 +20542,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -20578,7 +20578,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -20614,7 +20614,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -20650,7 +20650,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -20686,7 +20686,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -20722,7 +20722,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -20760,7 +20760,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -20798,7 +20798,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -20836,7 +20836,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -20874,7 +20874,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -20912,7 +20912,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -20950,7 +20950,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -20988,7 +20988,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -21026,7 +21026,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -21064,7 +21064,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -21102,7 +21102,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -21140,7 +21140,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -21178,7 +21178,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -21214,7 +21214,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -21250,7 +21250,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -21286,7 +21286,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -21322,7 +21322,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -21358,7 +21358,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -21394,7 +21394,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -21430,7 +21430,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -21466,7 +21466,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -21504,7 +21504,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -21542,7 +21542,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -21580,7 +21580,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -21618,7 +21618,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -21656,7 +21656,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -21694,7 +21694,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -21732,7 +21732,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -21770,7 +21770,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -21806,7 +21806,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -21842,7 +21842,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -21878,7 +21878,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -21914,7 +21914,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -21950,7 +21950,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -21986,7 +21986,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -22022,7 +22022,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -22058,7 +22058,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -22096,7 +22096,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -22134,7 +22134,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -22172,7 +22172,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -22210,7 +22210,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -22246,7 +22246,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -22282,7 +22282,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -22318,7 +22318,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -22354,7 +22354,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -22390,7 +22390,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -22426,7 +22426,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -22462,7 +22462,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -22498,7 +22498,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -22534,7 +22534,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -22570,7 +22570,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -22606,7 +22606,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -22642,7 +22642,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -22680,7 +22680,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -22718,7 +22718,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -22756,7 +22756,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -22794,7 +22794,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -22832,7 +22832,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -22870,7 +22870,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -22908,7 +22908,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -22946,7 +22946,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -22984,7 +22984,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -23022,7 +23022,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -23060,7 +23060,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -23098,7 +23098,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -23134,7 +23134,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -23170,7 +23170,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -23206,7 +23206,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -23242,7 +23242,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -23280,7 +23280,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -23318,7 +23318,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -23356,7 +23356,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -23394,7 +23394,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -23432,7 +23432,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -23470,7 +23470,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -23508,7 +23508,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -23546,7 +23546,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -23582,7 +23582,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -23618,7 +23618,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -23654,7 +23654,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -23690,7 +23690,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -23728,7 +23728,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -23766,7 +23766,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -23804,7 +23804,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -23842,7 +23842,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -23878,7 +23878,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -23914,7 +23914,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -23950,7 +23950,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -23986,7 +23986,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -24022,7 +24022,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -24058,7 +24058,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -24094,7 +24094,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -24130,7 +24130,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -24168,7 +24168,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -24206,7 +24206,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -24244,7 +24244,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -24282,7 +24282,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -24318,7 +24318,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -24354,7 +24354,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -24390,7 +24390,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -24426,7 +24426,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -24462,7 +24462,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -24498,7 +24498,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -24534,7 +24534,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -24570,7 +24570,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -24608,7 +24608,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -24646,7 +24646,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -24684,7 +24684,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -24722,7 +24722,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -24758,7 +24758,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -24794,7 +24794,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -24830,7 +24830,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -24866,7 +24866,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -24902,7 +24902,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -24938,7 +24938,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -24974,7 +24974,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -25010,7 +25010,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -25048,7 +25048,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -25086,7 +25086,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -25124,7 +25124,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -25162,7 +25162,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -25198,7 +25198,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -25234,7 +25234,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -25270,7 +25270,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -25306,7 +25306,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -25342,7 +25342,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -25378,7 +25378,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -25414,7 +25414,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -25450,7 +25450,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -25488,7 +25488,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -25526,7 +25526,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -25564,7 +25564,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -25602,7 +25602,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -25638,7 +25638,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -25674,7 +25674,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -25710,7 +25710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -25746,7 +25746,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -25782,7 +25782,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -25818,7 +25818,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -25854,7 +25854,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -25890,7 +25890,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -25928,7 +25928,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -25966,7 +25966,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -26004,7 +26004,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -26042,7 +26042,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26080,7 +26080,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -26118,7 +26118,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -26156,7 +26156,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -26194,7 +26194,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -26230,7 +26230,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -26266,7 +26266,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -26302,7 +26302,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -26338,7 +26338,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -26374,7 +26374,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -26410,7 +26410,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -26446,7 +26446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -26482,7 +26482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -26520,7 +26520,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -26558,7 +26558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -26596,7 +26596,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -26634,7 +26634,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -26672,7 +26672,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -26710,7 +26710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -26748,7 +26748,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -26786,7 +26786,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -26822,7 +26822,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -26858,7 +26858,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -26894,7 +26894,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -26930,7 +26930,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -26968,7 +26968,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -27006,7 +27006,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -27044,7 +27044,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -27082,7 +27082,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -27118,7 +27118,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -27154,7 +27154,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -27190,7 +27190,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -27226,7 +27226,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27262,7 +27262,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -27298,7 +27298,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -27334,7 +27334,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -27370,7 +27370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -27408,7 +27408,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -27446,7 +27446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -27484,7 +27484,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -27522,7 +27522,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -27558,7 +27558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -27594,7 +27594,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -27630,7 +27630,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -27666,7 +27666,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -27704,7 +27704,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -27742,7 +27742,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -27780,7 +27780,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -27818,7 +27818,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -27854,7 +27854,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -27890,7 +27890,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -27926,7 +27926,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -27962,7 +27962,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -28000,7 +28000,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -28038,7 +28038,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -28076,7 +28076,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -28114,7 +28114,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -28150,7 +28150,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -28186,7 +28186,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -28222,7 +28222,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -28258,7 +28258,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -28294,7 +28294,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -28330,7 +28330,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -28366,7 +28366,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -28402,7 +28402,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -28440,7 +28440,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -28478,7 +28478,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -28516,7 +28516,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -28554,7 +28554,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -28590,7 +28590,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -28626,7 +28626,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -28662,7 +28662,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -28698,7 +28698,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -28734,7 +28734,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -28770,7 +28770,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -28806,7 +28806,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -28842,7 +28842,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -28880,7 +28880,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -28918,7 +28918,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -28956,7 +28956,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -28994,7 +28994,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -29030,7 +29030,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -29066,7 +29066,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -29102,7 +29102,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -29138,7 +29138,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -29174,7 +29174,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -29210,7 +29210,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -29246,7 +29246,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -29282,7 +29282,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -29320,7 +29320,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -29358,7 +29358,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -29396,7 +29396,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -29434,7 +29434,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -29470,7 +29470,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -29506,7 +29506,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -29542,7 +29542,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -29578,7 +29578,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -29616,7 +29616,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -29654,7 +29654,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -29692,7 +29692,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -29730,7 +29730,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -29766,7 +29766,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -29802,7 +29802,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -29838,7 +29838,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -29874,7 +29874,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -29912,7 +29912,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -29950,7 +29950,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -29988,7 +29988,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -30026,7 +30026,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -30062,7 +30062,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -30098,7 +30098,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -30134,7 +30134,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -30170,7 +30170,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -30208,7 +30208,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -30246,7 +30246,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -30284,7 +30284,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Pharmaceuticals%20Intern%20%E2%80%94%20Formulation%20%2F%20CMC%20summer%202027%20internship%20careers"
   },
   {
@@ -30322,7 +30322,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Pharmaceuticals%20Intern%20%E2%80%94%20Regulatory%20Affairs%20summer%202027%20internship%20careers"
   },
   {
@@ -30360,7 +30360,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -30398,7 +30398,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -30436,7 +30436,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -30474,7 +30474,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -30512,7 +30512,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -30550,7 +30550,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -30588,7 +30588,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -30626,7 +30626,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -30662,7 +30662,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -30698,7 +30698,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -30734,7 +30734,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -30770,7 +30770,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -30808,7 +30808,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -30846,7 +30846,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -30884,7 +30884,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -30922,7 +30922,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -30960,7 +30960,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -30998,7 +30998,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -31036,7 +31036,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -31074,7 +31074,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -31110,7 +31110,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -31146,7 +31146,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -31182,7 +31182,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -31218,7 +31218,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -31256,7 +31256,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -31294,7 +31294,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -31332,7 +31332,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -31370,7 +31370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -31406,7 +31406,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -31442,7 +31442,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -31478,7 +31478,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -31514,7 +31514,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -31552,7 +31552,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -31590,7 +31590,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -31628,7 +31628,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -31666,7 +31666,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -31704,7 +31704,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -31742,7 +31742,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -31780,7 +31780,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -31818,7 +31818,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -31856,7 +31856,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -31894,7 +31894,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -31932,7 +31932,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -31970,7 +31970,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -32008,7 +32008,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -32046,7 +32046,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -32084,7 +32084,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -32122,7 +32122,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -32160,7 +32160,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -32198,7 +32198,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -32236,7 +32236,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -32274,7 +32274,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -32312,7 +32312,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -32350,7 +32350,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -32388,7 +32388,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -32426,7 +32426,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -32464,7 +32464,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -32502,7 +32502,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -32540,7 +32540,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -32578,7 +32578,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -32616,7 +32616,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -32654,7 +32654,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -32692,7 +32692,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -32730,7 +32730,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -32768,7 +32768,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -32806,7 +32806,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -32844,7 +32844,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -32882,7 +32882,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -32920,7 +32920,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -32958,7 +32958,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -32996,7 +32996,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -33034,7 +33034,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -33072,7 +33072,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -33110,7 +33110,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -33148,7 +33148,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -33186,7 +33186,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -33224,7 +33224,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -33262,7 +33262,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -33300,7 +33300,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -33338,7 +33338,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -33374,7 +33374,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -33410,7 +33410,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -33446,7 +33446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -33482,7 +33482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -33518,7 +33518,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -33554,7 +33554,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -33590,7 +33590,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -33626,7 +33626,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -33662,7 +33662,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -33698,7 +33698,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -33734,7 +33734,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -33770,7 +33770,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -33806,7 +33806,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -33842,7 +33842,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -33878,7 +33878,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -33914,7 +33914,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -33950,7 +33950,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -33986,7 +33986,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -34022,7 +34022,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -34058,7 +34058,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -34096,7 +34096,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -34134,7 +34134,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -34172,7 +34172,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -34210,7 +34210,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -34246,7 +34246,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -34282,7 +34282,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -34318,7 +34318,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -34354,7 +34354,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -34392,7 +34392,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -34430,7 +34430,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -34468,7 +34468,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -34506,7 +34506,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -34544,7 +34544,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -34582,7 +34582,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -34620,7 +34620,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -34658,7 +34658,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -34694,7 +34694,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -34730,7 +34730,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -34766,7 +34766,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -34802,7 +34802,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -34838,7 +34838,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -34874,7 +34874,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -34910,7 +34910,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -34946,7 +34946,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -34982,7 +34982,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -35018,7 +35018,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -35054,7 +35054,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -35090,7 +35090,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -35126,7 +35126,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -35162,7 +35162,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -35198,7 +35198,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -35234,7 +35234,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -35270,7 +35270,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -35306,7 +35306,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -35342,7 +35342,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -35378,7 +35378,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -35414,7 +35414,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -35450,7 +35450,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -35486,7 +35486,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -35522,7 +35522,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -35560,7 +35560,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -35598,7 +35598,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -35636,7 +35636,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -35674,7 +35674,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -35710,7 +35710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -35746,7 +35746,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -35782,7 +35782,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -35818,7 +35818,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -35854,7 +35854,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -35890,7 +35890,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -35926,7 +35926,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -35962,7 +35962,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -36000,7 +36000,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -36038,7 +36038,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -36076,7 +36076,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -36114,7 +36114,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -36150,7 +36150,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -36186,7 +36186,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -36222,7 +36222,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -36258,7 +36258,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -36296,7 +36296,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -36334,7 +36334,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -36372,7 +36372,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -36410,7 +36410,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -36446,7 +36446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -36482,7 +36482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -36518,7 +36518,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Data%20%2F%20Analytics%20summer%202027%20internship%20careers"
   },
   {
@@ -36554,7 +36554,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Product%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -36592,7 +36592,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -36630,7 +36630,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -36668,7 +36668,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -36706,7 +36706,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -36744,7 +36744,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -36782,7 +36782,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -36820,7 +36820,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -36858,7 +36858,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -36896,7 +36896,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -36934,7 +36934,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -36972,7 +36972,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -37010,7 +37010,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -37048,7 +37048,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -37086,7 +37086,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -37124,7 +37124,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -37162,7 +37162,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -37198,7 +37198,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -37234,7 +37234,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -37270,7 +37270,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -37306,7 +37306,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -37344,7 +37344,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -37382,7 +37382,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -37420,7 +37420,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -37458,7 +37458,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -37496,7 +37496,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -37534,7 +37534,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -37572,7 +37572,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -37610,7 +37610,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -37648,7 +37648,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Biotech%20%26%20Life%20Sciences%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -37686,7 +37686,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20R%26D%20%2F%20Lab%20Research%20summer%202027%20internship%20careers"
   },
   {
@@ -37724,7 +37724,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Bioprocessing%20summer%202027%20internship%20careers"
   },
   {
@@ -37762,7 +37762,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Biotech%20%26%20Life%20Sciences%20Intern%20%E2%80%94%20Genomics%20summer%202027%20internship%20careers"
   },
   {
@@ -37800,7 +37800,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -37838,7 +37838,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -37876,7 +37876,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -37914,7 +37914,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -37952,7 +37952,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -37990,7 +37990,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -38028,7 +38028,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -38066,7 +38066,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -38104,7 +38104,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -38142,7 +38142,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -38180,7 +38180,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -38218,7 +38218,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -38254,7 +38254,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -38290,7 +38290,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -38326,7 +38326,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -38362,7 +38362,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -38400,7 +38400,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -38438,7 +38438,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -38476,7 +38476,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -38514,7 +38514,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -38552,7 +38552,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -38590,7 +38590,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Clinical%20Research%20Intern%20%E2%80%94%20Clinical%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -38628,7 +38628,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Clinical%20Research%20Intern%20%E2%80%94%20Biostatistics%20summer%202027%20internship%20careers"
   },
   {
@@ -38666,7 +38666,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Clinical%20Research%20Intern%20%E2%80%94%20Data%20Management%20summer%202027%20internship%20careers"
   },
   {
@@ -38704,7 +38704,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -38742,7 +38742,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -38780,7 +38780,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Public%20Health%20Intern%20%E2%80%94%20Health%20Policy%20summer%202027%20internship%20careers"
   },
   {
@@ -38818,7 +38818,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Public%20Health%20Intern%20%E2%80%94%20Global%20Health%20summer%202027%20internship%20careers"
   },
   {
@@ -38854,7 +38854,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -38890,7 +38890,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -38926,7 +38926,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -38962,7 +38962,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Rehabilitation%20Services%20summer%202027%20internship%20careers"
   },
   {
@@ -38998,7 +38998,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39034,7 +39034,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -39070,7 +39070,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Healthcare%20Administration%20Intern%20%E2%80%94%20Strategy%20%26%20Planning%20summer%202027%20internship%20careers"
   },
   {
@@ -39106,7 +39106,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Healthcare%20Administration%20Intern%20%E2%80%94%20Revenue%20Cycle%20%2F%20Finance%20summer%202027%20internship%20careers"
   },
   {
@@ -39144,7 +39144,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39182,7 +39182,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39220,7 +39220,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39258,7 +39258,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39296,7 +39296,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39334,7 +39334,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39372,7 +39372,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39410,7 +39410,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39448,7 +39448,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39486,7 +39486,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39524,7 +39524,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39562,7 +39562,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39600,7 +39600,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39638,7 +39638,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39676,7 +39676,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39714,7 +39714,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39752,7 +39752,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39790,7 +39790,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39828,7 +39828,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39866,7 +39866,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39904,7 +39904,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39942,7 +39942,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -39980,7 +39980,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40018,7 +40018,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40056,7 +40056,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40094,7 +40094,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40132,7 +40132,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40170,7 +40170,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40208,7 +40208,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40246,7 +40246,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40284,7 +40284,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40322,7 +40322,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40360,7 +40360,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40398,7 +40398,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40436,7 +40436,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40474,7 +40474,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40512,7 +40512,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40550,7 +40550,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40588,7 +40588,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40626,7 +40626,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40664,7 +40664,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40702,7 +40702,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40740,7 +40740,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40778,7 +40778,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40816,7 +40816,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40854,7 +40854,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40892,7 +40892,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40930,7 +40930,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -40968,7 +40968,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41006,7 +41006,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41044,7 +41044,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41082,7 +41082,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41120,7 +41120,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41158,7 +41158,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41196,7 +41196,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41234,7 +41234,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41272,7 +41272,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41310,7 +41310,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Pharmaceuticals%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -41348,7 +41348,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41386,7 +41386,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41424,7 +41424,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41462,7 +41462,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41500,7 +41500,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41538,7 +41538,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41576,7 +41576,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41614,7 +41614,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41652,7 +41652,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41690,7 +41690,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41728,7 +41728,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41766,7 +41766,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41804,7 +41804,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41842,7 +41842,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41880,7 +41880,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41918,7 +41918,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41956,7 +41956,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -41994,7 +41994,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42032,7 +42032,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42070,7 +42070,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42108,7 +42108,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42146,7 +42146,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42184,7 +42184,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42222,7 +42222,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42260,7 +42260,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42298,7 +42298,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42336,7 +42336,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42374,7 +42374,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42412,7 +42412,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42450,7 +42450,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42488,7 +42488,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42526,7 +42526,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42564,7 +42564,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42602,7 +42602,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42640,7 +42640,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42678,7 +42678,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42716,7 +42716,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42754,7 +42754,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42792,7 +42792,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42830,7 +42830,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Pharmaceuticals%20Intern%20%E2%80%94%20Drug%20Discovery%20summer%202027%20internship%20careers"
   },
   {
@@ -42868,7 +42868,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -42906,7 +42906,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -42944,7 +42944,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -42982,7 +42982,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43020,7 +43020,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43058,7 +43058,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43096,7 +43096,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43134,7 +43134,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43172,7 +43172,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43210,7 +43210,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43248,7 +43248,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43286,7 +43286,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43324,7 +43324,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43362,7 +43362,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Clinical%20Research%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43398,7 +43398,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43434,7 +43434,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43470,7 +43470,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43506,7 +43506,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43542,7 +43542,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43578,7 +43578,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43614,7 +43614,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43650,7 +43650,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43686,7 +43686,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43722,7 +43722,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43758,7 +43758,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43794,7 +43794,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43830,7 +43830,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43866,7 +43866,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43902,7 +43902,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43938,7 +43938,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -43974,7 +43974,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44010,7 +44010,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44046,7 +44046,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44082,7 +44082,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44118,7 +44118,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44154,7 +44154,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44190,7 +44190,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44226,7 +44226,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44262,7 +44262,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44298,7 +44298,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44334,7 +44334,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44370,7 +44370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44406,7 +44406,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44442,7 +44442,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44478,7 +44478,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44514,7 +44514,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44550,7 +44550,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44586,7 +44586,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44622,7 +44622,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44658,7 +44658,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44694,7 +44694,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44730,7 +44730,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44766,7 +44766,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44802,7 +44802,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44838,7 +44838,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44874,7 +44874,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44910,7 +44910,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44946,7 +44946,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -44982,7 +44982,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45018,7 +45018,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45054,7 +45054,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45090,7 +45090,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45126,7 +45126,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45162,7 +45162,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45198,7 +45198,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45234,7 +45234,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45270,7 +45270,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45306,7 +45306,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45342,7 +45342,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45378,7 +45378,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45414,7 +45414,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45450,7 +45450,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45486,7 +45486,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45522,7 +45522,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45558,7 +45558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45594,7 +45594,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45630,7 +45630,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45666,7 +45666,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45702,7 +45702,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45738,7 +45738,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45774,7 +45774,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45810,7 +45810,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Medical%20Devices%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -45846,7 +45846,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -45882,7 +45882,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -45918,7 +45918,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -45954,7 +45954,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -45990,7 +45990,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46026,7 +46026,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46062,7 +46062,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46098,7 +46098,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46134,7 +46134,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46170,7 +46170,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46206,7 +46206,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46242,7 +46242,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46278,7 +46278,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46314,7 +46314,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46350,7 +46350,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46386,7 +46386,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46422,7 +46422,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46458,7 +46458,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46494,7 +46494,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46530,7 +46530,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46566,7 +46566,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46602,7 +46602,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46638,7 +46638,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46674,7 +46674,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46710,7 +46710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46746,7 +46746,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46782,7 +46782,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Kaiser%20Permanente%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46818,7 +46818,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46854,7 +46854,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46890,7 +46890,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46926,7 +46926,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46962,7 +46962,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -46998,7 +46998,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47034,7 +47034,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47070,7 +47070,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47106,7 +47106,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47142,7 +47142,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47178,7 +47178,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47214,7 +47214,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47250,7 +47250,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47286,7 +47286,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47322,7 +47322,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47358,7 +47358,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47394,7 +47394,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47430,7 +47430,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47466,7 +47466,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47502,7 +47502,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47538,7 +47538,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47574,7 +47574,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47610,7 +47610,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47646,7 +47646,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47682,7 +47682,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47718,7 +47718,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47754,7 +47754,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47790,7 +47790,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47826,7 +47826,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47862,7 +47862,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47898,7 +47898,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47934,7 +47934,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -47970,7 +47970,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48006,7 +48006,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48042,7 +48042,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48078,7 +48078,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48114,7 +48114,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48150,7 +48150,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48186,7 +48186,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48222,7 +48222,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48258,7 +48258,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Medical%20Devices%20Intern%20%E2%80%94%20Design%20%2F%20R%26D%20summer%202027%20internship%20careers"
   },
   {
@@ -48294,7 +48294,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -48330,7 +48330,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Medical%20Devices%20Intern%20%E2%80%94%20Quality%20%26%20Regulatory%20summer%202027%20internship%20careers"
   },
   {
@@ -48368,7 +48368,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48406,7 +48406,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48444,7 +48444,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48482,7 +48482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48520,7 +48520,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48558,7 +48558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48596,7 +48596,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48634,7 +48634,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48672,7 +48672,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48710,7 +48710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48748,7 +48748,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48786,7 +48786,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48824,7 +48824,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48862,7 +48862,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48900,7 +48900,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48938,7 +48938,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -48976,7 +48976,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49014,7 +49014,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49052,7 +49052,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49090,7 +49090,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49128,7 +49128,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49166,7 +49166,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49204,7 +49204,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49242,7 +49242,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49280,7 +49280,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49318,7 +49318,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49356,7 +49356,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49394,7 +49394,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49432,7 +49432,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49470,7 +49470,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49508,7 +49508,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49546,7 +49546,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49584,7 +49584,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49622,7 +49622,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49660,7 +49660,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49698,7 +49698,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49736,7 +49736,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49774,7 +49774,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49812,7 +49812,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49850,7 +49850,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49888,7 +49888,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49926,7 +49926,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -49964,7 +49964,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50002,7 +50002,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50040,7 +50040,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50078,7 +50078,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50116,7 +50116,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50154,7 +50154,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50192,7 +50192,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50230,7 +50230,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50268,7 +50268,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50306,7 +50306,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50344,7 +50344,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50382,7 +50382,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50420,7 +50420,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Public%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -50458,7 +50458,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50496,7 +50496,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50534,7 +50534,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50572,7 +50572,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50610,7 +50610,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50648,7 +50648,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50686,7 +50686,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50724,7 +50724,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50762,7 +50762,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50800,7 +50800,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50838,7 +50838,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50876,7 +50876,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50914,7 +50914,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50952,7 +50952,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -50990,7 +50990,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51028,7 +51028,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51066,7 +51066,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51104,7 +51104,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51142,7 +51142,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51180,7 +51180,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51218,7 +51218,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51256,7 +51256,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51294,7 +51294,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51332,7 +51332,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51370,7 +51370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51408,7 +51408,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51446,7 +51446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51484,7 +51484,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51522,7 +51522,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51560,7 +51560,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51598,7 +51598,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Public%20Health%20Intern%20%E2%80%94%20Epidemiology%20summer%202027%20internship%20careers"
   },
   {
@@ -51634,7 +51634,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51670,7 +51670,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51706,7 +51706,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51742,7 +51742,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51778,7 +51778,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51814,7 +51814,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51850,7 +51850,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51886,7 +51886,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51922,7 +51922,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51958,7 +51958,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -51994,7 +51994,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52030,7 +52030,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52066,7 +52066,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52102,7 +52102,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52138,7 +52138,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52174,7 +52174,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52210,7 +52210,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52246,7 +52246,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52282,7 +52282,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52318,7 +52318,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52354,7 +52354,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52390,7 +52390,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52426,7 +52426,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52462,7 +52462,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52498,7 +52498,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52534,7 +52534,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52570,7 +52570,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52606,7 +52606,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52642,7 +52642,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52678,7 +52678,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52714,7 +52714,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52750,7 +52750,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52786,7 +52786,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52822,7 +52822,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52858,7 +52858,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52894,7 +52894,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52930,7 +52930,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -52966,7 +52966,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53002,7 +53002,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53038,7 +53038,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53074,7 +53074,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53110,7 +53110,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53146,7 +53146,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53182,7 +53182,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53218,7 +53218,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53254,7 +53254,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53290,7 +53290,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53326,7 +53326,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53362,7 +53362,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53398,7 +53398,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53434,7 +53434,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53470,7 +53470,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Healthcare%20Administration%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -53506,7 +53506,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53542,7 +53542,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53578,7 +53578,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53614,7 +53614,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53650,7 +53650,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53686,7 +53686,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53722,7 +53722,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53758,7 +53758,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53794,7 +53794,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53830,7 +53830,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53866,7 +53866,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53902,7 +53902,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53938,7 +53938,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -53974,7 +53974,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54010,7 +54010,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54046,7 +54046,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54082,7 +54082,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54118,7 +54118,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54154,7 +54154,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54190,7 +54190,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54226,7 +54226,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54262,7 +54262,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Healthcare%20Administration%20Intern%20%E2%80%94%20Hospital%20Operations%20summer%202027%20internship%20careers"
   },
   {
@@ -54298,7 +54298,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54334,7 +54334,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54370,7 +54370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54406,7 +54406,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54442,7 +54442,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54478,7 +54478,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54514,7 +54514,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54550,7 +54550,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54586,7 +54586,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54622,7 +54622,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54658,7 +54658,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54694,7 +54694,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54730,7 +54730,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54766,7 +54766,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54802,7 +54802,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54838,7 +54838,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54874,7 +54874,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54910,7 +54910,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54946,7 +54946,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -54982,7 +54982,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55018,7 +55018,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55054,7 +55054,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55090,7 +55090,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55126,7 +55126,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55162,7 +55162,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55198,7 +55198,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55234,7 +55234,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55270,7 +55270,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55306,7 +55306,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55342,7 +55342,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55378,7 +55378,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55414,7 +55414,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55450,7 +55450,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55486,7 +55486,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55522,7 +55522,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55558,7 +55558,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55594,7 +55594,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55630,7 +55630,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55666,7 +55666,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55702,7 +55702,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55738,7 +55738,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55774,7 +55774,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55810,7 +55810,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55846,7 +55846,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55882,7 +55882,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55918,7 +55918,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55954,7 +55954,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -55990,7 +55990,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56026,7 +56026,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56062,7 +56062,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56098,7 +56098,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56134,7 +56134,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56170,7 +56170,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56206,7 +56206,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56242,7 +56242,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56278,7 +56278,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56314,7 +56314,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56350,7 +56350,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56386,7 +56386,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CDC%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56422,7 +56422,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56458,7 +56458,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56494,7 +56494,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56530,7 +56530,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56566,7 +56566,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=American%20Red%20Cross%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -56602,7 +56602,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56638,7 +56638,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56674,7 +56674,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56710,7 +56710,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56746,7 +56746,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56782,7 +56782,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56818,7 +56818,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56854,7 +56854,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56890,7 +56890,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56926,7 +56926,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56962,7 +56962,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -56998,7 +56998,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57034,7 +57034,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57070,7 +57070,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57106,7 +57106,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57142,7 +57142,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57178,7 +57178,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57214,7 +57214,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57250,7 +57250,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57286,7 +57286,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57322,7 +57322,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57358,7 +57358,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57394,7 +57394,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57430,7 +57430,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57466,7 +57466,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57502,7 +57502,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57538,7 +57538,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57574,7 +57574,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57610,7 +57610,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57646,7 +57646,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57682,7 +57682,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57718,7 +57718,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57754,7 +57754,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57790,7 +57790,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57826,7 +57826,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57862,7 +57862,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57898,7 +57898,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=HCA%20Healthcare%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57934,7 +57934,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mayo%20Clinic%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -57970,7 +57970,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cleveland%20Clinic%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58006,7 +58006,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Mass%20General%20Brigham%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58042,7 +58042,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johns%20Hopkins%20Medicine%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58078,7 +58078,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ascension%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58114,7 +58114,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CommonSpirit%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58150,7 +58150,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Providence%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58186,7 +58186,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sutter%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58222,7 +58222,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cedars-Sinai%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58258,7 +58258,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NewYork-Presbyterian%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58294,7 +58294,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58330,7 +58330,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58366,7 +58366,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58402,7 +58402,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58438,7 +58438,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58474,7 +58474,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58510,7 +58510,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58546,7 +58546,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58582,7 +58582,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58618,7 +58618,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58654,7 +58654,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Health%20Tech%20%2F%20Digital%20Health%20Intern%20%E2%80%94%20Software%20Engineering%20summer%202027%20internship%20careers"
   },
   {
@@ -58690,7 +58690,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -58726,7 +58726,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -58762,7 +58762,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -58798,7 +58798,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -58834,7 +58834,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -58870,7 +58870,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -58906,7 +58906,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -58942,7 +58942,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -58978,7 +58978,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59014,7 +59014,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59050,7 +59050,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59086,7 +59086,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59122,7 +59122,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59158,7 +59158,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59194,7 +59194,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59230,7 +59230,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59266,7 +59266,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59302,7 +59302,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59338,7 +59338,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59374,7 +59374,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59410,7 +59410,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59446,7 +59446,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59482,7 +59482,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59518,7 +59518,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59554,7 +59554,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59590,7 +59590,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59626,7 +59626,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59662,7 +59662,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59698,7 +59698,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59734,7 +59734,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59770,7 +59770,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59806,7 +59806,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59842,7 +59842,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59878,7 +59878,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59914,7 +59914,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59950,7 +59950,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -59986,7 +59986,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60022,7 +60022,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60058,7 +60058,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60094,7 +60094,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60130,7 +60130,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60166,7 +60166,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60202,7 +60202,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60238,7 +60238,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60274,7 +60274,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60310,7 +60310,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60346,7 +60346,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60382,7 +60382,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60418,7 +60418,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60454,7 +60454,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60490,7 +60490,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60526,7 +60526,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60562,7 +60562,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60598,7 +60598,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60634,7 +60634,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60670,7 +60670,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60706,7 +60706,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60742,7 +60742,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60778,7 +60778,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60814,7 +60814,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60850,7 +60850,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60886,7 +60886,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60922,7 +60922,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60958,7 +60958,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -60994,7 +60994,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -61030,7 +61030,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -61066,7 +61066,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -61102,7 +61102,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -61138,7 +61138,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -61174,7 +61174,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -61210,7 +61210,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -61246,7 +61246,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Nursing%20%26%20Allied%20Health%20Intern%20summer%202027%20internship%20careers"
   },
   {
@@ -61282,7 +61282,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61318,7 +61318,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61354,7 +61354,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61390,7 +61390,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61426,7 +61426,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61462,7 +61462,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61498,7 +61498,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61534,7 +61534,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61570,7 +61570,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61606,7 +61606,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61642,7 +61642,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Takeda%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61678,7 +61678,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novo%20Nordisk%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61714,7 +61714,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bayer%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61750,7 +61750,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boehringer%20Ingelheim%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61786,7 +61786,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Organon%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61822,7 +61822,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Viatris%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61858,7 +61858,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Amgen%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61894,7 +61894,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gilead%20Sciences%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61930,7 +61930,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Genentech%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -61966,7 +61966,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Regeneron%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62002,7 +62002,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Vertex%20Pharmaceuticals%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62038,7 +62038,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Moderna%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62074,7 +62074,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Biogen%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62110,7 +62110,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Illumina%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62146,7 +62146,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Thermo%20Fisher%20Scientific%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62182,7 +62182,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Danaher%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62218,7 +62218,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Agilent%20Technologies%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62254,7 +62254,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=10x%20Genomics%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62290,7 +62290,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Ginkgo%20Bioworks%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62326,7 +62326,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medtronic%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62362,7 +62362,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Abbott%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62398,7 +62398,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Stryker%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62434,7 +62434,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Boston%20Scientific%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62470,7 +62470,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Becton%20Dickinson%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62506,7 +62506,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Intuitive%20Surgical%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62542,7 +62542,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Edwards%20Lifesciences%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62578,7 +62578,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GE%20HealthCare%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62614,7 +62614,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Baxter%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62650,7 +62650,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Zimmer%20Biomet%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62686,7 +62686,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Dexcom%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62722,7 +62722,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Siemens%20Healthineers%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62758,7 +62758,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=UnitedHealth%20Group%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62794,7 +62794,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=CVS%20Health%20%2F%20Aetna%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62830,7 +62830,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Elevance%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62866,7 +62866,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cigna%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62902,7 +62902,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Humana%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62938,7 +62938,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Centene%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -62974,7 +62974,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=McKesson%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63010,7 +63010,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cardinal%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63046,7 +63046,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Cencora%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63082,7 +63082,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Laboratory%20Corp%20(Labcorp)%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63118,7 +63118,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Quest%20Diagnostics%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63154,7 +63154,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=IQVIA%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63190,7 +63190,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=ICON%20plc%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63226,7 +63226,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Parexel%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63262,7 +63262,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Fortrea%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63298,7 +63298,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Medpace%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63334,7 +63334,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Charles%20River%20Labs%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63370,7 +63370,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Epic%20Systems%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63406,7 +63406,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oracle%20Health%20(Cerner)%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63442,7 +63442,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Veeva%20Systems%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63478,7 +63478,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Tempus%20AI%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63514,7 +63514,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GoodRx%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63550,7 +63550,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Doximity%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63586,7 +63586,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Hims%20%26%20Hers%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63622,7 +63622,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Oscar%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63658,7 +63658,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Komodo%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63694,7 +63694,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Flatiron%20Health%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63730,7 +63730,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=NIH%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63766,7 +63766,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=WHO%20(Americas%2FPAHO)%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63802,7 +63802,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Gates%20Foundation%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63838,7 +63838,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=RTI%20International%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Nursing%20Extern%20summer%202027%20internship%20careers"
   },
   {
@@ -63874,7 +63874,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Johnson%20%26%20Johnson%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -63910,7 +63910,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Pfizer%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -63946,7 +63946,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Merck%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -63982,7 +63982,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AbbVie%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -64018,7 +64018,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Eli%20Lilly%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -64054,7 +64054,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Behavioral interview"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Bristol%20Myers%20Squibb%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -64090,7 +64090,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online application + resume screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Novartis%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -64126,7 +64126,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Online assessment"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=AstraZeneca%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -64162,7 +64162,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "Phone screen"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=GSK%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   },
   {
@@ -64198,7 +64198,7 @@ window.HEALTH_INTERNSHIPS = [
       "assessment": "—"
     },
     "dateAdded": "2026-05-31",
-    "isNew": false,
+    "verified": false, "isNew": false,
     "applyUrl": "https://www.google.com/search?q=Sanofi%20US%20Nursing%20%26%20Allied%20Health%20Intern%20%E2%80%94%20Clinical%20Support%20summer%202027%20internship%20careers"
   }
 ];
