@@ -191,6 +191,12 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
 .vbadge.expected{background:rgba(245,165,36,.14);color:#f5a524;border:1px solid rgba(245,165,36,.34)}
 .cardapply{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:#fff;background:var(--accent);padding:6px 12px;border-radius:8px;text-decoration:none;margin-top:2px;width:fit-content}
 .cardapply:hover{filter:brightness(1.08)}
+
+/* keep card header text clear of the absolute badge cluster */
+.card .co,.card .role,.card .tagrow{padding-right:150px}
+.badgewrap{flex-wrap:wrap;justify-content:flex-end;max-width:150px}
+
+.vbadge.active{background:rgba(54,211,153,.24);color:#2fe0a0;border:1px solid rgba(54,211,153,.6)}
 </style>
 <script src="transition.js?v=4"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="light.css?v=3">
@@ -204,7 +210,7 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
     <a href="database.html" class="backlink">← Back to database</a>
     <h1 style="margin-top:6px">Computer Science &amp; Tech — Summer 2027</h1>
     <div class="sub">Software engineering, AI/ML, data science, product, security, cloud, design & IT internships · tier, competitiveness, pay, stock &amp; networking · last update: <span id="updated"></span></div>
-    <div class="disclaimer"><b>About these listings:</b> roles marked <span class="vbadge verified">Verified</span> have a confirmed, currently-open application link. Roles marked <span class="vbadge expected">Expected</span> are based on the employer's past cycles and have not yet been confirmed open for this year — treat them as strong leads, not guaranteed openings. Pay, acceptance rates and some deadlines are estimates (labeled “est.”).</div>
+    <div class="disclaimer"><b>About these listings:</b> <span class="vbadge active">Active</span> means a confirmed program with an application cycle open now. <span class="vbadge verified">Verified</span> is a real, named program we confirmed, with its next cycle opening later (link goes to the official posting). <span class="vbadge expected">Expected</span> roles are based on an employer's past cycles and are not yet confirmed for this year — strong leads, not guaranteed openings. Pay, acceptance rates and some deadlines are estimates (labeled “est.”). Active roles are sorted to the top.</div>
     <div class="controls">
       <input id="search" type="search" placeholder="Search firm, role, or keyword…">
       <label class="sel"><span class="lbl">Level</span><select id="levelSel"></select></label>
@@ -297,12 +303,12 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
   function cardHTML(d){
     const c=C[d.company]||{};const soph=d.level==="Sophomore / early-insight";
     return `
-      ${(function(){var b=[];b.push(d.verified?'<span class="vbadge verified">Verified</span>':'<span class="vbadge expected">Expected</span>');if(d.isNew)b.push('<span class="badge new">NEW</span>');var lv=((d.level||"")+" "+(d.role||""));if(/sophomore|freshman|first.?year|early.?insight|rising sophomore/i.test(lv))b.push('<span class="lvlbadge soph">SOPHOMORE</span>');else b.push('<span class="lvlbadge jr">JUNIOR</span>');return '<div class="badgewrap">'+b.join("")+'</div>';})()}
+      ${(function(){var b=[];var _act=d.verified&&isOpen(d.status);b.push(_act?'<span class="vbadge active">Active</span>':(d.verified?'<span class="vbadge verified">Verified</span>':'<span class="vbadge expected">Expected</span>'));if(d.isNew)b.push('<span class="badge new">NEW</span>');var lv=((d.level||"")+" "+(d.role||""));if(/sophomore|freshman|first.?year|early.?insight|rising sophomore/i.test(lv))b.push('<span class="lvlbadge soph">SOPHOMORE</span>');else b.push('<span class="lvlbadge jr">JUNIOR</span>');return '<div class="badgewrap">'+b.join("")+'</div>';})()}
       <div class="co">${d.company}</div>
       <div class="tagrow"><span class="tier">${c.tier||""}</span>${fortuneBadge(c)}${startupBadge(c)}</div>
       <div class="role">${d.role}</div>
       <div class="row"><span class="status ${statusClass(d.status)}">${d.status}</span> ${cdBadge(d)}</div>
-      <div class="row">${(d.verified&&d.applyUrl&&/^https?:/.test(d.applyUrl))?'<a class="cardapply" href="'+d.applyUrl+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">Apply ↗</a>':'<span class="livehint off">🔜 apply link not yet confirmed</span>'}</div>
+      <div class="row">${(d.verified&&d.applyUrl&&/^https?:/.test(d.applyUrl))?'<a class="cardapply" href="'+d.applyUrl+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">View posting ↗</a>':'<span class="livehint off">🔜 posting link not yet confirmed</span>'}</div>
       <div class="row"><span class="stars" title="Competitiveness (est.)">${stars(c.compScore||0)}</span><span style="color:var(--muted)">${c.acceptanceRate||""}</span></div>
       <div class="row"><span class="pay">💵 ${d.comp||"—"}</span></div>
       <div class="about">${d.about}</div>
@@ -360,7 +366,7 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
       const levels=activeLevel?[activeLevel]:LEVELS;
       levels.forEach(lv=>{
         let list=data.filter(d=>d.level===lv).filter(matchFilters);
-        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);
+        list.sort((a,b)=>{var ac=x=>(x.verified&&isOpen(x.status))?0:1;if(ac(a)!==ac(b))return ac(a)-ac(b);const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);
           const ca=C[a.company]||{},cb=C[b.company]||{};if((cb.compScore||0)!==(ca.compScore||0))return (cb.compScore||0)-(ca.compScore||0);
           return a.company.localeCompare(b.company);});
         if(!list.length)return;total+=list.length;
@@ -370,7 +376,7 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
       let list=data.filter(matchFilters);
       let title="Results";
       if(sortMode==="fortune"){
-        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);const fa=fortuneOf(a)||9999,fb=fortuneOf(b)||9999;return fa-fb||a.company.localeCompare(b.company);});
+        list.sort((a,b)=>{var ac=x=>(x.verified&&isOpen(x.status))?0:1;if(ac(a)!==ac(b))return ac(a)-ac(b);const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);const fa=fortuneOf(a)||9999,fb=fortuneOf(b)||9999;return fa-fb||a.company.localeCompare(b.company);});
         title="Sorted by Fortune rank — highest-ranked first (non-Fortune last)";
       } else if(sortMode==="deadline"){
         const rank=d=>{const n=daysLeft(d.deadline);if(n===null)return 2;if(n<0)return 1;return 0;};
@@ -378,10 +384,10 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
           if(ra===0)return daysLeft(a.deadline)-daysLeft(b.deadline);return a.company.localeCompare(b.company);});
         title="Sorted by deadline — soonest first (rolling/TBD last)";
       } else if(sortMode==="accept_asc"){
-        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);return acceptVal(C[a.company]||{})-acceptVal(C[b.company]||{})||a.company.localeCompare(b.company);});
+        list.sort((a,b)=>{var ac=x=>(x.verified&&isOpen(x.status))?0:1;if(ac(a)!==ac(b))return ac(a)-ac(b);const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);return acceptVal(C[a.company]||{})-acceptVal(C[b.company]||{})||a.company.localeCompare(b.company);});
         title="Sorted by acceptance rate — low → high (most selective first)";
       } else if(sortMode==="accept_desc"){
-        list.sort((a,b)=>{const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);return acceptVal(C[b.company]||{})-acceptVal(C[a.company]||{})||a.company.localeCompare(b.company);});
+        list.sort((a,b)=>{var ac=x=>(x.verified&&isOpen(x.status))?0:1;if(ac(a)!==ac(b))return ac(a)-ac(b);const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);return acceptVal(C[b.company]||{})-acceptVal(C[a.company]||{})||a.company.localeCompare(b.company);});
         title="Sorted by acceptance rate — high → low (least selective first)";
       }
       total=list.length;
