@@ -52,6 +52,7 @@ html.warpin.warpgo body::before{content:none}
 html[data-theme="light"] .warpin-hole{box-shadow:0 0 0 250vmax #e7edf7} /* matches the light handoff color */
 .warpin-orb{position:fixed;left:50%;top:42%;z-index:2001;width:76px;height:76px;margin:-38px 0 0 -38px;pointer-events:none;
   filter:drop-shadow(0 6px 30px rgba(159,240,226,.45))}
+html[data-theme="light"] .warpin-orb{filter:drop-shadow(0 6px 22px rgba(40,70,140,.28))}
 .warpin-orb .orb{transform-origin:50px 50px;animation:warpinspin 1s linear infinite}
 @keyframes warpinspin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.warpin-hole,.warpin-orb{display:none}}
@@ -65,8 +66,8 @@ html[data-theme="light"] .warpin-hole{box-shadow:0 0 0 250vmax #e7edf7} /* match
     document.body.appendChild(hole);
     var orb=document.createElement("div");orb.className="warpin-orb";
     orb.innerHTML='<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">'+
-      '<defs><linearGradient id="wtg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a9c8ff"/><stop offset=".5" stop-color="#9ff0e2"/><stop offset="1" stop-color="#ffd9a8"/></linearGradient>'+
-      '<radialGradient id="wtc" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#9ff0e2"/></radialGradient></defs>'+
+      '<defs><linearGradient id="wtg" x1="0" y1="0" x2="1" y2="1"><stop class="tgs1" offset="0" stop-color="#a9c8ff"/><stop class="tgs2" offset=".5" stop-color="#9ff0e2"/><stop class="tgs3" offset="1" stop-color="#ffd9a8"/></linearGradient>'+
+      '<radialGradient id="wtc" cx="50%" cy="50%" r="50%"><stop class="tcs1" offset="0" stop-color="#fff"/><stop class="tcs2" offset="1" stop-color="#9ff0e2"/></radialGradient></defs>'+
       '<circle cx="50" cy="50" r="44" stroke="url(#wtg)" stroke-width="1.4" opacity=".35"/>'+
       '<g class="orb"><ellipse cx="50" cy="50" rx="44" ry="17" stroke="url(#wtg)" stroke-width="1.6" opacity=".7"/>'+
       '<ellipse cx="50" cy="50" rx="17" ry="44" stroke="url(#wtg)" stroke-width="1.6" opacity=".7"/></g>'+
