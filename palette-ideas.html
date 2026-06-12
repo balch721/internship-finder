@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telos — palette directions</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,400..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:"IBM Plex Mono",monospace;background:#111;color:#eee;padding:30px}
+h2{font-family:"Fraunces",serif;font-weight:400;margin:0 0 18px;font-size:22px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:1500px;margin:0 auto}
+.panel{position:relative;height:380px;overflow:hidden;border-radius:6px;display:flex;flex-direction:column}
+.tag{position:absolute;top:14px;left:16px;font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.95;z-index:3;padding:4px 9px;border-radius:3px}
+.inner{position:relative;z-index:2;text-align:center;padding:58px 30px 0}
+.inner h1{font-family:"Fraunces",serif;font-weight:420;font-size:30px;line-height:1.1;margin:0}
+.inner h1 i{font-weight:600}
+.inner p{font-size:10.5px;margin:10px auto 0;max-width:380px;line-height:1.6}
+.btns{display:flex;gap:10px;justify-content:center;margin-top:16px}
+.b1{font-size:10.5px;font-weight:600;padding:9px 16px}
+.b2{font-size:10.5px;font-weight:600;padding:9px 16px;background:transparent}
+.mtn{position:absolute;left:0;right:0;bottom:0;height:42%}
+.mtn svg{width:100%;height:100%;display:block}
+.blz{position:absolute;z-index:2}
+
+/* 1 — ALPINE POSTER: gallery white, ink, red. Swiss mountaineering print. */
+.p1{background:#fafaf8;color:#171715}
+.p1 .tag{background:#171715;color:#fafaf8}
+.p1 p{color:#6e6e6a}
+.p1 .b1{background:#b3322b;color:#fff;box-shadow:3px 3px 0 #171715}
+.p1 .b2{border:1.5px solid #171715;color:#171715;box-shadow:3px 3px 0 #c9c9c4}
+
+/* 2 — GRAPHITE NIGHT: zero-blue charcoal, bone, red glows. */
+.p2{background:#171715;color:#ecebe6}
+.p2 .tag{background:#ecebe6;color:#171715}
+.p2 p{color:#8f8e87}
+.p2 .b1{background:#c43a32;color:#fff;box-shadow:3px 3px 0 #000}
+.p2 .b2{border:1.5px solid #8f8e87;color:#ecebe6;box-shadow:3px 3px 0 #000}
+
+/* 3 — OXBLOOD: monochrome red family. Bold, unusual. */
+.p3{background:#23090d;color:#f3e3e0}
+.p3 .tag{background:#f3e3e0;color:#23090d}
+.p3 p{color:#b08a8a}
+.p3 .b1{background:#e0473d;color:#fff;box-shadow:3px 3px 0 #0d0304}
+.p3 .b2{border:1.5px solid #b08a8a;color:#f3e3e0;box-shadow:3px 3px 0 #0d0304}
+
+/* 4 — GLACIER: snowfield whites, cold greys, red blaze on snow. */
+.p4{background:#eff3f3;color:#1b2022}
+.p4 .tag{background:#1b2022;color:#eff3f3}
+.p4 p{color:#74807f}
+.p4 .b1{background:#c03430;color:#fff;box-shadow:3px 3px 0 #1b2022}
+.p4 .b2{border:1.5px solid #9fb0ae;color:#1b2022;box-shadow:3px 3px 0 #c9d4d2}
+</style>
+</head>
+<body>
+<h2>Four directions — same layout, your red kept, no brown / green / orange / indigo</h2>
+<div class="grid">
+
+  <div class="panel p1">
+    <span class="tag">1 · Alpine poster — gallery white</span>
+    <div class="inner">
+      <h1>10,400 internships.<br>Every link <i>clicked through.</i></h1>
+      <p>Swiss-print starkness: white, ink, one red. The red blaze hits hardest here.</p>
+      <div class="btns"><span class="b1">Open the database →</span><span class="b2">Take the survey</span></div>
+    </div>
+    <div class="mtn"><svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+      <path d="M0,130 L160,95 L300,115 L470,60 L600,105 L730,38 L880,104 L1060,75 L1230,110 L1440,90 L1440,200 L0,200 Z" fill="#d4d4cf"/>
+      <path d="M0,155 L200,122 L380,145 L560,112 L780,150 L960,118 L1150,148 L1440,128 L1440,200 L0,200 Z" fill="#9b9b94"/>
+      <path d="M0,178 L250,158 L490,175 L750,152 L1000,172 L1240,158 L1440,170 L1440,200 L0,200 Z" fill="#2a2a27"/>
+      <circle cx="730" cy="38" r="6" fill="#b3322b"/>
+    </svg></div>
+  </div>
+
+  <div class="panel p2">
+    <span class="tag">2 · Graphite night — zero-blue dark</span>
+    <div class="inner">
+      <h1>10,400 internships.<br>Every link <i>clicked through.</i></h1>
+      <p>True charcoal, not navy. Bone text, warm greys, red glows like a signal lamp.</p>
+      <div class="btns"><span class="b1">Open the database →</span><span class="b2">Take the survey</span></div>
+    </div>
+    <div class="mtn"><svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+      <path d="M0,130 L160,95 L300,115 L470,60 L600,105 L730,38 L880,104 L1060,75 L1230,110 L1440,90 L1440,200 L0,200 Z" fill="#262624"/>
+      <path d="M0,155 L200,122 L380,145 L560,112 L780,150 L960,118 L1150,148 L1440,128 L1440,200 L0,200 Z" fill="#1e1e1c"/>
+      <path d="M0,178 L250,158 L490,175 L750,152 L1000,172 L1240,158 L1440,170 L1440,200 L0,200 Z" fill="#101010"/>
+      <circle cx="730" cy="38" r="7" fill="#c43a32"/><circle cx="730" cy="38" r="14" fill="#c43a32" opacity=".25"/>
+    </svg></div>
+  </div>
+
+  <div class="panel p3">
+    <span class="tag">3 · Oxblood — all-in on the red</span>
+    <div class="inner">
+      <h1>10,400 internships.<br>Every link <i>clicked through.</i></h1>
+      <p>One color family, floor to ceiling: wine dark, rose greys, vermillion action. Nobody else looks like this.</p>
+      <div class="btns"><span class="b1">Open the database →</span><span class="b2">Take the survey</span></div>
+    </div>
+    <div class="mtn"><svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+      <path d="M0,130 L160,95 L300,115 L470,60 L600,105 L730,38 L880,104 L1060,75 L1230,110 L1440,90 L1440,200 L0,200 Z" fill="#3c1419"/>
+      <path d="M0,155 L200,122 L380,145 L560,112 L780,150 L960,118 L1150,148 L1440,128 L1440,200 L0,200 Z" fill="#2e0e13"/>
+      <path d="M0,178 L250,158 L490,175 L750,152 L1000,172 L1240,158 L1440,170 L1440,200 L0,200 Z" fill="#16050a"/>
+      <circle cx="730" cy="38" r="7" fill="#e0473d"/><circle cx="730" cy="38" r="15" fill="#e0473d" opacity=".22"/>
+    </svg></div>
+  </div>
+
+  <div class="panel p4">
+    <span class="tag">4 · Glacier — red blaze on snow</span>
+    <div class="inner">
+      <h1>10,400 internships.<br>Every link <i>clicked through.</i></h1>
+      <p>Snowfield whites and frosted greys. A red trail mark on snow is the clearest signal in nature.</p>
+      <div class="btns"><span class="b1">Open the database →</span><span class="b2">Take the survey</span></div>
+    </div>
+    <div class="mtn"><svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+      <path d="M0,130 L160,95 L300,115 L470,60 L600,105 L730,38 L880,104 L1060,75 L1230,110 L1440,90 L1440,200 L0,200 Z" fill="#d8e0df"/>
+      <path d="M0,155 L200,122 L380,145 L560,112 L780,150 L960,118 L1150,148 L1440,128 L1440,200 L0,200 Z" fill="#aebcba"/>
+      <path d="M0,178 L250,158 L490,175 L750,152 L1000,172 L1240,158 L1440,170 L1440,200 L0,200 Z" fill="#3d4a49"/>
+      <circle cx="730" cy="38" r="6" fill="#c03430"/>
+    </svg></div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -6,20 +6,20 @@
 (function () {
   const css = `
   #aif-acct{position:fixed;top:14px;right:16px;z-index:1000;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  #aif-acct .aif-btn{display:flex;align-items:center;gap:8px;background:#1e232c;border:1px solid #2a313c;color:#e6e9ef;
+  #aif-acct .aif-btn{display:flex;align-items:center;gap:8px;background:#1b1812;border:1px solid #2a261e;color:#f1ecdf;
     font-size:13px;font-weight:600;padding:7px 12px;border-radius:999px;cursor:pointer}
-  #aif-acct .aif-btn:hover{border-color:#5b8cff}
-  #aif-acct .aif-av{width:22px;height:22px;border-radius:50%;background:linear-gradient(135deg,#5b8cff,#9b6bff);color:#fff;
+  #aif-acct .aif-btn:hover{border-color:#cfb991}
+  #aif-acct .aif-av{width:22px;height:22px;border-radius:50%;background:linear-gradient(135deg,#cfb991,#9a885a);color:#fff;
     display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700}
-  #aif-acct .aif-menu{position:absolute;top:44px;right:0;min-width:210px;background:#171b22;border:1px solid #2a313c;
+  #aif-acct .aif-menu{position:absolute;top:44px;right:0;min-width:210px;background:#14120e;border:1px solid #2a261e;
     border-radius:12px;padding:8px;box-shadow:0 16px 40px rgba(0,0,0,.45);display:none}
   #aif-acct .aif-menu.open{display:block}
-  #aif-acct .aif-head{padding:8px 10px 10px;border-bottom:1px solid #2a313c;margin-bottom:6px}
-  #aif-acct .aif-name{color:#e6e9ef;font-size:13.5px;font-weight:600}
-  #aif-acct .aif-mail{color:#9aa4b2;font-size:12px;margin-top:2px;word-break:break-all}
-  #aif-acct .aif-item{display:block;width:100%;text-align:left;background:none;border:none;color:#cdd3dc;
+  #aif-acct .aif-head{padding:8px 10px 10px;border-bottom:1px solid #2a261e;margin-bottom:6px}
+  #aif-acct .aif-name{color:#f1ecdf;font-size:13.5px;font-weight:600}
+  #aif-acct .aif-mail{color:#9a9077;font-size:12px;margin-top:2px;word-break:break-all}
+  #aif-acct .aif-item{display:block;width:100%;text-align:left;background:none;border:none;color:#d8d0bd;
     font-size:13.5px;padding:9px 10px;border-radius:8px;cursor:pointer;text-decoration:none}
-  #aif-acct .aif-item:hover{background:#1e232c;color:#fff}
+  #aif-acct .aif-item:hover{background:#1b1812;color:#fff}
   #aif-acct .aif-item.danger{color:#ff9aa6}
   @media (max-width:768px){
     /* scroll with the page instead of staying pinned over cards */

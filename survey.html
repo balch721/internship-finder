@@ -9,16 +9,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#0a0f18; --panel:#121a28; --panel2:#1a2436; --border:#26344a;
-    --text:#eef3fb; --muted:#9fb2cc; --accent:#8fb4ff; --accent2:#6fe0cf; --up:#6fe0a8; --gold:#ffd79b;
+    --bg:#100e09; --panel:#14110c; --panel2:#272217; --border:#383121;
+    --text:#eef3fb; --muted:#c4ad73; --accent:#c6af74; --accent2:#cfb991; --up:#3f9d68; --gold:#ebd99f;
     --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   }
   *{box-sizing:border-box}
   button,input,textarea,select{color:var(--text)}
   html,body{margin:0;overflow-x:hidden;max-width:100%}
   body{min-height:100vh;font-family:var(--sans);color:var(--text);line-height:1.6;position:relative;
-    background:linear-gradient(180deg,#070c15 0%,#0b1422 40%,#0e1b2e 72%,#0a1320 100%)}
-  ::selection{background:rgba(143,180,255,.32);color:#fff}
+    background:linear-gradient(180deg,#0c0b07 0%,#15120c 40%,#1c1810 72%,#13110b 100%)}
+  ::selection{background:rgba(207,185,145,.32);color:#fff}
 
   /* trailhead valley backdrop (fixed, static) */
   .valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
@@ -39,19 +39,19 @@
   /* trailhead header */
   .trailhead{text-align:center;margin:18px auto 4px;max-width:560px}
   .trailhead .badge{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:600;letter-spacing:.16em;
-    text-transform:uppercase;color:var(--accent2);background:rgba(111,224,207,.08);border:1px solid rgba(111,224,207,.22);
+    text-transform:uppercase;color:var(--accent2);background:rgba(218,180,90,.08);border:1px solid rgba(218,180,90,.22);
     padding:5px 14px;border-radius:999px}
   .trailhead h1{font-family:var(--serif);font-weight:360;font-size:clamp(34px,6vw,54px);line-height:1.02;letter-spacing:-.8px;margin:16px 0 8px}
-  .trailhead h1 .accent{font-style:italic;background:linear-gradient(100deg,#a9c8ff,#9ff0e2,#ffd9a8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .trailhead h1 .accent{font-style:italic;background:linear-gradient(100deg,#d9c69b,#d9c69b,#ebd99f);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   .trailhead p{color:var(--muted);font-size:15px;margin:0 auto;max-width:430px}
 
-  #survey{max-width:600px;margin:26px auto 0;background:rgba(18,26,40,.82);backdrop-filter:blur(12px);border:1px solid var(--border);border-radius:20px;padding:26px 28px 24px;box-shadow:0 24px 60px rgba(0,0,0,.4);overflow:hidden}
+  #survey{max-width:600px;margin:26px auto 0;background:rgba(28,24,16,.82);backdrop-filter:blur(12px);border:1px solid var(--border);border-radius:20px;padding:26px 28px 24px;box-shadow:0 24px 60px rgba(0,0,0,.4);overflow:hidden}
   /* progress shown as a marked trail */
   .progwrap{margin-top:0}
-  .progbar{height:8px;background:#15233a;border-radius:6px;overflow:hidden;position:relative}
+  .progbar{height:8px;background:#221c10;border-radius:6px;overflow:hidden;position:relative}
   .progbar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .5s cubic-bezier(.2,.7,.2,1)}
   .progtext{color:var(--muted);font-size:12px;margin-top:8px;display:flex;align-items:center;gap:7px}
-  .progtext::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent2);box-shadow:0 0 0 3px rgba(111,224,207,.18)}
+  .progtext::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent2);box-shadow:0 0 0 3px rgba(218,180,90,.18)}
 
   /* question card with slide transition */
   .stage{position:relative;margin-top:26px}
@@ -63,10 +63,10 @@
   .qtitle{font-family:var(--serif);font-size:26px;font-weight:480;margin:8px 0 4px;letter-spacing:-.4px;line-height:1.12}
   .qhint{color:var(--muted);font-size:13.5px;margin-bottom:18px}
   .opts{display:grid;gap:11px}
-  .opt{display:flex;align-items:center;gap:12px;background:rgba(22,32,48,.6);border:1px solid var(--border);border-radius:13px;
+  .opt{display:flex;align-items:center;gap:12px;background:rgba(34,30,20,.6);border:1px solid var(--border);border-radius:13px;
     padding:15px 16px;cursor:pointer;font-size:15px;transition:transform .16s,border-color .16s,background .16s;text-align:left}
   .opt:hover{transform:translateX(4px);border-color:var(--accent)}
-  .opt.sel{border-color:var(--accent);background:rgba(143,180,255,.14)}
+  .opt.sel{border-color:var(--accent);background:rgba(207,185,145,.14)}
   .opt .em{font-size:20px}
   .opt .ck{margin-left:auto;color:var(--accent);font-weight:700;opacity:0;transition:opacity .15s}
   .opt.sel .ck{opacity:1}
@@ -81,7 +81,7 @@
   .drop{margin-top:10px;border:2px dashed var(--border);border-radius:12px;padding:18px;text-align:center;cursor:pointer;transition:.15s;font-size:13.5px;color:var(--muted)}
   .drop:hover,.drop.drag{border-color:var(--accent);color:var(--text)}
   .nav{display:flex;justify-content:space-between;align-items:center;margin-top:26px}
-  .btn{background:linear-gradient(120deg,var(--accent),var(--accent2));color:#0a0f18;border:none;font-size:15px;font-weight:700;padding:12px 28px;border-radius:12px;cursor:pointer;transition:filter .2s,transform .12s}
+  .btn{background:linear-gradient(120deg,var(--accent),var(--accent2));color:#100e09;border:none;font-size:15px;font-weight:700;padding:12px 28px;border-radius:12px;cursor:pointer;transition:filter .2s,transform .12s}
   .btn:hover{filter:brightness(1.08)} .btn:active{transform:scale(.97)} .btn:disabled{opacity:.4;cursor:default}
   .back{background:none;border:none;color:var(--muted);font-size:14px;cursor:pointer;padding:8px 4px;transition:color .2s}
   .back:hover{color:var(--text)}
@@ -94,7 +94,7 @@
   h1{font-family:var(--serif);font-weight:400;font-size:30px;margin:6px 0 2px;letter-spacing:-.4px}
   .rsub{color:var(--muted);font-size:13.5px;margin-bottom:6px}
   .yourtags{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 18px}
-  .yt{font-size:11.5px;padding:3px 9px;border-radius:999px;background:#222a36;color:#bcd0ff}
+  .yt{font-size:11.5px;padding:3px 9px;border-radius:999px;background:#262019;color:#d9c69b}
   .rcard{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px 18px;margin-bottom:12px;position:relative;transition:border-color .2s,transform .2s}
   .rcard:hover{border-color:var(--accent);transform:translateY(-2px)}
   .score{position:absolute;top:15px;right:16px;font-weight:800;font-size:14px}
@@ -102,9 +102,9 @@
   .rco{color:var(--accent);font-weight:600;font-size:13px}
   .rrole{font-size:16px;font-weight:650;margin:1px 0 2px}
   .rmeta{color:var(--muted);font-size:12.5px}
-  .sectlabel{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:6px;background:#222a36;color:#bcd0ff;margin-bottom:6px}
+  .sectlabel{display:inline-block;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:6px;background:#262019;color:#d9c69b;margin-bottom:6px}
   .why{font-size:12px;color:var(--muted);margin-top:7px}
-  .mk{display:inline-block;font-size:11px;padding:2px 7px;border-radius:6px;background:rgba(54,211,153,.12);color:#8fe6bf;border:1px solid rgba(54,211,153,.25);margin:3px 4px 0 0}
+  .mk{display:inline-block;font-size:11px;padding:2px 7px;border-radius:6px;background:rgba(47,143,99,.12);color:#8fe6bf;border:1px solid rgba(47,143,99,.25);margin:3px 4px 0 0}
   .rapply{display:inline-block;margin-top:9px;color:var(--accent);font-weight:600;font-size:13px;text-decoration:none}
   .restart{margin:20px auto 0;display:block;background:var(--panel2);border:1px solid var(--border);color:var(--text);font-size:13.5px;font-weight:600;padding:11px 20px;border-radius:11px;cursor:pointer}
   .restart:hover{border-color:var(--accent)}
@@ -114,7 +114,7 @@
   .rcard{cursor:pointer}
   .rcard .savebtn{position:absolute;bottom:14px;right:14px;background:var(--panel2);border:1px solid var(--border);color:var(--muted);font-size:11.5px;font-weight:600;padding:5px 10px;border-radius:8px;cursor:pointer;z-index:2}
   .rcard .savebtn:hover{color:var(--text);border-color:var(--accent)}
-  .rcard .savebtn.on{background:rgba(91,140,255,.16);border-color:var(--accent);color:#bcd0ff}
+  .rcard .savebtn.on{background:rgba(207,185,145,.16);border-color:var(--accent);color:#d9c69b}
   .opencue{font-size:11px;color:var(--accent);margin-top:8px;opacity:.85}
   /* modal */
   .overlay{position:fixed;inset:0;background:rgba(0,0,0,.64);display:none;align-items:flex-start;justify-content:center;padding:34px 20px;z-index:80;overflow-y:auto}
@@ -133,10 +133,10 @@
   .pane.active{display:block}
   .pane h3{font-size:11.5px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:16px 0 6px}
   .pane h3:first-child{margin-top:4px}
-  .pane p{margin:0 0 10px;font-size:14.5px;color:#cdd3dc}
+  .pane p{margin:0 0 10px;font-size:14.5px;color:#d8d0bd}
   .kv{display:flex;gap:10px;font-size:13.5px;margin:5px 0}
   .kv b{color:var(--muted);font-weight:500;min-width:120px}
-  .tier{font-size:11px;padding:3px 9px;border-radius:999px;background:#222a36;color:#bcd0ff}
+  .tier{font-size:11px;padding:3px 9px;border-radius:999px;background:#262019;color:#d9c69b}
   .stars{color:var(--gold);letter-spacing:1px;font-size:12px}
   .newsitem{display:block;padding:11px 0;border-bottom:1px solid var(--border);text-decoration:none}
   .newsitem:last-child{border-bottom:none}
@@ -147,16 +147,16 @@
   .netlink:hover{border-color:var(--accent)}
   .netlink .nl{color:var(--text);font-size:13.5px;font-weight:600}
   .netlink .ns{color:var(--accent);font-size:12px;white-space:nowrap}
-  .tmpl{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:13px;color:#cdd3dc;white-space:pre-wrap;margin-bottom:10px}
+  .tmpl{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:13px;color:#d8d0bd;white-space:pre-wrap;margin-bottom:10px}
   .stockbox{background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
   .stockhead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
   .chg{font-weight:700;font-size:15px}
   .chg.up{color:var(--up)} .chg.down{color:#ff6b6b} .chg.flat{color:var(--muted)}
   .stocktext{font-size:12.5px;color:var(--muted);margin-top:8px}
   .private{font-size:13.5px;color:var(--muted);font-style:italic}
-  .mapply{display:inline-block;margin-top:20px;background:var(--accent);color:#fff;text-decoration:none;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px}
-  .mapply:hover{background:#4a7bf0}
-  .msoon{display:inline-block;margin-top:20px;background:#262a31;color:#9aa4b2;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px;border:1px dashed var(--border)}
+  .mapply{display:inline-block;margin-top:20px;background:var(--accent);color:#1c1608;text-decoration:none;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px}
+  .mapply:hover{background:#a98a52}
+  .msoon{display:inline-block;margin-top:20px;background:#262a31;color:#9a9077;padding:12px 22px;border-radius:11px;font-weight:650;font-size:14px;border:1px dashed var(--border)}
 
   /* ---------- responsive ---------- */
   @media (max-width:768px){
@@ -188,11 +188,11 @@
 
   /* ---- auth gate: covers the survey until a signed-in user is confirmed ---- */
   #authGate{position:fixed;inset:0;z-index:200;display:flex;flex-direction:column;align-items:center;justify-content:center;
-    gap:14px;text-align:center;padding:30px;background:linear-gradient(180deg,#070c15 0%,#0b1422 50%,#0a1320 100%)}
+    gap:14px;text-align:center;padding:30px;background:linear-gradient(180deg,#0c0b07 0%,#15120c 50%,#13110b 100%)}
   #authGate .gicon{font-size:30px}
   #authGate .gh{font-family:var(--serif);font-size:26px;font-weight:420;letter-spacing:-.4px}
   #authGate .gp{font-size:14px;color:var(--muted);max-width:430px;line-height:1.55}
-  #authGate a.gbtn{margin-top:6px;background:linear-gradient(120deg,var(--accent),var(--accent2));color:#0a0f18;text-decoration:none;
+  #authGate a.gbtn{margin-top:6px;background:linear-gradient(120deg,var(--accent),var(--accent2));color:#100e09;text-decoration:none;
     font-weight:700;font-size:14.5px;padding:12px 26px;border-radius:12px}
   #authGate a.glink{color:var(--muted);font-size:13px;text-decoration:underline}
   /* keep the survey + results hidden until auth is confirmed (survives bfcache/back-button) */
@@ -200,18 +200,18 @@
   body.authed #authGate{display:none}
 
   /* ---- returning-user choice screen ---- */
-  #choice{max-width:560px;margin:26px auto 0;background:rgba(18,26,40,.82);backdrop-filter:blur(12px);border:1px solid var(--border);
+  #choice{max-width:560px;margin:26px auto 0;background:rgba(28,24,16,.82);backdrop-filter:blur(12px);border:1px solid var(--border);
     border-radius:20px;padding:30px 28px;box-shadow:0 24px 60px rgba(0,0,0,.4);text-align:center}
   #choice h2{font-family:var(--serif);font-weight:440;font-size:25px;margin:0 0 6px;letter-spacing:-.4px}
   #choice .csub{color:var(--muted);font-size:14px;margin:0 auto 6px;max-width:420px}
   #choice .cwhen{color:var(--accent2);font-size:12.5px;margin-bottom:20px}
   #choice .cbtns{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
   #choice .cbtn{flex:1;min-width:200px;border:1px solid var(--border);border-radius:14px;padding:18px 16px;cursor:pointer;
-    background:rgba(22,32,48,.6);transition:transform .16s,border-color .16s;text-align:left}
+    background:rgba(34,30,20,.6);transition:transform .16s,border-color .16s;text-align:left}
   #choice .cbtn:hover{transform:translateY(-2px);border-color:var(--accent)}
   #choice .cbtn .ct{font-size:15.5px;font-weight:700;margin-bottom:3px}
   #choice .cbtn .cd{font-size:12.5px;color:var(--muted);line-height:1.45}
-  #choice .cbtn.primary{background:linear-gradient(120deg,rgba(143,180,255,.16),rgba(111,224,207,.12));border-color:var(--accent)}
+  #choice .cbtn.primary{background:linear-gradient(120deg,rgba(207,185,145,.16),rgba(218,180,90,.12));border-color:var(--accent)}
 </style>
 <script src="transition.js?v=4"></script>
 <link rel="stylesheet" href="light.css?v=3">
@@ -222,37 +222,37 @@
   <svg viewBox="0 0 1440 760" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient id="peak" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stop-color="#2b3e5e"/><stop offset="1" stop-color="#172941"/>
+        <stop offset="0" stop-color="#423b27"/><stop offset="1" stop-color="#2a2519"/>
       </linearGradient>
       <linearGradient id="peak2" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stop-color="#22344f"/><stop offset="1" stop-color="#131f33"/>
+        <stop offset="0" stop-color="#373120"/><stop offset="1" stop-color="#211d13"/>
       </linearGradient>
       <linearGradient id="trail" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stop-color="#3a4b66"/><stop offset="1" stop-color="#566a89"/>
+        <stop offset="0" stop-color="#514830"/><stop offset="1" stop-color="#736644"/>
       </linearGradient>
     </defs>
     <!-- distant haze ridge -->
-    <path d="M0,420 L240,300 L430,400 L620,290 L820,410 L1040,300 L1230,400 L1440,330 L1440,760 L0,760 Z" fill="#16243c" opacity="0.45"/>
+    <path d="M0,420 L240,300 L430,400 L620,290 L820,410 L1040,300 L1230,400 L1440,330 L1440,760 L0,760 Z" fill="#221c10" opacity="0.45"/>
     <!-- back range of pointed peaks -->
     <path d="M-40,470 L250,250 L470,470 Z" fill="url(#peak2)" opacity="0.85"/>
     <path d="M980,470 L1240,230 L1500,470 Z" fill="url(#peak2)" opacity="0.85"/>
     <!-- snow caps on back peaks (attached at summit) -->
-    <path d="M250,250 L320,310 L292,326 L270,312 L250,330 L232,316 L210,326 Z" fill="#e9f1ff" opacity="0.13"/>
-    <path d="M1240,230 L1312,292 L1282,308 L1258,294 L1240,312 L1220,296 L1196,308 Z" fill="#e9f1ff" opacity="0.13"/>
+    <path d="M250,250 L320,310 L292,326 L270,312 L250,330 L232,316 L210,326 Z" fill="#ffed9e" opacity="0.13"/>
+    <path d="M1240,230 L1312,292 L1282,308 L1258,294 L1240,312 L1220,296 L1196,308 Z" fill="#ffed9e" opacity="0.13"/>
     <!-- main front peak (the trailhead mountain) -->
     <path d="M360,520 L720,250 L1080,520 Z" fill="url(#peak)"/>
     <!-- snow cap attached to the front summit -->
-    <path d="M720,250 L808,316 L772,334 L744,316 L720,338 L694,318 L660,336 Z" fill="#e9f1ff" opacity="0.2"/>
+    <path d="M720,250 L808,316 L772,334 L744,316 L720,338 L694,318 L660,336 Z" fill="#ffed9e" opacity="0.2"/>
     <!-- soft foreground hills covering the bases -->
-    <path d="M0,560 C260,512 460,572 700,552 C960,528 1180,584 1440,540 L1440,760 L0,760 Z" fill="#0d1828"/>
-    <path d="M0,660 C300,616 540,672 820,646 C1080,622 1260,672 1440,640 L1440,760 L0,760 Z" fill="#0a1322"/>
+    <path d="M0,560 C260,512 460,572 700,552 C960,528 1180,584 1440,540 L1440,760 L0,760 Z" fill="#19160e"/>
+    <path d="M0,660 C300,616 540,672 820,646 C1080,622 1260,672 1440,640 L1440,760 L0,760 Z" fill="#0b0907"/>
     <!-- winding trail climbing from the viewer up the slope -->
     <path d="M700,760 C672,694 766,664 742,606 C720,556 624,548 644,496 C660,456 752,464 772,432"
           fill="none" stroke="url(#trail)" stroke-width="30" stroke-linecap="round" opacity="0.5"/>
     <path d="M700,760 C672,694 766,664 742,606 C720,556 624,548 644,496 C660,456 752,464 772,432"
-          fill="none" stroke="#8095b5" stroke-width="2.5" stroke-dasharray="2 18" stroke-linecap="round" opacity="0.45"/>
+          fill="none" stroke="#a39060" stroke-width="2.5" stroke-dasharray="2 18" stroke-linecap="round" opacity="0.45"/>
     <!-- pine trees -->
-    <g fill="#0b1626">
+    <g fill="#16140d">
       <path d="M300,712 l20,-64 l20,64 z M307,684 l13,-40 l13,40 z M313,660 l7,-26 h-14 z M316,640 l4,-18 h-8 z"/>
       <path d="M1170,706 l22,-70 l22,70 z M1178,674 l14,-44 l14,44 z M1185,648 l7,-28 h-14 z M1188,626 l4,-18 h-8 z"/>
       <path d="M210,742 l16,-50 l16,50 z M216,718 l10,-30 l10,30 z M221,698 l5,-20 h-10 z"/>
@@ -394,7 +394,7 @@ function openModal(item){
   const news=(c.news&&c.news.length)?c.news.map(n=>`<a class="newsitem" href="${n.url}" target="_blank" rel="noopener"><div class="nt">${n.title} ↗</div><div class="nm">${n.source} · ${n.date}</div></a>`).join(""):`<p style="color:var(--muted)">No recent news on file.</p>`;
   const deep=(c.deepProfile||[]).map(p=>`<p>${p}</p>`).join("")||"<p>—</p>";
   const apply=isOpenStatus(d.status)?`<a class="mapply" href="${d.applyUrl}" target="_blank" rel="noopener">Go to application →</a>`:`<span class="msoon">🔜 Application not open yet — coming soon</span>`;
-  const saveBtn=`<button class="mapply" id="mSave" style="background:${isSaved(d)?'rgba(91,140,255,.2)':'var(--panel2)'};color:#fff;border:1px solid var(--border);margin-left:10px">${isSaved(d)?'★ Saved':'☆ Save this job'}</button>`;
+  const saveBtn=`<button class="mapply" id="mSave" style="background:${isSaved(d)?'rgba(207,185,145,.2)':'var(--panel2)'};color:#fff;border:1px solid var(--border);margin-left:10px">${isSaved(d)?'★ Saved':'☆ Save this job'}</button>`;
   m.innerHTML=`
     <button class="close" onclick="closeModal()">×</button>
     <h2>${d.role}</h2>
@@ -440,7 +440,7 @@ function openModal(item){
     t.classList.add("active");m.querySelector(`.pane[data-p="${t.dataset.p}"]`).classList.add("active");
   });
   const ms=m.querySelector("#mSave");
-  if(ms) ms.onclick=()=>{toggleSave(d);const on=isSaved(d);ms.textContent=on?"★ Saved":"☆ Save this job";ms.style.background=on?"rgba(91,140,255,.2)":"var(--panel2)";
+  if(ms) ms.onclick=()=>{toggleSave(d);const on=isSaved(d);ms.textContent=on?"★ Saved":"☆ Save this job";ms.style.background=on?"rgba(207,185,145,.2)":"var(--panel2)";
     const cardBtn=document.querySelector(`#rlist .rcard[data-id="${d.id}"] .savebtn`);if(cardBtn){cardBtn.classList.toggle("on",on);cardBtn.textContent=on?"★ Saved":"☆ Save";}};
   document.getElementById("overlay").classList.add("show");
 }
@@ -717,7 +717,7 @@ function finish(){
         <div class="rco">${d.company}</div>
         <div class="rrole">${d.role}</div>
         <div class="rmeta">${(c.tier||"")} · 🗓 ${d.due||"—"} · 💵 ${d.comp||"—"}</div>
-        <div class="why"><b style="color:#cdd3dc">Why it fits:</b></div><div>${why}</div>
+        <div class="why"><b style="color:#d8d0bd">Why it fits:</b></div><div>${why}</div>
         <div class="opencue">Click for full details, company morals, stock & news →</div>
         <button class="savebtn${isSaved(d)?' on':''}" data-save="1">${isSaved(d)?'★ Saved':'☆ Save'}</button>
       </div>`;
@@ -812,14 +812,13 @@ renderStep(1);
         document.body.classList.add("authed");
       } else {
         document.body.classList.remove("authed");
-        // not signed in → send to login, but the gate already covers the page either way
-        if(!/[?&]nogate=1/.test(location.search)){
-          location.replace("login.html?return=survey.html");
-        }
+        // not signed in → straight to login; login returns them here afterwards
+        location.replace("login.html?return=survey.html");
       }
     }
     function ready(cb,tries){ tries=tries||0; if(window.AIF_AUTH) return cb();
-      if(tries>120){ /* auth never loaded: leave gate up */ return; } setTimeout(()=>ready(cb,tries+1),40); }
+      if(tries>120){ /* auth never loaded: still route to login rather than stranding the user */
+        location.replace("login.html?return=survey.html"); return; } setTimeout(()=>ready(cb,tries+1),40); }
     ready(()=>{ window.AIF_AUTH.onUser(applyAuth); });
     // bfcache / back-button restore: re-verify; if we don't have a confirmed user, re-gate.
     window.addEventListener("pageshow", function(e){
@@ -836,11 +835,7 @@ renderStep(1);
   <!-- AUTH GATE — visible by default; only hidden once a signed-in user is confirmed.
        Being default-visible means the back button / bfcache can never reveal the survey. -->
   <div id="authGate">
-    <div class="gicon">🔒</div>
-    <div class="gh">Sign in to find your matches</div>
-    <div class="gp">The personalized survey is account-only, so your answers, resume, and trail map follow you across devices. It's free and takes a moment.</div>
-    <a class="gbtn" href="login.html?return=survey.html">Log in or create an account →</a>
-    <a class="glink" href="database.html">Or browse the whole database without an account</a>
+    <div class="gp">Taking you to sign in…</div>
   </div>
 </body>
 </html>

@@ -6,9 +6,9 @@
 <title>My Saved Jobs — Telos</title>
 <style>
   :root{
-    --bg:#0e1116; --panel:#171b22; --panel2:#1e232c; --border:#2a313c;
-    --text:#e6e9ef; --muted:#9aa4b2; --accent:#5b8cff; --radius:14px;
-    --saved:#9aa4b2; --applied:#5b8cff; --interviewing:#f5a524; --accepted:#36d399; --rejected:#ff6b6b;
+    --bg:#0c0b09; --panel:#14120e; --panel2:#1b1812; --border:#2a261e;
+    --text:#f1ecdf; --muted:#b0a890; --accent:#cfb991; --radius:14px;
+    --saved:#9a9077; --applied:#cfb991; --interviewing:#f5a524; --accepted:#2f8f63; --rejected:#ff6b6b;
   }
   *{box-sizing:border-box}
   body{margin:0;font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
@@ -54,10 +54,10 @@
 
 /* valley backdrop (injected) */
 html,body{position:relative}
-html{background-color:#080d16;background-image:linear-gradient(180deg,#080d16 0%,#0b1320 45%,#0e1a2b 75%,#0a1018 100%);min-height:100%}body{background:transparent !important}
+html{background-color:#0a0908;background-image:linear-gradient(180deg,#0a0908 0%,#14110b 45%,#1b1810 75%,#0a1018 100%);min-height:100%}body{background:transparent !important}
 .valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 .valley svg{position:absolute;bottom:0;left:0;width:100%;height:48vh;min-height:300px;opacity:.9}
-.vglow{position:fixed;top:-6%;left:50%;transform:translateX(-50%);width:520px;height:340px;z-index:0;pointer-events:none;background:radial-gradient(circle at 50% 30%,rgba(220,230,250,.05),transparent 65%)}
+.vglow{position:fixed;top:-6%;left:50%;transform:translateX(-50%);width:520px;height:340px;z-index:0;pointer-events:none;background:radial-gradient(circle at 50% 30%,rgba(255,226,151,.05),transparent 65%)}
 /* keep real content above the backdrop */
 .wrap,header,main,nav,#aif-acct,.gate{position:relative;z-index:2}.overlay{position:fixed;z-index:999}
   h1{font-family:"Fraunces",Georgia,serif !important;font-weight:480 !important}
@@ -69,7 +69,7 @@ html{background-color:#080d16;background-image:linear-gradient(180deg,#080d16 0%
 <script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
 </head>
 <body>
-<div class="valley"><svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice"><path d="M0,360 L240,300 L430,400 L620,290 L820,410 L1040,300 L1230,400 L1440,330 L1440,600 L0,600 Z" fill="#141c2b" opacity=".7"/><path d="M0,440 L260,330 L470,440 L700,340 L940,440 L1180,350 L1440,430 L1440,600 L0,600 Z" fill="#101725" opacity=".9"/><path d="M0,500 L300,430 L560,510 L820,440 L1080,510 L1440,450 L1440,600 L0,600 Z" fill="#0b111c"/></svg></div><div class="vglow"></div>
+<div class="valley"><svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice"><path d="M0,360 L240,300 L430,400 L620,290 L820,410 L1040,300 L1230,400 L1440,330 L1440,600 L0,600 Z" fill="#1e1a11" opacity=".7"/><path d="M0,440 L260,330 L470,440 L700,340 L940,440 L1180,350 L1440,430 L1440,600 L0,600 Z" fill="#19160e" opacity=".9"/><path d="M0,500 L300,430 L560,510 L820,440 L1080,510 L1440,450 L1440,600 L0,600 Z" fill="#12100a"/></svg></div><div class="vglow"></div>
 
 <header><div class="wrap">
   <a class="home" href="index.html">← Telos</a>

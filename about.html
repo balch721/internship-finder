@@ -6,119 +6,288 @@
 <title>About — Telos</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --bg:#0a0f18; --panel:#121a28; --border:#26344a; --text:#eef3fb; --muted:#9fb2cc;
-    --accent:#8fb4ff; --accent2:#6fe0cf; --gold:#ffd79b;
-    --serif:"Fraunces",Georgia,serif; --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  }
-  *{box-sizing:border-box}
-  html,body{margin:0;overflow-x:hidden;max-width:100%}
-  body{font-family:var(--sans);color:var(--text);line-height:1.65;min-height:100vh;position:relative;
-    background:linear-gradient(180deg,#070c15 0%,#0b1422 42%,#0e1b2e 74%,#0a1320 100%)}
-  ::selection{background:rgba(143,180,255,.32);color:#fff}
-  .valley{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
-  .valley svg{position:absolute;bottom:0;left:0;width:100%;height:56vh;min-height:360px}
-  .sun{position:fixed;top:8%;left:52%;transform:translateX(-50%);width:300px;height:300px;z-index:0;pointer-events:none;
-    background:radial-gradient(circle,rgba(255,216,165,.16),transparent 68%)}
-  .wrap{position:relative;z-index:2;max-width:640px;margin:0 auto;padding:0 24px 80px}
-  .home{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-size:13px;font-weight:600;padding:26px 0 0;transition:color .2s}
-  .home:hover{color:var(--text)}
-  .sig{font-family:"Parisienne",cursive;font-size:clamp(40px,8vw,64px);line-height:1.35;padding:6px 0 14px;margin:18px 0 6px;color:#e6eefb}
-  .role{color:var(--accent2);font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
-  .card{background:rgba(18,26,40,.82);backdrop-filter:blur(12px);border:1px solid var(--border);border-radius:20px;
-    padding:28px 30px;margin-top:24px;box-shadow:0 24px 60px rgba(0,0,0,.4)}
-  .card h2{font-family:var(--serif);font-weight:480;font-size:22px;margin:0 0 10px;letter-spacing:-.3px}
-  .card p{color:#cdd9ec;font-size:15.5px;margin:0 0 14px}
-  .card p:last-child{margin-bottom:0}
-  .cta{display:inline-block;margin-top:26px;background:linear-gradient(120deg,var(--accent),var(--accent2));color:#0a0f18;
-    text-decoration:none;font-weight:700;font-size:14.5px;padding:13px 26px;border-radius:12px;transition:filter .2s}
-  .cta:hover{filter:brightness(1.08)}
-  @media (max-width:768px){.wrap{padding:0 16px 60px}.card{padding:22px 18px}}
-.aurora,.tint,.ridge,.valley,.vglow,.stars{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Parisienne&display=swap" rel="stylesheet">
 <script src="transition.js?v=4"></script>
-<script>/*warp-in handoff from the home logo*/(function(){try{if(sessionStorage.getItem("aif_warp")==="1"){sessionStorage.removeItem("aif_warp");document.documentElement.classList.add("warpin");}}catch(e){}})();</script>
-<style>
-/* iris-open arrival: the page is revealed through a growing circle while the orb expands and melts away */
-html.warpin body{opacity:1 !important;transition:none !important}
-/* cover from the very first paint — removed the moment the animated iris takes over (no flash, no freeze) */
-html.warpin body::before{content:"";position:fixed;inset:0;z-index:1999;background:#0b1220}
-html[data-theme="light"].warpin body::before{background:#e7edf7}
-html.warpin.warpgo body::before{content:none}
-.warpin-hole{position:fixed;left:50%;top:42%;z-index:2000;width:24px;height:24px;margin:-12px 0 0 -12px;border-radius:50%;
-  pointer-events:none;background:transparent;box-shadow:0 0 0 250vmax #0b1220}
-html[data-theme="light"] .warpin-hole{box-shadow:0 0 0 250vmax #e7edf7} /* matches the light handoff color */
-.warpin-orb{position:fixed;left:50%;top:42%;z-index:2001;width:76px;height:76px;margin:-38px 0 0 -38px;pointer-events:none;
-  filter:drop-shadow(0 6px 30px rgba(159,240,226,.45))}
-html[data-theme="light"] .warpin-orb{filter:drop-shadow(0 6px 22px rgba(40,70,140,.28))}
-.warpin-orb .orb{transform-origin:50px 50px;animation:warpinspin 1s linear infinite}
-@keyframes warpinspin{to{transform:rotate(360deg)}}
-@media (prefers-reduced-motion:reduce){.warpin-hole,.warpin-orb{display:none}}
-</style>
-<script>
-(function(){
-  if(!document.documentElement.classList.contains("warpin"))return;
-  if(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches)return;
-  function go(){
-    var hole=document.createElement("div");hole.className="warpin-hole";
-    document.body.appendChild(hole);
-    var orb=document.createElement("div");orb.className="warpin-orb";
-    orb.innerHTML='<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">'+
-      '<defs><linearGradient id="wtg" x1="0" y1="0" x2="1" y2="1"><stop class="tgs1" offset="0" stop-color="#a9c8ff"/><stop class="tgs2" offset=".5" stop-color="#9ff0e2"/><stop class="tgs3" offset="1" stop-color="#ffd9a8"/></linearGradient>'+
-      '<radialGradient id="wtc" cx="50%" cy="50%" r="50%"><stop class="tcs1" offset="0" stop-color="#fff"/><stop class="tcs2" offset="1" stop-color="#9ff0e2"/></radialGradient></defs>'+
-      '<circle cx="50" cy="50" r="44" stroke="url(#wtg)" stroke-width="1.4" opacity=".35"/>'+
-      '<g class="orb"><ellipse cx="50" cy="50" rx="44" ry="17" stroke="url(#wtg)" stroke-width="1.6" opacity=".7"/>'+
-      '<ellipse cx="50" cy="50" rx="17" ry="44" stroke="url(#wtg)" stroke-width="1.6" opacity=".7"/></g>'+
-      '<circle cx="50" cy="50" r="7.5" fill="url(#wtc)"/><circle cx="50" cy="50" r="11.5" stroke="url(#wtg)" stroke-width="1.2" opacity=".8"/></svg>';
-    document.body.appendChild(orb);
-    var CX=innerWidth/2,CY=innerHeight*0.42;
-    var reach=Math.hypot(Math.max(CX,innerWidth-CX),Math.max(CY,innerHeight-CY))*1.06;
-    hole.animate([{transform:"scale(1)"},{transform:"scale("+(reach/12)+")"}],
-      {duration:1100,easing:"cubic-bezier(.55,.05,.35,1)",fill:"forwards"});
-    // the orb grows WITH the opening, then melts into the page
-    orb.animate([
-      {transform:"scale(2.1)",opacity:1},
-      {transform:"scale(5.5)",opacity:.9,offset:.55},
-      {transform:"scale(9)",opacity:0}
-    ],{duration:1100,easing:"cubic-bezier(.5,.05,.4,1)",fill:"forwards"});
-    // swap the static first-paint cover for the animated iris on the same frame
-    requestAnimationFrame(function(){document.documentElement.classList.add("warpgo");});
-    setTimeout(function(){hole.remove();orb.remove();},1250);
-  }
-  // start the instant <body> exists — never wait for DOMContentLoaded (deferred scripts would stall it)
-  (function waitBody(){ if(document.body) go(); else requestAnimationFrame(waitBody); })();
-})();
-</script>
-<link rel="stylesheet" href="light.css?v=3">
 <script>/*aif_theme*/(function(){function ap(t){document.documentElement.setAttribute("data-theme",t);}var t="dark";try{t=localStorage.getItem("aif_theme")||"dark";}catch(e){}try{var u=new URLSearchParams(location.search).get("theme");if(u==="light"||u==="dark"){t=u;localStorage.setItem("aif_theme",u);}}catch(e){}ap(t);window.AIF_THEME={get:function(){try{return localStorage.getItem("aif_theme")||"dark";}catch(e){return "dark";}},set:function(v){try{localStorage.setItem("aif_theme",v);}catch(e){}ap(v);},toggle:function(){var n=this.get()==="light"?"dark":"light";this.set(n);return n;}};window.addEventListener("storage",function(e){if(e.key==="aif_theme")ap(e.newValue||"dark");});})();</script>
+<style>
+/* ============================================================
+   ABOUT — the sun makes this page.
+   It rises out of the valley when you arrive, then keeps
+   drifting slowly across the ridgeline the whole time you read.
+   Coal + Boilermaker gold, ivory + aged gold in light mode.
+   ============================================================ */
+:root{
+  --coal:#0c0b09; --bone:#f1ecdf; --dim:#b0a890;
+  --gold:#a98a52; --gold-hi:#ebd99f; --gold-deep:#8e6f3e; --rule:#2a261e;
+  --serif:"Fraunces",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--coal);color:var(--bone);font-family:var(--mono);min-height:100%;overflow-x:hidden}
+
+/* ---------- sky + the travelling sun ---------- */
+#sky{position:fixed;inset:0;z-index:0;background:linear-gradient(180deg,#0a0908 0%,#13100a 55%,#1c160c 80%,#0b0a07 100%);
+  transition:opacity 1.2s}
+#sun{position:fixed;z-index:1;width:120px;height:120px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle at 38% 34%,#f6ecc9,#ebd99f 45%,#cfb991 75%,#a98a52);
+  box-shadow:0 0 46px 14px rgba(207,185,145,.32),0 0 110px 40px rgba(207,185,145,.12);opacity:.95;
+  left:50%;top:24vh;margin-left:-60px}
+#sun .flare{position:absolute;inset:-34px;border-radius:50%;border:1.5px solid rgba(235,217,159,.25);animation:flare 7s ease-in-out infinite}
+@keyframes flare{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(1.12);opacity:.18}}
+#dawn{position:fixed;inset:0;z-index:2;pointer-events:none;background:#070605;opacity:0;transition:opacity 1.4s ease}
+body.predawn #dawn{opacity:.92;transition:none}
+.ridges{position:fixed;left:0;right:0;bottom:0;height:46vh;z-index:3;pointer-events:none}
+.ridges svg{position:absolute;inset:0;width:100%;height:100%}
+.rg{will-change:transform;transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+.grain{position:fixed;inset:-50%;width:200%;height:200%;pointer-events:none;z-index:50;opacity:.07;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* ---------- chrome ---------- */
+.mast{position:relative;z-index:9;display:flex;justify-content:space-between;align-items:center;padding:22px 40px 0}
+.home{color:var(--dim);text-decoration:none;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  border-bottom:1px solid transparent;padding-bottom:2px}
+.home:hover{color:var(--gold-hi);border-bottom-color:var(--gold)}
+.themebtn{background:none;border:1.5px solid var(--rule);color:var(--dim);font:inherit;font-size:13px;cursor:pointer;
+  padding:8px 12px;border-radius:3px;line-height:1;transition:border-color .25s,color .25s}
+.themebtn:hover{border-color:var(--gold);color:var(--gold)}
+
+/* ---------- content ---------- */
+.wrap{position:relative;z-index:9;max-width:660px;margin:0 auto;padding:7vh 24px 90px;text-align:center}
+.kicker{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+/* portrait: drop a photo named me.jpg in the site folder and it appears here */
+.portrait{width:124px;height:124px;margin:0 auto 14px;border-radius:50%;position:relative;
+  background:radial-gradient(circle at 36% 30%,#2a2414,#171208);display:flex;align-items:center;justify-content:center;
+  border:2px solid var(--gold);box-shadow:0 0 0 5px rgba(207,185,145,.12),0 14px 34px rgba(0,0,0,.5)}
+.portrait img{position:absolute;inset:0;width:100%;height:100%;border-radius:50%;object-fit:cover;z-index:2}
+.portrait .init{font-family:var(--serif);font-size:40px;font-weight:600;
+  background:linear-gradient(100deg,#8e6f3e,#f1e7c8 55%,#cfb991);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sig{font-family:"Parisienne",cursive;font-size:clamp(44px,8vw,72px);line-height:1.25;margin:0 0 4px;
+  background:linear-gradient(100deg,#8e6f3e,#f1e7c8 55%,#cfb991);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.role{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.acard{position:relative;text-align:left;background:rgba(24,20,13,.82);backdrop-filter:blur(10px);
+  border:1px solid var(--rule);border-top:2px solid var(--gold);border-radius:4px;
+  padding:30px 32px;margin-top:14px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.acard h2{font-family:var(--serif);font-weight:480;font-size:22px;margin:0 0 12px;letter-spacing:-.3px;color:var(--bone)}
+.acard p{color:#d8d0bd;font-size:14.5px;line-height:1.8;margin:0 0 14px}
+.acard p:last-child{margin-bottom:0}
+.acard .corner{position:absolute;top:-2px;left:-1px;width:34px;height:34px;border-left:2px solid var(--gold-hi);border-top:2px solid var(--gold-hi)}
+/* section labels */
+.sect{display:flex;align-items:center;gap:14px;margin:34px 0 0;font-size:10.5px;letter-spacing:.26em;
+  text-transform:uppercase;color:var(--gold);text-align:left}
+.sect::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
+/* inspirations */
+.insp{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.icard{text-align:left;background:rgba(24,20,13,.82);border:1px solid var(--rule);border-radius:4px;padding:18px 18px 16px;
+  transition:transform .2s,border-color .2s}
+.icard:hover{transform:translateY(-3px);border-color:var(--gold)}
+.icard .ie{font-size:20px}
+.icard .it{font-family:var(--serif);font-size:15.5px;font-weight:550;margin:8px 0 5px;color:var(--bone)}
+.icard .id{font-size:11.5px;line-height:1.6;color:var(--dim)}
+@media(max-width:700px){.insp{grid-template-columns:1fr}}
+.gkline{margin:26px auto 0;font-size:12px;color:var(--dim)}
+.gkline .gk{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--bone)}
+.cta{display:inline-block;margin-top:26px;font-family:var(--mono);font-weight:600;font-size:14.5px;letter-spacing:.04em;
+  color:#1c1608;text-decoration:none;padding:15px 30px;border-radius:3px;
+  background:linear-gradient(160deg,#f1e7c8,#cfb991 55%,#a98a52);
+  box-shadow:0 4px 0 rgba(0,0,0,.45),inset 0 1px 0 rgba(255,250,230,.6);transition:transform .2s,filter .2s}
+.cta:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.cta:active{transform:translateY(1px)}
+
+/* roadmap */
+.road{list-style:none;margin:6px 0 0;padding:0}
+.road li{display:flex;align-items:flex-start;gap:12px;padding:13px 0;border-top:1px solid var(--rule);font-size:13.5px;line-height:1.65;color:#d8d0bd}
+.road li:first-child{border-top:none}
+.road .rt{color:var(--bone);font-weight:600}
+.road .pill{flex:none;margin-top:2px;font-size:9px;font-weight:700;letter-spacing:.12em;padding:3px 8px;border-radius:3px;white-space:nowrap}
+.road .pill.paid{background:linear-gradient(160deg,#f1e7c8,#cfb991 60%,#a98a52);color:#1c1608}
+.road .pill.free{background:transparent;border:1px solid var(--gold);color:var(--gold-hi)}
+html[data-theme="light"] .road li{color:#3a3424;border-top-color:#e4dbc2}
+html[data-theme="light"] .road .rt{color:#26200f}
+html[data-theme="light"] .road .pill.free{color:#8e6f3e;border-color:#8e6f3e}
+
+/* staggered fade-up on arrival */
+.rise{opacity:0;transform:translateY(22px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+body.lit .rise{opacity:1;transform:none}
+.rise.d1{transition-delay:.15s}.rise.d2{transition-delay:.3s}.rise.d3{transition-delay:.5s}.rise.d4{transition-delay:.68s}
+
+/* ---------- light mode: high noon ---------- */
+html[data-theme="light"] body{color:#26200f}
+html[data-theme="light"] #sky{background:linear-gradient(180deg,#f6f2e8 0%,#f1e9d6 55%,#ecdfc0 80%,#e8d8b4 100%)}
+html[data-theme="light"] #dawn{background:#fdfaf2}
+html[data-theme="light"] #sun{box-shadow:0 0 80px 26px rgba(176,142,70,.5),0 0 180px 80px rgba(176,142,70,.18)}
+html[data-theme="light"] .home{color:#6f6448}
+html[data-theme="light"] .home:hover{color:#8e6f3e;border-bottom-color:#8e6f3e}
+html[data-theme="light"] .themebtn{color:#26200f;border-color:#cfc4a4}
+html[data-theme="light"] .themebtn:hover{color:#8e6f3e;border-color:#8e6f3e}
+html[data-theme="light"] .kicker{color:#8e6f3e}
+html[data-theme="light"] .sig{background:linear-gradient(100deg,#6b5429,#a98a52 55%,#8e6f3e);-webkit-background-clip:text;background-clip:text}
+html[data-theme="light"] .role{color:#6f6448}
+html[data-theme="light"] .acard{background:rgba(255,253,246,.9);border-color:#e4dbc2;border-top-color:#8e6f3e;box-shadow:0 24px 60px rgba(120,98,40,.18)}
+html[data-theme="light"] .acard h2{color:#26200f}
+html[data-theme="light"] .acard p{color:#3a3424}
+html[data-theme="light"] .acard .corner{border-color:#8e6f3e}
+html[data-theme="light"] .gkline{color:#6f6448}
+html[data-theme="light"] .gkline .gk{color:#26200f}
+html[data-theme="light"] .cta{background:linear-gradient(160deg,#a98a52,#8e6f3e 60%,#6b5429);color:#fffdf4;box-shadow:0 4px 0 rgba(80,62,24,.5)}
+html[data-theme="light"] .portrait{background:radial-gradient(circle at 36% 30%,#fffdf4,#efe7d2);border-color:#8e6f3e;box-shadow:0 0 0 5px rgba(142,111,62,.12),0 14px 34px rgba(120,98,40,.2)}
+html[data-theme="light"] .sect{color:#8e6f3e}
+html[data-theme="light"] .icard{background:rgba(255,253,246,.9);border-color:#e4dbc2}
+html[data-theme="light"] .icard .it{color:#26200f}
+html[data-theme="light"] .icard .id{color:#6f6448}
+html[data-theme="light"] .grain{opacity:.05}
+
+@media(max-width:700px){.wrap{padding-top:4vh}.mast{padding:16px 18px 0}.acard{padding:24px 20px}}
+</style>
 </head>
-<body>
-<div class="valley">
-  <svg viewBox="0 0 1440 600" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0,360 C220,318 360,346 560,312 C780,275 940,330 1140,300 C1300,276 1380,300 1440,292 L1440,600 L0,600 Z" fill="#15233a" opacity="0.45"/>
-    <path d="M120,460 C260,420 360,300 520,300 C690,300 780,460 980,460 C1140,460 1240,440 1440,452 L1440,600 L0,600 Z" fill="#101c30"/>
-    <path d="M0,520 C300,470 540,540 820,512 C1080,486 1260,536 1440,500 L1440,600 L0,600 Z" fill="#0a1322"/>
+<body class="predawn">
+
+<div id="sky"></div>
+<div id="sun"><div class="flare"></div></div>
+<div id="dawn"></div>
+
+<div class="ridges" aria-hidden="true">
+  <svg viewBox="0 0 1440 460" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <g class="rg" data-p="20"><path d="M0,210 L170,130 L320,185 L500,90 L660,180 L830,70 L990,175 L1160,110 L1320,185 L1440,140 L1440,460 L0,460 Z" fill="#221c10"/></g>
+    <g class="rg" data-p="42"><path d="M0,290 L210,215 L400,275 L590,195 L800,285 L990,210 L1180,280 L1340,235 L1440,270 L1440,460 L0,460 Z" fill="#171208"/></g>
+    <g class="rg" data-p="74"><path d="M0,370 L250,320 L500,365 L760,310 L1010,360 L1250,322 L1440,352 L1440,460 L0,460 Z" fill="#0b0907"/></g>
   </svg>
 </div>
-<div class="sun"></div>
 
-<div class="wrap">
+<header class="mast">
   <a class="home" href="index.html">← Back to the valley</a>
-  <div class="role">Built by</div>
-  <div class="sig">Aryan Balchandani</div>
+  <button class="themebtn" id="themeBtn" title="Toggle light / dark">🌙 Theme</button>
+</header>
 
-  <div class="card">
-    <h2>About this project</h2>
-    <p>hi Telos is a personal project I built to make finding the right summer internship feel less like guesswork. Instead of scrolling endless job boards, you can take a quick survey to get a ranked, personalized shortlist — or explore the whole database by field.</p>
-    <p>Every listing is researched with real company details: tiers, competitiveness, estimated pay, company values, stock and recent news, plus the majors each role actually recruits — so your matches reflect where you'd genuinely fit.</p>
-    <p>It's a work in progress, with more fields going live over time. Thanks for stopping by.</p>
-    <a class="cta" href="survey.html">Find your path →</a>
+<main class="wrap">
+  <div class="portrait rise"><img src="me.jpg" alt="Aryan Balchandani" onerror="this.remove()"><span class="init">AB</span></div>
+  <div class="kicker rise">Built by</div>
+  <h1 class="sig rise d1">Aryan Balchandani</h1>
+  <div class="role rise d1">engineering @ purdue · monroe, nj</div>
+
+  <div class="sect rise d2">Background</div>
+  <div class="acard rise d2">
+    <span class="corner"></span>
+    <h2>Who's behind this</h2>
+    <p>hi — I'm Aryan, an engineering student at Purdue from Monroe, New Jersey, with a background in
+    research and entrepreneurship. I like building things that remove guesswork — and internship season
+    is nothing but guesswork: thousands of postings, dead links, hidden deadlines, and no sense of where
+    you'd actually fit.</p>
+    <p>Telos is my answer — built nights and weekends, researched company by company.</p>
   </div>
-</div>
 
+  <div class="sect rise d2">The project</div>
+  <div class="acard rise d2">
+    <span class="corner"></span>
+    <h2>What Telos does</h2>
+    <p>Take a quick survey for a ranked, personalized shortlist — or explore the whole database by field.
+    Every listing is researched with real company details: tiers, competitiveness, estimated pay, company values,
+    stock and recent news, plus the majors each role actually recruits — so your matches reflect where you'd genuinely fit.</p>
+    <p>Application links are checked against the real postings, deadlines are tracked, and the database refreshes
+    three times a week. It's a work in progress, with more fields going live over time.</p>
+  </div>
+
+  <div class="sect rise d3">Why “Telos”</div>
+  <div class="acard rise d3">
+    <span class="corner"></span>
+    <h2><span style="font-style:italic">télos</span> — Greek, “the end toward which a thing aims.”</h2>
+    <p>Aristotle used <i>télos</i> for the purpose built into a thing — the destination it exists to reach.
+    That's exactly what an internship search should feel like: not scrolling for whatever's posted,
+    but aiming at the role you're actually <i>for</i>. The name is the mission — and the reason the homepage
+    points you at one lit summit instead of ten thousand dark ones.</p>
+  </div>
+
+  <div class="sect rise d3">Inspirations</div>
+  <div class="insp rise d3">
+    <div class="icard"><div class="ie">🌊</div><div class="it">Bioluminescent bays</div>
+      <div class="id">Water that lights up when you move through it. It's why the valley below the homepage glows under your cursor — effort should leave a visible trail.</div></div>
+    <div class="icard"><div class="ie">⚙️</div><div class="it">Purdue black &amp; gold</div>
+      <div class="id">The palette is borrowed from home — Boilermaker gold on black. Build steady, finish gold.</div></div>
+  </div>
+
+  <div class="sect rise d4">Future goals</div>
+  <div class="acard rise d4">
+    <span class="corner"></span>
+    <h2>Where Telos is headed: agentic AI</h2>
+    <p>The next chapter is autonomous — a guide that doesn't just show you the trail, but walks it ahead of you.</p>
+    <ul class="road">
+      <li><span class="pill free">FREE · IN PROGRESS</span><span><span class="rt">Self-verifying database.</span> Agents that re-check every apply link, catch postings the moment they go live, and keep all 32 fields fresh on their own.</span></li>
+      <li><span class="pill paid">PAID · COMING SOON</span><span><span class="rt">Auto-applying agent.</span> Point it at your shortlist and it fills and submits applications for you — resume tailored, forms completed, confirmations tracked.</span></li>
+      <li><span class="pill paid">PAID · COMING SOON</span><span><span class="rt">AI-personalized results.</span> An AI that reads your resume, interests, and goals to re-rank the entire database around you — with honest odds and gap advice.</span></li>
+      <li><span class="pill paid">PAID · COMING SOON</span><span><span class="rt">Deadline guardian.</span> Watches every window on your list and nudges you before anything closes — plus drafted outreach and cover letters when you need them.</span></li>
+    </ul>
+  </div>
+
+  <a class="cta rise d4" href="survey.html">Find your path →</a>
+
+</main>
+
+<div class="grain"></div>
+
+<script>
+/* ================= SUNRISE =================
+   Arriving from the Telos mark on the home page (sessionStorage handoff),
+   the sun climbs out of the valley, dawn lifts, and the page wakes line by
+   line. Direct visits get a quicker, quieter sunrise. Either way the sun
+   never stops: it drifts along the ridgeline the whole time you read. */
+(function(){
+  var sun=document.getElementById("sun");
+  var fromHome=false;
+  try{ if(sessionStorage.getItem("aif_warp")==="1"){ fromHome=true; sessionStorage.removeItem("aif_warp"); } }catch(e){}
+  var reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // resting spot + drift parameters
+  var baseX=0.80, baseY=0.13;       // fractions of viewport — perched upper-right, clear of the name
+  var t0=performance.now(), mx=0.5, my=0.5;
+  addEventListener("mousemove",function(e){ mx=e.clientX/innerWidth; my=e.clientY/innerHeight; },{passive:true});
+
+  // the eternal drift: a slow arc along the ridgeline + cursor parallax
+  var riseDone=false;
+  function drift(now){
+    if(riseDone){
+      var t=(now-t0)/1000;
+      var x=(baseX+Math.sin(t*0.05)*0.06)*innerWidth;
+      var y=(baseY+Math.cos(t*0.04)*0.025)*innerHeight;
+      x+=(mx-0.5)*18; y+=(my-0.5)*10;
+      sun.style.left=x+"px"; sun.style.top=y+"px"; sun.style.marginLeft="-60px";
+    }
+    requestAnimationFrame(drift);
+  }
+  requestAnimationFrame(drift);
+
+  // ridge parallax
+  var rgs=[].slice.call(document.querySelectorAll(".rg"));
+  addEventListener("mousemove",function(e){
+    var dx=(e.clientX/innerWidth-.5);
+    rgs.forEach(function(r){var p=+r.getAttribute("data-p");r.style.transform="translateX("+(-dx*p)+"px)";});
+  },{passive:true});
+
+  function sunrise(big){
+    var startY=1.05*innerHeight, endY=baseY*innerHeight;
+    var x=baseX*innerWidth;
+    sun.style.left=x+"px"; sun.style.marginLeft="-60px";
+    if(reduce){ sun.style.top=endY+"px"; document.body.classList.remove("predawn"); document.body.classList.add("lit"); riseDone=true; return; }
+    sun.style.top=startY+"px";
+    var dur=big?2200:1100;
+    sun.animate(
+      [{top:startY+"px",offset:0},{top:endY+"px",offset:1}],
+      {duration:dur,easing:"cubic-bezier(.3,.1,.25,1)",fill:"forwards"}
+    ).onfinish=function(){ sun.style.top=endY+"px"; riseDone=true; t0=performance.now(); };
+    // dawn lifts as the sun climbs; content wakes near the top of the arc
+    setTimeout(function(){ document.body.classList.remove("predawn"); }, big?250:80);
+    setTimeout(function(){ document.body.classList.add("lit"); }, big?dur*0.55:dur*0.4);
+  }
+  // wait one frame so the predawn state paints first
+  requestAnimationFrame(function(){ requestAnimationFrame(function(){ sunrise(fromHome); }); });
+
+  window.addEventListener("pageshow",function(e){
+    if(e.persisted){ document.body.classList.remove("predawn"); document.body.classList.add("lit"); riseDone=true; }
+  });
+
+  // theme toggle
+  var b=document.getElementById("themeBtn");
+  if(b){ var icon=function(){b.textContent=(window.AIF_THEME&&AIF_THEME.get()==="light")?"☀️ Theme":"🌙 Theme";};
+    b.addEventListener("click",function(){AIF_THEME.toggle();icon();}); icon(); }
+})();
+</script>
 <script type="module" src="firebase-auth.js"></script>
-<script type="module" src="account-widget.js"></script>
 </body>
 </html>

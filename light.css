@@ -3,22 +3,22 @@
    overrides every page's dark palette without touching their stylesheets. */
 
 html[data-theme="light"]{
-  --bg:#e7edf7;
-  --panel:#f8fafe;
-  --panel2:#eef3fb;
-  --border:#d4ddec;
-  --text:#1b2433;
-  --muted:#586778;
-  --accent:#2f5fd0; --accent2:#1f9b8a;
-  --teal:#0f9b8a; --gold:#b07d12;
-  --up:#1f9d57; --down:#d24545; --flat:#c4881a; --new:#cf3f78;
+  --bg:#f7f3e9;
+  --panel:#fffdf4;
+  --panel2:#f1ead8;
+  --border:#e4dbc2;
+  --text:#26200f;
+  --muted:#8a7d5f;
+  --accent:#8e6f3e; --accent2:#8e6f3e;
+  --teal:#8e6f3e; --gold:#b07d12;
+  --up:#1a7a44; --down:#d24545; --flat:#c4881a; --new:#cf3f78;
   --urgent:#d24545; --soon:#c4881a;
-  --saved:#586778; --applied:#2f5fd0; --interviewing:#c4881a; --accepted:#1f9d57; --rejected:#d24545; --danger:#d24545;
+  --saved:#8a7d5f; --applied:#8e6f3e; --interviewing:#c4881a; --accepted:#1a7a44; --rejected:#d24545; --danger:#d24545;
 }
 /* per-family light tint default (blue) — attribute-only selector (specificity
    0,1,0) is LOWER than each section page's html[data-theme="light"] rule
    (0,1,1), so the page's own family color always wins regardless of load order */
-[data-theme="light"]{--lt-r:150;--lt-g:178;--lt-b:235}
+[data-theme="light"]{--lt-r:222;--lt-g:210;--lt-b:182}
 
 /* root canvas: a soft wash of the family tint over a near-white base (stable on scroll) */
 html[data-theme="light"]{
@@ -56,8 +56,8 @@ html[data-theme="light"] .ridge path:nth-of-type(3){fill:rgba(var(--lt-r),var(--
 
 html[data-theme="light"] .backlink{
   background:rgba(255,255,255,.85) !important;
-  border-color:rgba(40,60,100,.12) !important;
-  box-shadow:0 4px 16px rgba(40,60,100,.15) !important;
+  border-color:rgba(65,57,38,.12) !important;
+  box-shadow:0 4px 16px rgba(65,57,38,.15) !important;
 }
 
 /* light mode: soft feathered cloud puffs — gentle white core fading to nothing,
@@ -74,23 +74,23 @@ html[data-theme="light"] .starsky i{
 @keyframes puffbreathe{0%,100%{opacity:.45}50%{opacity:.85}}
 
 /* ---- legacy "valley" backdrop on the other pages ---- */
-html[data-theme="light"] .valley path:nth-of-type(1){fill:#cdd9f1 !important}
-html[data-theme="light"] .valley path:nth-of-type(2){fill:#b7c8ea !important}
-html[data-theme="light"] .valley path:nth-of-type(3){fill:#a2b8e0 !important}
-html[data-theme="light"] .vglow{background:radial-gradient(circle at 50% 30%,rgba(110,146,228,.16),transparent 65%) !important}
+html[data-theme="light"] .valley path:nth-of-type(1){fill:#f1d58e !important}
+html[data-theme="light"] .valley path:nth-of-type(2){fill:#dec483 !important}
+html[data-theme="light"] .valley path:nth-of-type(3){fill:#cbb377 !important}
+html[data-theme="light"] .vglow{background:radial-gradient(circle at 50% 30%,rgba(161,142,95,.16),transparent 65%) !important}
 
 /* card lift so white-ish panels separate from the bg */
 html[data-theme="light"] .card,
 html[data-theme="light"] .panel,
 html[data-theme="light"] .rcard,
 html[data-theme="light"] .modal{
-  box-shadow:0 1px 3px rgba(30,50,90,.06),0 6px 18px rgba(30,50,90,.06);
+  box-shadow:0 1px 3px rgba(54,47,31,.06),0 6px 18px rgba(54,47,31,.06);
 }
 
 /* cursor flashlight: a soft white glow is invisible on light bg, so use a
    gentle blue deepening instead (GPU-composited, no blend mode) */
 html[data-theme="light"] .flashlight{
-  background:radial-gradient(circle,rgba(72,104,180,.16),transparent 62%) !important;
+  background:radial-gradient(circle,rgba(115,101,67,.16),transparent 62%) !important;
 }
 
 /* ---- low-contrast text that was tuned for dark cards ---- */
@@ -102,70 +102,70 @@ html[data-theme="light"] .status.open,
 html[data-theme="light"] .status.soon{color:#127a4e !important}
 html[data-theme="light"] .ldeadline,
 html[data-theme="light"] .ltbl .ldeadline{color:#c0392b !important}
-html[data-theme="light"] .tmpl{color:#2a3340 !important}
+html[data-theme="light"] .tmpl{color:#373120 !important}
 html[data-theme="light"] .mk{color:#157a4a !important}
-/* modal deep-dive body text was a pale grey (#cdd3dc) tuned for dark cards */
-html[data-theme="light"] .pane p{color:#2a3545 !important}
-html[data-theme="light"] .pane h3{color:#4a5a72 !important}
-html[data-theme="light"] .kv b{color:#34465c !important}
+/* modal deep-dive body text was a pale grey (#ebd08a) tuned for dark cards */
+html[data-theme="light"] .pane p{color:#393221 !important}
+html[data-theme="light"] .pane h3{color:#625639 !important}
+html[data-theme="light"] .kv b{color:#4b422c !important}
 
 /* =========================== SURVEY =========================== */
 html[data-theme="light"] #survey{
   background:rgba(255,255,255,.92) !important;
   border-color:var(--border) !important;
-  box-shadow:0 24px 60px rgba(40,60,100,.16) !important;
+  box-shadow:0 24px 60px rgba(65,57,38,.16) !important;
 }
-html[data-theme="light"] .progbar{background:#dde5f2 !important}
+html[data-theme="light"] .progbar{background:#e6d9b8 !important}
 html[data-theme="light"] .opt{background:#f3f6fc !important;border-color:var(--border) !important;color:var(--text) !important}
 html[data-theme="light"] .opt.sel,
-html[data-theme="light"] .on{background:rgba(47,95,208,.12) !important;color:#22407f !important}
+html[data-theme="light"] .on{background:rgba(142,111,62,.12) !important;color:#453d28 !important}
 html[data-theme="light"] .chip{background:#f3f6fc !important}
 html[data-theme="light"] .note{background:#fff5e1 !important;border-color:#e8cf97 !important;color:#7a5712 !important}
 html[data-theme="light"] .yt,
 html[data-theme="light"] .sectlabel,
-html[data-theme="light"] .tier{background:#e7edf7 !important;color:#34465c !important}
-html[data-theme="light"] .msoon{background:#e7edf7 !important;color:#586778 !important;border-color:var(--border) !important}
+html[data-theme="light"] .tier{background:#f7f3e9 !important;color:#4b422c !important}
+html[data-theme="light"] .msoon{background:#f7f3e9 !important;color:#8a7d5f !important;border-color:var(--border) !important}
 html[data-theme="light"] .mk{background:rgba(31,157,87,.12) !important;color:#157a44 !important;border-color:rgba(31,157,87,.3) !important}
 
 /* ===================== account widget (top-right) ===================== */
-html[data-theme="light"] #aif-acct .aif-btn{background:#ffffff !important;border-color:var(--border) !important;color:#1b2433 !important;box-shadow:0 2px 8px rgba(40,60,100,.1)}
-html[data-theme="light"] #aif-acct .aif-menu{background:#ffffff !important;border-color:var(--border) !important;box-shadow:0 16px 40px rgba(40,60,100,.18) !important}
+html[data-theme="light"] #aif-acct .aif-btn{background:#ffffff !important;border-color:var(--border) !important;color:#26200f !important;box-shadow:0 2px 8px rgba(65,57,38,.1)}
+html[data-theme="light"] #aif-acct .aif-menu{background:#ffffff !important;border-color:var(--border) !important;box-shadow:0 16px 40px rgba(65,57,38,.18) !important}
 html[data-theme="light"] #aif-acct .aif-head{border-color:var(--border) !important}
-html[data-theme="light"] #aif-acct .aif-name{color:#1b2433 !important}
-html[data-theme="light"] #aif-acct .aif-mail{color:#586778 !important}
-html[data-theme="light"] #aif-acct .aif-item{color:#2a3545 !important}
-html[data-theme="light"] #aif-acct .aif-item:hover{background:#eef3fb !important;color:#102036 !important}
+html[data-theme="light"] #aif-acct .aif-name{color:#26200f !important}
+html[data-theme="light"] #aif-acct .aif-mail{color:#8a7d5f !important}
+html[data-theme="light"] #aif-acct .aif-item{color:#393221 !important}
+html[data-theme="light"] #aif-acct .aif-item:hover{background:#f1ead8 !important;color:#211d13 !important}
 html[data-theme="light"] #aif-acct .aif-item.danger{color:#c0392b !important}
 
 /* =========================== HOME (index) =========================== */
 html[data-theme="light"] body{
-  background:linear-gradient(180deg,#dbe4f4 0%,#e4eaf6 45%,#eef2fa 76%,#e6ebf5 100%) !important;
+  background:linear-gradient(180deg,#f7f3e9 0%,#f3edda 45%,#efe7d2 76%,#f4eedd 100%) !important;
 }
-html[data-theme="light"] .vign{background:radial-gradient(130% 100% at 50% 8%,transparent 52%,rgba(40,60,100,.10)) !important}
+html[data-theme="light"] .vign{background:radial-gradient(130% 100% at 50% 8%,transparent 52%,rgba(65,57,38,.10)) !important}
 html[data-theme="light"] .grain{opacity:.03 !important}
-html[data-theme="light"] .navlinks a{color:#3c4a63 !important}
-html[data-theme="light"] .navlinks a:hover{color:#15233a !important;background:rgba(40,60,100,.07) !important}
-html[data-theme="light"] .navlinks a.cta{background:#ffffff !important;color:#1b2433 !important;border-color:rgba(40,60,100,.16) !important}
-html[data-theme="light"] .logo{color:#3c4a63 !important}
-html[data-theme="light"] .logo:hover{color:#15233a !important}
-html[data-theme="light"] .logo .sig{color:#1b2a44 !important}
-html[data-theme="light"] .pill{color:#2a3850 !important;background:rgba(255,255,255,.72) !important;border-color:rgba(40,60,100,.14) !important}
-html[data-theme="light"] h1{color:#141d30 !important}
-html[data-theme="light"] .lede{color:#46536e !important}
-html[data-theme="light"] .stat-row{color:rgba(255,255,255,.82) !important;text-shadow:0 1px 6px rgba(20,40,80,.35) !important}
-html[data-theme="light"] .stat-row b{color:#ffffff !important;text-shadow:0 1px 6px rgba(20,40,80,.45) !important}
-html[data-theme="light"] .opt{background:rgba(255,255,255,.8) !important;border-color:rgba(40,60,100,.12) !important;box-shadow:0 10px 30px rgba(40,60,100,.1) !important}
+html[data-theme="light"] .navlinks a{color:#51472f !important}
+html[data-theme="light"] .navlinks a:hover{color:#252015 !important;background:rgba(65,57,38,.07) !important}
+html[data-theme="light"] .navlinks a.cta{background:#ffffff !important;color:#26200f !important;border-color:rgba(65,57,38,.16) !important}
+html[data-theme="light"] .logo{color:#51472f !important}
+html[data-theme="light"] .logo:hover{color:#252015 !important}
+html[data-theme="light"] .logo .sig{color:#2d271a !important}
+html[data-theme="light"] .pill{color:#3c3523 !important;background:rgba(255,255,255,.72) !important;border-color:rgba(65,57,38,.14) !important}
+html[data-theme="light"] h1{color:#26200f !important}
+html[data-theme="light"] .lede{color:#5b5136 !important}
+html[data-theme="light"] .stat-row{color:rgba(255,255,255,.82) !important;text-shadow:0 1px 6px rgba(43,38,25,.35) !important}
+html[data-theme="light"] .stat-row b{color:#ffffff !important;text-shadow:0 1px 6px rgba(43,38,25,.45) !important}
+html[data-theme="light"] .opt{background:rgba(255,255,255,.8) !important;border-color:rgba(65,57,38,.12) !important;box-shadow:0 10px 30px rgba(65,57,38,.1) !important}
 html[data-theme="light"] .opt h2,
 html[data-theme="light"] .opt:hover h2,
-html[data-theme="light"] .opt.teal:hover h2{color:#141d30 !important}
-html[data-theme="light"] .opt p{color:#46536e !important}
-html[data-theme="light"] .opt .go{background:#2f5fd0 !important;color:#ffffff !important;border-color:transparent !important}
-html[data-theme="light"] .opt.teal .go{background:#0f9b8a !important}
+html[data-theme="light"] .opt.teal:hover h2{color:#26200f !important}
+html[data-theme="light"] .opt p{color:#5b5136 !important}
+html[data-theme="light"] .opt .go{background:#8e6f3e !important;color:#ffffff !important;border-color:transparent !important}
+html[data-theme="light"] .opt.teal .go{background:#8e6f3e !important}
 
 /* multicolored gradient bits: darker, richer tones so they read on light */
 html[data-theme="light"] h1 .accent,
 html[data-theme="light"] .accent{
-  background:linear-gradient(105deg,#2f55c0,#0e8a7b 48%,#bf7415) !important;
+  background:linear-gradient(105deg,#8e6f3e,#b8924d 48%,#6b5429) !important;
   -webkit-background-clip:text !important;background-clip:text !important;
   -webkit-text-fill-color:transparent !important;
 }
@@ -173,46 +173,51 @@ html[data-theme="light"] h1 em{color:#bf7415 !important}
 /* Telos brand lockup in light mode — darker, richer so it reads on the pale sky */
 html[data-theme="light"] .wordmark,
 html[data-theme="light"] .tagline .pur{
-  background:linear-gradient(104deg,#24489f,#0b6e63 48%,#9a5d10) !important;
+  background:linear-gradient(104deg,#6b5429,#a98a52 48%,#8e6f3e) !important;
   -webkit-background-clip:text !important;background-clip:text !important;-webkit-text-fill-color:transparent !important;
 }
-html[data-theme="light"] .tagline{color:#141d30 !important}
+html[data-theme="light"] .tagline{color:#26200f !important}
 /* darker logo mark strokes in light mode */
 /* logo darker in light mode: recolor the gradient stops so the whole mark
    (static AND the warp clone, which reuses the same gradients) goes dark */
-html[data-theme="light"] .tgs1{stop-color:#2f55c0 !important}
-html[data-theme="light"] .tgs2{stop-color:#1f7e72 !important}
+html[data-theme="light"] .tgs1{stop-color:#8e6f3e !important}
+html[data-theme="light"] .tgs2{stop-color:#8e6f3e !important}
 html[data-theme="light"] .tgs3{stop-color:#9a5d10 !important}
-html[data-theme="light"] .tcs1{stop-color:#3f63c8 !important}
-html[data-theme="light"] .tcs2{stop-color:#1f4f93 !important}
-html[data-theme="light"] .brandmark{filter:drop-shadow(0 6px 22px rgba(40,70,140,.22)) !important}
-html[data-theme="light"] .warpmark{filter:drop-shadow(0 0 30px rgba(40,70,140,.3)) !important}
+html[data-theme="light"] .tcs1{stop-color:#8e6f3e !important}
+html[data-theme="light"] .tcs2{stop-color:#6b5429 !important}
+html[data-theme="light"] .brandmark{filter:drop-shadow(0 6px 22px rgba(76,68,45,.22)) !important}
+html[data-theme="light"] .warpmark{filter:drop-shadow(0 0 30px rgba(76,68,45,.3)) !important}
 
 /* =========================== ABOUT =========================== */
 html[data-theme="light"] .card{
   background:rgba(255,255,255,.9) !important;
   border-color:var(--border) !important;
-  box-shadow:0 10px 30px rgba(40,60,100,.1) !important;
+  box-shadow:0 10px 30px rgba(65,57,38,.1) !important;
 }
-html[data-theme="light"] .card h2{color:#141d30 !important}
-html[data-theme="light"] .card p{color:#39465e !important}
-html[data-theme="light"] .sig{color:#8aa0c8 !important;opacity:.55 !important}
+html[data-theme="light"] .card h2{color:#26200f !important}
+html[data-theme="light"] .card p{color:#5d5440 !important}
+html[data-theme="light"] .sig{color:#b09c68 !important;opacity:.55 !important}
 
 /* =========================== DATABASE =========================== */
 html[data-theme="light"] .sub-card{background:#ffffff !important;border:1px solid var(--border) !important}
-html[data-theme="light"] .sub-card.live:hover{background:#f1f6ff !important;box-shadow:0 16px 34px rgba(40,60,100,.14) !important}
+html[data-theme="light"] .sub-card.live:hover{background:#fff3a2 !important;box-shadow:0 16px 34px rgba(65,57,38,.14) !important}
 html[data-theme="light"] .cathead{background:rgba(255,255,255,.94) !important;border-color:var(--border) !important}
-html[data-theme="light"] .tagm.soon{background:#e7edf7 !important;color:#586778 !important}
+html[data-theme="light"] .tagm.soon{background:#f7f3e9 !important;color:#8a7d5f !important}
 html[data-theme="light"] .grain{opacity:.25 !important}
 /* database CTA banner: white text on the colored gradient stays readable */
 html[data-theme="light"] .cta .t{color:#ffffff !important}
 html[data-theme="light"] .cta .d{color:rgba(255,255,255,.9) !important}
-html[data-theme="light"] .cta{border-color:rgba(20,30,52,.5) !important;box-shadow:0 6px 22px rgba(40,60,100,.18) !important}
-html[data-theme="light"] .cta .ci{background:rgba(47,95,208,.16) !important;border-color:rgba(47,95,208,.35) !important;color:#2f5fd0 !important}
+html[data-theme="light"] .cta{border-color:rgba(32,29,19,.5) !important;box-shadow:0 6px 22px rgba(65,57,38,.18) !important}
+html[data-theme="light"] .cta .ci{background:rgba(142,111,62,.16) !important;border-color:rgba(142,111,62,.35) !important;color:#8e6f3e !important}
 
 /* Home light-mode cleanup: keep noise still/subtle and let the new vertical mountains move at the same lively feel as dark mode. */
 html[data-theme="light"] .grain{opacity:.03 !important;animation:none !important}
 html[data-theme="light"] .lightscape{filter:saturate(1.04) contrast(1.02) !important}
 
 /* Home light-mode clouds: visible, soft, and still moved by the JS cursor interaction. */
-html[data-theme="light"] .lscloud{filter:drop-shadow(0 12px 24px rgba(70,100,150,.10)) !important}
+html[data-theme="light"] .lscloud{filter:drop-shadow(0 12px 24px rgba(108,95,63,.10)) !important}
+
+/* gold buttons: cream text on aged gold in light mode */
+html[data-theme="light"] .cardapply,html[data-theme="light"] .apply,html[data-theme="light"] .savebtn.on{color:#fffdf4 !important}
+
+html[data-theme="light"] .livehint.off{color:#6f6448 !important}
