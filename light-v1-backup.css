@@ -3,14 +3,14 @@
    overrides every page's dark palette without touching their stylesheets. */
 
 html[data-theme="light"]{
-  --bg:#f6f3ec;
+  --bg:#f7f3e9;
   --panel:#fffdf4;
-  --panel2:#ece7d9;
-  --border:#d9d1bd;
+  --panel2:#f1ead8;
+  --border:#e4dbc2;
   --text:#26200f;
-  --muted:#6f6450;
+  --muted:#8a7d5f;
   --accent:#8e6f3e; --accent2:#8e6f3e;
-  --teal:#8e6f3e; --gold:#a67c28;
+  --teal:#8e6f3e; --gold:#b07d12;
   --up:#1a7a44; --down:#d24545; --flat:#c4881a; --new:#cf3f78;
   --urgent:#d24545; --soon:#c4881a;
   --saved:#8a7d5f; --applied:#8e6f3e; --interviewing:#c4881a; --accepted:#1a7a44; --rejected:#d24545; --danger:#d24545;
@@ -18,11 +18,11 @@ html[data-theme="light"]{
 /* per-family light tint default (blue) — attribute-only selector (specificity
    0,1,0) is LOWER than each section page's html[data-theme="light"] rule
    (0,1,1), so the page's own family color always wins regardless of load order */
-[data-theme="light"]{--lt-r:211;--lt-g:203;--lt-b:186}
+[data-theme="light"]{--lt-r:222;--lt-g:210;--lt-b:182}
 
 /* root canvas: a soft wash of the family tint over a near-white base (stable on scroll) */
 html[data-theme="light"]{
-  background-color:#f3f1ea !important;
+  background-color:#eef2fa !important;
   background-image:linear-gradient(180deg,
     rgba(var(--lt-r),var(--lt-g),var(--lt-b),.22) 0%,
     rgba(var(--lt-r),var(--lt-g),var(--lt-b),.10) 42%,
@@ -123,8 +123,8 @@ html[data-theme="light"] .chip{background:#f3f6fc !important}
 html[data-theme="light"] .note{background:#fff5e1 !important;border-color:#e8cf97 !important;color:#7a5712 !important}
 html[data-theme="light"] .yt,
 html[data-theme="light"] .sectlabel,
-html[data-theme="light"] .tier{background:#f1ede2 !important;color:#4b422c !important}
-html[data-theme="light"] .msoon{background:#f1ede2 !important;color:#8a7d5f !important;border-color:var(--border) !important}
+html[data-theme="light"] .tier{background:#f7f3e9 !important;color:#4b422c !important}
+html[data-theme="light"] .msoon{background:#f7f3e9 !important;color:#8a7d5f !important;border-color:var(--border) !important}
 html[data-theme="light"] .mk{background:rgba(31,157,87,.12) !important;color:#157a44 !important;border-color:rgba(31,157,87,.3) !important}
 
 /* ===================== account widget (top-right) ===================== */
@@ -139,7 +139,7 @@ html[data-theme="light"] #aif-acct .aif-item.danger{color:#c0392b !important}
 
 /* =========================== HOME (index) =========================== */
 html[data-theme="light"] body{
-  background:linear-gradient(180deg,#f7f5f0 0%,#f1ede1 45%,#eae3d2 76%,#efeadc 100%) !important;
+  background:linear-gradient(180deg,#f7f3e9 0%,#f3edda 45%,#efe7d2 76%,#f4eedd 100%) !important;
 }
 html[data-theme="light"] .vign{background:radial-gradient(130% 100% at 50% 8%,transparent 52%,rgba(65,57,38,.10)) !important}
 html[data-theme="light"] .grain{opacity:.03 !important}
@@ -151,7 +151,7 @@ html[data-theme="light"] .logo:hover{color:#252015 !important}
 html[data-theme="light"] .logo .sig{color:#2d271a !important}
 html[data-theme="light"] .pill{color:#3c3523 !important;background:rgba(255,255,255,.72) !important;border-color:rgba(65,57,38,.14) !important}
 html[data-theme="light"] h1{color:#26200f !important}
-html[data-theme="light"] .lede{color:#4c4430 !important}
+html[data-theme="light"] .lede{color:#5b5136 !important}
 html[data-theme="light"] .stat-row{color:rgba(255,255,255,.82) !important;text-shadow:0 1px 6px rgba(43,38,25,.35) !important}
 html[data-theme="light"] .stat-row b{color:#ffffff !important;text-shadow:0 1px 6px rgba(43,38,25,.45) !important}
 html[data-theme="light"] .opt{background:rgba(255,255,255,.8) !important;border-color:rgba(65,57,38,.12) !important;box-shadow:0 10px 30px rgba(65,57,38,.1) !important}
@@ -159,7 +159,7 @@ html[data-theme="light"] .opt h2,
 html[data-theme="light"] .opt:hover h2,
 html[data-theme="light"] .opt.teal:hover h2{color:#26200f !important}
 html[data-theme="light"] .opt p{color:#5b5136 !important}
-html[data-theme="light"] .opt .go{background:linear-gradient(165deg,#e8d292 0%,#c89e44 45%,#a67c28 100%) !important;color:#241a06 !important;border-color:#8a651f !important;box-shadow:inset 0 1px 0 rgba(255,248,220,.7) !important}
+html[data-theme="light"] .opt .go{background:#8e6f3e !important;color:#ffffff !important;border-color:transparent !important}
 html[data-theme="light"] .opt.teal .go{background:#8e6f3e !important}
 
 /* multicolored gradient bits: darker, richer tones so they read on light */
@@ -195,14 +195,14 @@ html[data-theme="light"] .card{
   box-shadow:0 10px 30px rgba(65,57,38,.1) !important;
 }
 html[data-theme="light"] .card h2{color:#26200f !important}
-html[data-theme="light"] .card p{color:#4e4634 !important}
+html[data-theme="light"] .card p{color:#5d5440 !important}
 html[data-theme="light"] .sig{color:#b09c68 !important;opacity:.55 !important}
 
 /* =========================== DATABASE =========================== */
 html[data-theme="light"] .sub-card{background:#ffffff !important;border:1px solid var(--border) !important}
-html[data-theme="light"] .sub-card.live:hover{background:linear-gradient(155deg,#faf3dd 0%,#eedfb4 60%,#e3cf97 100%) !important;box-shadow:0 16px 34px rgba(65,57,38,.14) !important}
+html[data-theme="light"] .sub-card.live:hover{background:#fff3a2 !important;box-shadow:0 16px 34px rgba(65,57,38,.14) !important}
 html[data-theme="light"] .cathead{background:rgba(255,255,255,.94) !important;border-color:var(--border) !important}
-html[data-theme="light"] .tagm.soon{background:#f1ede2 !important;color:#8a7d5f !important}
+html[data-theme="light"] .tagm.soon{background:#f7f3e9 !important;color:#8a7d5f !important}
 html[data-theme="light"] .grain{opacity:.25 !important}
 /* database CTA banner: white text on the colored gradient stays readable */
 html[data-theme="light"] .cta .t{color:#ffffff !important}
@@ -218,10 +218,6 @@ html[data-theme="light"] .lightscape{filter:saturate(1.04) contrast(1.02) !impor
 html[data-theme="light"] .lscloud{filter:drop-shadow(0 12px 24px rgba(108,95,63,.10)) !important}
 
 /* gold buttons: cream text on aged gold in light mode */
-html[data-theme="light"] .cardapply,html[data-theme="light"] .apply,html[data-theme="light"] .savebtn.on{
-  background:linear-gradient(165deg,#f0dfa8 0%,#d4ad55 38%,#b08434 64%,#9a712a 100%) !important;
-  color:#241a06 !important;border-color:#8a651f !important;
-  box-shadow:inset 0 1px 0 rgba(255,248,220,.8),0 2px 8px rgba(122,90,30,.25) !important;
-  text-shadow:0 1px 0 rgba(255,250,230,.4) !important}
+html[data-theme="light"] .cardapply,html[data-theme="light"] .apply,html[data-theme="light"] .savebtn.on{color:#fffdf4 !important}
 
 html[data-theme="light"] .livehint.off{color:#6f6448 !important}
