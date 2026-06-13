@@ -5,3 +5,10 @@ _*.txt
 publish.sh
 com.aryan.internship-publish.plist
 .deploy_test
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
