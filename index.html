@@ -252,10 +252,10 @@ html[data-theme="light"] .ticktoggle:hover{color:#8e6f3e;border-color:#8e6f3e}
 
 <!-- live metrics as waypoints on the route -->
 <div class="route" aria-hidden="true"><svg preserveAspectRatio="none" id="routeSvg"><path id="routePath"/></svg></div>
-<div class="wp first" data-rx=".13" data-ry=".74"><div class="dot"></div><div class="card"><span class="num" id="wOpen">—</span><div class="lbl">open right now</div><div class="det"><em id="wUpd">updated today</em></div></div></div>
-<div class="wp" data-rx=".36" data-ry=".82"><div class="dot"></div><div class="card"><span class="num" id="wEmp">—</span><div class="lbl">employers</div><div class="det">application links <em>verified</em></div></div></div>
-<div class="wp" data-rx=".62" data-ry=".80"><div class="dot"></div><div class="card"><span class="num" id="wProg">—</span><div class="lbl">programs tracked</div><div class="det">deadlines <em>tracked</em></div></div></div>
-<div class="wp" data-rx=".85" data-ry=".72"><div class="dot"></div><div class="card"><span class="num">★</span><div class="lbl">saved roles</div><div class="det"><em>sync</em> across devices</div></div></div>
+<div class="wp first" data-rx=".13" data-ry=".74"><div class="dot"></div><div class="card"><span class="num" id="wOpen">—</span><div class="lbl">open right now</div></div></div>
+<div class="wp" data-rx=".36" data-ry=".82"><div class="dot"></div><div class="card"><span class="num" id="wEmp">—</span><div class="lbl">employers</div></div></div>
+<div class="wp" data-rx=".62" data-ry=".80"><div class="dot"></div><div class="card"><span class="num" id="wProg">—</span><div class="lbl">programs tracked</div></div></div>
+<div class="wp" data-rx=".85" data-ry=".72"><div class="dot"></div><div class="card"><span class="num" id="wUpd2">—</span><div class="lbl">last updated</div></div></div>
 
 <div class="ticker" aria-label="recently verified"><div class="belt" id="belt"></div></div>
 <button class="ticktoggle" id="tickToggle" title="Hide or show the live ticker">▾ hide ticker</button>
@@ -512,8 +512,8 @@ window.addEventListener("DOMContentLoaded",function(){
     (window[g]||[]).forEach(function(d){
       if(!d||!d.company) return;
       total++; cos[d.company]=1;
-      if(d.verified&&isOpen(d.status)){ open++; if(live.length<14&&d.role) live.push(d); }
-      else if(d.verified&&live.length+soon.length<20&&d.role&&/opens/i.test(d.status||"")) soon.push(d);
+      if(isOpen(d.status)){ open++; if(live.length<14&&d.role) live.push(d); }
+      else if(live.length+soon.length<20&&d.role&&/opens/i.test(d.status||"")) soon.push(d);
     });
   });
   var emp=Object.keys(cos).length;
@@ -527,6 +527,7 @@ window.addEventListener("DOMContentLoaded",function(){
   var lu=window.LAST_UPDATED||"";
   var today=new Date(); var iso=today.getFullYear()+"-"+String(today.getMonth()+1).padStart(2,"0")+"-"+String(today.getDate()).padStart(2,"0");
   set("wUpd", lu===iso ? "updated today" : (lu?("updated "+lu):"updated 3×/week"));
+  set("wUpd2", lu || iso);
   // ticker from real rows
   var clean=function(s){
     s=String(s||"").replace(/\(?\b(req\.?|job\s*id)\s*#?:?\s*\d+\)?/gi,"")

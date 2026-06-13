@@ -250,7 +250,7 @@
   .cogroup .coname{font-family:var(--serif);font-size:17px;font-weight:550}
   .cogroup .cotier{font-size:10px;font-weight:700;letter-spacing:.3px;padding:2px 7px;border-radius:6px;background:#262019;color:#d9c69b}
   .cogroup .cocount{color:var(--muted);font-size:12px;margin-left:auto}
-  .corole{display:flex;align-items:center;gap:9px;padding:8px 2px;border-top:1px solid var(--border);text-decoration:none;color:inherit;flex-wrap:wrap}
+  .corole{display:flex;align-items:center;gap:9px;padding:8px 2px;border-top:1px solid var(--border);text-decoration:none;color:inherit;flex-wrap:wrap;cursor:pointer;}
   .corole:first-of-type{margin-top:9px}
   .corole:hover .crr{color:var(--accent)}
   .corole .crr{font-size:13.5px;font-weight:600;transition:color .15s}
@@ -473,17 +473,34 @@
     return Object.values(index).filter(c=>c.name.toLowerCase().includes(term))
       .sort((a,b)=>b.roles.length-a.roles.length).slice(0,10);
   }
+  var _listRoles={};
   function renderList(found){
-    return found.map(c=>{
-      const rows=c.roles.slice(0,12).map(r=>
-        '<a class="corole" href="'+r.page+'?q='+encodeURIComponent(c.name)+'">'+badge(r)+
-        '<span class="crr">'+esc(r.d.role)+'</span><span class="crs">'+esc(r.d.level||"")+'</span>'+
-        '<span class="crsec">'+r.label+'</span></a>').join("");
-      const more=c.roles.length>12?'<div class="comsg">+'+(c.roles.length-12)+' more — press Enter to see every role as cards</div>':'';
-      return '<div class="cogroup"><div class="cohead"><span class="coname">'+esc(c.name)+'</span>'+
+    _listRoles={};
+    const frag=document.createDocumentFragment();
+    found.forEach(c=>{
+      const group=document.createElement("div"); group.className="cogroup";
+      group.innerHTML='<div class="cohead"><span class="coname">'+esc(c.name)+'</span>'+
         (c.tier?'<span class="cotier">'+esc(c.tier)+'</span>':'')+
-        '<span class="cocount">'+c.roles.length+' role'+(c.roles.length>1?'s':'')+'</span></div>'+rows+more+'</div>';
-    }).join("")+'<div class="cohint">Press Enter to expand results into full cards</div>';
+        '<span class="cocount">'+c.roles.length+' role'+(c.roles.length>1?'s':'')+'</span></div>';
+      c.roles.slice(0,12).forEach((r,i)=>{
+        const key=c.name+'||'+i; _listRoles[key]=r;
+        const el=document.createElement("div"); el.className="corole"; el.dataset.rk=key;
+        el.innerHTML=badge(r)+
+          '<span class="crr">'+esc(r.d.role)+'</span><span class="crs">'+esc(r.d.level||"")+'</span>'+
+          '<span class="crsec">'+r.label+'</span>';
+        el.onclick=()=>openModal(r);
+        group.appendChild(el);
+      });
+      if(c.roles.length>12){
+        const more=document.createElement("div"); more.className="comsg";
+        more.textContent='+'+(c.roles.length-12)+' more — press Enter to see every role as cards';
+        group.appendChild(more);
+      }
+      frag.appendChild(group);
+    });
+    const hint=document.createElement("div"); hint.className="cohint"; hint.textContent="Press Enter to expand results into full cards";
+    frag.appendChild(hint);
+    return frag;
   }
 
   /* ---- full section-page cards + detail modal (open in place, no redirect) ---- */
@@ -610,7 +627,7 @@
         '<div class="tab" data-p="net">Networking</div>'+
         '<div class="tab" data-p="comp">Competitiveness</div>'+
         '<div class="tab" data-p="pay">Pay &amp; Stock</div>'+
-        '<div class="tab" data-p="news">News</div>'+
+        
       "</div>"+
       '<div class="pane active" data-p="ov">'+
         '<div class="kv"><b>Status</b><span class="status '+statusClass(d.status)+'">'+esc(d.status)+"</span></div>"+
@@ -633,7 +650,6 @@
         '<p style="margin-top:14px;color:var(--muted);font-size:13px">Acceptance rates and competitiveness are rough public estimates for orientation, not official figures.</p>'+
       "</div>"+
       '<div class="pane" data-p="pay">'+payStockPane(d,c)+"</div>"+
-      '<div class="pane" data-p="news"><h3>Recent news</h3>'+newsPane(c)+"</div>"+
       (isOpen(d.status)?'<div class="applybar"><a class="apply" href="'+d.applyUrl+'" target="_blank" rel="noopener">Go to this role’s application →</a></div>':'<div class="applybar"><div class="soon-btn">🔜 Application not open yet — coming soon</div></div>');
     m.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
       m.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
@@ -655,7 +671,7 @@
     const found=hits(term);
     if(!found.length){ box.innerHTML='<div class="comsg">No companies match “'+esc(input.value.trim())+'” anywhere in the database.</div>'; return; }
     if(mode==="cards"){ box.innerHTML=""; box.appendChild(renderCards(found)); }
-    else { box.innerHTML=renderList(found); }
+    else { box.innerHTML=""; box.appendChild(renderList(found)); }
   }
   input.addEventListener("focus",loadAll,{once:true});
   input.addEventListener("input",()=>{ mode="list"; run(); });

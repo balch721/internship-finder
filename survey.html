@@ -406,7 +406,6 @@ function openModal(item){
       <div class="tab" data-p="net">Networking</div>
       <div class="tab" data-p="comp">Competitiveness</div>
       <div class="tab" data-p="pay">Pay &amp; Stock</div>
-      <div class="tab" data-p="news">News</div>
     </div>
     <div class="pane active" data-p="ov">
       <div class="kv"><b>Status</b><span>${d.status||"—"}</span></div>
@@ -432,7 +431,7 @@ function openModal(item){
       <p style="margin-top:14px;color:var(--muted);font-size:13px">Acceptance rates and competitiveness are rough public estimates for orientation, not official figures.</p>
     </div>
     <div class="pane" data-p="pay">${payStock(d,c)}</div>
-    <div class="pane" data-p="news"><h3>Recent news</h3>${news}</div>
+    
     <div>${apply}${saveBtn}</div>`;
   m.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
     m.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));

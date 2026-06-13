@@ -367,9 +367,7 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
       const singleType = !!activeType && activeType!=="__startup__";
       types.forEach(type=>{
         let list=data.filter(d=> singleType ? d.types.includes(type) : d.types[0]===type ).filter(matchFilters);
-        list.sort((a,b)=>{const ta=orderTier(a),tb=orderTier(b);if(ta!==tb)return ta-tb;const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);
-          const ca=C[a.company]||{},cb=C[b.company]||{};if((cb.compScore||0)!==(ca.compScore||0))return (cb.compScore||0)-(ca.compScore||0);
-          return a.company.localeCompare(b.company);});
+        list.sort((a,b)=>{const oa=isOpen(a.status)?0:1,ob=isOpen(b.status)?0:1;if(oa!==ob)return oa-ob;const ca=C[a.company]||{},cb=C[b.company]||{};if((cb.compScore||0)!==(ca.compScore||0))return (cb.compScore||0)-(ca.compScore||0);const fa=fortuneOf(a)||9999,fb=fortuneOf(b)||9999;if(fa!==fb)return fa-fb;return a.company.localeCompare(b.company);});
         if(!list.length)return;total+=list.length;
         host.appendChild(flatSection(type,list));
       });
@@ -377,9 +375,7 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
       const levels=activeLevel?[activeLevel]:LEVELS;
       levels.forEach(lv=>{
         let list=data.filter(d=>d.level===lv).filter(matchFilters);
-        list.sort((a,b)=>{var ac=x=>(x.verified&&isOpen(x.status))?0:1;if(ac(a)!==ac(b))return ac(a)-ac(b);const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);
-          const ca=C[a.company]||{},cb=C[b.company]||{};if((cb.compScore||0)!==(ca.compScore||0))return (cb.compScore||0)-(ca.compScore||0);
-          return a.company.localeCompare(b.company);});
+        list.sort((a,b)=>{const oa=isOpen(a.status)?0:1,ob=isOpen(b.status)?0:1;if(oa!==ob)return oa-ob;const ca=C[a.company]||{},cb=C[b.company]||{};if((cb.compScore||0)!==(ca.compScore||0))return (cb.compScore||0)-(ca.compScore||0);const fa=fortuneOf(a)||9999,fb=fortuneOf(b)||9999;if(fa!==fb)return fa-fb;return a.company.localeCompare(b.company);});
         if(!list.length)return;total+=list.length;
         host.appendChild(flatSection(lv,list));
       });
@@ -387,7 +383,7 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
       let list=data.filter(matchFilters);
       let title="Results";
       if(sortMode==="fortune"){
-        list.sort((a,b)=>{var ac=x=>(x.verified&&isOpen(x.status))?0:1;if(ac(a)!==ac(b))return ac(a)-ac(b);const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);const fa=fortuneOf(a)||9999,fb=fortuneOf(b)||9999;return fa-fb||a.company.localeCompare(b.company);});
+        list.sort((a,b)=>{const oa=isOpen(a.status)?0:1,ob=isOpen(b.status)?0:1;if(oa!==ob)return oa-ob;const fa=fortuneOf(a)||9999,fb=fortuneOf(b)||9999;return fa-fb||a.company.localeCompare(b.company);});
         title="Sorted by Fortune rank — highest-ranked first (non-Fortune last)";
       } else if(sortMode==="deadline"){
         const rank=d=>{const n=daysLeft(d.deadline);if(n===null)return 2;if(n<0)return 1;return 0;};
@@ -395,10 +391,10 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
           if(ra===0)return daysLeft(a.deadline)-daysLeft(b.deadline);return a.company.localeCompare(b.company);});
         title="Sorted by deadline — soonest first (rolling/TBD last)";
       } else if(sortMode==="accept_asc"){
-        list.sort((a,b)=>{var ac=x=>(x.verified&&isOpen(x.status))?0:1;if(ac(a)!==ac(b))return ac(a)-ac(b);const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);return acceptVal(C[a.company]||{})-acceptVal(C[b.company]||{})||a.company.localeCompare(b.company);});
+        list.sort((a,b)=>{const oa=isOpen(a.status)?0:1,ob=isOpen(b.status)?0:1;if(oa!==ob)return oa-ob;return acceptVal(C[a.company]||{})-acceptVal(C[b.company]||{})||a.company.localeCompare(b.company);});
         title="Sorted by acceptance rate — low → high (most selective first)";
       } else if(sortMode==="accept_desc"){
-        list.sort((a,b)=>{var ac=x=>(x.verified&&isOpen(x.status))?0:1;if(ac(a)!==ac(b))return ac(a)-ac(b);const o=x=>isOpen(x.status)?0:1;if(o(a)!==o(b))return o(a)-o(b);return acceptVal(C[b.company]||{})-acceptVal(C[a.company]||{})||a.company.localeCompare(b.company);});
+        list.sort((a,b)=>{const oa=isOpen(a.status)?0:1,ob=isOpen(b.status)?0:1;if(oa!==ob)return oa-ob;return acceptVal(C[b.company]||{})-acceptVal(C[a.company]||{})||a.company.localeCompare(b.company);});
         title="Sorted by acceptance rate — high → low (least selective first)";
       }
       total=list.length;
@@ -489,7 +485,6 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
         <div class="tab" data-p="net">Networking</div>
         <div class="tab" data-p="comp">Competitiveness</div>
         <div class="tab" data-p="pay">Pay &amp; Stock</div>
-        <div class="tab" data-p="news">News</div>
       </div>
       <div class="pane active" data-p="ov">
         <div class="kv"><b>Status</b><span class="status ${statusClass(d.status)}">${d.status}</span></div>
@@ -512,7 +507,7 @@ html[data-theme="light"]{--lt-r:176;--lt-g:160;--lt-b:238}
         <p style="margin-top:14px;color:var(--muted);font-size:13px">Acceptance rates and competitiveness are rough public estimates for orientation, not official figures. Internship slots are typically more competitive than full-time, and elite-strategy/boutique sophomore programs are among the hardest to land.</p>
       </div>
       <div class="pane" data-p="pay">${payStockPane(d,c)}</div>
-      <div class="pane" data-p="news"><h3>Recent news</h3>${newsPane(c)}</div>${isOpen(d.status)?`<div class="applybar"><a class="apply" href="${d.applyUrl}" target="_blank" rel="noopener">Go to this role’s application →</a></div>`:`<div class="applybar"><div class="soon-btn">🔜 Application not open yet — coming soon</div></div>`}`;
+      ${isOpen(d.status)?`<div class="applybar"><a class="apply" href="${d.applyUrl}" target="_blank" rel="noopener">Go to this role’s application →</a></div>`:`<div class="applybar"><div class="soon-btn">🔜 Application not open yet — coming soon</div></div>`}`;
     m.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
       m.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
       m.querySelectorAll(".pane").forEach(x=>x.classList.remove("active"));
